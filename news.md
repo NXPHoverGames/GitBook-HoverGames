@@ -28,7 +28,7 @@ Below you will find a list of recent updates and important news about the HoverG
 
 #### April 22, 2020
 
-* This page was created. From now on we will try to provide a short update here when there are any significant changes made to this GitBook. Important updates about the HoverGames may also be 
+* This page was created. From now on we will try to provide a short update here when there are any significant changes made to this GitBook. Important news about the HoverGames might also be shared here, but will usually be published first on [HoverGames.com](https://www.hovergames.com/) or [hackster.io](https://www.hackster.io/contests/hovergames).
 * The NavQ companion computer was added to list of add-on components.
 
 ## 
