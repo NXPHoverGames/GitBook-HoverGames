@@ -62,15 +62,13 @@ There is also the possibility to insure yourself. It is your own responsibility 
 
 ### Documentation
 
-This GitBook is by no means a complete reference for the HoverGames drone and other HoverGames hardware. Many other resources are mentioned all over this GitBook, be sure to use them.  
-  
-The information on this GitBook is being improved and expanded regularly and may change without notice. Sections may contain errors or incomplete information. [Any feedback is very welcome](contact.md#contact-the-hovergames-team).
+This GitBook is by no means a complete reference for the HoverGames drone development platform or other NXP mobile robotics products. Please be aware that this GitBook is continuously being improved and expanded. Information may change without notice and sections may be incomplete or contain errors. [Any feedback is very welcome](contact.md#contact-the-hovergames-team).
 
 ## DISCLAIMER OF LIABILITY  <a id="disclaimer-of-liability"></a>
 
 NXP Semiconductors provides the KIT “as is” and “as available” for your use, without warranty of any kind, either express or implied, including all implied warranties of merchantability, and fitness for a particular purpose. NXP provides no software for this KIT.
 
-In no case shall NXP Semiconductors be liable for any direct, indirect, punitive, special, or consequential damages AND PERSONAL INJURIES, INCLUDING THAT TO LIFE AND HEALTH, RESULTING FROM THE ASEMBLY AND OPERATION OF THE KIT.
+In no case shall NXP Semiconductors be liable for any direct, indirect, punitive, special, or consequential damages AND PERSONAL INJURIES, INCLUDING THAT TO LIFE AND HEALTH, RESULTING FROM THE ASSEMBLY AND OPERATION OF THE KIT.
 
 YOU ASSUME FULL AND UNLIMITED RESPONSIBILITY FOR ALL APPLICATIONS AND USES of the KIT, INCLUDING liability for damages to property and persons from the DEVICE.
 

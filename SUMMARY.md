@@ -1,7 +1,7 @@
 # Table of contents
 
 * [The HoverGames](README.md)
-* [NEWS](news.md)
+* [News & Updates](news.md)
 * [Disclaimer](disclaimer.md)
 * [Safety](safety.md)
 * [Downloads](downloads.md)
@@ -89,6 +89,8 @@
 ## Add-On Devices
 
 * [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/)
+* [UCANS32K146 UAVCAN Node](https://nxp.gitbook.io/ucans32k146/)
+* [Battery Management System](https://nxp.gitbook.io/rddrone-bms772/)
 * [Pixy2 Smart Vision Sensor](add-on-devices/pixy.md)
 * [Rapid IoT Prototyping Kit](add-on-devices/rapid-iot/README.md)
   * [RDDRONE-IOT "HDIB" adapter board](add-on-devices/rapid-iot/hdib.md)
@@ -107,9 +109,8 @@
 
 ## Archive
 
-* [Complimentary components](archive/complimentary-components/README.md)
-  * [TechNexion PICO-PI PICO-IMX8M companion computer](archive/complimentary-components/technexion-picopi-pico-imx8m-ubuntu.md)
-  * [RDDRONE-BMS772](archive/complimentary-components/rddrone-bms772.md)
+* [Add-On Devices](archive/add-on-devices/README.md)
+  * [TechNexion PICO-PI PICO-IMX8M companion computer](archive/add-on-devices/technexion-picopi-pico-imx8m-ubuntu.md)
 * [Replaced drone kit items](archive/replaced-drone-kit-items.md)
 * [S500 drone frame assembly](archive/s500-drone-frame/README.md)
   * [Mounting the motors](archive/s500-drone-frame/mounting-the-motors.md)
