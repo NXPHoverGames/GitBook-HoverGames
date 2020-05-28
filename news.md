@@ -17,16 +17,19 @@ Below you will find a list of recent updates and important news about the HoverG
 
 #### May 28, 2020
 
-* This GitBook is now synchronized with a [GitHub repository](https://github.com/NXPHoverGames/GitBook-HoverGames). Feel free to open an issue if you find an error. You can also open a pull request if you want to contribute yourself.
+* This GitBook is now synchronized with a [GitHub repository](https://github.com/NXPHoverGames/GitBook-HoverGames). Feel free to open an issue if you find an error or if anything is unclear. You can also open a pull request if you want to contribute yourself.
+
+#### May 26, 2020
+
+*  GitBooks added for NXP's new HoverGames add-on boards: 
+  * [8MMNavQ](https://nxp.gitbook.io/8mmnavq/): Also known as NavQ. Companion computer with i.MX 8M Mini running Linux. 
+  * [RDDRONE-BMS772](https://nxp.gitbook.io/rddrone-bms772/): Smart battery management system with the S32K144 Automotive MCU.
+  * [UCANS32K146](https://nxp.gitbook.io/ucans32k146/): UAVCAN V1.0 development board and generic CAN/CAN-FD node.
 
 #### April 22, 2020
 
-* This page was created. From now on we will try to provide a short update here when there are any significant changes made to this GitBook. 
-* [8mmNavQ ]()aka NavQ, added to list of add-on components.
-* DRAFT Gitbooks added for HoverGames add-on boards: 
-  * [8mmNavQ](https://nxp.gitbook.io/8mmnavq/) NavQ Linux Companion Computer
-  * [RDDRONE-BMS772 ](https://nxp.gitbook.io/rddrone-bms772/)Smart BMS with S32K144 automotive MCU
-  * [UCANS32K](https://nxp.gitbook.io/ucans32k146/) UAVCAN V1 Development board and generic CAN/CAN-FD Node
+* This page was created. From now on we will try to provide a short update here when there are any significant changes made to this GitBook. Important updates about the HoverGames may also be 
+* The NavQ companion computer was added to list of add-on components.
 
 ## 
 
