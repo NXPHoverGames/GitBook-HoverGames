@@ -123,5 +123,4 @@
   * [Connecting all FMU wires](archive/s500-drone-frame/connecting-all-fmu-wires.md)
   * [Video guide \(outdated\)](archive/s500-drone-frame/video-guide.md)
 * [Windows drivers](archive/windows-drivers.md)
-* [Test](test.md)
 
