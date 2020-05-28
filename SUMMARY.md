@@ -90,7 +90,7 @@
 
 * [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/)
 * [UCANS32K146 UAVCAN Node](https://nxp.gitbook.io/ucans32k146/)
-* [Battery Management System](https://nxp.gitbook.io/rddrone-bms772/)
+* [RDDRONE-BMS772](https://nxp.gitbook.io/rddrone-bms772/)
 * [Pixy2 Smart Vision Sensor](add-on-devices/pixy.md)
 * [Rapid IoT Prototyping Kit](add-on-devices/rapid-iot/README.md)
   * [RDDRONE-IOT "HDIB" adapter board](add-on-devices/rapid-iot/hdib.md)

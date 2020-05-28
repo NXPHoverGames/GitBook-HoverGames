@@ -10,9 +10,12 @@ description: >-
 ![](.gitbook/assets/image%20%28128%29.png)
 
 {% hint style="success" %}
-Click the links below if you were looking for other NXP GitBooks:  
+Click the links below if you were looking for other **NXP** GitBooks:  
 - [NXP Cup](https://nxp.gitbook.io/nxp-cup-hardware-reference-alamak/)  
-- [D2X Reference Design](https://nxp.gitbook.io/d2x/)
+- [D2X Reference Design](https://nxp.gitbook.io/d2x/)  
+- [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/)  
+- [UCANS32K UAVCAN Node](https://nxp.gitbook.io/ucans32k146/)  
+- [RDDRONE-BMS772 Battery Management Sytem](https://nxp.gitbook.io/rddrone-bms772/)
 {% endhint %}
 
 ## What is this program? <a id="what-is-this-program"></a>
@@ -21,29 +24,29 @@ UAVs promise new perspectives on the world around us and the ability to go place
 
 ### The HoverGames drone kit 
 
-The HoverGames drone kit is a single, modular, and flexible NXP development platform with the RDDRONE-FMUK66 flight management unit at its base. It can be used to build any autonomous vehicle, from drones to rovers to flying cars. As part of the kit, participants receive a complete reference drone including an FMU.
+The HoverGames drone kit is a single, modular, and flexible NXP development platform with the RDDRONE-FMUK66 flight management unit at its base. It can be used to build any autonomous vehicle, from drones to rovers to flying cars. As part of the kit, participants receive a complete reference drone including a flight management unit \(FMU\).
 
 {% hint style="success" %}
-NXPhlite was the working name for the flight controller. The software is also developed using this name.
+NXPhlite was the working name for the NXP RDDRONE-FMUK66 flight controller. You might still find references to it on older pages. We usually refer to it now as FMUK66.
 
-The actual NXP part numbers are:
+The actual [NXP part numbers](https://www.nxp.com/applications/solutions/industrial/aerospace-and-mobile-robotics/uavs-drones-and-rovers:HOVERGAMES-DRONES-ROVERS) are:
 
-* [KIT-HGDRONEK66](https://www.nxp.com/applications/solutions/industrial/unmanned-aerial-vehicles-uavs/auvs-drones-and-rovers/nxp-hovergames-drone-kit-including-rddrone-fmuk66-and-peripherals:KIT-HGDRONEK66) - Complete drone hardware kit including RDDRONE-FMUK66
-* [RDDRONE-FMUK66](https://www.nxp.com/support/developer-resources/nxp-designs/rddrone-fmuk66-px4-robotic-drone-fmu-reference-design:RDDRONE-FMUK66) - NXP flight controller using the 180 MHz Kinetis K66 \(also previously known as the NXPhlite FMU\)
+* [KIT-HGDRONEK66](https://www.nxp.com/applications/solutions/industrial/aerospace-and-mobile-robotics/uavs-drones-and-rovers/nxp-hovergames-drone-kit-including-rddrone-fmuk66-and-peripherals:KIT-HGDRONEK66) - Complete drone development kit including RDDRONE-FMUK66
+* [RDDRONE-FMUK66](https://www.nxp.com/design/designs/px4-robotic-drone-fmu-rddrone-fmuk66:RDDRONE-FMUK66) - NXP flight controller with the 180 MHz Kinetis K66
 
 For full functionality of the kit, you will need to purchase a telemetry radio set separately. Depending on your location, you need either a 915 MHz or 433 MHz set. [Please check which frequencies / ISM bands are allowed in your region.](http://ardupilot.org/copter/docs/common-telemetry-radio-regional-regulations.html)
 
 * [HGD-TELEM915](https://www.nxp.com/part/HGD-TELEM915) - Holybro 915 MHz telemetry radio set \(Americas\)
 * [HGD-TELEM433](https://www.nxp.com/part/HGD-TELEM433) - Holybro 433 MHz telemetry radio set \(Europe, India\)
 
-Other FMUs, HGDRONE kits and equipment will have similar naming conventions as they are introduced.
+Other flight management units, drone development kits and equipment will have similar naming conventions as they are introduced.
 {% endhint %}
 
-![KIT-HGDRONE-K66, using a Kinetis K66 ARM M4 MCU.](.gitbook/assets/assets_-l9gltb-tz_xakbqu-al_-lf46es-qerb0d03g1r2_-lf46k__x40gdfjgmtb6_hovergamesdrohne_14042019_xl_002.jpg)
+![KIT-HGDRONE-K66, using a Kinetis K66 ARM Cortex-M4 MCU.](.gitbook/assets/assets_-l9gltb-tz_xakbqu-al_-lf46es-qerb0d03g1r2_-lf46k__x40gdfjgmtb6_hovergamesdrohne_14042019_xl_002.jpg)
 
 ### HoverGames drone FMU
 
-RDDRONE-FMUK66 is an experimental flight management unit that is compliant with [Dronecode](https://www.dronecode.org/) and [PX4 Autopilot](https://px4.io/) software. PX4 is used extensively for research and commercial drone platforms. Its BSD license preserves the ability to include proprietary IP.
+RDDRONE-FMUK66 is an experimental flight management unit that is compliant with [Dronecode](https://www.dronecode.org/) and [PX4 Autopilot](https://px4.io/) software. PX4 is used extensively for research and commercial drone platforms. Its permissive BSD license preserves the ability to include proprietary IP.
 
 The RDDRONE-FMUK66 runs [NuttX](https://www.nuttx.org/) RTOS on top of a 180 MHz, 2 MB flash [NXP Kinetis K66](https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/kinetis-cortex-m-mcus/k-seriesperformancem4/k6x-ethernet/kinetis-k66-180-mhz-dual-high-speed-full-speed-usbs-2mb-flash-microcontrollers-mcus-based-on-arm-cortex-m4-core:K66_180) microcontroller. It uses NXP sensors, automotive [CAN](https://en.wikipedia.org/wiki/CAN_bus) bus transceivers, as well as the new **two wire** automotive [100BASE-T1 ethernet](https://en.wikipedia.org/wiki/Fast_Ethernet#100BASE-T1) transceiver [TJA110x](https://www.nxp.com/products/analog/interfaces/in-vehicle-network/ethernet/automotive-ethernet-phy-transceivers:ETHERNET-TRANSCEIVERS). 
 
