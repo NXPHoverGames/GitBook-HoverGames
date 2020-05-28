@@ -98,7 +98,7 @@
 * [Melexis MLX90614 IR sensor](add-on-devices/melexis-mlx90614.md)
 * [Panasonic AMG8833 IR sensor](add-on-devices/panasonic-amg8833.md)
 
-## External sources
+## External Sources
 
 * [PX4 User Guide](https://docs.px4.io/master/en/)
 * [PX4 Developer Guide](https://dev.px4.io/master/en/)
@@ -109,7 +109,7 @@
 
 ## Archive
 
-* [Add-On Devices](archive/add-on-devices/README.md)
+* [Add-on devices](archive/add-on-devices/README.md)
   * [TechNexion PICO-PI PICO-IMX8M companion computer](archive/add-on-devices/technexion-picopi-pico-imx8m-ubuntu.md)
 * [Replaced drone kit items](archive/replaced-drone-kit-items.md)
 * [S500 drone frame assembly](archive/s500-drone-frame/README.md)
