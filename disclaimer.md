@@ -1,7 +1,7 @@
 ---
 description: >-
-  This page contains important information that should be read before using your
-  HoverGames drone development kit.
+  This page contains important information that you should be aware of before
+  using your HoverGames drone development kit. Please read it carefully.
 ---
 
 # Disclaimer
@@ -15,7 +15,7 @@ The HoverGames drone development kit \(the “KIT”\) is for experienced develo
 * It is your responsibility to inform yourself of and follow all current federal, state, provincial, district and any local laws regarding the use of the drone in the area where you plan to operate it.
 * If you choose to modify your drone to function in any autonomous manner, you must ensure that you obtain any required certifications, waivers and licenses and comply fully with local, national and international laws that will apply. It is your responsibility to know what is legal operation.
 * It is highly recommended that you have proper liability insurance coverage at all times.
-* Your first priority must be the safety of people. Therefore, always keep a safe distance to people and follow the provided safety instructions.
+* Your first priority must be the safety of people. Therefore, always keep the drone at a safe distance from people \(including yourself!\) and follow the provided safety instructions.
 
 ### Environmental considerations  <a id="environmental-considerations"></a>
 
