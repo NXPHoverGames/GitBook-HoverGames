@@ -42,7 +42,7 @@ For full functionality of the kit, you will need to purchase a telemetry radio s
 Other NXP flight management units, drone development kits and equipment will have similar naming conventions as they are introduced.
 {% endhint %}
 
-![](.gitbook/assets/hg_dronekit_k66.jpg)
+![KIT-HGDRONE-K66, using a Kinetis K66 ARM Cortex-M4 MCU.](.gitbook/assets/hg_dronekit_k66.jpg)
 
 ### HoverGames drone flight management unit \(FMU\)
 
