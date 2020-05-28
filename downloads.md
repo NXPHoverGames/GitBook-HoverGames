@@ -67,7 +67,7 @@ This GitBook has a guide for [programming software using the J-Link debugger](de
 * [Download QGroundControl](https://docs.qgroundcontrol.com/en/getting_started/download_and_install.html) \(**Stable** release, **recommended**\)
 * [Download QGroundControl](https://docs.qgroundcontrol.com/en/releases/daily_builds.html) \(Daily build / **development** release\)
 
-QGroundControl is the ground control software \(GCS\) of choice within the [Dronecode platform](https://www.dronecode.org/platform/). It can be used to configure and control any FMU that runs PX4 or a MAVLink compatible flight stack.
+QGroundControl is the ground control software \(GCS\) of choice within the [Dronecode platform](https://www.dronecode.org/platform/). It can be used to configure and control any FMU that runs PX4 or a MAVLink compatible flight stack. It is recommended to use the latest stable release and update regularly when new releases become available.
 
 ## J-Link Software and Documentation Pack
 
