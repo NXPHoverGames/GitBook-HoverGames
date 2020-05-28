@@ -1,30 +1,30 @@
 ---
 description: >-
-  Welcome! This website serves as the official documentation for the NXP
+  Welcome! This GitBook serves as the official documentation for the NXP
   HoverGames drone development kit, including the RDDRONE-FMUK66 flight
   management unit (also referred to as NXPhlite).
 ---
 
 # The HoverGames
 
-![](.gitbook/assets/image%20%28128%29.png)
+![](.gitbook/assets/hg_logo.png)
 
 {% hint style="success" %}
-Click the links below if you were looking for other **NXP** GitBooks:  
+Click the links below if you are looking for other **NXP** GitBooks:  
 - [NXP Cup](https://nxp.gitbook.io/nxp-cup-hardware-reference-alamak/)  
 - [D2X Reference Design](https://nxp.gitbook.io/d2x/)  
 - [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/)  
 - [UCANS32K UAVCAN Node](https://nxp.gitbook.io/ucans32k146/)  
-- [RDDRONE-BMS772 Battery Management Sytem](https://nxp.gitbook.io/rddrone-bms772/)
+- [RDDRONE-BMS772 Battery Management System](https://nxp.gitbook.io/rddrone-bms772/)
 {% endhint %}
 
 ## What is this program? <a id="what-is-this-program"></a>
 
-UAVs promise new perspectives on the world around us and the ability to go places that were once impossible. NXP is a trusted leader in automotive, radar, aerospace, RF, security, motor control and battery management and places the world’s most complete portfolio of UAV technologies in the hands of developers. Our automotive grade solutions are well suited to the design methodology and environments in which commercial UAS, and increasingly personal UAVs, operate. We provide semiconductor solutions for every aspect of drones and rovers.
+Unmanned aerial vehicles \(UAVs\) promise new perspectives on the world around us and the ability to go places that were once impossible. NXP is a trusted leader in automotive, radar, aerospace, RF, security, motor control and battery management and places the world’s most complete portfolio of UAV technologies in the hands of developers. Our automotive grade solutions are well suited to the design methodology and environments in which commercial unmanned aircraft systems, and increasingly also personal UAVs, operate. We provide semiconductor solutions for every aspect of drones and rovers.
 
 ### The HoverGames drone kit 
 
-The HoverGames drone kit is a single, modular, and flexible NXP development platform with the RDDRONE-FMUK66 flight management unit at its base. It can be used to build any autonomous vehicle, from drones to rovers to flying cars. As part of the kit, participants receive a complete reference drone including a flight management unit \(FMU\).
+The HoverGames drone kit is a single, modular, and flexible NXP development platform with the RDDRONE-FMUK66 flight management unit at its base. It can be used to build any autonomous vehicle, from drones to rovers to flying cars. As part of the kit, participants receive a complete reference drone including the flight management unit \(FMU\).
 
 {% hint style="success" %}
 NXPhlite was the working name for the NXP RDDRONE-FMUK66 flight controller. You might still find references to it on older pages. We usually refer to it now as FMUK66.
@@ -34,23 +34,23 @@ The actual [NXP part numbers](https://www.nxp.com/applications/solutions/industr
 * [KIT-HGDRONEK66](https://www.nxp.com/applications/solutions/industrial/aerospace-and-mobile-robotics/uavs-drones-and-rovers/nxp-hovergames-drone-kit-including-rddrone-fmuk66-and-peripherals:KIT-HGDRONEK66) - Complete drone development kit including RDDRONE-FMUK66
 * [RDDRONE-FMUK66](https://www.nxp.com/design/designs/px4-robotic-drone-fmu-rddrone-fmuk66:RDDRONE-FMUK66) - NXP flight controller with the 180 MHz Kinetis K66
 
-For full functionality of the kit, you will need to purchase a telemetry radio set separately. Depending on your location, you need either a 915 MHz or 433 MHz set. [Please check which frequencies / ISM bands are allowed in your region.](http://ardupilot.org/copter/docs/common-telemetry-radio-regional-regulations.html)
+For full functionality of the kit, you will need to purchase a telemetry radio set separately. Depending on your location, you need either a 915 MHz or 433 MHz set. [Please check which frequencies / ISM bands you are allowed to use in your region.](http://ardupilot.org/copter/docs/common-telemetry-radio-regional-regulations.html)
 
 * [HGD-TELEM915](https://www.nxp.com/part/HGD-TELEM915) - Holybro 915 MHz telemetry radio set \(Americas\)
 * [HGD-TELEM433](https://www.nxp.com/part/HGD-TELEM433) - Holybro 433 MHz telemetry radio set \(Europe, India\)
 
-Other flight management units, drone development kits and equipment will have similar naming conventions as they are introduced.
+Other NXP flight management units, drone development kits and equipment will have similar naming conventions as they are introduced.
 {% endhint %}
 
-![KIT-HGDRONE-K66, using a Kinetis K66 ARM Cortex-M4 MCU.](.gitbook/assets/assets_-l9gltb-tz_xakbqu-al_-lf46es-qerb0d03g1r2_-lf46k__x40gdfjgmtb6_hovergamesdrohne_14042019_xl_002.jpg)
+![](.gitbook/assets/hg_dronekit_k66.jpg)
 
-### HoverGames drone FMU
+### HoverGames drone flight management unit \(FMU\)
 
 RDDRONE-FMUK66 is an experimental flight management unit that is compliant with [Dronecode](https://www.dronecode.org/) and [PX4 Autopilot](https://px4.io/) software. PX4 is used extensively for research and commercial drone platforms. Its permissive BSD license preserves the ability to include proprietary IP.
 
-The RDDRONE-FMUK66 runs [NuttX](https://www.nuttx.org/) RTOS on top of a 180 MHz, 2 MB flash [NXP Kinetis K66](https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/kinetis-cortex-m-mcus/k-seriesperformancem4/k6x-ethernet/kinetis-k66-180-mhz-dual-high-speed-full-speed-usbs-2mb-flash-microcontrollers-mcus-based-on-arm-cortex-m4-core:K66_180) microcontroller. It uses NXP sensors, automotive [CAN](https://en.wikipedia.org/wiki/CAN_bus) bus transceivers, as well as the new **two wire** automotive [100BASE-T1 ethernet](https://en.wikipedia.org/wiki/Fast_Ethernet#100BASE-T1) transceiver [TJA110x](https://www.nxp.com/products/analog/interfaces/in-vehicle-network/ethernet/automotive-ethernet-phy-transceivers:ETHERNET-TRANSCEIVERS). 
+The RDDRONE-FMUK66 runs [NuttX](https://nuttx.apache.org/) RTOS on a [NXP Kinetis K66](https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/kinetis-cortex-m-mcus/k-seriesperformancem4/k6x-ethernet/kinetis-k66-180-mhz-dual-high-speed-full-speed-usbs-2mb-flash-microcontrollers-mcus-based-on-arm-cortex-m4-core:K66_180) microcontroller, with an ARM Cortex-M4 core at 180 MHz and 2 MB flash memory. It uses NXP sensors, automotive [CAN](https://en.wikipedia.org/wiki/CAN_bus) bus transceivers, as well as the new **two wire** automotive [100BASE-T1 ethernet](https://en.wikipedia.org/wiki/Fast_Ethernet#100BASE-T1) transceiver [TJA110x](https://www.nxp.com/products/analog/interfaces/in-vehicle-network/ethernet/automotive-ethernet-phy-transceivers:ETHERNET-TRANSCEIVERS). 
 
-{% embed url="https://www.youtube.com/watch?v=JDaJ5Kr6aBA&feature=youtu.be" caption="Introduction to the HoverGames drone." %}
+{% embed url="https://www.youtube.com/watch?v=JDaJ5Kr6aBA&feature=youtu.be" caption="Iain Galloway introduces the HoverGames drone." %}
 
 ## What is our mission? <a id="what-is-our-mission"></a>
 
@@ -66,7 +66,7 @@ Many drone challenges today are human operated races, and while they are lots of
 
 ### **Tackle real life problems** <a id="tackle-real-life-problems"></a>
 
-The result of solving a set of ongoing coding enablement challenges, be it for enabling new hardware or new features, is to use the sum of all these new capabilities to take on complex action challenges where participants design and adapt their vehicles to tackle a real societal problem. Each one is different and can range from cleaning up the beach, mapping a dangerous gas emission, or locating and tracking migration patterns of an endangered animal species.
+The result of solving a set of ongoing coding enablement challenges, be it for enabling new hardware components or new software features, is to use the sum of all these new capabilities to take on complex action challenges where participants design and adapt their vehicles to tackle a real societal problem. Each one is different and can range from cleaning up the beach, mapping a dangerous gas emission, or locating and tracking migration patterns of an endangered animal species.
 
 ## How do we make this mission a reality? <a id="how-do-we-make-this-mission-a-reality"></a>
 
@@ -81,7 +81,7 @@ After getting comfortable with the entry level challenges, participants can enro
 Once or twice a year larger Societal Challenges will be announced. For these, the participants use the existing and newly solved body of knowledge to design vehicles that can solve a societal problem – For example a simulation of cleaning up nuclear waste, or tracking migration patterns of an endangered animal species.
 
 {% hint style="success" %}
-_HoverGames: Build your drone kit with leading edge technology - navigation, AI, environmental sensors, connectivity, functional safety and security - and start programming!_
+**HoverGames**: Build your drone kit with leading edge technology - _navigation, AI, environmental sensors, connectivity, functional safety and security -_ and start programming!
 {% endhint %}
 
 ## We need you! <a id="we-need-you"></a>
