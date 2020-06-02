@@ -1,5 +1,5 @@
 ---
-description: This page explains how to install Ubuntu inside the virtual machine.
+description: Let's install Ubuntu in the virtual environment.
 ---
 
 # Installing Ubuntu
@@ -82,13 +82,13 @@ Inside the terminal, type the command `sudo usermod -aG vboxsf hovergames`, this
 
 ![](../../.gitbook/assets/image%20%2835%29.png)
 
-## Some useful settings
+## Some additional steps
 
-Something that might still be useful to do at this point, is to make sure all language packages are installed. This is especially useful when you did not select English as the default language. Go to the menu and look for "Language Support". When you open it, it will immediately ask you to install the missing language packages.
+One of the last things to do is to make sure that all relevant language packages are installed. This is especially useful when you did not select English as the default language. Go to the menu and look for "Language Support". When you open it, it will immediately ask you to install the missing language packages.
 
 ![](../../.gitbook/assets/image%20%2898%29.png)
 
-Finally, from the menu you can also find "Settings". Go to "Power" and set power saving to never. This is the last setting for now. Your basic virtual machine should be fully operational now and you can customize it the way you want. The next section will discuss setting up the actual development tools inside your virtual machine.
+Finally, from the menu you can also find "Settings". Go to "Power" and set power saving to never. This prevents the VM screen from going black when it is not the active window. This is the last setting for now. Your basic virtual machine should be fully operational now and you can customize it the way you want. The next section will discuss setting up the actual development tools inside your virtual machine.
 
 ![](../../.gitbook/assets/image%20%28136%29.png)
 
