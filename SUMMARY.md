@@ -86,17 +86,17 @@
 * [Electrical fuses](rddrone-fmuk66/electrical-fuses.md)
 * [Hardware errata](rddrone-fmuk66/hardware-errata.md)
 
-## Add-On Devices
+## Add-On Hardware <a id="add-ons"></a>
 
 * [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/)
 * [UCANS32K146 UAVCAN Node](https://nxp.gitbook.io/ucans32k146/)
 * [RDDRONE-BMS772](https://nxp.gitbook.io/rddrone-bms772/)
-* [Pixy2 Smart Vision Sensor](add-on-devices/pixy.md)
-* [Rapid IoT Prototyping Kit](add-on-devices/rapid-iot/README.md)
-  * [RDDRONE-IOT "HDIB" adapter board](add-on-devices/rapid-iot/hdib.md)
-  * [MAVLink for Rapid-IOT](add-on-devices/rapid-iot/mavlink-for-rapid-iot.md)
-* [Melexis MLX90614 IR sensor](add-on-devices/melexis-mlx90614.md)
-* [Panasonic AMG8833 IR sensor](add-on-devices/panasonic-amg8833.md)
+* [Pixy2 Smart Vision Sensor](add-ons/pixy.md)
+* [Rapid IoT Prototyping Kit](add-ons/rapid-iot/README.md)
+  * [RDDRONE-IOT "HDIB" adapter board](add-ons/rapid-iot/hdib.md)
+  * [MAVLink for Rapid-IOT](add-ons/rapid-iot/mavlink-for-rapid-iot.md)
+* [Melexis MLX90614 IR sensor](add-ons/melexis-mlx90614.md)
+* [Panasonic AMG8833 IR sensor](add-ons/panasonic-amg8833.md)
 
 ## External Sources
 
@@ -109,8 +109,8 @@
 
 ## Archive
 
-* [Add-on devices](archive/add-on-devices/README.md)
-  * [TechNexion PICO-PI PICO-IMX8M companion computer](archive/add-on-devices/technexion-picopi-pico-imx8m-ubuntu.md)
+* [Add-on hardware](archive/add-ons/README.md)
+  * [TechNexion PICO-PI PICO-IMX8M companion computer](archive/add-ons/technexion-picopi-pico-imx8m-ubuntu.md)
 * [Replaced drone kit items](archive/replaced-drone-kit-items.md)
 * [S500 drone frame assembly](archive/s500-drone-frame/README.md)
   * [Mounting the motors](archive/s500-drone-frame/mounting-the-motors.md)
