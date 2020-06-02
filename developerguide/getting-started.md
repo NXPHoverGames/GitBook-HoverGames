@@ -15,11 +15,11 @@ Remember that you can always ask questions on the [PX4 Discuss forums and the PX
 
 ## Extending PX4 or adding a companion computer
 
-Developing new features for your HoverGames drone can be done in different ways. It is possible to add new modules directly into the PX4 Autopilot software. You can also send commands to PX4 Autopilot from a companion computer. These options will be discussed below. You can also keep it simple and run your software on a microcontroller \(or processor\) that does not communicate with the FMU, but keep in mind that this limits the usefulness of your project.
+Developing new features for your HoverGames drone can be done in different ways. It is possible to add new modules directly into the PX4 Autopilot software. You can also send commands to PX4 Autopilot from a companion computer. These options will be discussed below. You can also keep it simple and run your software on a separate microcontroller \(or processor\) that does not communicate with the FMU, but keep in mind that this limits the usefulness of your project.
 
 Ultimately, you are free to do whatever you want, as long as you stay within the requirements of the challenge. You can combine different approaches for developing your application, or come up with your own approach to realize new functionality on the drone. Be creative.
 
-Adding modules into the existing PX4 Autopilot architecture can be quite challenging, but does not require extra hardware. The Kinetis K66 on the RDDRONE-FMUK66 is a fairly powerful microcontroller, but you can't compare it to the processor in your personal computer. Resources \(RAM, processing power\) are limited and your own modules have to share this with the rest of the PX4 Autopilot software. When building more advanced applications, you might have to learn more about the PX4 software architecture and embedded software in general.
+Adding modules into the existing PX4 Autopilot architecture can be quite challenging, but does not require extra hardware. The Kinetis K66 on the RDDRONE-FMUK66 is a fairly powerful microcontroller, but you cannot compare it to the processor in your personal computer. Resources \(RAM, processing power\) are limited and your own modules have to share this with the rest of the PX4 Autopilot software. When building more advanced applications, you might have to learn more about the PX4 software architecture and embedded software in general.
 
 The PX4 Developer Guide has some resources that will help you get familiar with the PX4 architecture, as well as writing your first module/application within PX4.
 
@@ -27,9 +27,9 @@ The PX4 Developer Guide has some resources that will help you get familiar with 
 
 {% embed url="https://dev.px4.io/master/en/apps/hello\_sky.html" %}
 
-Another \(often used\) option is to send commands to PX4 from a companion computer that is also on the drone. The main advantage of a companion computer is that you do not have to worry as much about the already existing PX4 software architecture. You can build your application however you want without worrying that you are affecting the performance of the flight controller. There are some software packages available that allow you to communicate with PX4 from a companion device.
+Another \(often used\) option is to send commands to PX4 from a companion computer that is also on the drone. The main advantage of a companion computer is that you do not have to worry as much about the already existing PX4 software architecture. You can build your application however you want without worrying that you are affecting the performance of the flight controller. There are some [software packages available](companion-computers.md#mavsdk) that allow you to communicate with PX4 from a companion device.
 
-The NavQ companion computer was developed by NXP with the HoverGames in mind. We recommend it for new developers that want to get started with a first companion computer. Another possible option is to use a NXP Rapid IoT Prototyping Kit with a special adapter board, but note that it has "only" Kinetis K64 microcontroller and not the powerful i.MX 8M Mini microprocessor that is available on the NavQ.
+The [NavQ companion computer](https://nxp.gitbook.io/8mmnavq/) was developed by NXP with the HoverGames in mind. We recommend it for new developers that want to get started with a first companion computer. Another possible option is to use a [NXP Rapid IoT Prototyping Kit with a special adapter board](../add-ons/rapid-iot/), but note that it has "only" a Kinetis K64 microcontroller and not the powerful i.MX 8M Mini microprocessor that is available on the NavQ.
 
 The PX4 Developer Guide provides some information about the use of companion computers.
 
@@ -41,7 +41,7 @@ Technically it is possible to fully control the FMU over a wireless \(telemetry\
 
 ## Development tools
 
-This developer guide provides instructions for setting up and using some [development tools](tools/). You will need them to write, build, debug and program software for PX4, RDDRONE-FMUK66 and the HoverGames drone. You can either download a preconfigured environment with most tools already installed, or you can setup your own environment from scratch \(which might be educational as well\).
+This developer guide provides instructions for setting up and using the recommended [development tools](tools/). You will need them to write, build, debug and program software for PX4, RDDRONE-FMUK66 and the HoverGames drone. You can either download a preconfigured environment with most tools already installed, or you can setup your own environment from scratch \(which might be educational as well\).
 
 ## Building and programming software
 
