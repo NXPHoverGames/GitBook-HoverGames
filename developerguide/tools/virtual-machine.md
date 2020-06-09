@@ -1,34 +1,34 @@
 ---
 description: >-
   We are going to set up a virtual machine running Ubuntu Linux that can be used
-  for developing and building the PX4 firmware and creating software for
-  companion computers.
+  for developing, building and debugging the PX4 firmware as well as software
+  for add-on hardware.
 ---
 
 # Virtual machine
 
-Most of the tools that are generally used for writing, building and debugging software for the HoverGames are best supported under a Linux operating system. Therefore, it is strongly recommended to either use a native Linux setup, or a virtual machine \(VM\) running Linux on a Windows computer. In case you are not able to use a native Ubuntu setup, a virtual machine setup will work just fine. This comes at the cost of speed and flexibility, but should not be a big issue if you have a modern computer.
+Most of the the generally used tools for writing, building and debugging software for the HoverGames are best supported under a Linux operating system. MacOS usually works fine as well. Therefore, it is strongly recommended to either use a native Linux \(or Mac\) setup, or a virtual machine \(VM\) running Linux on a Windows computer. In case you are not able to use a native Ubuntu setup, a virtual machine setup will work just fine. This comes at the cost of speed and flexibility, but should not be a big issue if you have a modern computer.
 
 {% hint style="success" %}
 [A preconfigured virtual machine is available on our downloads page](../../downloads.md#preconfigured-virtual-machine-image-with-development-tools). It already includes the development tools with the recommend configuration. You still need to [download ](../../downloads.md#oracle-vm-virtualbox)and install VirtualBox. You can import the VM into VirtualBox by going to File -&gt; Import Appliance...
 
 If you choose to download the preconfigured VM, you do not have to follow the instructions in the rest of this section. However, it will be still be useful to read these pages, as it will provide insight in how the tools are setup and how you can use them. Also, you might want to [enable some extra resources](virtual-machine.md#virtual-machine-properties) for your virtual machine if your computer is powerful enough.
 
-Note that the default _hovergames_ useraccount also has _hovergames_  as its password!
+Note that the default _hovergames_ user account also has _hovergames_ as its password!
 {% endhint %}
 
 ## Ubuntu and VirtualBox
 
-It is strongly recommended to use a recent Ubuntu LTS \(long-term support\) version for developing your software. At the time of writing \(June 2020\), PX4 supports both Ubuntu 18.04 and Ubuntu 20.04, but we recommend to only use the Ubuntu 18.04 release because it is also supported by most NXP tools. You can download an an .iso image file for free from the Ubuntu website:
+It is strongly recommended to use a recent Ubuntu LTS \(long-term support\) version for developing your software. At the time of writing \(June 2020\), PX4 supports both Ubuntu 18.04 and Ubuntu 20.04, but we recommend to only use the Ubuntu 18.04 release because it is also supported by most NXP tools. Use of any other Linux distribution or Ubuntu version is at your own risk. You can download an an .iso image file for free from the Ubuntu website:
 
-{% embed url="https://releases.ubuntu.com/" %}
+{% embed url="https://releases.ubuntu.com/bionic/" %}
 
 The recommended package for creating and running virtual machines is VirtualBox, because it is also an open source project and available free of charge. As of June 2020, the latest version is VirtualBox 6.1.8. Please install VirtualBox and all of its components on your computer before you continue.  
 
 {% embed url="https://www.virtualbox.org/wiki/Downloads" %}
 
 {% hint style="warning" %}
-A VirtualBox Extension Pack is also available, which is also a good idea to install because it provides support for USB 2.0 and USB 3.0 devices. It is not really needed, but it might be useful. Keep also in mind that this Extension Pack is [licensed free for personal use only](https://www.virtualbox.org/wiki/Licensing_FAQ), you have to pay a fee for commercial use.
+A VirtualBox Extension Pack is also available, which is also a good idea to install because it provides support for USB 2.0 and USB 3.0 devices. It is not really needed though, but it might be useful. Keep also in mind that this Extension Pack is [licensed free for personal use only](https://www.virtualbox.org/wiki/Licensing_FAQ), you have to pay a fee for commercial use.
 
 "The VirtualBox Extension Pack is available under the [VirtualBox Extension Pack Personal Use and Evaluation License](https://www.virtualbox.org/wiki/VirtualBox_PUEL), which is a free license for personal, educational or evaluation use, or an Enterprise License, which is a for-fee license that allows most commercial, non-distribution uses restricted by the PUEL."
 
@@ -53,7 +53,7 @@ Set the memory size to **at least 4096 MiB**, assuming you have at least 8 GiB o
 
 ![](../../.gitbook/assets/hg_vm2.png)
 
-The next window will ask you to add a virtual hard disk. Choose the option to create a new one. The default **VDI file format** is fine, and it is a good idea to make it **dynamically allocated**. You can keep the default name. Please increase the size of the virtual hard disk to **50.00 GB**. This will be the maximum amount of space that the virtual hard disk will use. Under normal circumstances it will most likely stay below 20 GB. If you really want you can add more space, but this should be enough for now.
+The next window will ask you to add a virtual hard disk. Choose the option to create a new one. The default **VDI file format** is fine, and it is a good idea to make it **dynamically allocated**. You can keep the default name. Please increase the size of the virtual hard disk to **40.00 GB**. This will be the maximum amount of space that the virtual hard disk will use. Under normal circumstances it will most likely stay below 20 GB. If you really want you can add more space, but this should be enough for now.
 
 ![](../../.gitbook/assets/hg_vm3.png)
 
