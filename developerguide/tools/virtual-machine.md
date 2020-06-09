@@ -109,5 +109,5 @@ Under "Shared Folders", we can also setup a folder that's accessible on both you
 
 ![](../../.gitbook/assets/hg_vm14.png)
 
-You can now **press the green start button** to run your virtual machine. You may be asked first to select the right boot disk, make sure you select the Ubuntu image. The VM should then start and boot from the provided .iso disk image, starting the installation process for Ubuntu. We will continue on the next page and guide you through this process.
+You can now **press the green "Start" button** to run your virtual machine. You may be asked first to select the right boot disk, make sure you select the Ubuntu image. The VM should then start and boot from the provided .iso disk image, starting the installation process for Ubuntu. We will continue on the next page and guide you through this process.
 
