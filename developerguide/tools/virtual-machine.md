@@ -7,19 +7,19 @@ description: >-
 
 # Virtual machine
 
-Most of the the generally used tools for writing, building and debugging software for the HoverGames are best supported under a Linux operating system. MacOS usually works fine as well. Therefore, it is strongly recommended to either use a native Linux \(or Mac\) setup, or a virtual machine \(VM\) running Linux on a Windows computer. In case you are not able to use a native Ubuntu setup, a virtual machine setup will work just fine. This comes at the cost of speed and flexibility, but should not be a big issue if you have a modern computer.
+Most of the popular tools that you can use to develop software for the HoverGames drone kit are best supported under a Linux operating system. MacOS usually works fine as well. Therefore it is strongly recommended to either use a native Linux \(or Mac\) setup, or a virtual machine \(VM\) running Linux on top of a Windows operating system. Using a VM instead of a native setup comes at the cost of speed and flexibility, but should not be a big issue if you have a modern computer.
 
 {% hint style="success" %}
 [A preconfigured virtual machine is available on our downloads page](../../downloads.md#preconfigured-virtual-machine-image-with-development-tools). It already includes the development tools with the recommend configuration. You still need to [download ](../../downloads.md#oracle-vm-virtualbox)and install VirtualBox. You can import the VM into VirtualBox by going to File -&gt; Import Appliance...
 
-If you choose to download the preconfigured VM, you do not have to follow the instructions in the rest of this section. However, it will be still be useful to read these pages, as it will provide insight in how the tools are setup and how you can use them. Also, you might want to [enable some extra resources](virtual-machine.md#virtual-machine-properties) for your virtual machine if your computer is powerful enough.
+If you choose to download the preconfigured VM, you can skip most of the instructions in this section. However, it will be still be useful to read these pages, as it will provide insight in how the tools are setup and how you can use them. Also, you might want to [enable some extra resources](virtual-machine.md#virtual-machine-properties) for your virtual machine if your computer is powerful enough.
 
 Note that the default _hovergames_ user account also has _hovergames_ as its password!
 {% endhint %}
 
 ## Ubuntu and VirtualBox
 
-It is strongly recommended to use a recent Ubuntu LTS \(long-term support\) version for developing your software. At the time of writing \(June 2020\), PX4 supports both Ubuntu 18.04 and Ubuntu 20.04, but we recommend to only use the Ubuntu 18.04 release because it is also supported by most NXP tools. Use of any other Linux distribution or Ubuntu version is at your own risk. You can download an an .iso image file for free from the Ubuntu website:
+It is strongly recommended to use a recent Ubuntu LTS \(long-term support\) version for developing your software. As of June 2020, PX4 supports both Ubuntu 18.04 and Ubuntu 20.04, but we recommend to only use the Ubuntu 18.04 release because it is also supported by most NXP tools. Use of any other Linux distribution or Ubuntu version is at your own risk. You can download an an .iso image file for free from the Ubuntu website:
 
 {% embed url="https://releases.ubuntu.com/bionic/" %}
 
