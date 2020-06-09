@@ -1,8 +1,8 @@
 ---
 description: >-
-  We are going to set up a virtual machine running Ubuntu Linux that can be used
-  for developing, building and debugging the PX4 firmware as well as software
-  for add-on hardware.
+  We are going to set up a Linux virtual machine that can be used for
+  developing, building and debugging the PX4 firmware as well as software for
+  add-on hardware.
 ---
 
 # Virtual machine
@@ -69,7 +69,7 @@ The next window will ask you to add a virtual hard disk. Choose the option to cr
 
 Select your newly created virtual machine and click the **orange "Settings" button** at the top of the screen, or the "Settings..." option under the "Machine" tab.
 
-Under "General", go to the "Advanced" tab. **Enable the shared clipboard and set it to bidirectional**. It allows you to easily copy and paste text between your host and guest operating systems. You can also enable the drag'n'drop feature, but this has not been the most stable feature of VirtualBox. It is easier to work with a shared folder, which we will create later.
+Under "General", go to the "Advanced" tab. **Enable the shared clipboard and set it to bidirectional**. It allows you to easily copy and paste text between your host and guest operating systems. You may also enable the drag'n'drop feature, but this has not been the most stable feature of VirtualBox. It is easier to work with a shared folder, which we will create later.
 
 ![](../../.gitbook/assets/hg_vm7.png)
 
@@ -77,37 +77,37 @@ Under "System", you can go to the "Processor" tab. If you CPU has at least 4 cor
 
 ![](../../.gitbook/assets/hg_vm8.png)
 
-Under "Display", you can increase the video memory. You usually want to set this to the maximum value available, but any value within the green range should work well. The green range is the recommended range based on your computer hardware and the selected guest OS.
+Under "Display", you can **increase the video memory**. You usually want to set this to the maximum value available, but any value within the green range should work well. The green range is the recommended range based on your computer hardware and the selected guest OS.
 
 ![](../../.gitbook/assets/hg_vm9.png)
 
-Under "Storage", select the empty disk drive in the middle of the window, then click on the small disk icon on the right side of the window and look for the "choose a disk file..." option. Then find the Ubuntu .iso file you downloaded before.
+Under "Storage", select the **empty disk drive in the middle of the window**, then click on the small disk icon on the right side of the window and look for the "choose a disk file..." option. Then find the Ubuntu .iso file you downloaded before.
 
 ![](../../.gitbook/assets/hg_vm10.png)
 
-If you have the VirtualBox Extension Pack installed, you can select the USB 2.0 or USB 3.0 controller under "USB". Otherwise you will be stuck with the USB 1.1 controller, which should be fine as well. The USB 2.0 controller is the default option when the extansion pack is installed. You can leave it like that for now.
+If you have the VirtualBox Extension Pack installed, you can select the USB 2.0 or USB 3.0 controller under "USB". Otherwise you will be stuck with the USB 1.1 controller, which should be fine as well. The USB 2.0 controller is the default option when the extension pack is installed. You can leave it like that for now.
 
 ![](../../.gitbook/assets/hg_vm11.png)
 
-While you're at this screen, also add some filters for the USB devices that you will be using. This allows the virtual machine to access these devices whenever they are plugged into your computer while the VM is running. Note that these devices will then not be available on your host operating system.
+While you're at this screen, also **add some filters for the USB devices** that you will be using. This allows the virtual machine to access these devices whenever they are plugged into your computer while the VM is running. Note that these devices will then not be available on your host operating system.
 
-To easily add a device filter, make sure the device is plugged in and click on the icon with the "+" sign. It is recommended that you add filters for the FMUK66, the debugger and the USB-UART cable.
+To easily add a device filter, make sure the device is plugged in and click on the icon with the "+" sign. It is recommended that you add filters for the FMUK66, the J-Link debugger and the USB-UART cable.
 
 ![](../../.gitbook/assets/hg_vm12.png)
 
-For just a few seconds after you plug in the FMU, the "NXP SEMICONDUCTORS PX4 BL FMUK66 v3.x" device will be available in the list, this is the bootloader. After these few seconds, this device will disappear and "NXP SEMICONDUCTORS PX4 FMUK66 v3.x" will appear. Note that this is only the case if the FMU [already has a bootloader and firmware installed](../../userguide/programming.md)! 
+For just a few seconds after you plug in the FMU, the "NXP SEMICONDUCTORS PX4 BL FMUK66 v3.x" device will be available in the list. This is the bootloader. After a few seconds, this device will disappear and "NXP SEMICONDUCTORS PX4 FMUK66 v3.x" will appear. Note that this is only the case if the FMU [already has a bootloader and firmware installed](../../userguide/programming.md)! 
 
-Make sure to add filters for both the bootloader and the normal device. If you don't see the bootloader device in the list, make sure the FMU is not powered by anything else than the USB cable. Plug the USB cable in again and quickly click the icon while the bootloader is still active \(orange LED on the FMU will blink\). You have to do this quickly!
+Make sure to add filters for both the FMUK66 bootloader and the "standard" FMUK66 device. If you don't see the bootloader device in the list, make sure the FMU is not powered by anything else than the USB cable. Plug the USB cable in again and quickly click the icon while the bootloader is still active \(orange LED on the FMU will blink\). You have to do this quickly!
 
 Also, make sure to plug in the debugger and USB-TTL-3V3 cable and add filters for "SEGGER J-Link" and "FTDI FT232R USB UART" \(or a name that looks similar\). Be aware that the telemetry radios also present themselves as a FTDI USB UART device if you have one connected to your computer! Their product number should be slightly different, but it's better to disconnect them to avoid confusion.
 
-The list should look something like this:
+The list should look similar to this:
 
 ![](../../.gitbook/assets/hg_vm13.png)
 
-Under "Shared Folders", we can also setup a folder that's accessible on both your host and guest operating systems. Please create/select an empty folder on your host operating system, and give it a clear name that will be used by the guest OS. You can enable **auto-mount**, which should work after we have completely installed the operating system \(Ubuntu\) including guest additions. 
+Under "Shared Folders", we can also setup a folder that's accessible on both your host and guest operating systems. Please **create/select an empty folder** on your host operating system, and give it a clear name that will be used by the guest OS. You can enable **auto-mount**, which should work after we have completely installed the operating system \(Ubuntu\) including guest additions. 
 
 ![](../../.gitbook/assets/hg_vm14.png)
 
-You can now press the start button to run your virtual machine. The VM should start and boot from the provided .iso disk image, starting the install procedure for Ubuntu. The next page will guide you through the Ubuntu installation process.
+You can now **press the green start button** to run your virtual machine. You may be asked first to select the right boot disk, make sure you select the Ubuntu image. The VM should then start and boot from the provided .iso disk image, starting the installation process for Ubuntu. We will continue on the next page and guide you through this process.
 
