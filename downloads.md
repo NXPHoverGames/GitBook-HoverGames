@@ -11,7 +11,7 @@ description: An overview of useful software packages.
 
 A preconfigured Ubuntu Linux virtual machine image for [Oracle VM VirtualBox](https://www.virtualbox.org/) is available for download courtesy Dronecode. The image includes the tools for editing, building and debugging software for the RDDRONE-FMUK66 and other HoverGames hardware. 
 
-More information and instructions are available in our [Developer Guide](developerguide/tools/), including instructions on how to setup your own virtual machine from scratch. It is recommended to have a look at these pages, and adapt some of the default settings to add more RAM and CPU cores to your VM if your hardware is powerful enough.
+More information and instructions are available in our [Developer Guide](devguide/tools/), including instructions on how to setup your own virtual machine from scratch. It is recommended to have a look at these pages, and adapt some of the default settings to add more RAM and CPU cores to your VM if your hardware is powerful enough.
 
 {% hint style="info" %}
 The user account _hovergames_ also has _hovergames_ as its password! Under Ubuntu, there is no root account by default, but the _hovergames_ user account has root privileges. Use `sudo` __before a command to run it as root or use `sudo su` to gain root privileges.
@@ -46,7 +46,7 @@ The [latest stable release of PX4 for the RDDRONE-FMUK66](http://ci.px4.io/job/P
 
 The [latest development version \(unstable\)](http://ci.px4.io/job/PX4_misc/job/Firmware-compile/job/master/lastSuccessfulBuild/artifact/build/nxp_fmuk66-v3_default/) can also be directly downloaded from the CI server. Please keep in mind that these builds might be untested and could still include serious bugs.
 
-Guides are available for [updating firmware](userguide/qgroundcontrol/firmware.md), and [building the firmware](developerguide/building-firmware.md) from source.
+Guides are available for [updating firmware](userguide/qgroundcontrol/firmware.md), and [building the firmware](devguide/building-firmware.md) from source.
 
 ## RDDRONE-FMUK66 PX4 bootloader
 
@@ -60,7 +60,7 @@ A precompiled PX4 bootloader is available for convenience. This file will be upd
 It is **recommended** to update the bootloader on your RDDRONE-FMUK66 if it was **build from master before December 2019** or if was **downloaded from this page before April 2020**.
 {% endhint %}
 
-This GitBook has a guide for [programming software using the J-Link debugger](developerguide/program-software-using-debugger.md). The bootloader binary has to be **programmed at memory address 0x0000** on the RDDRONE-FMUK66. There are also instructions for [building the bootloader ](developerguide/building-bootloader.md)from source, in case you ever need it.
+This GitBook has a guide for [programming software using the J-Link debugger](devguide/program-software-using-debugger.md). The bootloader binary has to be **programmed at memory address 0x0000** on the RDDRONE-FMUK66. There are also instructions for [building the bootloader ](devguide/building-bootloader.md)from source, in case you ever need it.
 
 ## QGroundControl
 

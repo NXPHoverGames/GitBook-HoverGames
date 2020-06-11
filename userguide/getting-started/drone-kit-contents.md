@@ -145,7 +145,7 @@ More information on setting up the RC transmitter and receiver can be found else
 
 ## Segger J-Link EDU Mini / USB-TTL-3V3 cable / Debug breakout board with cable
 
-Debug tools are also included in the HoverGames kit. It consists of a small breakout board with a 3D printed plastic case, a Segger J-Link EDU Mini debugger and a USB-TTL-3V3 cable, as well as a 7 pin JST-GH cable that connects the breakout board to the FMU. With this setup you can program a blank board, single step through the code, set breakpoints and debug the processor. The USB-TTL-3V3 cable gives you access to the [system console](../../developerguide/system-console/).
+Debug tools are also included in the HoverGames kit. It consists of a small breakout board with a 3D printed plastic case, a Segger J-Link EDU Mini debugger and a USB-TTL-3V3 cable, as well as a 7 pin JST-GH cable that connects the breakout board to the FMU. With this setup you can program a blank board, single step through the code, set breakpoints and debug the processor. The USB-TTL-3V3 cable gives you access to the [system console](../../devguide/system-console/).
 
 {% hint style="danger" %}
 The USB-TTL-3V3 cable has to be inserted into the 6 pin connector on the debug breakout board as shown below. The **black wire \(ground\)** has to be on the side with the small **notch/mark**. Doing it the wrong way around could damage your FMU or adapter board!

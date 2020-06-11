@@ -10,7 +10,7 @@ description: >-
 ## Disclaimer
 
 {% hint style="warning" %}
-Note! - NXP does not officially supply any software for the RDDRONE-FMUK66. Expect that it will be completely blank and unprogrammed upon delivery. Normally you should plan to prepare your own [development environment](../developerguide/tools/), fork the PX4 Git repository and [compile from source code](../developerguide/building-firmware.md). 
+Note! - NXP does not officially supply any software for the RDDRONE-FMUK66. Expect that it will be completely blank and unprogrammed upon delivery. Normally you should plan to prepare your own [development environment](../devguide/tools/), fork the PX4 Git repository and [compile from source code](../devguide/building-firmware.md). 
 
 However - To quickly get started, you can program a precompiled bootloader and PX4 firmware  by following the instructions on this page.
 {% endhint %}
@@ -75,6 +75,6 @@ Finally, you can write the firmware to the board using the following command:
 {% hint style="info" %}
 A more detailed reference and guide on using the debugger and J-Link software to upload any software to the RDDRONE-FMUK66 board is available as well.
 
-{% page-ref page="../developerguide/program-software-using-debugger.md" %}
+{% page-ref page="../devguide/program-software-using-debugger.md" %}
 {% endhint %}
 
