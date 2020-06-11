@@ -109,35 +109,47 @@ Now we can install the guest additions through the package manager using this co
 sudo apt install virtualbox-guest-dkms
 ```
 
-You will probably be asked again whether you want to install the listed packages. You can again press enter to continue. It might take a while to install.
+You will probably be asked again whether you want to install the listed packages. You can just press enter to continue. It might take a while to install.
 
 ![](../../.gitbook/assets/hg_vm34.png)
 
-The guest additions provided in the Ubuntu package repositories are probably not updated for the latest version of VirtualBox, so it might give some issues. However, it is still useful to install this package because it will also automatically install useful dependencies as well.
+![](../../.gitbook/assets/hg_vm35.png)
 
-Now we can easily upgrade to the latest version of the guest additions. Go to the "Devices" menu and click on "Insert Guest Additions CD image".
+The guest additions provided in the Ubuntu package repositories are probably not updated for the latest version of VirtualBox, so it might give some issues. However, it is still recommended to install this package because it will also automatically install useful dependencies as well. To solve any last issues we can easily upgrade to the latest version of the guest additions. Go to the "Devices" menu and click on "Insert Guest Additions CD image". It will ask you whether you want to run the software, and may ask you to enter your password. It will then open a terminal window and start the installation.
 
-![](../../.gitbook/assets/image%20%28103%29.png)
+![](../../.gitbook/assets/hg_vm36.png)
 
-It will ask you whether you want to run the software, and may prompt you for your password. It will start a terminal window and may complain about some packages not being installed, but that should be no problem right now. Once the installation finishes, you can close the terminal window. After the installation is done, you should be able to maximize the virtual machine window, and the resolution of the Ubuntu desktop should scale with the screen size. Also, you should be able to use the shared clipboard. If it does not work yet, you might need to reboot the virtual machine again.
+![](../../.gitbook/assets/hg_vm37.png)
 
-![](../../.gitbook/assets/image%20%2876%29.png)
+When the installation has finished, you can close the terminal. You can eject the guest additions disk image by right clicking on the icon on the desktop and selecting the eject option. Now that the guest additions are installed you should be able to maximize the virtual machine window, and the resolution of the Ubuntu desktop should scale with the window size. The shared clipboard should work as well. You might have to reboot the virtual machine again if it is not working.
+
+{% hint style="info" %}
+You should redo the last step when you **update VirtualBox**. You can just go to the device menu, insert the guest additions image and run the installer again. This will install the new version.
+{% endhint %}
+
+![](../../.gitbook/assets/hg_vm38.png)
 
 ## Shared folders
 
-To make the shared folder work, we also need to add our useraccount to the vboxsf group. 
+To make the shared folder work, we also need to add our user account to the vboxsf group. Enter the following command in a terminal window \(assuming your username is "hovergames"\):
 
-Inside the terminal, type the command `sudo usermod -aG vboxsf hovergames`, this will give you access to the shared folders. You might be prompted for your password. You possibly have to reboot before it becomes active. If after a reboot the shared folder is still not visible from the file manager inside the VM, you might need to check the virtual machine settings to see if the shared folder has automount enabled.
+```bash
+sudo usermod -aG vboxsf hovergames
+```
 
-![](../../.gitbook/assets/image%20%2835%29.png)
+This will give you access to the shared folders. You might get asked for your password. You possibly have to reboot before it becomes active. If after a reboot the shared folder is still not visible from the file manager, you should check the virtual machine settings if the shared folder has auto-mount enabled.
+
+![](../../.gitbook/assets/hg_vm39.png)
 
 ## Some additional steps
 
-One of the last things to do is to make sure that all relevant language packages are installed. This is especially useful when you did not select English as the default language. Go to the menu and look for "Language Support". When you open it, it will immediately ask you to install the missing language packages.
+One of the last things to do, is to make sure that all relevant language packages are installed. This is especially useful when you did not select English as the default language. Open the launcher and look for "Language Support". It will immediately ask you to install the missing language packages.
 
-![](../../.gitbook/assets/image%20%2898%29.png)
+![](../../.gitbook/assets/hg_vm40.png)
 
-Finally, from the menu you can also find "Settings". Go to "Power" and set power saving to never. This prevents the VM screen from going black when it is not the active window. This is the last setting for now. Your basic virtual machine should be fully operational now and you can customize it the way you want. The next section will discuss setting up the actual development tools inside your virtual machine.
+Finally, in the launcher you can also find "Settings". Go to "Power" and set power saving to never. This prevents the VM screen from going black when it is not the active window. This is the last setting for now.
 
-![](../../.gitbook/assets/image%20%28136%29.png)
+Your basic virtual machine should be fully operational and you can customize it to your liking. The next pages will show how to set up some useful development tools in the virtual machine.
+
+![](../../.gitbook/assets/hg_vm41.png)
 
