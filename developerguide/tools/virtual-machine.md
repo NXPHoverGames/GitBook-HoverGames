@@ -73,7 +73,7 @@ Under "General", go to the "Advanced" tab. **Enable the shared clipboard and set
 
 ![](../../.gitbook/assets/hg_vm7.png)
 
-Under "System", you can go to the "Processor" tab. If you CPU has at least 4 cores, you can **add a second core** to your virtual machine. If your CPU has more cores you can even consider to add a third. This will generally make your virtual machine more responsive and speeds up software builds.
+Under "System", you can go to the "Processor" tab. Assuming your CPU has at least 4 cores, you should **add a second core** to your virtual machine. If your CPU has more cores you can even consider to add a third. This will generally make your virtual machine more responsive and speeds up software builds.
 
 ![](../../.gitbook/assets/hg_vm8.png)
 
@@ -81,7 +81,7 @@ Under "Display", you can **increase the video memory**. You usually want to set 
 
 ![](../../.gitbook/assets/hg_vm9.png)
 
-Under "Storage", select the **empty disk drive in the middle of the window**, then click on the small disk icon on the right side of the window and look for the "choose a disk file..." option. Then find the Ubuntu .iso file you downloaded before.
+Under "Storage", select the **empty disk drive in the middle of the window**, then click on the small disk icon on the right side of the window and look for the "Choose a disk file..." option. Then find the Ubuntu .iso file you downloaded before. The right file might also be listed in the menu already!
 
 ![](../../.gitbook/assets/hg_vm10.png)
 
@@ -105,7 +105,7 @@ The list should look similar to this:
 
 ![](../../.gitbook/assets/hg_vm13.png)
 
-Under "Shared Folders", we can also setup a folder that's accessible on both your host and guest operating systems. Please **create/select an empty folder** on your host operating system, and give it a clear name that will be used by the guest OS. You can enable **auto-mount**, which should work after we have completely installed the operating system \(Ubuntu\) including guest additions. 
+Under "Shared Folders", we can also setup a folder that will be accessible on both your host and guest operating systems. Please **create an empty folder** on your host operating system. The folder name should be short and clear. This name will be used to identify the folder in the guest operating system \(Ubuntu\). You can also enable **auto-mount**. This will make sure that the shared folder is automatically mounted after the virtual machine has booted, but first we have to install the OS including guest additions. 
 
 ![](../../.gitbook/assets/hg_vm14.png)
 
