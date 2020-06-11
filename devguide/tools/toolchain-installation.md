@@ -62,25 +62,33 @@ cd ~/src/px4-firmware && make nxp_fmuk66-v3_default
 
 After the build process has finished, you should be able to find `.bin`, `.px4` and `.elf` files in the `~/src/px4-firmware/build/nxp_fmuk66-v3_default` folder. We will later come back to building your own firmware binaries, when we set up an IDE \(integrated development environment\) to do it for us.
 
-## Install QGroundControl inside the VM
+## QGroundControl daily build
 
-It is also a good idea to install the latest daily build release of QGroundControl inside your VM. It generally works better with the latest features of PX4, that you might come across when you use the latest PX4 source code that might not have been released as a stable version yet. Also, it is easier to switch between different AppImages in Linux than it is to reinstall a different QGroundControl in Windows.
+You should also install the latest daily build of QGroundControl inside your VM. You probably already have the \(recommended!\) stable version of QGroundControl installed on your host operating system, but you might need the latest development version if you want to play with new \(experimental\) features of PX4.
 
-Links to the daily builds are provided in the QGroundControl documentation. Inside your VM you need the Linux version, which is provided as an AppImage:
+Luckily, it is much easier and quicker to switch between different AppImages in Linux than it is to reinstall another version of QGroundControl in Windows. You don't have to install an AppImage. You only have to make the file executable and then you can run the program immediately.
 
-{% embed url="https://docs.qgroundcontrol.com/en/releases/daily\_builds.html" %}
+Links to the latest daily build are provided in the QGroundControl user guide. You need the Linux version.
 
-You don't need to install an AppImage. You only need to make it executable and run it. Move the AppImage file to your homefolder. Then, right click on the file, go to the file properties, and give the AppImage permission to execute as a program.
+{% embed url="http://docs.qgroundcontrol.com/en/releases/daily\_builds.html" %}
 
-![](../../.gitbook/assets/image%20%28137%29.png)
+Save the QGroundControl.AppImage file to an easily accessible location such as the homefolder or desktop. Then, right click on the file, go to the file properties, and give the file permission to execute as a program.
 
-Alternatively, you can make the file executable by running the command, assuming it is located in your home folder:
+{% hint style="info" %}
+You don't have to update QGroundControl every day. However, you should download a new AppImage regularly \(once a month\) or whenever you run into some issue with QGroundControl. If the issue still exists in the latest daily build then you can [open an issue on GitHub](https://github.com/mavlink/qgroundcontrol/issues).
+{% endhint %}
 
-`chmod +x ~/QGroundControl.AppImage`
+![](../../.gitbook/assets/hg_vm46.png)
+
+Alternatively, you can make the file executable by running the following command, assuming the AppImage file is located in your home folder:
+
+```bash
+chmod +x ~/QGroundControl.AppImage
+```
 
 More information about using an AppImage is available in the QGroundControl User Guide:
 
-{% embed url="https://docs.qgroundcontrol.com/en/getting\_started/download\_and\_install.html\#appimage" %}
+{% embed url="https://docs.qgroundcontrol.com/en/getting\_started/download\_and\_install.html\#ubuntu" %}
 
 You are now ready to continue to the next section\(s\), in which we will set up an integrated development environment \(IDE\) to edit, build and debug the PX4 firmware. You can choose to install either [MCUXpresso](mcuxpresso.md) \(recommended\) or [Visual Studio Code](mcuxpresso.md), but you can also install both to see which one you like best.
 
