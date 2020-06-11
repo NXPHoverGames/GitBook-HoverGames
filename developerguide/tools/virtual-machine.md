@@ -111,3 +111,5 @@ Under "Shared Folders", we can also setup a folder that will be accessible on bo
 
 You can now **press the green "Start" button** to run your virtual machine. You may be asked first to select the right boot disk, make sure you select the Ubuntu image. The VM should then start and boot from the provided .iso disk image, starting the installation process for Ubuntu. We will continue on the next page and guide you through this process.
 
+![](../../.gitbook/assets/hg_vm15.png)
+
