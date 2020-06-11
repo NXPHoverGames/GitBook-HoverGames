@@ -49,7 +49,7 @@
 * [Development tools](developerguide/tools/README.md)
   * [Virtual machine](developerguide/tools/virtual-machine.md)
   * [Installing Ubuntu](developerguide/tools/installing-ubuntu.md)
-  * [PX4 Toolchain](developerguide/tools/px4-toolchain.md)
+  * [PX4 toolchain](developerguide/tools/px4-toolchain.md)
   * [Setting up MCUXpresso](developerguide/tools/mcuxpresso.md)
   * [Setting up Visual Studio Code](developerguide/tools/visual-studio-code.md)
 * [Building the bootloader](developerguide/building-bootloader.md)

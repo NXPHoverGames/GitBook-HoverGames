@@ -1,12 +1,12 @@
 ---
 description: >-
-  How to install the development toolchain for the PX4 firmware and other
-  Dronecode and PX4 related software packages.
+  How to install the development toolchain for PX4 Autopilot and other Dronecode
+  software projects.
 ---
 
-# PX4 Toolchain
+# PX4 toolchain
 
-To start building PX4 firmware from source, you should first install the PX4 toolchain. This provides you with all the tools required to develop PX4 firmware versions, but also build them in general. You could directly install the toolchain on your main operating system, but we recommend to install it inside the virtual machine we created as described on the previous pages.
+To start building PX4 firmware from source, you should first install the PX4 toolchain. This provides you with all the tools required to develop, build and debug PX4 Autopilot, but the same tools are also often used for other software projects. You could directly install the toolchain on your main operating system, but we recommend to install it inside the virtual machine we created as described on the previous pages.
 
 ## Download and run the convenience bash script
 
@@ -65,17 +65,5 @@ More information about using an AppImage is available in the QGroundControl User
 
 You are now ready to continue to the next section\(s\), in which we will set up an integrated development environment \(IDE\) to edit, build and debug the PX4 firmware. You can choose to install either [MCUXpresso](mcuxpresso.md) \(recommended\) or [Visual Studio Code](mcuxpresso.md), but you can also install both to see which one you like best.
 
-## Instructions from the PX4 Developer Guide
 
-By following the steps provided above, you should be ready to build the PX4 firmware from source. In case you want more information, toolchain installation instructions are also available at the PX4 Developer Guide. **Note that you do not need to follow these instructions if you have already installed the toolchain according to the steps above.**
-
-{% embed url="https://dev.px4.io/master/en/setup/dev\_env\_linux.html" %}
-
-For Linux computers, you only need to install the `Pixhawk/NuttX (and jMAVSim)` version \(so follow the steps at [https://dev.px4.io/master/en/setup/dev\_env\_linux.html](https://dev.px4.io/master/en/setup/dev_env_linux.html) up to the `Snapdragon Flight` heading\).
-
-For Windows computers, we recommend the Cygwin installation, which can be installed using the steps at [https://dev.px4.io/master/en/setup/dev\_env\_windows\_cygwin.html](https://dev.px4.io/master/en/setup/dev_env_windows_cygwin.html) up to the `Usage Instructions` heading. 
-
-Another option for Windows users is to setup a Linux virtual machine and just install the Linux toolchain. That's exactly what we have done above, actually. The PX4 Developer Guide also provides a step-by-step guide for this: [https://dev.px4.io/master/en/setup/dev\_env\_windows\_vm.html](https://dev.px4.io/master/en/setup/dev_env_windows_vm.html)
-
-Instructions for Mac OS are available as well, at [https://dev.px4.io/en/setup/dev\_env\_mac.html](https://dev.px4.io/master/en/setup/dev_env_mac.html).
 

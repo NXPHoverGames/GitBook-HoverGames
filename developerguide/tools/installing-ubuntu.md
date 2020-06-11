@@ -49,7 +49,7 @@ Finally, you will be asked to set up a user account. For this virtual machine we
 
 ![](../../.gitbook/assets/hg_vm22.png)
 
-It will take a while to finish the installation. You might be asked to **restart** the virtual machine after the installation is finished, just restart it immediately using the button. During shutdown, Ubuntu might also ask to remove the installation medium. You can ignore this and **press the enter key**.
+It will take a while to finish the installation. You might be asked to **restart** the virtual machine after the installation is finished, just restart it immediately using the button. During shutdown, Ubuntu might also ask to remove the installation medium. You can ignore this and **press enter on your keyboard**.
 
 ![](../../.gitbook/assets/hg_vm23.png)
 
@@ -65,7 +65,7 @@ When the system reboots, you will be greeted by a screen that shows what's new i
 
 You might also get a popup from the software updater. It is recommended to **install these updates now**. You will most likely be prompted to enter your password, which should be "hovergames" \(lowercase\). After the updates are installed you get asked to **restart** again. Just restart before we continue.
 
-![](../../.gitbook/assets/hg_vm27.png)
+![](../../.gitbook/assets/hg_vm27%20%281%29.png)
 
 ![](../../.gitbook/assets/hg_vm28.png)
 
@@ -115,7 +115,7 @@ You will probably be asked again whether you want to install the listed packages
 
 ![](../../.gitbook/assets/hg_vm35.png)
 
-The guest additions provided in the Ubuntu package repositories are probably not updated for the latest version of VirtualBox, so it might give some issues. However, it is still recommended to install this package because it will also automatically install useful dependencies as well. To solve any last issues we can easily upgrade to the latest version of the guest additions. Go to the "Devices" menu and click on "Insert Guest Additions CD image". It will ask you whether you want to run the software, and may ask you to enter your password. It will then open a terminal window and start the installation.
+The guest additions provided in the Ubuntu package repositories are probably not updated for the latest version of VirtualBox, so it might give some issues. However, it is still recommended to install this package because it will also automatically install some useful dependencies as well. To solve any last issues we can easily upgrade to the latest version of the guest additions. Go to the "Devices" menu and click on "Insert Guest Additions CD image". It will ask you whether you want to run the software, and may ask you to enter your password. It will then open a terminal window and start the installation.
 
 ![](../../.gitbook/assets/hg_vm36.png)
 
