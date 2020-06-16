@@ -7,7 +7,7 @@ description: >-
 
 # Virtual machine
 
-Most of the popular tools that you can use to develop software for the HoverGames drone kit are best supported under a Linux operating system. MacOS usually works fine as well. Therefore it is strongly recommended to either use a native Linux \(or Mac\) setup, or a virtual machine \(VM\) running Linux on top of a Windows operating system. Using a VM instead of a native setup comes at the cost of processing power and flexibility, but should not be a big issue if you have a modern computer.
+Most of the popular tools that you can use to develop software for the HoverGames drone kit are best supported under a Linux operating system. Therefore it is strongly recommended to either use a native Linux setup, or a virtual machine \(VM\) running Linux on top of a Windows \(or Mac\) operating system. Using a VM instead of a native setup comes at the cost of processing power and flexibility, but should not be a big issue if you have a modern computer.
 
 {% hint style="success" %}
 [A preconfigured virtual machine is available on our downloads page](../../downloads.md#preconfigured-virtual-machine-image-with-development-tools). It already includes the development tools with the recommend configuration. You still need to [download ](../../downloads.md#oracle-vm-virtualbox)and install VirtualBox. You can import the VM into VirtualBox by going to File -&gt; Import Appliance...

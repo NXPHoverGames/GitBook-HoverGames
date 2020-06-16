@@ -2,7 +2,7 @@
 description: Guide to installing and configuring Visual Studio Code for HoverGames.
 ---
 
-# Setting up Visual Studio Code
+# Visual Studio Code
 
 ## Installing Visual Studio Code
 
