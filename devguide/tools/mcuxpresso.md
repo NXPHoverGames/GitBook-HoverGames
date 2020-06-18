@@ -75,35 +75,53 @@ You can use any project name, but for clarity we will call it "HoverGames PX4". 
 
 ## Project properties
 
-Now some project properties have to be edited. Select the project we just created on the left side of the screen, and go to "Project" and then "Properties" at the top of the screen. Go to "MCU Settings" under "C/C++ Build". It might complain about invalid values, it seems to work to switch to another tab and switch back again. On the "MCU Settings" tab, select the MK66FN2M0xxx18.
+Before we continue we should change some project properties. Select the project we just created on the left side of the screen, go to "Project" in the menu at the top and then select "Properties". 
+
+Go to "MCU Settings" under "C/C++ Build". An error might pop up, complaining about invalid values. If this happens, switch to another tab and switch back again. You should now see the same screen as shown in the image below. On this "MCU Settings" screen, select the MK66FN2M0xxx18 under the K6x family of MCUs.
 
 ![](../../.gitbook/assets/hg_mcuxpresso9.png)
 
-Now go to the main "C/C++ Build" tab. The current configuration will be "Debug". Uncheck "Use default build command" and change the build command to just `make`.
+Now go to the main "C/C++ Build" tab. The current configuration will be "Debug". Uncheck "Use default build command" and change the build command to just `make`. The PX4 build scripts will then take care of the specifics.
 
 ![](../../.gitbook/assets/hg_mcuxpresso10.png)
 
-Then switch to the "Behavior" tab. Uncheck "Enable parallel build", because the PX4 build tools already takes care of this. Also, set the "Build \(incremental build\)" target to `nxp_fmuk66-v3_default`. Click "Apply" to apply all changed settings.
+Then switch to the "Behavior" tab. Uncheck "Enable parallel build", because the PX4 build tools also already takes care of this. Set the "Build \(incremental build\)" target to `nxp_fmuk66-v3_default`. Click "Apply" to apply all changed settings.
 
 ![](../../.gitbook/assets/hg_mcuxpresso11.png)
 
-At the top of the window, you can press the button "Manage Configurations...". Create a new configuration named "Default", make it a copy of "Debug". Select the newly created configuration, and make it active using the "Set Active" button.
+At the top of the window, you can press the button "Manage Configurations...". Create a new configuration named "Default", make it a copy of "Debug". Then select the newly created configuration, and make it the active configuration using the "Set Active" button. Then you can press "OK".
 
 ![](../../.gitbook/assets/hg_mcuxpresso12.png)
 
 ![](../../.gitbook/assets/hg_mcuxpresso13.png)
 
-In the properties window, make sure "Debug" is still selected as the profile of which you are editing. Now switch to the "Environment" tab under "C/C++ Build". Add a variable named "CFLAGS" with value `O0` \(the capital letter O and a zero\). Make sure you DO NOT select the checkbox to add the variable to all configurations. After you have done this, you can press "Apply and Close", we are done in this window.
+In the properties window, make sure "Debug" is still selected. It will no longer have the tag "\[ Active \]" but it should still be the selected configuration. Now switch to the "Environment" tab under "C/C++ Build". Add a variable named "CFLAGS" with value `O0` \(the capital letter 'o' and the number zero\). Make sure you DO NOT select the checkbox to add the variable to all configurations. This added flag disables compiler optimization specifically for the debug profile. After you have done this you can press "Apply and Close", we are finally done with the project properties.
 
 ![](../../.gitbook/assets/hg_mcuxpresso14.png)
 
-## Run Configurations
+We now have two _build_ configurations, the default one and a configuration for debugging. This allows us to create PX4 firmware builds for the FMUK66 board We can easily switch between a "standard" build and a debug build that has optimizations disabled so we get more predictable behavior when we step through the code.
 
-At the top of the screen, you have a green "Run" icon. Click on the small arrow next to it, and select "Run Configurations...". In the window that opens, select "C/C++ Application" and click the "New" button above it. Name the newly created configuration "Upload", and change the "C/C++ Application" to `/usr/bin/make`. Also select "Disable auto build".
+You can use the hammer icon to start a build for the selected project. You can switch between the two profiles with the small arrow next to the icon. Give it a try, the console at the bottom of the IDE window will show the progress of the build. Note that this might take a while if you are building PX4 for the first time.
 
-![](../../.gitbook/assets/image%20%28116%29.png)
+![](../../.gitbook/assets/hg_mcuxpresso15.png)
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+## Run configuration
+
+We can now build the PX4 firmware with MCUXpresso. We are now going to also add _run_ configurations to flash the binary directly to the FMUK66 board.
+
+At the top of the screen, you have a green "Run" icon. Click on the small arrow next to it, and select "Run Configurations...". In the window that opens, select "C/C++ Application" and click the "New" button above it. Name the newly created configuration "HoverGames PX4 Upload \(Debugger\)", and change the "C/C++ 
+
+Also select "Disable auto build", this will prevent the IDE from automatically building the firmware again when you try to flash your current build to the board. That also means that you always have to use the hammer icon to build the firmware yourself.
+
+![](../../.gitbook/assets/hg_mcuxpresso16.png)
+
+![](../../.gitbook/assets/hg_mcuxpresso17.png)
+
+Click on the "Search Project..." button under "C/C++ Applicatoin:" to look for a binary file within the project. If you have build the firmware already it should list "nxp\_fmuk66-v3\_default.elf". If it does not, save the configuration that you are working on and first run a build.
+
+![](../../.gitbook/assets/hg_mcuxpresso18.png)
+
+Application" to `/usr/bin/make`. 
 
 Also go into the "Arguments" tab and add `nxp_fmuk66-v3_default upload` into "Program arguments".
 
