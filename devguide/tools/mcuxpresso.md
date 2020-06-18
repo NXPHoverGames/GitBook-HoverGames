@@ -63,33 +63,39 @@ You will be greeted by a welcome screen. You can close the tab or press the larg
 
 ![](../../.gitbook/assets/hg_mcuxpresso6.png)
 
-## Setting up a project for PX4
+## Create a new project for PX4
 
-Inside MCUXpresso, create a new project by going to "File", "New", and then "Project". A wizard will appear, in which you should select "Makefile Project with Existing Code" under "C/C++". You can use any name, but for clarity, we will call it "HoverGames PX4". You should select `/home/hovergames/src/Firmware` as the existing code location. Make sure both the C and C++ languages are selected. For "Toolchain for Indexer Settings", select "NXP MCU Tools". Click "Finish" to create the project.
+Now that MCUXpresso and the Kinetis K66 SDK are installed, we can continue and create a PX4 project. You can create a new project in MCUXpresso by going to "File", "New", and then "Project". A list with different project types will appear, from which you should select "Makefile Project with Existing Code" under "C/C++".
 
-![](../../.gitbook/assets/image%20%28102%29.png)
+![](../../.gitbook/assets/hg_mcuxpresso7.png)
 
-## Project Properties
+You can use any project name, but for clarity we will call it "HoverGames PX4". You should select `/home/hovergames/src/px4-firmware` as the existing code location. This is the folder where we cloned the PX4 firmware code. Make sure that both the C and C++ languages are selected. For "Toolchain for Indexer Settings", select "NXP MCU Tools". Click "Finish" to create the project.
 
-Now some project properties have to be edited. Select the project we just created on the left side of the screen, and go to "Project" and then "Properties" at the top of the screen. Go to "MCU Settings" under "C/C++ Build". It might complain about invalid values. It seems to work to switch to another tab and switch back again. On the "MCU Settings" tab, select the MK66FN2M0xxx18.
+![](../../.gitbook/assets/hg_mcuxpresso8.png)
 
-![](../../.gitbook/assets/image%20%2893%29.png)
+## Project properties
+
+Now some project properties have to be edited. Select the project we just created on the left side of the screen, and go to "Project" and then "Properties" at the top of the screen. Go to "MCU Settings" under "C/C++ Build". It might complain about invalid values, it seems to work to switch to another tab and switch back again. On the "MCU Settings" tab, select the MK66FN2M0xxx18.
+
+![](../../.gitbook/assets/hg_mcuxpresso9.png)
 
 Now go to the main "C/C++ Build" tab. The current configuration will be "Debug". Uncheck "Use default build command" and change the build command to just `make`.
 
-![](../../.gitbook/assets/image%20%28131%29.png)
+![](../../.gitbook/assets/hg_mcuxpresso10.png)
 
 Then switch to the "Behavior" tab. Uncheck "Enable parallel build", because the PX4 build tools already takes care of this. Also, set the "Build \(incremental build\)" target to `nxp_fmuk66-v3_default`. Click "Apply" to apply all changed settings.
 
-![](../../.gitbook/assets/image%20%28129%29.png)
+![](../../.gitbook/assets/hg_mcuxpresso11.png)
 
 At the top of the window, you can press the button "Manage Configurations...". Create a new configuration named "Default", make it a copy of "Debug". Select the newly created configuration, and make it active using the "Set Active" button.
 
-![](../../.gitbook/assets/image%20%2873%29.png)
+![](../../.gitbook/assets/hg_mcuxpresso12.png)
+
+![](../../.gitbook/assets/hg_mcuxpresso13.png)
 
 In the properties window, make sure "Debug" is still selected as the profile of which you are editing. Now switch to the "Environment" tab under "C/C++ Build". Add a variable named "CFLAGS" with value `O0` \(the capital letter O and a zero\). Make sure you DO NOT select the checkbox to add the variable to all configurations. After you have done this, you can press "Apply and Close", we are done in this window.
 
-![](../../.gitbook/assets/image%20%28153%29.png)
+![](../../.gitbook/assets/hg_mcuxpresso14.png)
 
 ## Run Configurations
 
