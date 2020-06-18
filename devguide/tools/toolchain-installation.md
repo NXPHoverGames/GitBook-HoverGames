@@ -1,10 +1,10 @@
 ---
 description: >-
-  How to install the development toolchain for PX4 Autopilot and other Dronecode
-  software projects.
+  The PX4 project provides a set of recommended tools that you can use to
+  develop, build and debug PX4 and other Dronecode software projects.
 ---
 
-# Toolchain installation
+# PX4 toolchain
 
 To start building PX4 firmware from source, you should first install the PX4 toolchain. This provides you with all the tools required to develop, build and debug PX4 Autopilot, but the same tools are also often used for other software projects. You could directly install the toolchain on your main operating system, but we recommend to install it inside the virtual machine we created as described on the previous pages.
 
