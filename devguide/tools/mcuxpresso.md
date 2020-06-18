@@ -15,21 +15,27 @@ The MCUXpresso IDE is available free of charge and can be downloaded from the NX
 
 {% embed url="https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE" %}
 
+Click on the download button and login to your NXP account. The next page will show the current available releases. There is also a tab for previous releases. You should download the current release \(11.1.1 as of June 2020\), click on "MCUXpresso IDE" to continue. You will have to agree with some terms and conditions before you can download the software.
+
 Download the `.deb.bin` file for Linux. You can directly download it using the Firefox browser in the virtual machine or you can download it on your host operating system and move it into the [shared folder](installing-ubuntu.md#shared-folders).
 
-Assuming you have the file stored in the `~/Downloads` folder, you should first enter the command below to allow the package to be executed and installed. Replace the filename with the right version number! When using the terminal you can use the autocompletion feature by pressing the tab key.
+![](../../.gitbook/assets/hg_mcuxpresso1.png)
+
+Assuming you have the file stored in the `~/Downloads` folder, you should first enter the command below to allow the package to be executed and installed. You should replace the last part of the filename with the right version number for your download! You can use the auto-complete feature for this by pressing the tab key. Just start typing the command below and press tab when you get to the version number in the file name.
 
 ```bash
 chmod +x ~/Downloads/mcuxpressoide-xx.x.x_xxxx.x86_64.deb.bin
 ```
 
-Now you can install the program using the following command, which you again have to modify to match the right version:
+Now you can install MCUXpresso by executing the installer package, for which you again have to modify the filename to match the right version:
 
 ```bash
-~/Downloads/mcuxpressoide-xx.x.x_xxxx.x86_64.deb.bin
+sudo ~/Downloads/mcuxpressoide-xx.x.x_xxxx.x86_64.deb.bin
 ```
 
-You might get asked to accept an agreement. Then wait for the installation to finish. After everything is completed, you can find the MCUXpresso application through the launcher. Look for the blue icon with the "X", or search for "MCUXpresso".
+You might get asked to accept an agreement \(use the arrow keys to select "Yes" and press enter\). Then wait for the installation to finish. After everything is completed, you can find the MCUXpresso application through the launcher. Look for the blue icon with the "X", or search for "MCUXpresso".
+
+![](../../.gitbook/assets/hg_mcuxpresso2.png)
 
 ## Building and installing the Kinetis K66 SDK
 
@@ -41,13 +47,15 @@ Go to the MCUXpresso SDK Builder linked below. If you click on "Select Developme
 
 You have to select the processor for which you want to build the SDK. The easiest is to use the search field. Just start typing "MK66FN" and select "MK66FN2M0xxx18" under processors. Then, press the green "Build MCUXpresso SDK" button on the right.
 
-![](../../.gitbook/assets/image%20%28125%29.png)
+![](../../.gitbook/assets/hg_mcuxpresso3.png)
 
-On the next page, select Linux as the host operating system, and make sure the toolchain / IDE selection is set to "MCUXpresso". You can leave the other settings at their default values, you do not need to include additional features. Press the "Download SDK" button. You may see a screen showing that the SDK is being build. You now only have to download the SDK archive \(.zip file\). You might have to accept another agreement before the download starts. Download it from inside your VM, or transport it into your VM using the shared folder.
+On the next page, select Linux as the host operating system, and make sure the toolchain / IDE selection is set to "MCUXpresso" \(or "All toolchains" if you want to use the SDK also with other tools\). You can leave the other settings at their default values, but feel free to include additional features if you want to. 
 
-![](../../.gitbook/assets/image%20%282%29.png)
+Press the "Download SDK" button when you are done. You might have to accept another agreement. The download should start immediately after that, but in some cases you might need to click on "Download SDK Archive". Download the SDK directly from your VM, or use the shared folder feature.
 
-Now, start MCUXpresso within your VM. You can find it in the launcher menu. If you open it for the first time, it might ask you where to store its workspaces. You can chose your own directory, or leave the default as is. You can check the box to make sure you are not asked about it again. Once the IDE has started, find the location were you stored the SDK .zip file, and drag the whole file into the area of the IDE screen that says "Installed SDKs". It's usually located at the bottom. It will ask you to confirm that you want to import the SDK. Just press "OK". It might take a few seconds to install.
+![](../../.gitbook/assets/hg_mcuxpresso4.png)
+
+Now, start MCUXpresso within your VM. You can find it in the launcher menu. If you open it for the first time, it might ask you where to store its workspaces. You can chose your own directory, or leave the default as is. Once the IDE has started, find the location were you stored the SDK .zip file, and drag the archive into the area of the IDE window that says "Installed SDKs". It's usually located at the bottom. It will ask you to confirm that you want to import the SDK. Just press "OK". It might take a few seconds to install.
 
 ![](../../.gitbook/assets/image%20%2872%29.png)
 
