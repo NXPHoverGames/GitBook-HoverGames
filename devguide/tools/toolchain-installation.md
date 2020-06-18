@@ -22,16 +22,16 @@ sudo apt install git
 
 ## Download the PX4 source code
 
-Before we install any tools we will download the PX4 source code. The PX4 developers have included a script that makes it much easier to install all required tools. Let's first create a folder to hold all sourcecode that we are going to work with. The following command creates the "src" folder in the user's home folder \(if it doesn't exist already\) and then changes the working directory to this folder:
+Before we install any tools we will download the PX4 source code. The PX4 developers have included a script that makes it much easier to install all required tools. Let's first create a folder to hold all sourcecode that we are going to work with. The following command creates the "src" folder in the user's home folder \(if it doesn't exist already\):
 
 ```bash
-mkdir -p ~/src && cd ~/src
+mkdir -p ~/src
 ```
 
-The next step is to actually download the source code. We will use Git to create a local copy of the online repository that is hosted on GitHub. The following command will "clone" the whole repository, including submodules, in a new "px4-firmware" folder.
+The next step is to actually download the source code. We will use Git to create a local copy of the online repository that is hosted on GitHub. The following command first changes the working directory to the "src" folder that we just created, then it will "clone" the whole PX4 firmware repository, including submodules, in a new "px4-firmware" folder.
 
 ```bash
-git clone --recursive https://github.com/PX4/Firmware.git px4-firmware
+cd ~/src && git clone --recursive https://github.com/PX4/Firmware.git px4-firmware
 ```
 
 Note that it will take a while to clone the whole repository. The PX4 source code should now be available in the `~/src/px4-firmware` folder. The tilde represents the current user's home folder within the file system. You can also browse to this location with the file manager.
@@ -54,7 +54,7 @@ You should reboot the virtual machine after the installation is done.
 
 ## Make your first PX4 build
 
-Make sure to reboot your computer after the toolchain installation is finished. Then change your working directory to the PX4 firmware repository and start a build for the FMUK66 using the following command:
+Make sure to reboot your computer after the toolchain installation is finished. Then change your working directory to the PX4 firmware repository again and start a build for the FMUK66 using the following command:
 
 ```bash
 cd ~/src/px4-firmware && make nxp_fmuk66-v3_default

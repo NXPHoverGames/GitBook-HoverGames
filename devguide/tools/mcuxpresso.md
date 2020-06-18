@@ -39,7 +39,7 @@ Go to the MCUXpresso SDK Builder linked below. If you click on "Select Developme
 
 {% embed url="https://mcuxpresso.nxp.com/en/welcome" %}
 
-You have to select the board or processor for which you want to build the SDK. You can use the "Search by Name" option, just start typing "MK66FN" and select "MK66FN2M0xxx18", which should be the only remaining option. Then, press the green "Build MCUXpresso SDK" button on the right.
+You have to select the processor for which you want to build the SDK. The easiest is to use the search field. Just start typing "MK66FN" and select "MK66FN2M0xxx18" under processors. Then, press the green "Build MCUXpresso SDK" button on the right.
 
 ![](../../.gitbook/assets/image%20%28125%29.png)
 
