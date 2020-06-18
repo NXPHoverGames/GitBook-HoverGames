@@ -55,9 +55,13 @@ Press the "Download SDK" button when you are done. You might have to accept anot
 
 ![](../../.gitbook/assets/hg_mcuxpresso4.png)
 
-Now, start MCUXpresso within your VM. You can find it in the launcher menu. If you open it for the first time, it might ask you where to store its workspaces. You can chose your own directory, or leave the default as is. Once the IDE has started, find the location were you stored the SDK .zip file, and drag the archive into the area of the IDE window that says "Installed SDKs". It's usually located at the bottom. It will ask you to confirm that you want to import the SDK. Just press "OK". It might take a few seconds to install.
+Now, start MCUXpresso within your VM. You can find it in Ubuntu's launcher menu. MCUXpresso will immediately ask at what location the workspace should be saved. You can chose your own directory, or leave the default as is. You can also create additional workspaces if you want.
 
-![](../../.gitbook/assets/image%20%2872%29.png)
+You will be greeted by a welcome screen. You can close the tab or press the large "IDE" button on the top right to continue. Once you are in the main view of the IDE, find the location were you stored the Kinetis K66 SDK .zip file, and drag the archive into the area of the IDE window that says "Installed SDKs". It's usually located at the bottom. It will ask you to confirm that you want to import the SDK. Just press "OK". It might take a few seconds to install.
+
+![](../../.gitbook/assets/hg_mcuxpresso5.png)
+
+![](../../.gitbook/assets/hg_mcuxpresso6.png)
 
 ## Setting up a project for PX4
 
