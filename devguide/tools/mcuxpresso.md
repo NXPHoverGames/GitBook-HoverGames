@@ -107,6 +107,10 @@ You can use the hammer icon to start a build for the selected project. You can s
 
 ## Run configuration
 
+{% hint style="danger" %}
+The remainder of this page is currently being updated and may contain some mistakes or outdated information!
+{% endhint %}
+
 We can now build the PX4 firmware with MCUXpresso. We are now going to also add _run_ configurations to flash the binary directly to the FMUK66 board.
 
 At the top of the screen, you have a green "Run" icon. Click on the small arrow next to it, and select "Run Configurations...". In the window that opens, select "C/C++ Application" and click the "New" button above it. Name the newly created configuration "HoverGames PX4 Upload \(Debugger\)", and change the "C/C++ 
