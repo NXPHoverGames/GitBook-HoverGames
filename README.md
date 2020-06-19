@@ -17,9 +17,8 @@ And a [subspace forum specifically for the NavQ](https://community.nxp.com/commu
 
 {% hint style="success" %}
 Click the links below if you are looking for other **NXP** GitBooks:  
-- [NXP Cup](https://nxp.gitbook.io/nxp-cup-hardware-reference-alamak/)  
-- [D2X Reference Design](https://nxp.gitbook.io/d2x/)  
 - [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/)  
+- [NXP Cup](https://nxp.gitbook.io/nxp-cup-hardware-reference-alamak/)  
 - [UCANS32K UAVCAN Node](https://nxp.gitbook.io/ucans32k146/)  
 - [RDDRONE-BMS772 Battery Management System](https://nxp.gitbook.io/rddrone-bms772/)
 {% endhint %}
