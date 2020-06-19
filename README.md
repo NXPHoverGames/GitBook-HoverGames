@@ -7,7 +7,13 @@ description: >-
 
 # The HoverGames
 
-![](.gitbook/assets/hg_logo.png)
+{% hint style="success" %}
+See also the [NXP discussion forum](https://community.nxp.com/community/mobilerobotics/hovergames-drone-challenge) for questions and answers
+
+And a [subspace forum specifically for the NavQ](https://community.nxp.com/community/mobilerobotics/hovergames-drone-challenge/navq-8mmnavq-discussion) companion computer 
+{% endhint %}
+
+![HoverGames.com](.gitbook/assets/hg_logo.png)
 
 {% hint style="success" %}
 Click the links below if you are looking for other **NXP** GitBooks:  
