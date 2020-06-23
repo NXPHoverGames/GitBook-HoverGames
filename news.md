@@ -10,10 +10,15 @@ Below you will find a list of recent updates and important news about the HoverG
 
 * [HoverGames.com](https://www.hovergames.com/)
 * [HoverGames on hackster.io](https://www.hackster.io/contests/hovergames)
+* [NXP Mobile Robotics Community](https://community.nxp.com/community/mobilerobotics)
 * [\#HoverGames on PX4 Slack](contact.md#px4-slack-and-discuss-forum)
 * [Dronecode.org](https://www.dronecode.org/)
 
 ## Recent updates
+
+#### June 18, 2020
+
+* HoverGames Challenge 2 has been [announced](https://media.nxp.com/news-releases/news-release-details/nxp-announces-hovergames-challenge-2-help-drones-help-others)! More information is available on [HoverGames.com](https://www.hovergames.com/) and [hackster.io](https://www.hackster.io/contests/hovergames2). The top 100 project proposals on hackster.io will receive a $400 discount on the complete drone kit with the new [NavQ companion computer](https://nxp.gitbook.io/8mmnavq/).
 
 #### May 28, 2020
 

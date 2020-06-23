@@ -8,19 +8,18 @@ description: >-
 # HoverGames
 
 {% hint style="success" %}
-See also the [NXP discussion forum](https://community.nxp.com/community/mobilerobotics/hovergames-drone-challenge) for questions and answers
-
-And a [subspace forum specifically for the NavQ](https://community.nxp.com/community/mobilerobotics/hovergames-drone-challenge/navq-8mmnavq-discussion) companion computer 
+See also the [NXP Mobile Robotics Community ](https://community.nxp.com/community/mobilerobotics)for questions and answers. There is a space for [HoverGames](https://community.nxp.com/community/mobilerobotics/hovergames-drone-challenge) as well as a subspace specifically for the [NavQ Companion Computer](https://community.nxp.com/community/mobilerobotics/hovergames-drone-challenge/navq-8mmnavq-discussion). 
 {% endhint %}
 
-![HoverGames.com](.gitbook/assets/hg_logo.png)
+![](.gitbook/assets/hg_logo.png)
 
 {% hint style="success" %}
-Click the links below if you are looking for other **NXP** GitBooks:  
+Also have a look at some of the other **NXP GitBooks**:  
 - [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/)  
-- [NXP Cup](https://nxp.gitbook.io/nxp-cup-hardware-reference-alamak/)  
 - [UCANS32K UAVCAN Node](https://nxp.gitbook.io/ucans32k146/)  
-- [RDDRONE-BMS772 Battery Management System](https://nxp.gitbook.io/rddrone-bms772/)
+- [RDDRONE-BMS772 Battery Management System](https://nxp.gitbook.io/rddrone-bms772/)  
+- [D2X Reference Design](https://nxp.gitbook.io/d2x/)  
+- [NXP Cup](https://nxp.gitbook.io/nxp-cup-hardware-reference-alamak/)
 {% endhint %}
 
 ## What is this program? <a id="what-is-this-program"></a>

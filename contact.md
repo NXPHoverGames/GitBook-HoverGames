@@ -10,6 +10,10 @@ description: >-
 
 The main website for HoverGames is [HoverGames.com](https://www.HoverGames.com).
 
+## NXP Mobile Robotics Community
+
+The [NXP Mobile Robotics Community](https://community.nxp.com/community/mobilerobotics) has a space dedicated to [HoverGames](https://community.nxp.com/community/mobilerobotics/hovergames-drone-challenge). Here you can ask your questions about the drone kit and add-on boards. There is also a subspace for the [NavQ Companion Computer](https://community.nxp.com/community/mobilerobotics/hovergames-drone-challenge/navq-8mmnavq-discussion). For questions about PX4 Autopilot and other Dronecode software you can use the platforms mentioned below.
+
 ## PX4 Slack and Discuss forum
 
 HoverGames has its own Slack channel \([\#hovergames](https://px4.slack.com/app_redirect?channel=hovergames)\) on the [PX4 Slack](https://px4.slack.com/). To gain access to the PX4 Slack, you have to register through [this form](https://slack.px4.io/) first. There are many channels on the PX4 Slack related to different Dronecode projects and different features of the PX4 software. It is recommended to have a look at the list of available channels. 
