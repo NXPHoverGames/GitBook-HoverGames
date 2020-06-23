@@ -6,6 +6,12 @@ description: Guide to installing and configuring Visual Studio Code for HoverGam
 
 ## Installing Visual Studio Code
 
+{% hint style="danger" %}
+This page is outdated. There will be issues when you follow the instructions below. We currently do not support Visual Studio Code until we are able to create a fully functional setup again. 
+
+Better instructions are available in the [PX4 Developer Guide](https://dev.px4.io/master/en/setup/vscode.html).
+{% endhint %}
+
 Visual Studio Code is available for free for Windows, MacOS and Linux. In this guide, we will install the Linux version inside our Ubuntu virtual machine. Please download the appropriate package from the website. For Ubuntu, we need the `.deb` file.
 
 {% embed url="https://code.visualstudio.com/" %}
