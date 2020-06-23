@@ -5,7 +5,7 @@ description: >-
   management unit (also referred to as NXPhlite).
 ---
 
-# The HoverGames
+# HoverGames
 
 {% hint style="success" %}
 See also the [NXP discussion forum](https://community.nxp.com/community/mobilerobotics/hovergames-drone-challenge) for questions and answers

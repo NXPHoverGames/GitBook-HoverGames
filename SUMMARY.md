@@ -1,6 +1,6 @@
 # Table of contents
 
-* [The HoverGames](README.md)
+* [HoverGames](README.md)
 * [News & Updates](news.md)
 * [Disclaimer](disclaimer.md)
 * [Safety](safety.md)
