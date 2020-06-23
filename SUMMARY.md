@@ -51,7 +51,6 @@
   * [Installing Ubuntu](devguide/tools/installing-ubuntu.md)
   * [PX4 toolchain](devguide/tools/toolchain-installation.md)
   * [MCUXpresso](devguide/tools/mcuxpresso.md)
-  * [Visual Studio Code](devguide/tools/visual-studio-code.md)
 * [Building the bootloader](devguide/building-bootloader.md)
 * [Building PX4 firmware](devguide/building-firmware.md)
 * [Program software using debugger](devguide/program-software-using-debugger.md)
@@ -109,8 +108,6 @@
 
 ## Archive
 
-* [Add-on hardware](archive/add-ons/README.md)
-  * [TechNexion PICO-PI PICO-IMX8M companion computer](archive/add-ons/technexion-picopi-pico-imx8m-ubuntu.md)
 * [Replaced drone kit items](archive/replaced-drone-kit-items.md)
 * [S500 drone frame assembly](archive/s500-drone-frame/README.md)
   * [Mounting the motors](archive/s500-drone-frame/mounting-the-motors.md)
@@ -123,4 +120,8 @@
   * [Connecting all FMU wires](archive/s500-drone-frame/connecting-all-fmu-wires.md)
   * [Video guide \(outdated\)](archive/s500-drone-frame/video-guide.md)
 * [Windows drivers](archive/windows-drivers.md)
+* [Development tools](archive/development-tools/README.md)
+  * [Visual Studio Code](archive/development-tools/visual-studio-code.md)
+* [Add-on hardware](archive/add-ons/README.md)
+  * [TechNexion PICO-PI PICO-IMX8M companion computer](archive/add-ons/technexion-picopi-pico-imx8m-ubuntu.md)
 
