@@ -25,6 +25,12 @@ While you do not need it right now, the adapter board also has a 6-pin connector
 
 ![The debug adapter board. Make sure the cables are plugged in as shown.](../.gitbook/assets/20190711_093531.jpg)
 
+## Video
+
+We have created a video walking through the instructions below if you prefer watching a video rather than reading documentation. If you get confused at any time during the video, use the documentation below as a reference!
+
+[https://www.youtube.com/watch?v=O5J-r0CmmB0](https://www.youtube.com/watch?v=O5J-r0CmmB0)
+
 ## Programming the bootloader
 
 RDDRONE-FMUK66 expects a bootloader to be programmed onto the board. We will flash the PX4 bootloader, which can be used from the command line or QGroundcontrol to load new PX4 firmware when powering the board. A precompiled binary of the **bootloader** is available on the [downloads page](../downloads.md#rddrone-fmuk66-px4-bootloader).
