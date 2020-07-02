@@ -29,7 +29,7 @@ While you do not need it right now, the adapter board also has a 6-pin connector
 
 We have created a video walking through the instructions below if you prefer watching a video rather than reading documentation. If you get confused at any time during the video, use the documentation below as a reference!
 
-{% embed url="https://www.youtube.com/watch?v=O5J-r0CmmB0" %}
+
 
 ## Programming the bootloader
 
