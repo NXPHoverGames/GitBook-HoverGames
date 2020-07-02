@@ -90,7 +90,7 @@ More information about using an AppImage is available in the QGroundControl User
 
 {% embed url="https://docs.qgroundcontrol.com/en/getting\_started/download\_and\_install.html\#ubuntu" %}
 
-You are now ready to continue to the next section\(s\), in which we will set up an integrated development environment \(IDE\) to edit, build and debug the PX4 firmware. You can choose to install either [MCUXpresso](mcuxpresso.md) \(recommended\) or [Visual Studio Code](mcuxpresso.md), but you can also install both to see which one you like best.
+You can now continue to the next page. We will [set up the NXP MCUXpresso](mcuxpresso.md) integrated development environment \(IDE\) to edit, build and debug the PX4 firmware.
 
 
 
