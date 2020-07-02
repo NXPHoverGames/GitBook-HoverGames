@@ -99,21 +99,25 @@ We now have a _build_ configuration that allows us to create PX4 firmware builds
 
 Give it a try, the console at the bottom of the IDE window will show the progress of the build. Note that this might take a while if you are building PX4 for the first time! When you make changes to the code after the first build it should only rebuild the changed files.
 
-![](../../.gitbook/assets/hg_mcuxpresso15.png)
+![](../../.gitbook/assets/hg_mcuxpresso13.png)
 
 ## Run configuration
 
-We can now build the PX4 firmware with MCUXpresso. We are now going to also add a _run_ configuration to flash the standard \(optimized\) binary directly to the FMUK66 board with just a USB cable.
-
-{% hint style="info" %}
-Flashing the PX4 firmware without a debugger is only possible [if the bootloader has already been flashed](../../userguide/programming.md) \(with a tool such as JLink Commander\).
+{% hint style="danger" %}
+The remainder of this section is in the process of being updated! It may contain mistakes or steps that are no longer needed. Continue at your own risk.
 {% endhint %}
 
-At the top of the screen, you have a green "Run" icon. Click on the small arrow next to it, and select "Run Configurations...". In the window that opens, select "C/C++ Application" and click the "New" button above it. Name the newly created configuration "HoverGames PX4 Upload \(USB\)", and change the field under "C/C++ Application" to `/usr/bin/make`. 
+We can now build the PX4 firmware with MCUXpresso. We are now going to also add a _run_ configuration to flash the binary directly to the FMUK66 board with **just a USB cable**, without debugger!
+
+{% hint style="info" %}
+Flashing the PX4 firmware without a debugger is only possible [if the bootloader has already been flashed](../../userguide/programming.md) \(with a compatible debugger and a tool such as JLink Commander\).
+{% endhint %}
+
+At the top of the screen, you have a green "Run" icon. Click on the small arrow next to it, and select "Run Configurations...". In the window that opens, select "C/C++ Application" and click the "New" button above it. Name the newly created configuration "PX4 FMUK66 Upload \(USB\)", and change the field under "C/C++ Application" to `/usr/bin/make`. 
 
 Also select "Disable auto build", this will prevent the IDE from automatically building the firmware again when you try to flash your current build to the board. That also means that you always have to use the hammer icon to build the firmware yourself.
 
-![](../../.gitbook/assets/hg_mcuxpresso16.png)
+![](../../.gitbook/assets/hg_mcuxpresso14.png)
 
 ![](../../.gitbook/assets/hg_mcuxpresso17.png)
 
