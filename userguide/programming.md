@@ -29,15 +29,7 @@ While you do not need it right now, the adapter board also has a 6-pin connector
 
 We have created a video walking through the instructions below if you prefer watching a video rather than reading documentation. If you get confused at any time during the video, use the documentation below as a reference!
 
-&lt;iframe src="[https://www.youtube.com/embed/55ViAIU3PTM](https://www.youtube.com/embed/55ViAIU3PTM)" &gt;&lt;/iframe&gt;
-
-
-
-{% embed url="https://www.youtube.com/embed/55ViAIU3PTM" %}
-
 {% embed url="https://youtu.be/55ViAIU3PTM" %}
-
-
 
 ## Programming the bootloader
 
