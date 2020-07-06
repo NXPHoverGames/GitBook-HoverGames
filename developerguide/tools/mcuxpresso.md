@@ -1,80 +1,131 @@
 ---
-description: Guide to installing and configuring MCUXpresso for HoverGames.
+description: >-
+  The MCUXpresso Integrated Development Environment allows developers to edit,
+  compile and debug code for many NXP microcontrollers. For HoverGames it is a
+  useful tool for debugging the PX4 code.
 ---
 
-# Setting up MCUXpresso
+# MCUXpresso
 
 ## Installing MCUXpresso
 
-The first step is to actually download the MCUXpresso IDE. It is available free of charge from the NXP website, but you will need to create a \(free\) NXP account. Have a look at the link below.
+We will install MCUXpresso inside the virtual machine \(or native Linux environment\). This allows us to let MCUXpresso build the PX4 firmware, flash it to the FMUK66 and debug the code while it is running on the board. You can also install MCUXpresso on your host operating system, but we recommend to keep everything in a Linux environment unless you know what you are doing. It will save you a lot of headache.
 
-{% embed url="https://www.nxp.com/support/developer-resources/software-development-tools/mcuxpresso-software-and-tools/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE?tab=Design\_Tools\_Tab" %}
+The MCUXpresso IDE is available free of charge and can be downloaded from the NXP website, but you will need to create a \(free\) NXP account:
 
-{% hint style="danger" %}
-Newer versions of MCUXpresso use GCC 8 by default, while the PX4 toolchain includes GCC 7 and still has [issues when trying to build it with a newer GCC version](https://github.com/PX4/Firmware/issues/11410). The easiest solution is to **download MCUXpresso version 10.3.1**, which uses the right compiler by default.
-{% endhint %}
+{% embed url="https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE" %}
 
-Inside your VM, download the `.deb.bin` file for Linux. Assuming you have the file stored in the `~/Downloads` folder, you can install the program using the following command, which you have to modify to match the exact version you have downloaded:
+Click on the download button and login to your NXP account. The next page will show the current available releases. There is also a tab for previous releases. You should download the current release \(11.1.1 as of June 2020\), click on "MCUXpresso IDE" to continue. You will have to agree with some terms and conditions before you can download the software.
 
-You might be asked to accept an agreement. Wait for the installation to finish. After everything is done, you can find the MCUXpresso application through the launcher. You might have to search for the name, but it should show up.
+Download the `.deb.bin` file for Linux. You can directly download it using the Firefox browser in the virtual machine or you can download it on your host operating system and move it into the [shared folder](installing-ubuntu.md#shared-folders).
+
+![](../../.gitbook/assets/hg_mcuxpresso1.png)
+
+Assuming you have the file stored in the `~/Downloads` folder, you should first enter the command below to allow the package to be executed and installed. You should replace the last part of the filename with the right version number for your download! You can use the auto-complete feature for this by pressing the tab key. Just start typing the command below and press tab when you get to the version number in the file name.
 
 ```bash
-sudo sh ~/Downloads/mcuxpressoide-xx.x.x_xxxx.x86_64.deb.bin
+chmod +x ~/Downloads/mcuxpressoide-xx.x.x_xxxx.x86_64.deb.bin
 ```
+
+Now you can install MCUXpresso by executing the installer package, for which you again have to modify the filename to match the right version:
+
+```bash
+sudo ~/Downloads/mcuxpressoide-xx.x.x_xxxx.x86_64.deb.bin
+```
+
+You might get asked to accept an agreement \(use the arrow keys to select "Yes" and press enter\). Then wait for the installation to finish. After everything is completed, you can find the MCUXpresso application through the launcher. Look for the blue icon with the "X", or search for "MCUXpresso".
+
+![](../../.gitbook/assets/hg_mcuxpresso2.png)
 
 ## Building and installing the Kinetis K66 SDK
 
-Go to the MCUXpresso SDK webpage and press the "Select Development Board" button. You might be asked to login to your NXP account again. The SDK webpage is available here:
+The MCUXpresso IDE by default only contains SDK support for a few microcontrollers. You must install additional SDK packages for most micocontrollers. The Kinetis K66 that is found on the FMUK66 board is not available by default, so we will have to install its SDK package.
+
+Go to the MCUXpresso SDK Builder linked below. If you **click on "Select Development Board"** you will be taken to a page where you can select the Kinetis K66 microcontroller and put together an SDK package. You might need to **login** again to your NXP account.
 
 {% embed url="https://mcuxpresso.nxp.com/en/welcome" %}
 
-You will be redirected to the MCUXpresso SDK Builder. Here you have to select the board or processor for which you want to build the SDK. You can use the "Search by Name" option, just start typing "MK66FN" and select "MK66FN2M0xxx18", which should be the only remaining option. Then, press the green "Build MCUXpresso SDK" button on the right.
+You have to select the processor for which you want to build the SDK. The easiest is to use the search field. Just start typing **"MK66FN"** and select **"MK66FN2M0xxx18"** under processors. Then, **press the green "Build MCUXpresso SDK" button on the right**.
 
-![](../../.gitbook/assets/image%20%28125%29.png)
+![](../../.gitbook/assets/hg_mcuxpresso3.png)
 
-In the next screen, select Linux as the host operating system, and make sure the toolchain is set to MCUXpresso. You can leave the other settings at their default values. Press the "Download SDK" or "Request build" button. You may see a screen showing that the SDK is being build. You now only have to download the SDK archive \(.zip file\). You might have to accept another agreement before the download starts. Download it from inside your VM, or transport it into your VM using the shared folder.
+On the next page, select **Linux as the host operating system**, and make sure the toolchain / IDE selection is set to **"MCUXpresso"** \(or "All toolchains" if you want to use the SDK also with other tools\). You can leave the other settings at their default values, but feel free to include additional features if you want to. 
 
-![](../../.gitbook/assets/image%20%282%29.png)
+**Press the "Download SDK" button** when you are done. You might have to accept another agreement. The download should start immediately after that, but in some cases you might need to click on "Download SDK Archive". Download the SDK directly from your VM, or use the shared folder feature.
 
-Now, start MCUXpresso within your VM. You can find it in the launcher menu. If you open it for the first time, it might ask you where to store its workspaces. You can chose your own directory, or leave the default as is. You can check the box to make sure you are not asked about it again. Once the IDE has started, find the location were you stored the SDK .zip file, and drag the whole file into the area of the IDE screen that says "Installed SDKs". It's usually located at the bottom. It will ask you to confirm that you want to import the SDK. Just press "OK". It might take a few seconds to install.
+![](../../.gitbook/assets/hg_mcuxpresso4.png)
 
-![](../../.gitbook/assets/image%20%2872%29.png)
+Now, start MCUXpresso within your VM. You can find it in Ubuntu's **launcher menu**. MCUXpresso will immediately ask at what location the **workspace** should be saved. You can chose your own directory, or leave the default as is. You can also create additional workspaces if you want.
 
-## Setting up a project for PX4
+You will be greeted by a welcome screen. You can **close the "Welcome" tab** or **press the "IDE" button on the top right** to continue. Once you are in the main view of the IDE, find the location were you stored the Kinetis K66 SDK .zip file, and **drag the archive** into the area of the IDE window that says "Installed SDKs". It's usually located at the bottom. It will ask you to confirm that you want to import the SDK. Just press "OK". It might take a few seconds to install.
 
-Inside MCUXpresso, create a new project by going to "File", "New", and then "Project". A wizard will appear, in which you should select "Makefile Project with Existing Code" under "C/C++". You can use any name, but for clarity, we will call it "HoverGames PX4". You should select `/home/hovergames/src/Firmware` as the existing code location. Make sure both the C and C++ languages are selected. For "Toolchain for Indexer Settings", select "NXP MCU Tools". Click "Finish" to create the project.
+![](../../.gitbook/assets/hg_mcuxpresso5.png)
 
-![](../../.gitbook/assets/image%20%28102%29.png)
+![](../../.gitbook/assets/hg_mcuxpresso6.png)
 
-## Project Properties
+## Create a new project for PX4
 
-Now some project properties have to be edited. Select the project we just created on the left side of the screen, and go to "Project" and then "Properties" at the top of the screen. Go to "MCU Settings" under "C/C++ Build". It might complain about invalid values. It seems to work to switch to another tab and switch back again. On the "MCU Settings" tab, select the MK66FN2M0xxx18.
+Now that MCUXpresso and the Kinetis K66 SDK are installed, we can continue and create a PX4 project. You can create a new project in MCUXpresso by going to **"File", "New", and then "Project"**. A list with different project types will appear, from which you should select **"Makefile Project with Existing Code"** under "C/C++".
 
-![](../../.gitbook/assets/image%20%2893%29.png)
+![](../../.gitbook/assets/hg_mcuxpresso7.png)
 
-Now go to the main "C/C++ Build" tab. The current configuration will be "Debug". Uncheck "Use default build command" and change the build command to just `make`.
+You can use any project name, but for clarity we will call it "HoverGames PX4". You should select `/home/hovergames/src/px4-firmware` as the **existing code location**. This is the folder where we cloned the PX4 firmware code. Make sure that both the C and C++ languages are selected. For "Toolchain for Indexer Settings", select **"NXP MCU Tools"**. Click "Finish" to create the project.
 
-![](../../.gitbook/assets/image%20%28131%29.png)
+![](../../.gitbook/assets/hg_mcuxpresso8.png)
 
-Then switch to the "Behavior" tab. Uncheck "Enable parallel build", because the PX4 build tools already takes care of this. Also, set the "Build \(incremental build\)" target to `nxp_fmuk66-v3_default`. Click "Apply" to apply all changed settings.
+## Project properties
 
-![](../../.gitbook/assets/image%20%28129%29.png)
+Before we continue we should change some project properties. **Select the project** we just created on the left side of the screen, go to **"Project"** in the menu at the top and then select **"Properties"**. 
 
-At the top of the window, you can press the button "Manage Configurations...". Create a new configuration named "Default", make it a copy of "Debug". Select the newly created configuration, and make it active using the "Set Active" button.
+Go to **"MCU Settings"** under "C/C++ Build". An error _might_ pop up, complaining about invalid values. If this happens you can close the error, switch to another tab and switch back again. You should now see the same screen as shown in the image below. On this "MCU Settings" screen, select the **MK66FN2M0xxx18** under the K6x family of MCUs.
 
-![](../../.gitbook/assets/image%20%2873%29.png)
+![](../../.gitbook/assets/hg_mcuxpresso9.png)
 
-In the properties window, make sure "Debug" is still selected as the profile of which you are editing. Now switch to the "Environment" tab under "C/C++ Build". Add a variable named "CFLAGS" with value `O0` \(the capital letter O and a zero\). Make sure you DO NOT select the checkbox to add the variable to all configurations. After you have done this, you can press "Apply and Close", we are done in this window.
+Now go to the main "C/C++ Build" tab. Uncheck "Use default build command" and change the build command to just `make`. The PX4 build scripts will take care of the specifics, we should not supply any additional arguments here.
 
-![](../../.gitbook/assets/image%20%28153%29.png)
+![](../../.gitbook/assets/hg_mcuxpresso10.png)
 
-## Run Configurations
+Then switch to the "Behavior" tab. Uncheck "Enable parallel build", because the PX4 build tools also already takes care of this. Set the "Build \(incremental build\)" target to `nxp_fmuk66-v3_default` and change the "Clean" target to `distclean`. Click "Apply" to apply all changed settings.
 
-At the top of the screen, you have a green "Run" icon. Click on the small arrow next to it, and select "Run Configurations...". In the window that opens, select "C/C++ Application" and click the "New" button above it. Name the newly created configuration "Upload", and change the "C/C++ Application" to `/usr/bin/make`. Also select "Disable auto build".
+![](../../.gitbook/assets/hg_mcuxpresso11.png)
 
-![](../../.gitbook/assets/image%20%28116%29.png)
+You can click "Apply" to apply the changes, but don't close the window yet. The current configuration is named "Debug". Let's give that a more descriptive name. Click on the "Manage Configurations..." button and then choose "Rename..." to change the name. We will call it "PX4 FMUK66 Default". You can later add additional configurations if you want to play around with the build variables or if you want to build PX4 for another board, such as the [NXP UCANS32K146](https://nxp.gitbook.io/ucans32k146/).
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](../../.gitbook/assets/hg_mcuxpresso12.png)
+
+You can press "Apply and Close" to apply the changes and close the window.
+
+We now have a _build_ configuration that allows us to create PX4 firmware builds for the FMUK66 board. You can use the hammer icon to start a build for the selected project. If you add multiple configurations you can switch between the different profiles with the small arrow next to the hammer icon. 
+
+Give it a try, the console at the bottom of the IDE window will show the progress of the build. Note that this might take a while if you are building PX4 for the first time! When you make changes to the code after the first build it should only rebuild the changed files.
+
+![](../../.gitbook/assets/hg_mcuxpresso13.png)
+
+## Run configuration
+
+{% hint style="danger" %}
+The remainder of this section is in the process of being updated! It may contain mistakes or steps that are no longer needed. Continue at your own risk.
+{% endhint %}
+
+We can now build the PX4 firmware with MCUXpresso. We are now going to also add a _run_ configuration to flash the binary directly to the FMUK66 board with **just a USB cable**, without debugger!
+
+{% hint style="info" %}
+Flashing the PX4 firmware without a debugger is only possible [if the bootloader has already been flashed](../../userguide/programming.md) \(with a compatible debugger and a tool such as JLink Commander\).
+{% endhint %}
+
+At the top of the screen, you have a green "Run" icon. Click on the small arrow next to it, and select "Run Configurations...". In the window that opens, select "C/C++ Application" and click the "New" button above it. Name the newly created configuration "PX4 FMUK66 Upload \(USB\)", and change the field under "C/C++ Application" to `/usr/bin/make`. 
+
+Also select "Disable auto build", this will prevent the IDE from automatically building the firmware again when you try to flash your current build to the board. That also means that you always have to use the hammer icon to build the firmware yourself.
+
+![](../../.gitbook/assets/hg_mcuxpresso14.png)
+
+![](../../.gitbook/assets/hg_mcuxpresso17.png)
+
+Click on the "Search Project..." button under "C/C++ Applicatoin:" to look for a binary file within the project. If you have build the firmware already it should list "nxp\_fmuk66-v3\_default.elf". If it does not, save the configuration that you are working on and first run a build.
+
+![](../../.gitbook/assets/hg_mcuxpresso18.png)
+
+
 
 Also go into the "Arguments" tab and add `nxp_fmuk66-v3_default upload` into "Program arguments".
 

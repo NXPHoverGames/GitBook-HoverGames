@@ -33,7 +33,7 @@ Many HoverGames participants will be using a [virtual machine](tools/virtual-mac
 Be aware that most simulators are resource heavy and may not run very will in a virtual machine, especially if your computer is not the most powerful. If possible, it is always better to install the simulator in a native Linux setup. 
 
 {% hint style="info" %}
-Decent results have been achieved with Gazebo on a virtual machine running Ubuntu. The virtual machine was assigned 2 processor cores of a modern Intel Core i7 and 8 out of 16 GB of RAM.
+Decent results have been achieved with Gazebo on a virtual machine running Ubuntu. The virtual machine was assigned 3 processor cores of a modern quad-core Intel Core i7 with hyperthreading, and 8 out of 16 GB RAM.
 {% endhint %}
 
 ## Setup instructions and further reading

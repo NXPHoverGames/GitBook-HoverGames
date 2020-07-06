@@ -43,22 +43,22 @@
   * [Specialty tools](userguide/replacement-parts-alternatives-and-upgrades/specialty-tools.md)
   * [Upgrades and add-on components](userguide/replacement-parts-alternatives-and-upgrades/upgrades-and-add-on-components.md)
 
-## HG Drone Developer Guide <a id="devguide"></a>
+## HG Drone Developer Guide <a id="developerguide"></a>
 
-* [Getting started](devguide/getting-started.md)
-* [Development tools](devguide/tools/README.md)
-  * [Virtual machine](devguide/tools/virtual-machine.md)
-  * [Installing Ubuntu](devguide/tools/installing-ubuntu.md)
-  * [PX4 toolchain](devguide/tools/toolchain-installation.md)
-  * [MCUXpresso](devguide/tools/mcuxpresso.md)
-* [Building the bootloader](devguide/building-bootloader.md)
-* [Building PX4 firmware](devguide/building-firmware.md)
-* [Program software using debugger](devguide/program-software-using-debugger.md)
-* [PX4 example code](devguide/px4-example-code.md)
-* [Companion computers](devguide/companion-computers.md)
-* [PX4 simulation](devguide/simulation.md)
-* [PX4 system console](devguide/system-console/README.md)
-  * [Useful console commands](devguide/system-console/useful-console-commands.md)
+* [Getting started](developerguide/getting-started.md)
+* [Development tools](developerguide/tools/README.md)
+  * [Virtual machine](developerguide/tools/virtual-machine.md)
+  * [Installing Ubuntu](developerguide/tools/installing-ubuntu.md)
+  * [PX4 toolchain](developerguide/tools/toolchain-installation.md)
+  * [MCUXpresso](developerguide/tools/mcuxpresso.md)
+* [Building the bootloader](developerguide/building-bootloader.md)
+* [Building PX4 firmware](developerguide/building-firmware.md)
+* [Program software using debugger](developerguide/program-software-using-debugger.md)
+* [PX4 example code](developerguide/px4-example-code.md)
+* [Companion computers](developerguide/companion-computers.md)
+* [PX4 simulation](developerguide/simulation.md)
+* [PX4 system console](developerguide/system-console/README.md)
+  * [Useful console commands](developerguide/system-console/useful-console-commands.md)
 
 ## FMUK66 Hardware Reference <a id="rddrone-fmuk66"></a>
 

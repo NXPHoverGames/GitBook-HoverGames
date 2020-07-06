@@ -12,7 +12,7 @@ It is not \(always\) required to build the bootloader youself. We provide a pre-
 
 ## Building the PX4 bootloader from source
 
-To build the bootloader, you will need the [PX4 development toolchain](tools/px4-toolchain.md), which you should have setup in your development virtual machine. When the toolchain has been installed, you can run the following commands in the command line tool available on your operating system or installed through the development toolchain.
+To build the bootloader, you will need the [PX4 development toolchain](tools/toolchain-installation.md), which you should have setup in your development virtual machine. When the toolchain has been installed, you can run the following commands in the command line tool available on your operating system or installed through the development toolchain.
 
 * First, clone the PX4 bootloader repository: `git clone https://github.com/PX4/Bootloader`
 * Then, change your working directory to the just cloned repository: `cd Bootloader/`

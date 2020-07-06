@@ -24,7 +24,7 @@ QGroundControl will ask you to plug in your FMU using a USB cable. It might also
 
 It is also possible to build the firmware yourself \(or [download binary files from the PX4 Continuous Integration server](http://ci.px4.io/job/PX4_misc/job/Firmware-compile/job/master/lastSuccessfulBuild/artifact/build/nxp_fmuk66-v3_default/)\), and upload it through the custom firmware option. Instructions for building your own firmware binaries from source are available in the developer guide:
 
-{% page-ref page="../../devguide/building-firmware.md" %}
+{% page-ref page="../../developerguide/building-firmware.md" %}
 
 ## Updating the telemetry radio firmware
 
