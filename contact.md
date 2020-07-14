@@ -22,6 +22,12 @@ To join [\#hovergames](https://px4.slack.com/app_redirect?channel=hovergames) yo
 
 Dronecode also has a [Discuss forum](http://discuss.px4.io/) for discussing PX4, QGroundControl, MAVLink, MAVSDK and other Dronecode projects. General questions regarding drones and PX4 can also be asked there.
 
+## Hackster.io Discussion board
+
+General questions can also be asked on the [discussion board for the second HoverGames challenge](https://www.hackster.io/contests/hovergames2/discussion#challengeNav). We try to keep an eye on the new posts and ongoing discussions, but more in-depth or technical questions are better asked on the NXP Mobile Robotics community or on PX4 Slack \(or the PX4 Discuss forum\).
+
+The discussion board for the first challenge is also still available and can be found [here](https://www.hackster.io/contests/hovergames/discussion#challengeNav).
+
 ## Contact the HoverGames team
 
 Please use this GitBook as your guide. If you would like to contribute, or have questions that cannot be answered here, you can contact the NXP HoverGames and RDDRONE-FMUK66 team by e-mail: [HoverGames@nxp.com](mailto:hovergames@nxp.com)

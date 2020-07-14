@@ -9,7 +9,7 @@ description: An overview of the latest news and updates.
 Below you will find a list of recent updates and important news about the HoverGames and this GitBook, but there are also some other platforms that you should keep a close eye on:
 
 * [HoverGames.com](https://www.hovergames.com/)
-* [HoverGames on hackster.io](https://www.hackster.io/contests/hovergames)
+* [HoverGames on hackster.io](https://www.hackster.io/contests/hovergames2)
 * [NXP Mobile Robotics Community](https://community.nxp.com/community/mobilerobotics)
 * [\#HoverGames on PX4 Slack](contact.md#px4-slack-and-discuss-forum)
 * [Dronecode.org](https://www.dronecode.org/)
