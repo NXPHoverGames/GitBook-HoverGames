@@ -9,7 +9,7 @@ description: An overview of the latest news and updates.
 Below you will find a list of recent updates and important news about the HoverGames and this GitBook, but there are also some other platforms that you should keep a close eye on:
 
 * [HoverGames.com](https://www.hovergames.com/)
-* [HoverGames on hackster.io](https://www.hackster.io/contests/hovergames2)
+* [HoverGames on Hackster.io](https://www.hackster.io/contests/hovergames2)
 * [NXP Mobile Robotics Community](https://community.nxp.com/community/mobilerobotics)
 * [\#HoverGames on PX4 Slack](contact.md#px4-slack-and-discuss-forum)
 * [Dronecode.org](https://www.dronecode.org/)
@@ -23,7 +23,7 @@ Below you will find a list of recent updates and important news about the HoverG
 
 #### June 18, 2020
 
-* HoverGames Challenge 2 has been [announced](https://media.nxp.com/news-releases/news-release-details/nxp-announces-hovergames-challenge-2-help-drones-help-others)! More information is available on [HoverGames.com](https://www.hovergames.com/) and [hackster.io](https://www.hackster.io/contests/hovergames2). The top 100 project proposals on hackster.io will receive a $400 discount on the complete drone kit with the new [NavQ companion computer](https://nxp.gitbook.io/8mmnavq/).
+* HoverGames Challenge 2 has been [announced](https://media.nxp.com/news-releases/news-release-details/nxp-announces-hovergames-challenge-2-help-drones-help-others)! More information is available on [HoverGames.com](https://www.hovergames.com/) and [Hackster.io](https://www.hackster.io/contests/hovergames2). The top 100 project proposals on Hackster.io will receive a $400 discount on the complete drone kit with the new [NavQ companion computer](https://nxp.gitbook.io/8mmnavq/).
 
 #### May 28, 2020
 
