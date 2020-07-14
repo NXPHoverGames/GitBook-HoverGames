@@ -16,6 +16,11 @@ Below you will find a list of recent updates and important news about the HoverG
 
 ## Recent updates
 
+#### July 14, 2020
+
+* The [development tools](developerguide/tools/) section in the developer guide has been updated. Because of changes in the [PX4 toolchain](developerguide/tools/toolchain-installation.md) and [MCUXpresso](developerguide/tools/mcuxpresso.md) some information and screenshots were outdated. 
+* Note that the preconfigured [virtual machine image](downloads.md#preconfigured-virtual-machine-image-with-development-tools) has _not yet_ been updated, but it can still be used without any issue in its current state. However, it should now also be a little bit more straightforward to install your own VM from scratch!
+
 #### June 18, 2020
 
 * HoverGames Challenge 2 has been [announced](https://media.nxp.com/news-releases/news-release-details/nxp-announces-hovergames-challenge-2-help-drones-help-others)! More information is available on [HoverGames.com](https://www.hovergames.com/) and [hackster.io](https://www.hackster.io/contests/hovergames2). The top 100 project proposals on hackster.io will receive a $400 discount on the complete drone kit with the new [NavQ companion computer](https://nxp.gitbook.io/8mmnavq/).
