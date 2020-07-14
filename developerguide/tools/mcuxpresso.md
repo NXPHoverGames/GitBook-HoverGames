@@ -103,83 +103,94 @@ Give it a try, the console at the bottom of the IDE window will show the progres
 
 ## Run configuration
 
-{% hint style="danger" %}
-The remainder of this section is in the process of being updated! It may contain mistakes or steps that are no longer needed. Continue at your own risk.
-{% endhint %}
-
 We can now build the PX4 firmware with MCUXpresso. We are now going to also add a _run_ configuration to flash the binary directly to the FMUK66 board with **just a USB cable**, without debugger!
 
 {% hint style="info" %}
 Flashing the PX4 firmware without a debugger is only possible [if the bootloader has already been flashed](../../userguide/programming.md) \(with a compatible debugger and a tool such as JLink Commander\).
 {% endhint %}
 
-At the top of the screen, you have a green "Run" icon. Click on the small arrow next to it, and select "Run Configurations...". In the window that opens, select "C/C++ Application" and click the "New" button above it. Name the newly created configuration "PX4 FMUK66 Upload \(USB\)", and change the field under "C/C++ Application" to `/usr/bin/make`. 
-
-Also select "Disable auto build", this will prevent the IDE from automatically building the firmware again when you try to flash your current build to the board. That also means that you always have to use the hammer icon to build the firmware yourself.
+At the top of the screen, you have a green "Run" icon. Click on the small arrow next to it, and select "Run Configurations...". In the window that opens, select "C/C++ Application" and click the "New" button above it. Name the newly created configuration "PX4 FMUK66 Upload \(USB\)" to remind you that this will flash the firmware using only USB. Change the field under "C/C++ Application" to `/usr/bin/make`. 
 
 ![](../../.gitbook/assets/hg_mcuxpresso14.png)
 
-![](../../.gitbook/assets/hg_mcuxpresso17.png)
-
-Click on the "Search Project..." button under "C/C++ Applicatoin:" to look for a binary file within the project. If you have build the firmware already it should list "nxp\_fmuk66-v3\_default.elf". If it does not, save the configuration that you are working on and first run a build.
-
-![](../../.gitbook/assets/hg_mcuxpresso18.png)
-
-
+![](../../.gitbook/assets/hg_mcuxpresso15.png)
 
 Also go into the "Arguments" tab and add `nxp_fmuk66-v3_default upload` into "Program arguments".
 
-![](../../.gitbook/assets/image%20%2877%29.png)
+![](../../.gitbook/assets/hg_mcuxpresso16.png)
 
-Finally, go into the "Common" tab. Tick the checkbox in front of "Run" under "DIsplay in favorites menu". Press apply and close the window.
+Finally, go into the "Common" tab. Tick the checkbox in front of "Run" under "Display in favorites menu". Press apply and close the window. You can now upload firmware binaries to the FMUK66 with just the USB cable by clicking on the green "run" icon in the toolbar.
 
-![](../../.gitbook/assets/image%20%2843%29.png)
+![](../../.gitbook/assets/hg_mcuxpresso17.png)
 
 ## Debug Configurations
 
-Make sure you still have the right project selected on the left. Also make sure your J-Link debugger is plugged in and correctly passed through to your VM \([verify that you added the J-Link debugger in the USB tab of the VM settings](virtual-machine.md#virtual-machine-settings)\). Now in the bottom left of your screen, in the quickstart panel, press the blue bug icon with the label "Debug". 
+The next step is to also add a _debug_ configuration. This requires the J-Link EDU Mini debugger that is included with the drone kit. Make sure the debugger is plugged in to your computer and passed through to the VM \([verify that you added the J-Link debugger in the USB tab of the VM settings](virtual-machine.md#virtual-machine-settings)\). 
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+Now in the bottom left of your screen, in the quickstart panel, press the blue bug icon with the label "Debug". Make sure that you have the right project \("HoverGames PX4"\) selected in the project browser on the top left!
+
+![](../../.gitbook/assets/hg_mcuxpresso18.png)
 
 A new window opens and should show the attached J-Link debugger. Select it and press "OK".
 
-![](../../.gitbook/assets/image%20%2862%29.png)
+![](../../.gitbook/assets/hg_mcuxpresso19.png)
 
-In the next screen, you should make the "Name" column a bit wider and select "nxp\_fmuk66-v3\_default.elf". Then, press "OK". It might start building the code and start a debug session. Wait for it to finish \(there is an indicator at the bottom\), and then press the button in the top bar with the two red squares, to stop all debugging sessions. It might also give an error and stop by itself.
+In the next screen, you should make the "Name" column a bit wider and select "nxp\_fmuk66-v3\_default.elf". If this file is not being shown, you should cancel and first build the software \(you can click on the [hammer icon as mentioned previously](mcuxpresso.md#project-properties), or build "manually" [in the terminal](../building-firmware.md)\).
 
-![](../../.gitbook/assets/image%20%2871%29.png)
+When you have the .elf file selected, press "OK". It might start building the code and start a debug session. Wait for it to finish \(there is an indicator at the bottom\). Then press the "Terminate All Debug sessions" button in the top bar \(the red square next to the resume and pause buttons\) to stop all debugging sessions.
 
-We first need to change the configuration. Click on the small arrow between the green debug icon and the green run button. Go to "Debug Configurations...".
+![](../../.gitbook/assets/hg_mcuxpresso20.png)
 
-![](../../.gitbook/assets/image%20%28154%29.png)
+We should make sure that the generated configuration is correct and make some small changes. Click on the small arrow between the green debug icon and the green run button. Go to "Debug Configurations...".
 
-Under "GDB SEGGER Interface Debugging", select the generated JLink configuration. Rename it to "HoverGames PX4 JLink Debug". In this same screen, make sure "nxp\_fmuk66-v3\_default.elf" is selected in the field under "C/C++ Application". Then, under "Build Configuration", select "Debug" from the dropdown menu.
+![](../../.gitbook/assets/hg_mcuxpresso21.png)
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+Under "GDB SEGGER Interface Debugging", select the generated JLink configuration. It is probably called something like "HoverGames PX4 JLink PX4 FMUK66 Default". Make sure "nxp\_fmuk66-v3\_default.elf" is selected in the field under "C/C++ Application".
 
-Switch to the "Common" tab, and tick the checkbox in front of "Debug" under "Display in favorites menu". Press "Apply" and close the window.
+![](../../.gitbook/assets/hg_mcuxpresso22.png)
 
-![](../../.gitbook/assets/image%20%2857%29.png)
+In the "Startup" tab, disable the "Set breakpoint at" option. You can set your own breakpoints anywhere you want, we just don't need this default one.
 
-## Upload firmware to the FMUK66
+![](../../.gitbook/assets/hg_mcuxpresso23.png)
 
-If you want to do a clean build, press the clean button on the right side first. Then, click the small arrow next to the hammer button and select "Default" to build fully optimized firmware for normal use. It will build the software, the progress will be shown in the console at the bottom of the screen.
+Finally, switch to the "Common" tab, and tick the checkbox in front of "Debug" under "Display in favorites menu". Press "Apply" and close the window. You can now start a debug session with the debug icon!
 
-## Upload non-optimized firmware and start debugging session
+![](../../.gitbook/assets/hg_mcuxpresso24.png)
 
-You can start debugging by clicking the green bug icon, or click on the small arrow to the right of it and select the "HoverGames PX4 JLink Debug" configuration.
+## Upload PX4 firmware to FMUK66 using USB
 
-![](../../.gitbook/assets/image%20%28144%29.png)
+If you want to do a clean build, press the clean button on the right side first. Then, click the hammer button to build to build the PX4 firmware for the FMUK66. You can check that the build configuration is set to "PX4 FMUK66 Default" by clicking on the dropdown menu next to the hammer icon. After you start the build process, the progress will be shown in the console at the bottom of the screen.
 
-You can stop all debug sessions with the button with the two red squares.
+You can upload the firmware with the green "run" icon \(not to be confused with the "resume" icon that you can use during debugging\). You can again check that you have the right run configuration selected by clicking on the dropdown menu next to the run icon. Keep in mind that the FMUK66 needs to be connected via USB for this to work!
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+{% hint style="info" %}
+If this does not work, make sure you have the FMUK66 plugged in to your computer and that there are two FMUK66 devices "passed through" to the virtual machine. One for the bootloader, and one for "normal operation". 
 
-Further documentation and videos are available on the NXP website.
+Also make sure that the board actually has a [bootloader installed](../../userguide/programming.md#programming-the-bootloader).
+{% endhint %}
 
-{% embed url="https://www.nxp.com/support/developer-resources/software-development-tools/mcuxpresso-software-and-tools/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE?tab=Documentation\_Tab" %}
+## Start a debugging session
 
-{% embed url="https://www.nxp.com/support/developer-resources/software-development-tools/mcuxpresso-software-and-tools/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE?tab=Design\_Support\_Tab" %}
+You can start debugging by clicking the green debug icon, or open the dropdown menu next to it and select the "HoverGames PX4 JLink PX4 FMUK66 Default" configuration. You might get a popup about switching to the debug perspective, which will rearrange some panels within the MCUXpresso window. The debug perspective provides a better overview of the different debug tools. After debugging you can change back to the default view through the "Window" menu at the top.
+
+![](../../.gitbook/assets/hg_mcuxpresso25.png)
+
+You can terminate the debug session by clicking on the button with the red square.
+
+![](../../.gitbook/assets/hg_mcuxpresso26.png)
+
+## Learn more about MCUXpresso
+
+Further [documentation](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE?&tab=Documentation_Tab) and [videos](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE?tab=Design_Support_Tab) about MCUXpresso are available on the NXP website. You will probably have to login to access some files and videos. You can [create an account for free](https://www.nxp.com/webapp-signup/register).
+
+The "Advanced Debugging with MCUXpresso IDE" series provides a great introduction to the debugging tools in MCUXpresso. Most of the tools shown in these videos can be directly applied to debugging an FMUK66 board running PX4 Autopilot.
+
+**Advanced Debugging with MCUXpresso IDE**
+
+* [Part 1: Building Debugging and Direct Flashing](https://www.nxp.com/design/training/advanced-debugging-with-mcuxpresso-ide-part-1-building-debugging-and-direct-flashing:TIP-ADVANCED-DEBUG-MCUXPRESSO-IDE-1)
+* [Part 2: Accessing Data and Peripherals](https://www.nxp.com/design/training/advanced-debugging-with-mcuxpresso-ide-part-2-accessing-data-and-peripherals:TIP-ADVANCED-DEBUG-MCUXPRESSO-IDE-2)
+* [Part 3: Code & Data Breakpoints](https://www.nxp.com/design/training/advanced-debugging-with-mcuxpresso-ide-part-3-code-data-breakpoints:TIP-ADVANCED-DEBUG-MCUXPRESSO-IDE-3)
+* [Additional ](https://www.nxp.com/design/training/advanced-debugging-with-mcuxpresso-ide-part-4-instruction-trace:TIP-ADVANCED-DEBUG-MCUXPRESSO-IDE-4)[videos](https://www.nxp.com/design/training/advanced-debugging-with-mcuxpresso-ide-part-5-freertos-task-aware-debug:TIP-ADVANCED-DEBUG-MCUXPRESSO-IDE-5) are [available](https://www.nxp.com/design/training/advanced-debugging-with-mcuxpresso-ide-part-6-swo-trace:TIP-ADVANCED-DEBUG-MCUXPRESSO-IDE-6) in this series, but are outside the scope of the HoverGames.
 
 
 
