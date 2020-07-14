@@ -6,7 +6,7 @@ description: An overview of useful software packages.
 
 ## Preconfigured virtual machine image with development tools
 
-* [Download preconfigured virtual machine image](https://s3-us-west-2.amazonaws.com/hovergames/Hovergames-VM-2019-04-08.ova)
+* [Download preconfigured virtual machine image](https://s3-us-west-2.amazonaws.com/hovergames/Hovergames-VM-2019-04-08.ova) \(courtesy of Dronecode\)
 * [Download Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
 A preconfigured Ubuntu Linux virtual machine image for [Oracle VM VirtualBox](https://www.virtualbox.org/) is available for download courtesy Dronecode. The image includes the tools for editing, building and debugging software for the RDDRONE-FMUK66 and other HoverGames hardware. 
