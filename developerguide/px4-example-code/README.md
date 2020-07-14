@@ -6,17 +6,29 @@ description: >-
 
 # PX4 example code
 
-## HoverGames starter examples
+## PX4 HoverGames starter examples
 
-Some simple examples were created by the HoverGames team. They are available on our NXP HoverGames GitHub in the Tutorials repository. You can place these examples in the `src/examples` folder of the PX4 firmware and edit the `boards/nxp/fmuk66-v3/default.cmake` file [to include these examples in the build process](https://dev.px4.io/master/en/apps/hello_sky.html#build-the-applicationfirmware). 
+Some simple examples have been created by the HoverGames team. They are available for download on our _NXP HoverGames GitHub_ in the Tutorials repository. 
+
+You can place these examples in the `src/examples` folder of the PX4 firmware and edit the file `boards/nxp/fmuk66-v3/default.cmake` [to include these examples in the build process](https://dev.px4.io/master/en/apps/hello_sky.html#build-the-applicationfirmware). 
 
 {% embed url="https://github.com/NXPHoverGames/Tutorials" %}
+
+These HoverGames PX4 starter examples are complimented with step by step tutorials on the following pages:
+
+* [PX4 Example Lab 1 \(uORB Subscribe\)](hg-px4-example-lab-1.md)
+* [PX4 Example Lab 2 \(uORB Publish\)](hg-px4-example-lab-2.md)
+* [PX4 Example Lab 3 \(Building Code\)](hg-px4-example-lab-3.md)
+* [PX4 Example Lab 4 \(Running code\)](hg-px4-example-lab-4.md)
+* [PX4 Example Lab 5 \(Build your own PX4 app\)](hg-px4-example-lab-5.md)
 
 ## PX4 starter examples
 
 The PX4 firmware already includes a few example applications, some of which are similar to the examples created for HoverGames. They can be found under the `src/examples` folder and should be included by default on most builds. 
 
 {% embed url="https://github.com/PX4/Firmware/tree/master/src/examples" %}
+
+#### PX4 Developer Guide
 
 The PX4 Developer Guide also includes a "getting started" page for writing your first PX4 module. This is also based on some of these examples. It explains some of the basics of creating a new module, building your new code and interacting with it from the console. It also gives an introduction to using uORB, the middleware layer that allows you to communicate with other modules.
 
