@@ -6,7 +6,7 @@ description: An overview of useful software packages.
 
 ## Preconfigured virtual machine image with development tools
 
-* [Download preconfigured virtual machine image](https://s3-us-west-2.amazonaws.com/hovergames/Hovergames-VM-2019-04-08.ova) \(courtesy of Dronecode\)
+* [Download preconfigured virtual machine image](https://s3-us-west-2.amazonaws.com/hovergames/Hovergames-VM-2019-04-08.ova) \(Courtesy of Dronecode\)
 * [Download Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
 A preconfigured Ubuntu Linux virtual machine image for [Oracle VM VirtualBox](https://www.virtualbox.org/) is available for download courtesy Dronecode. The image includes the tools for editing, building and debugging software for the RDDRONE-FMUK66 and other HoverGames hardware. 
@@ -25,7 +25,7 @@ While the basic VirtualBox software is available free of charge for all users, t
 
 ## PX4 Autopilot builds for RDDRONE-FMUK66
 
-\(Note: NXP does not provide precompiled code. These binaries are courtesy of PX4.io\)
+\(Note: NXP does not provide precompiled code. Binaries courtesy of PX4.io\)
 
 * [Download nxp\_fmuk66-v3\_default.px4](http://ci.px4.io/job/PX4_misc/job/Firmware-compile/job/stable/lastSuccessfulBuild/artifact/build/nxp_fmuk66-v3_default/nxp_fmuk66-v3_default.px4) \(**stable** build, **recommended**, for use with **QGroundControl**\)
 * [Download nxp\_fmuk66-v3.bin](http://ci.px4.io/job/PX4_misc/job/Firmware-compile/job/stable/lastSuccessfulBuild/artifact/build/nxp_fmuk66-v3_default/nxp_fmuk66-v3.bin) \(**stable** build, **recommended**, for use with **J-Link Commander**\)
@@ -50,7 +50,7 @@ Guides are available for [updating firmware](userguide/qgroundcontrol/firmware.m
 
 ## RDDRONE-FMUK66 PX4 bootloader
 
-\(Note: NXP does not provide precompiled code. This binary is courtesy of PX4.io\)
+\(Note: NXP does not provide precompiled code. Binary courtesy of PX4.io\)
 
 * [Download fmuk66v3\_bl.bin](http://ci.px4.io/job/PX4/job/Bootloader/job/master/lastStableBuild/artifact/build/fmuk66v3_bl/fmuk66v3_bl.bin)
 
