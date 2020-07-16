@@ -36,7 +36,7 @@ The PX4 Developer Guide also includes a "getting started" page for writing your 
 
 It is strongly recommended that you start with these examples and then slowly start exploring other parts of the software. The [PX4 Developer Guide](https://dev.px4.io/master/en/index.html) is a good place to get information and you can always ask your questions on the [PX4 Discuss or Slack](../../contact.md#px4-slack-and-discuss-forum).
 
-## Example code for other components
+## Example code for add-on hardware
 
-Example software for other components used in the HoverGames is available on their own pages. You can find them by scrolling down in the menu on the left. They are listed under "complimentary components". 
+Example software for add-on components used in the HoverGames is available on their own pages. You can find them by scrolling down in the menu on the left. They are listed under "Add-On Hardware". 
 
