@@ -19,14 +19,14 @@ The 2 pin buzzer connector is **not found on newer versions** of the RDDRONE-FMU
 
 ## Schematic
 
-![](../../.gitbook/assets/buzzer%20%281%29.PNG)
+![](../../.gitbook/assets/buzzer%20%281%29.png)
 
 ## Building the buzzer
 
 * This is a piezo buzzer attached to a two pin JST-GH type connector.
 * Polarity is not critical.
 
-![](../../.gitbook/assets/cab-nxphlite-buz-jstgh-v2.png)
+![](../../.gitbook/assets/CAB-NXPhlite-BUZ-JSTGH%20v2.png)
 
 The buzzer cable looks like the image above when completed.
 
@@ -44,5 +44,5 @@ It can be made quickly:
 
 ## Assembly drawing
 
-![](../../.gitbook/assets/cab-nxphlite-buz-jstgh-drawing-v3.png)
+![](../../.gitbook/assets/CAB-NXPhlite-BUZ-JSTGH-Drawing-v3.png)
 

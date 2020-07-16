@@ -19,5 +19,5 @@ The FMU has a [TJA110x](https://www.nxp.com/products/analog/interfaces/in-vehicl
 Rev. B \(and older boards\) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![](../../.gitbook/assets/ethernet%20%281%29.PNG)
+![](../../.gitbook/assets/ethernet%20%281%29.png)
 

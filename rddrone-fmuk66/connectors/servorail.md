@@ -10,7 +10,7 @@ The FMU has six PWM outputs for controlling motors or servos. Please refer to th
 
 The servorail also has a BEC input for powering the 5V rail, which is split from the internal 5V of the FMU and thus not powered when there is no BEC connected. This is done intentionally to isolate this as a source of electrical noise coming into the FMU. Some ESCs or servos require power from the servorail, but the default ESCs included in the HoverGames kit don't need this. They are powered directly from the battery, so it is not required to connect a BEC.
 
-![](../../.gitbook/assets/pwm_ports.PNG)
+![](../../.gitbook/assets/PWM_ports.PNG)
 
 ## Servo pinout
 

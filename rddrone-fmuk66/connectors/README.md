@@ -20,7 +20,7 @@ RDDRONE-FMUK66 Rev. C uses the new 10 pin connector for the Holybro GPS module. 
 
 ![Port locations on the RDDRONE-FMUK66 Rev. C. ](../../.gitbook/assets/image%20%28159%29.png)
 
-![Servorail on the bottom of the FMU. It has a BEC input and PWM outputs.](../../.gitbook/assets/pwm_ports.PNG)
+![Servorail on the bottom of the FMU. It has a BEC input and PWM outputs.](../../.gitbook/assets/PWM_ports.PNG)
 
 ## Connector pinout
 

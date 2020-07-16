@@ -30,19 +30,19 @@ The first prototype version V01 / Rev. A of the DCD-LZ-ADAPT needs small rework 
 * The FTDI cable supplies 5V on VCC, and this causes the J-Link debugger to think the board is in reset.
 * VCC from the processor needs to appear on pin 1 of the SWD header.
 
-![](../.gitbook/assets/dcd-lz-adapt_rework.png)
+![](../.gitbook/assets/DCD-LZ-ADAPT_Rework.png)
 
 ## NXPhlite early boards - Oscillator installed upside down
 
 The first build of boards had the oscillator Y1 installed upside down. The markings on this part are a little challenging based on the datasheet and the actual visibility on the part. The images below should help clarify how it is to be installed.
 
-![](../.gitbook/assets/oscillator-y1-wrong.png)
+![](../.gitbook/assets/Oscillator%20Y1%20wrong.png)
 
-![](../.gitbook/assets/oscillatory1_correct.png)
+![](../.gitbook/assets/OscillatorY1_correct.png)
 
 ### Oscillator schematic
 
-![](../.gitbook/assets/oscillator_schematic.png)
+![](../.gitbook/assets/Oscillator_schematic.png)
 
 
 

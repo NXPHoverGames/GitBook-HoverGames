@@ -22,17 +22,17 @@ The 3 pin arming switch connector is **not found on newer versions** of the RDDR
 
 ## Schematic
 
-![](../../.gitbook/assets/button%20%281%29.PNG)
+![](../../.gitbook/assets/button%20%281%29.png)
 
 ## Assembly drawing
 
 The HoverGames drone kit will include an pre-built arming switch with the right connector. It should not be necessary to build your own switch. This information is purely for reference purposes.
 
-![](../../.gitbook/assets/cab-nxphliite-swiled-drawing-v4.png)
+![](../../.gitbook/assets/CAB-NXPHliite-SWILED-Drawing-v4.png)
 
 ## Switch specifications and pinout
 
-![](../../.gitbook/assets/lp1-series.jpg)
+![](../../.gitbook/assets/LP1-series.jpg)
 
 * [E-Switch LP1 series](https://www.e-switch.com/product-catalog/pushbutton/product-lines/lp1-series-illuminated-round-pushbutton-with-multiple-color-options) switch with integrated LED.
 * There are 3 wires on the connector and 4 pins on the switch.
@@ -47,17 +47,17 @@ The HoverGames drone kit will include an pre-built arming switch with the right 
 | Pin 2 - NSAFETY\_SWITCH\_LED\_OUT | Pin 1 - LED \(-\) |
 | Pin 3 - SAFETY\_SWITCH\_IN | Pin 2 - Switch |
 
-![](../../.gitbook/assets/afbeelding%20%2812%29.png)
+![](../../.gitbook/assets/afbeelding%20%2811%29.png)
 
 ## Step-by-step assembly
 
 JST sells pre-terminated wires for the JST-GH series of connectors. This is handy, since they are difficult to crimp by hand and need a special tool. The pre-terminated wires are easy to work with and just poke into the holes of the housing and click into place.
 
-![](../../.gitbook/assets/img_20171207_133313.jpg)
+![](../../.gitbook/assets/IMG_20171207_133313.jpg)
 
 The JST-GH "stock" wires fit in the holes nicely. You just strip a little off the end, and bend it up to catch in the hole before soldering.
 
-![](../../.gitbook/assets/img_20171207_153040.png)
+![](../../.gitbook/assets/IMG_20171207_153040.png)
 
 Pin 1 of the JST-GH has a tiny triangle on the connector. It is normally just in white, but has been highlighted here in black.
 
@@ -65,39 +65,39 @@ Pin 1 of the JST-GH has a tiny triangle on the connector. It is normally just in
 Slide heatshrink over the wires before inserting them into the JST-GH housing! You can't do this afterwards. If you need to take the wires out of the housing again, you will need to carefully release the tiny plastic tab holding the wire in place and pull the wire out again.
 {% endhint %}
 
-![](../../.gitbook/assets/img_20171207_155946.png)
+![](../../.gitbook/assets/IMG_20171207_155946.png)
 
 When building this cable, pin 3 and pin 4 of the switch need to be connected. Short pin 3 and pin 4 by soldering a piece of wire in between.
 
-![](../../.gitbook/assets/img_20171207_154411.png)
+![](../../.gitbook/assets/IMG_20171207_154411.png)
 
 You need to apply heatshrink over all three wire connections. Remember that pin 3 and pin 4 are connected and will need a larger diameter piece. Here, a small piece was applied first and pushed up against the pin, then a second \(larger\) piece was applied over both pin 3 and pin 4.
 
-![](../../.gitbook/assets/img_20171207_154816.png)
+![](../../.gitbook/assets/IMG_20171207_154816.png)
 
 A double heatshrink, with a second, larger diameter piece over the inner piece makes a nice looking end result.
 
-![](../../.gitbook/assets/img_20171207_155036.png)
+![](../../.gitbook/assets/IMG_20171207_155036.png)
 
-![](../../.gitbook/assets/img_20171207_154847.png)
+![](../../.gitbook/assets/IMG_20171207_154847.png)
 
-![](../../.gitbook/assets/img_20171207_133155.png)
+![](../../.gitbook/assets/IMG_20171207_133155.png)
 
 ## Renders
 
 When completed the arming switch will look something like this:
 
-![](../../.gitbook/assets/cab-nxphliite-swiled-v7.png)
+![](../../.gitbook/assets/CAB-NXPHliite-SWILED%20v7.png)
 
-![](../../.gitbook/assets/cab-nxphliite-swiled_jstgh-v8.png)
+![](../../.gitbook/assets/CAB-NXPHliite-SWILED_JSTGH%20v8.png)
 
-![](../../.gitbook/assets/cab-nxphliite-swiled-v8.png)
+![](../../.gitbook/assets/CAB-NXPHliite-SWILED%20v8.png)
 
-![](../../.gitbook/assets/cab-nxphliite-swiled-v8_wires.png)
+![](../../.gitbook/assets/CAB-NXPHliite-SWILED%20v8_wires.png)
 
-![](../../.gitbook/assets/cab-nxphliite-swiled-v8_pin3-4_jumper.png)
+![](../../.gitbook/assets/CAB-NXPHliite-SWILED%20v8_Pin3-4_Jumper.png)
 
-![](../../.gitbook/assets/cab-nxphliite-swiled-v11_lg-heatshrink.png)
+![](../../.gitbook/assets/CAB-NXPHliite-SWILED%20v11_lg-heatshrink.png)
 
 ## 
 

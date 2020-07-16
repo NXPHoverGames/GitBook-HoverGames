@@ -28,7 +28,7 @@ Pin 1 \(black\) of USB-TTL-3V3 is marked with a black dot on the DCD-LZ-ADAPT bo
 
 ## Schematic
 
-![](../../../.gitbook/assets/afbeelding%20%2817%29.png)
+![](../../../.gitbook/assets/afbeelding%20%2816%29.png)
 
 ## JTAG/SWD 10 pin <a id="jtag-swd-10-pin"></a>
 
@@ -49,7 +49,7 @@ FTDI cables can also be bought from:
 * ​[DigiKey](https://www.digikey.com/products/en/cable-assemblies/smart-cables/468?k=FTDI+3v3&k=&pkeyword=FTDI+3v3&pv167=804&FV=ffe001d4&mnonly=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=25)
 {% endhint %}
 
-![](../../../.gitbook/assets/utech-drawing-usb-ttl-ftdi-cable3.3v-1.8meter.png)
+![](../../../.gitbook/assets/Utech-Drawing-USB-TTL-FTDI-CABLE3.3V-1.8Meter.png)
 
 ## Thingiverse case
 
@@ -61,9 +61,9 @@ A small case for this board has been created that can be 3D printed. The case in
 
 The cable is just a 7 pin JST-GH straight through cable.
 
-![](../../../.gitbook/assets/dcd-lz-7pin-jstgh-render.png)
+![](../../../.gitbook/assets/DCD-LZ-7pin-JSTGH-render.png)
 
-![](../../../.gitbook/assets/cab-nxphlite-dcd-lz-v2.png)
+![](../../../.gitbook/assets/CAB-NXPhlite-DCD-LZ%20v2.png)
 
 ## 
 

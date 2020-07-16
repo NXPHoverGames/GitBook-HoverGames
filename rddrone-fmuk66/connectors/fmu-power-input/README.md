@@ -39,7 +39,7 @@ We have a separate page about the FMU power module, which provides the power to 
 Rev. B \(and older boards\) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![Schematic of the power input connector on the FMU.](../../../.gitbook/assets/power_in%20%282%29.PNG)
+![Schematic of the power input connector on the FMU.](../../../.gitbook/assets/power_in%20%282%29.png)
 
-![The FMU can be powered from the power input connector or through the micro USB.](../../../.gitbook/assets/power%20%281%29.PNG)
+![The FMU can be powered from the power input connector or through the micro USB.](../../../.gitbook/assets/power%20%281%29.png)
 

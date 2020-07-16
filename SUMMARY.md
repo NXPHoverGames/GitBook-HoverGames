@@ -53,6 +53,7 @@
   * [MCUXpresso](developerguide/tools/mcuxpresso.md)
 * [Building the bootloader](developerguide/building-bootloader.md)
 * [Building PX4 firmware](developerguide/building-firmware.md)
+* [Git source code management](developerguide/git.md)
 * [Program software using debugger](developerguide/program-software-using-debugger.md)
 * [PX4 example code](developerguide/px4-example-code/README.md)
   * [HG-PX4 Example Lab 1: uORB Subscribe](developerguide/px4-example-code/hg-px4-example-lab-1.md)

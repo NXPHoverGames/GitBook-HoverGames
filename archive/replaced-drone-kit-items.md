@@ -21,7 +21,7 @@ The S500 quadcopter frame was part of some old HoverGames kits. Its bottom plate
 * Frame size: 480 mm \(diagonal\), 170 mm \(height\)
 * Weight: 405 g \(without electronics and motors\)
 
-![](../.gitbook/assets/s500framebox.JPG)![](../.gitbook/assets/s500framekitcontents.JPG)![](../.gitbook/assets/s500framecomponents.JPG)![](../.gitbook/assets/s500frameassembled.jpg)
+![](../.gitbook/assets/s500framebox.jpg)![](../.gitbook/assets/s500framekitcontents.jpg)![](../.gitbook/assets/s500framecomponents.jpg)![](../.gitbook/assets/s500frameassembled.jpg)
 
 ## SiK 433 MHz/915 MHz telemetry radio transceiver set
 

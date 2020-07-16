@@ -22,5 +22,5 @@
 Rev. B \(and older boards\) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![](../../.gitbook/assets/spi.PNG)
+![](../../.gitbook/assets/spi.png)
 

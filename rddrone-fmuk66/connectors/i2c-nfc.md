@@ -20,5 +20,5 @@
 Rev. B \(and older boards\) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![](../../.gitbook/assets/nfc-i2c%20%281%29.PNG)
+![](../../.gitbook/assets/nfc-i2c%20%281%29.png)
 

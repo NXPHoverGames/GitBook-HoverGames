@@ -42,7 +42,7 @@ Rev. B \(and older boards\) are **not supported** anymore. This information is l
 
 ## RDDRONE-FMUK66 Rev. B schematic
 
-![](../../.gitbook/assets/gps%20%282%29.PNG)
+![](../../.gitbook/assets/gps%20%282%29.png)
 
 ## ReadytoSky u-blox NEO-M8N GPS module pinout
 
@@ -65,7 +65,7 @@ The pinout below has been tested and validated with a ReadyToSky M8N generic GPS
 
 ## ReadytoSky u-blox NEO-M8N GPS module schematic
 
-![](../../.gitbook/assets/cab-nxphlite-gps-drawing-v2.png)
+![](../../.gitbook/assets/CAB-NXPhlite-GPS-Drawing-v2.png)
 
-![GPS module render.](../../.gitbook/assets/cab-nxphlite-gps-v2.png)
+![GPS module render.](../../.gitbook/assets/CAB-NXPhlite-GPS%20v2.png)
 

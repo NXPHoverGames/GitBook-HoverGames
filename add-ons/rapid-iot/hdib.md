@@ -45,17 +45,17 @@ The HDIB is meant to be highly configurable, particularly in terms of power supp
 
 ## Schematics
 
-![](../../.gitbook/assets/spf-30039_a-1-1.png)
+![](../../.gitbook/assets/spf-30039_a-1-1-.png)
 
-![](../../.gitbook/assets/spf-30039_a-2-1.png)
+![](../../.gitbook/assets/spf-30039_a-2-1-.png)
 
-![](../../.gitbook/assets/spf-30039_a-3-1.png)
+![](../../.gitbook/assets/spf-30039_a-3-1-.png)
 
-![](../../.gitbook/assets/spf-30039_a-4-1.png)
+![](../../.gitbook/assets/spf-30039_a-4-1-.png)
 
-![](../../.gitbook/assets/spf-30039_a-5-1.png)
+![](../../.gitbook/assets/spf-30039_a-5-1-.png)
 
-![](../../.gitbook/assets/spf-30039_a-6-1.png)
+![](../../.gitbook/assets/spf-30039_a-6-1-.png)
 
 
 

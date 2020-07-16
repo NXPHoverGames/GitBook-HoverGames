@@ -26,7 +26,7 @@ The 7-pin JST GH cable connects the debug adapter board to the FMU. The USB-TTL-
 
 Shown below is the Landzo OpenSDA Debugger with an adapter board connected to the 7-pin JST-GH RDDRONE-FMUK66 DCD-LZ interface.
 
-![Landzo OpenSDA Debugger connected to RDDRONE-FMUK66.](../.gitbook/assets/img_20180211_150140.png)
+![Landzo OpenSDA Debugger connected to RDDRONE-FMUK66.](../.gitbook/assets/IMG_20180211_150140.png)
 
 ![Alternative setup with another J-Link debugger and a self-made adapter board.](../.gitbook/assets/afbeelding%20%286%29.png)
 
@@ -36,11 +36,11 @@ You will need the J-Link Commander program, which is part of the J-Link Software
 
 On Windows, you will find J-Link Commander under the program menu after installation. It can be found in a directory similar to this:
 
-![](../.gitbook/assets/segggerjlink-programmenu.png)
+![](../.gitbook/assets/SegggerJlink-ProgramMenu.png)
 
 You can also browse to the installation folder and run the program from there. Usually, the J-Link Software pack is installed to a location similar to `C:\Program Files (x86)\SEGGER\JLink_Vxxxx`. Note that the name of the J-Link Commander executable is actually JLink.exe.
 
-![](../.gitbook/assets/segger-jlink-browse.png)
+![](../.gitbook/assets/Segger-JLink-browse.png)
 
 On a **Linux OS**, you can only run the executable through a commandline. You can directly run J-Link Commander from its installation directory by entering `/opt/SEGGER/JLink/JLinkExe` in the commandline.
 
@@ -48,7 +48,7 @@ On a **Linux OS**, you can only run the executable through a commandline. You ca
 
 When prompted, type `connect` to establish a connection with the debugger.
 
-![](../.gitbook/assets/jlink-connect.png)
+![](../.gitbook/assets/Jlink-connect.png)
 
 ### Set the target device
 
@@ -62,19 +62,19 @@ MK66FN2M0XXX18 is the target device for RDDRONE-FMUK66 \(NXPhlite\).
 This selection dialog might not work on operating systems other than Windows. If it does not work, restart the program and enter the right device manually, by typing the full device name \(MK66FN2M0XXX18\) instead of the question mark \(?\).
 {% endhint %}
 
-![Device selection dialog. Start typing &quot;MK66&quot; to filter, select the right device and press OK.](../.gitbook/assets/jlink-targetdevicesetting.png)
+![Device selection dialog. Start typing &quot;MK66&quot; to filter, select the right device and press OK.](../.gitbook/assets/Jlink-TargetDeviceSetting.png)
 
 ### Select the target interface and speed
 
  Enter `s` to select SWD as the target interface. 
 
-![Select SWD as the target interface by entering &quot;s&quot;.](../.gitbook/assets/jlink-swdorjtag.png)
+![Select SWD as the target interface by entering &quot;s&quot;.](../.gitbook/assets/Jlink-SWDorJTAG.png)
 
 You can accept the default target speed of 4000 kHz by just pressing `enter`.
 
 The JLink will then connect to the target. You should see something similar to this:
 
-![Succesfully established a connection.](../.gitbook/assets/jink-targetspeedandconnectimport.png)
+![Succesfully established a connection.](../.gitbook/assets/jink-TargetSpeedandConnectimport.png)
 
 ### J-Link help
 

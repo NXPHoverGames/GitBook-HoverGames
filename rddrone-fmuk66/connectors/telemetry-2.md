@@ -37,5 +37,5 @@ Rev. B \(and older boards\) are **not supported** anymore. This information is l
 
 ## RDDRONE-FMUK66 Rev. B schematic
 
-![](../../.gitbook/assets/irda%20%283%29.PNG)
+![](../../.gitbook/assets/irda%20%283%29.png)
 

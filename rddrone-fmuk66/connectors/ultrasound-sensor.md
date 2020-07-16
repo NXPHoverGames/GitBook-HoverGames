@@ -19,5 +19,5 @@
 Rev. B \(and older boards\) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![](../../.gitbook/assets/usound%20%281%29.PNG)
+![](../../.gitbook/assets/usound%20%281%29.png)
 
