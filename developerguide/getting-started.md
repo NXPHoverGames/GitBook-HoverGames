@@ -47,28 +47,26 @@ This developer guide provides instructions for setting up and using the recommen
 
 We have pages that explain how to [build the bootloader](building-bootloader.md) and [firmware ](building-firmware.md)from source using the console instead of an IDE. A guide to [programming the binaries onto the FMU using the J-Link debugger](program-software-using-debugger.md) is also available.
 
-## Resources
+## Learn Git
 
-### Learn Git
+If you have not worked with Git before, you should really learn the basics before you continue. Git is a very popular version control system and you will probably have to use it a lot when developing your own software for the HoverGames drone. The PX4 Autopilot source code is hosted on GitHub, a Git-based software hosting platform. You have to use Git to retrieve the original source code, but also when you want to publish your code and contribute to the PX4 project.
 
-If you have not worked with Git before, you might want to learn the basics before you continue. Git is a very popular version control system. You will probably use it a lot when developing your own software for the HoverGames drone, because the PX4 firmware is hosted on GitHub, a software hosting platform which is based on Git. 
+The [Git source code management](git.md) page provides all the resources you need to get started with Git and GitHub. It is an essential tool and you really should spend some time on it.
 
-There are many resources available online, this is just a quick selection \(in no particular order\):
+## Learn C/C++
 
-* [https://git-scm.com/](https://git-scm.com/)
-* [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials)
-* [https://try.github.io/](https://try.github.io/)
-* [https://www.codecademy.com/learn/learn-git](https://www.codecademy.com/learn/learn-git)
-* [http://gitimmersion.com/](http://gitimmersion.com/)
-* [https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
+Most PX4 code is written in the C and C++ programming languages. If you are not familiar with these languages, it will be useful to follow a few tutorials and read about the basic concepts. There are many great books, courses and tutorials available for learning these programming languages.
 
-### Learn C/C++
-
-PX4 is mostly written in C and C++. If you are not familiar with these programming languages, it will be useful to follow a few tutorials and read about the basic concepts. There are many great books, courses and tutorials available for learning these programming languages. These are some useful websites:
+These are some useful websites to get you started:
 
 * [https://isocpp.org/](https://isocpp.org/)
 * [https://www.learncpp.com/](https://www.learncpp.com/)
 * [https://www.codecademy.com/learn/learn-c-plus-plus](https://www.codecademy.com/learn/learn-c-plus-plus)
 * [https://www.learn-c.org/](https://www.learn-c.org/)
 * [https://www.learn-cpp.org/](https://www.learn-cpp.org/)
+
+These two Stack Overflow posts provide lists of the best C/C++ books:
+
+* [https://stackoverflow.com/questions/562303/the-definitive-c-book-guide-and-list](https://stackoverflow.com/questions/562303/the-definitive-c-book-guide-and-list)
+* [https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
 
