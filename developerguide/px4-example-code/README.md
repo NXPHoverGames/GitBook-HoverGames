@@ -14,13 +14,13 @@ You can place these examples in the `src/examples` folder of the PX4 firmware an
 
 {% embed url="https://github.com/NXPHoverGames/Tutorials" %}
 
-These HoverGames PX4 starter examples are complimented with step by step tutorials on the following pages:
+These HoverGames PX4 starter examples are complemented with step by step tutorials:
 
-* [PX4 Example Lab 1 \(uORB Subscribe\)](hg-px4-example-lab-1.md)
-* [PX4 Example Lab 2 \(uORB Publish\)](hg-px4-example-lab-2.md)
-* [PX4 Example Lab 3 \(Building Code\)](hg-px4-example-lab-3.md)
-* [PX4 Example Lab 4 \(Running code\)](hg-px4-example-lab-4.md)
-* [PX4 Example Lab 5 \(Build your own PX4 app\)](hg-px4-example-lab-5.md)
+* [PX4 Example Lab 1: uORB Subscribe](hg-px4-example-lab-1.md)
+* [PX4 Example Lab 2: uORB Publish](hg-px4-example-lab-2.md)
+* [PX4 Example Lab 3: Building Code](hg-px4-example-lab-3.md)
+* [PX4 Example Lab 4: Running Code](hg-px4-example-lab-4.md)
+* [PX4 Example Lab 5: Build your own PX4 app](hg-px4-example-lab-5.md)
 
 ## PX4 starter examples
 
