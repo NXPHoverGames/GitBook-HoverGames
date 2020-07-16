@@ -62,7 +62,7 @@ There is also the possibility to insure yourself. It is your own responsibility 
 
 ### Documentation
 
-This GitBook is by no means a complete reference guide for the HoverGames drone development platform or other NXP mobile robotics products. Also be aware that this GitBook is continuously being improved and expanded. Information may change without notice and and some sections may be incomplete or contain errors. If you find an error or have a suggestion, [any feedback is very welcome](contact.md#contact-the-hovergames-team).
+This GitBook is by no means a complete reference guide for the HoverGames drone development platform or other NXP mobile robotics products. Also be aware that this GitBook is continuously being improved and expanded. Information may change without notice and some sections may be incomplete or contain errors. If you find an error or have a suggestion, [any feedback is very welcome](contact.md#contact-the-hovergames-team).
 
 ## DISCLAIMER OF LIABILITY  <a id="disclaimer-of-liability"></a>
 
