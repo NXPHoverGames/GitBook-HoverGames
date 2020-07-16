@@ -1,4 +1,4 @@
-# HG-PX4 Example Lab 3 \(Building Code\)
+# HG-PX4 Example Lab 3: Building Code
 
 ## Building our code to run on the FMU
 

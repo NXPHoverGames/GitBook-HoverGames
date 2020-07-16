@@ -1,4 +1,4 @@
-# HG-PX4 Example Lab 4 \(Running code\)
+# HG-PX4 Example Lab 4: Running Code
 
 ## Uploading firmware to the board
 

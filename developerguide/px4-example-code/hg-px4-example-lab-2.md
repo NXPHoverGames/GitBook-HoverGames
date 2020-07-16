@@ -1,4 +1,4 @@
-# HG-PX4 Example Lab 2 \(uORB Publish\)
+# HG-PX4 Example Lab 2: uORB Publish
 
 In the last lab, we learned what uORB and publish/subscribe protocols were. Then, we wrote a bit of code that allowed us to print out some gyro measurements to the MavLink console! The program we wrote was only half of the equation, though, as we only used the "subscribe" portion of uORB. In this lab, we will publish some data to a topic that will control the RGB LED on the RDDRONE-FMUK66. The topic we are publishing to is subscribed to by an internal PX4 program that handles LED control.
 

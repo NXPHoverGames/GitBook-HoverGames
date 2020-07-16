@@ -57,10 +57,10 @@
 * [Git source code management](developerguide/git.md)
 * [PX4 example code](developerguide/px4-example-code/README.md)
   * [HG-PX4 Example Lab 1: uORB Subscribe](developerguide/px4-example-code/hg-px4-example-lab-1.md)
-  * [HG-PX4 Example Lab 2 \(uORB Publish\)](developerguide/px4-example-code/hg-px4-example-lab-2.md)
-  * [HG-PX4 Example Lab 3 \(Building Code\)](developerguide/px4-example-code/hg-px4-example-lab-3.md)
-  * [HG-PX4 Example Lab 4 \(Running code\)](developerguide/px4-example-code/hg-px4-example-lab-4.md)
-  * [HG-PX4 Example Lab 5 \(Build your own PX4 app\)](developerguide/px4-example-code/hg-px4-example-lab-5.md)
+  * [HG-PX4 Example Lab 2: uORB Publish](developerguide/px4-example-code/hg-px4-example-lab-2.md)
+  * [HG-PX4 Example Lab 3: Building Code](developerguide/px4-example-code/hg-px4-example-lab-3.md)
+  * [HG-PX4 Example Lab 4: Running Code](developerguide/px4-example-code/hg-px4-example-lab-4.md)
+  * [HG-PX4 Example Lab 5: Build your own PX4 app](developerguide/px4-example-code/hg-px4-example-lab-5.md)
 * [Companion computers](developerguide/companion-computers.md)
 * [PX4 simulation](developerguide/simulation.md)
 * [PX4 system console](developerguide/system-console/README.md)
@@ -68,7 +68,7 @@
 
 ## FMUK66 Hardware Reference <a id="rddrone-fmuk66"></a>
 
-* [Schematics](rddrone-fmuk66/schematics.md)
+* [Schematics and design files](rddrone-fmuk66/schematics.md)
 * [Connectors and pinout](rddrone-fmuk66/connectors/README.md)
   * [FMU power input](rddrone-fmuk66/connectors/fmu-power-input/README.md)
     * [FMU power module](rddrone-fmuk66/connectors/fmu-power-input/fmu-power-module.md)

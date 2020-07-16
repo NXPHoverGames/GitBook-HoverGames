@@ -16,10 +16,27 @@ Below you will find a list of recent updates and important news about the HoverG
 
 ## Recent updates
 
+#### July 16, 2020
+
+* A page about [Git source code management](developerguide/git.md) has been added.
+
+#### July 15, 2020
+
+* Five HoverGames/PX4 example labs have been added. You learn step-by-step how to create a basic PX4 module/application. The following labs are currently available:
+  * [HG-PX4 Example Lab 1: uORB Subscribe](developerguide/px4-example-code/hg-px4-example-lab-1.md)
+  * [HG-PX4 Example Lab 2: uORB Publish](developerguide/px4-example-code/hg-px4-example-lab-2.md)
+  * [HG-PX4 Example Lab 3: Building Code](developerguide/px4-example-code/hg-px4-example-lab-3.md)
+  * [HG-PX4 Example Lab 4: Running Code](developerguide/px4-example-code/hg-px4-example-lab-4.md)
+  * [HG-PX4 Example Lab 5: Build your own PX4 app](developerguide/px4-example-code/hg-px4-example-lab-5.md)
+
 #### July 14, 2020
 
 * The [development tools](developerguide/tools/) section in the developer guide has been updated. Because of changes in the [PX4 toolchain](developerguide/tools/toolchain-installation.md) and [MCUXpresso](developerguide/tools/mcuxpresso.md) some information and screenshots were outdated. 
 * Note that the preconfigured [virtual machine image](downloads.md#preconfigured-virtual-machine-image-with-development-tools) has _not yet_ been updated, but it can still be used without any issue in its current state. However, it should now also be a little bit more straightforward to install your own VM from scratch!
+
+#### July 6, 2020
+
+* We added [a video about programming FMUK66 for first use](userguide/programming.md#video-tutorial). It shows you step-by-step how to flash the bootloader and PX4 firmware binary on the FMUK66 when you take it out of the box for the first time. Keep in mind that you can also [upgrade the PX4 firmware with QGroundControl](userguide/qgroundcontrol/firmware.md) after the bootloader has been programmed!
 
 #### June 18, 2020
 

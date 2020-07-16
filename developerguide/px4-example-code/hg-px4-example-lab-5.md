@@ -1,4 +1,4 @@
-# HG-PX4 Example Lab 5 \(Build your own PX4 app\)
+# HG-PX4 Example Lab 5: Build your own PX4 app
 
 You've made it to the last example lab on this gitbook! In this lab, we will learn how to create our own app that harnesses both the publish and subscribe protocols in uORB.
 
