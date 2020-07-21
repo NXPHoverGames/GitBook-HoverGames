@@ -51,7 +51,7 @@ To start, let's get the license for this source code out of the way:
 
 ### Includes
 
-As in the last lab, we will go ahead and include our headers to the source code. The headers will be nearly the same, except we will be changing the uORB topic from `sensor_gyro` to `led_control`.
+As in the last lab, we include our headers to the source code. The headers will be nearly the same, except we will change the **uORB topic** from `sensor_gyro` to `led_control`.
 
 ```text
 #include <px4_platform_common/px4_config.h>
@@ -67,7 +67,7 @@ As in the last lab, we will go ahead and include our headers to the source code.
 
 ### Main function
 
-Next we will create our main function and export it, much like the last lab. 
+As done in the previous lab we create our main function and export it. 
 
 ```text
 __EXPORT int hg_led_main(int argc, char *argv[]); // Export main for starting in another thread
@@ -77,11 +77,11 @@ int hg_led_main(int argc, char *argv[])
     PX4_INFO("Hello Hovergames LED");
 ```
 
-First, we exported our hg\_led\_main function. Remember, your main function should be called `<filename>_main`. Then, we added in a `PX4_INFO()` function to show that the program has started. 
+Here we export our `hg_led_main` function. Remember, your main function should be called `<filename>_main`. The`PX4_INFO()` function to show text indicating that the program has started. 
 
 ### Setup
 
-We will create a structure that we can save LED data to. This structure will be used to publish the data to the `led_control` uORB topic.
+A structure is created that we can save LED control data to. This structure will be used to publish the data to the `led_control` uORB topic.
 
 ```text
     // Create structure to store data in
@@ -94,17 +94,17 @@ We will create a structure that we can save LED data to. This structure will be 
     orb_advert_t led_control_pub = orb_advertise(ORB_ID(led_control), &led_control);
 ```
 
-The first step is to create the structure itself. Here, we created an led\_control\_s structure and named it led\_control. Then, we called `memset()` and filled the structure we created with zeros. We do this because the memory we allocate could have bogus data in it, and in a safety critical platform such as a drone, we don't want to send bogus data if our data allocation code fails. After, we create a uORB topic advertisement variable that allows us to publish to the `led_control` topic.
+First step is to create the structure itself. Here, we created an `led_control_s` structure and named it `led_control`. Then, we call `memset()` to fill the structure we created with zeros. We do this because the memory we allocate could have uninitialized random data in it, and in a safety critical platform such as a drone, we don't want to inadvertently send bad data if for some reason our data allocation code fails. The last line of code creates a uORB topic advertisement variable that allows us to **publish to** the `led_control` topic.
 
 ### Setting LED control data
 
-Once we have done our initial setup, we can start filling our `led_control` structure with data. 
+Once the initial setup is done, we can now start filling our `led_control` structure with data. 
 
 {% hint style="info" %}
-The led\_control uORB message definition can be found [here](https://github.com/PX4/Firmware/blob/master/msg/led_control.msg). This file outlines all of the different parameters than can be set for led\_control.
+The led\_control uORB message definition can be found in the PX4 source code [here](https://github.com/PX4/Firmware/blob/master/msg/led_control.msg). This file outlines all of the different parameters than can be set for led\_control.
 {% endhint %}
 
-Colors, modes, and priorities can be set using the parameters seen in the link above. In this example, we are going to tell the LED to blink 10 times at max priority with the color green.   
+Colors, modes, and priorities can be set using the parameters as described in the link above. In this example, we are going to tell the LED to blink 10 times at max priority with the color green.   
 Here's how to do that:
 
 ```text
@@ -115,10 +115,10 @@ Here's how to do that:
     led_control.color = LED_CONTROL_COLOR_GREEN; // Set color to green
 ```
 
-All of these parameters are easily set by defining which parameter we would like to set and then giving it a value. 
+These parameters are easily set simply by referring to the parameter and giving it a value. 
 
-* `num_blinks` : We simply set the number of blinks to 10. You can make this whatever size you want, but don't make it too large, or your LED will blink for a very long time!,  \(\).
-* `priority` : Make our LED app max priority so that something else can't override it by setting `LED_CONTROL_MAX_PRIORITY` 
+* `num_blinks` : We set the number of blinks to 10. You can make this whatever number you want, but don't make it too large or your LED will blink for a very long time! 
+* `priority` : Make our LED app max priority so that something else can't override it by setting `LED_CONTROL_MAX_PRIORITY` . Note that there is are priority levels for a reason. Think carefully about your application as not everything should be max priority.
   * in practice, max priority is reserved for things like error LED sequences.
 * `mode` : We set the mode to `LED_CONTROL_MODE_BLINK_NORMAL` for a normal blink sequence. 
 * `led_mask` : We set this to `0xff` which tells the led controller to blink all LEDs.
