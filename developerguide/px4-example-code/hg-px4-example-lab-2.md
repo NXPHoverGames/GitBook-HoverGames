@@ -146,5 +146,6 @@ To close out the program, let's print something to the MavLink console that show
 
 ### Conclusion
 
-We have now learned how to both subscribe and publish uORB messages in PX4. Next, we will create our own program that uses our newfound knowledge to manipulate the LED on the RDDRONE-FMUK66. 
+We have now learned how to both subscribe and publish uORB messages in PX4.   
+Next, we will create our own program that uses our new found knowledge to manipulate the LED on the RDDRONE-FMUK66. 
 
