@@ -29,7 +29,7 @@ Rev. C is the previous revision of the RDDRONE-FMUK66. It is still fully support
 ## RDDRONE-FMUK66 Rev. B schematics
 
 {% hint style="danger" %}
-Rev. B \(and older\) boards are **not supported** anymore. The schematic is left available for reference only. Please [contact us](../contact.md#contact-the-hovergames-team) if you are still using an old RDDRONE-FMUK66. 
+Rev. B \(and older\) boards are **not supported** anymore. The schematic is left available for reference only. Please [contact us](../contact.md#contact-the-hovergames-team) if you are still using an old RDDRONE-FMUK66 Rev B. 
 {% endhint %}
 
 {% file src="../.gitbook/assets/nxphlite\_3.0rc18\_sch.pdf" caption="NXP RDDRONE-FMUK66 Rev. B 3.0RC18" %}

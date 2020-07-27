@@ -16,10 +16,10 @@ The PX4 Dev Guide provides an auto-generated overview of \(almost\) all availabl
 This page should provide an overview of some important and useful commands that people participating in the HoverGames might find useful.
 
 {% hint style="info" %}
-This page will be updated when we come accross more useful commands.
+This page will be updated when we come accross more useful commands. suggested improvements are welcome via email at HoverGames@nxp.com or [https://community.nxp.com/community/mobilerobotics](https://community.nxp.com/community/mobilerobotics) 
 {% endhint %}
 
-## Test SD card operation
+## Test SDcard operation
 
 You can perform a test of how well the currently inserted SD card is performing using the `sd_bench` command.
 
@@ -27,7 +27,11 @@ You can perform a test of how well the currently inserted SD card is performing 
 
 You can perform a read/write test of the flash memory using the `mtd rwtest` command.
 
-The part of the flash memory which holds all PX4 parameters can be erased using the `mtd erase` command. This is useful when you have flashed new firmware and/or want to do a full reset of the PX4 settings and parameters.
+The part of the flash memory which holds all PX4 parameters can be erased using the `mtd erase` command. 
+
+{% hint style="warning" %}
+`mtd_erase` may be useful when you have flashed new firmware and find the need to do a full reset of the PX4 settings and parameters.
+{% endhint %}
 
 ## Start drivers for the available sensors on RDDRONE-FMUK66
 
@@ -69,9 +73,9 @@ fxos8701cq testerror
 fxos8701cq regdump
 ```
 
-## Set and view parameter settings from commandline
+## Set and view parameter settings from command line
 
-Parameters can be set from the commandline, using `param set PARAM VALUE`, where PARAM is the name of the parameter and VALUE is the value to which it should be set.
+Parameters can be set from the command line, using `param set PARAM VALUE`, where PARAM is the name of the parameter and VALUE is the value to which it should be set.
 
 For example, the airframe parameters can be set using`param set SYS_AUTOSTART 4014`, which sets the airframe to S500. After a reboot, the SYS\_AUTOSTART parameter will then also change other parameters to the values that are set within the S500 airframe definition.
 
