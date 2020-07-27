@@ -26,14 +26,18 @@ What the PX4 developers refer to as _Hardware-In-The-Loop_ _\(HITL\)_ is often c
 
 There are multiple simulators that work with PX4 Autopilot. Most simulators support SITL, some also support HITL. Gazebo is the recommended choice, it is a very powerful simulation tool and is often used together with ROS. Other options include jMAVSim and Microsoft Airsim. A complete overview and up-to-date of simulators that support PX4 is available in the [PX4 Developer Guide](https://dev.px4.io/master/en/simulation/#supported-simulators).
 
+{% hint style="info" %}
+Note - A sister competition to HoverGames uses the same hardware for cars/rovers. While still new, there may be activity available showing use of [CARLA ](http://carla.org/)for use of PX4 in an automotive simulation environment.
+{% endhint %}
+
 ## Simulators in a virtual machine
 
-Many HoverGames participants will be using a [virtual machine](tools/virtual-machine.md) for \(PX4\) software development. The preconfigured virtual machine does NOT come with a simulator installed and the step-by-step guide also does not explain how to setup a simulator. It is left to the user to install one if desired.
+Many HoverGames participants will be using a [virtual machine](tools/virtual-machine.md) for \(PX4\) software development. The pre-configured virtual machine does NOT come with a simulator installed and the step-by-step guide also does not explain how to setup a simulator. It is left to the user to install one if desired.
 
-Be aware that most simulators are resource heavy and may not run very will in a virtual machine, especially if your computer is not the most powerful. If possible, it is always better to install the simulator in a native Linux setup. 
+Be aware that most simulators are resource heavy and may not run very will in a virtual machine. This is especially true if your computer is not the most powerful. It is usually better to install the simulator in a native environment setup. Simulators like MS Airsim make use of gaming engines Unity and Unreal Engine for things like environmental controls, and as such the equivalent of a Gaming PC may make a good host machine.
 
-{% hint style="info" %}
-Decent results have been achieved with Gazebo on a virtual machine running Ubuntu. The virtual machine was assigned 3 processor cores of a modern quad-core Intel Core i7 with hyperthreading, and 8 out of 16 GB RAM.
+{% hint style="success" %}
+For reference: Decent results have been achieved with Gazebo on a virtual machine running Ubuntu. The virtual machine was assigned 3 processor cores of a modern quad-core Intel Core i7 with hyperthreading, and 8 out of 16 GB RAM.
 {% endhint %}
 
 ## Setup instructions and further reading
@@ -43,4 +47,12 @@ The PX4 Developer Guide has a whole chapter dedicated to simulation, including s
 {% embed url="https://dev.px4.io/master/en/simulation/" %}
 
 If you have any questions or issues when using PX4 with a supported simulator, you can reach out to the PX4 community on [Discuss, Slack](https://nxp.gitbook.io/hovergames/contact#px4-slack-and-discuss-forum) or [GitHub](https://github.com/PX4/Firmware). Many people are using these simulation environments for PX4 development and it is likely that somebody will be able to help you.
+
+Simulators can be configured for quite advanced and realistic environments including weather, automated obstacles, and wind. Typically gazebo by default is intentionally a very plain environment. You may be able to find material in the ROS project which shows methods of configuring the gazebo environment in a more rich fashion for flying drones. See the YouTube video below for a talk from Tully Foote at the 2019 PX4 Developer summit
+
+{% embed url="https://youtu.be/WpGSrW6jhkc" %}
+
+
+
+
 
