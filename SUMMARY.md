@@ -59,7 +59,7 @@
   * [HG-PX4 Example Lab 1: uORB Subscribe](developerguide/px4-example-code/hg-px4-example-lab-1.md)
   * [HG-PX4 Example Lab 2: uORB Publish](developerguide/px4-example-code/hg-px4-example-lab-2.md)
   * [HG-PX4 Example Lab 3: Building Code](developerguide/px4-example-code/hg-px4-example-lab-3.md)
-  * [HG-PX4 Example Lab 4: Running Code](developerguide/px4-example-code/hg-px4-example-lab-4.md)
+  * [HG-PX4 Example Lab 4: Loading and Running Code](developerguide/px4-example-code/hg-px4-example-lab-4.md)
   * [HG-PX4 Example Lab 5: Build your own PX4 app](developerguide/px4-example-code/hg-px4-example-lab-5.md)
 * [Companion computers](developerguide/companion-computers.md)
 * [PX4 simulation](developerguide/simulation.md)

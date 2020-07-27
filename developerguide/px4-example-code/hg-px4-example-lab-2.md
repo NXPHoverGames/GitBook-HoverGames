@@ -121,7 +121,7 @@ These parameters are easily set simply by referring to the parameter and giving 
 * `priority` : Make our LED app max priority so that something else can't override it by setting `LED_CONTROL_MAX_PRIORITY` . Note that there is are priority levels for a reason. Think carefully about your application as not everything should be max priority.
   * in practice, max priority is reserved for things like error LED sequences.
 * `mode` : We set the mode to `LED_CONTROL_MODE_BLINK_NORMAL` for a normal blink sequence. 
-* `led_mask` : We set this to `0xff` which tells the led controller to blink all LEDs.
+* `led_mask` : We set this to `0xff` which tells the led controller to blink all LEDs. \(FYI - This parameter is used in \*some\* custom LED drivers to allow a variety of LEDs to be controlled with uORB message. For example - LEDs located on each of the motor pods that change color in flight to indicate direction of forward travel. Technically it is not fully implemented in the standard PX4 LED driver.
 * `color` : Set to `LED_CONTROL_COLOR_GREEN` ! If you'd like to set it to a different color, feel free!
 
 ### Publishing our LED data
