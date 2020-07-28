@@ -13,10 +13,13 @@ Regulations around the world vary greatly, and not handling according to regulat
 
 Ensure you are familiar with the **local** regulations that are in place before you fly: regulations are different depending on what continent, country or region you want to fly. The links below might be a good starting point. Please [contact us](contact.md#contact-the-hovergames-team) if you have any additions to this list.
 
+Many locations require you pass a drone safety test or drone operators test, and also register and display a registration number on your drone. It is usually not onerous to comply to these regulations.
+
 * General resource for drone regulations: [https://www.droneregulations.info](https://www.droneregulations.info/)​
 * EU regulations: [http://dronerules.eu/en/](http://dronerules.eu/en/)​
 * UK regulations: [https://www.caa.co.uk/consumers/unmanned-aircraft-and-drones/](https://www.caa.co.uk/consumers/unmanned-aircraft-and-drones/)​
 * US regulations: [https://www.faa.gov/uas/](https://www.faa.gov/uas/)​
+* Canada regulations [https://tc.canada.ca/en/aviation/drone-safety](https://tc.canada.ca/en/aviation/drone-safety)
 * India regulations: [https://digitalsky.dgca.gov.in/](https://digitalsky.dgca.gov.in/), [http://pib.nic.in/newsite/PrintRelease.aspx?relid=183093](http://pib.nic.in/newsite/PrintRelease.aspx?relid=183093), [https://www.medianama.com/2018/12/223-drones-online-registration-india/](https://www.medianama.com/2018/12/223-drones-online-registration-india/)
 
 ## Safety settings
