@@ -32,7 +32,7 @@ px4_add_module(
 	MAIN hg_led
 	STACK_MAIN 2000
 	SRCS
-		hg_gyro.c
+		hg_led.c
 	DEPENDS
 	)
 ```
