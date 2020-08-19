@@ -34,7 +34,7 @@ Please use this GitBook as your guide. If you would like to contribute, or have 
 
 ## Contribute to our GitBook
 
-We would really like to receive your feedback regarding this GitBook. You can send us an e-mail or let us known on Slack. This GitBook is also synchronized to a [git repository on GitHub](https://github.com/NXPHoverGames/GitBook-HoverGames), so you can open an issue or pull request on GitHub as well.
+We would really like to receive your feedback regarding this GitBook. You can send us an e-mail or let us know on Slack. This GitBook is also synchronized to a [git repository on GitHub](https://github.com/NXPHoverGames/GitBook-HoverGames), so you can open an issue or pull request on GitHub as well.
 
 
 
