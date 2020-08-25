@@ -8,18 +8,18 @@ description: >-
 # HoverGames
 
 {% hint style="success" %}
-See also the [NXP Mobile Robotics Community ](https://community.nxp.com/community/mobilerobotics)for questions and answers. There is a space for [HoverGames](https://community.nxp.com/community/mobilerobotics/hovergames-drone-challenge) as well as a subspace specifically for the [NavQ Companion Computer](https://community.nxp.com/community/mobilerobotics/hovergames-drone-challenge/navq-8mmnavq-discussion). 
-{% endhint %}
-
-![](.gitbook/assets/hg_logo.png)
-
-{% hint style="success" %}
 Also have a look at some of the other **NXP GitBooks**:  
 - [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/)  
 - [UCANS32K UAVCAN Node](https://nxp.gitbook.io/ucans32k146/)  
 - [RDDRONE-BMS772 Battery Management System](https://nxp.gitbook.io/rddrone-bms772/)  
 - [D2X Reference Design](https://nxp.gitbook.io/d2x/)  
 - [NXP Cup](https://nxp.gitbook.io/nxp-cup-hardware-reference-alamak/)
+{% endhint %}
+
+![](.gitbook/assets/hg_logo.png)
+
+{% hint style="success" %}
+See the [NXP Mobile Robotics Community ](https://community.nxp.com/community/mobilerobotics)for interactive questions and answers. There is a space for [HoverGames](https://community.nxp.com/community/mobilerobotics/hovergames-drone-challenge) as well as a subspace specifically for the [NavQ Companion Computer](https://community.nxp.com/community/mobilerobotics/hovergames-drone-challenge/navq-8mmnavq-discussion). 
 {% endhint %}
 
 ## What is this program? <a id="what-is-this-program"></a>
