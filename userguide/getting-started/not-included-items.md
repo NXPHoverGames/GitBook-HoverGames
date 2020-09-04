@@ -31,7 +31,7 @@ A set of telemetry radios allows you to change settings and parameters of the FM
 
 Drones require batteries which can handle the high currents drawn by the motors. These lithium polymer \(LiPo\) batteries can be quite dangerous and there may be restrictions for shipping this kind of batteries. For this reason, there was no battery included in the kit. You will have to buy a decent LiPo battery yourself.
 
-### LiPo battery specification
+## Battery specification
 
 The provided frame, motors and ESCs are designed for a a LiPo battery with the following battery specifications:
 
