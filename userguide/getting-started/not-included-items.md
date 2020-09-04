@@ -29,7 +29,23 @@ A set of telemetry radios allows you to change settings and parameters of the FM
 
 ## LiPo batteries
 
-Drones require batteries which can handle the high currents drawn by the motors. These lithium polymer \(LiPo\) batteries can be quite dangerous and there may be restrictions for shipping this kind of batteries. For this reason, there was no battery included in the kit. You will have to buy a decent LiPo battery yourself.
+Drones require batteries which can handle the high currents drawn by the motors. Lithium batteries are able to supply these high currents. Typically these are lithium polymer batteries in a flat "pouch" type configuration. Other cell types and chemistry such as Lithium ion cylindrical or LiFe prismatic cells may be used in some commercial applications.   
+  
+These lithium polymer \(LiPo\) batteries \(and most lithium batteries\) can be quite dangerous because of the amount of power they hold, and as such there may be restrictions for shipping this kind of batteries. Overcharging, overdischarging and overheating can lead to catastrophic failure and an uncontrollable lithium metal fire. While you should not be unduly worried, you should always treat the battery pack with respect, store and charge them safely, and properly dispose of any damaged ones. For this reason, there was no battery included in the kit. You will have to buy an appropriate LiPo battery yourself.
+
+{% hint style="info" %}
+As an extra precaution, charging and storing batteries outside, on a concrete floor or in a metal box \([Bat-Safe](https://www.bat-safe.com/)\) is a good practice.  
+{% endhint %}
+
+{% hint style="danger" %}
+NOTE: In most parts of the world LiPo batteries must be shipped by ground only, and labelled properly on external packaging. Never try to ship or pack a LiPo battery by air.
+{% endhint %}
+
+### Airline Travel with LiPo batteries
+
+{% hint style="warning" %}
+Review local regulations when carrying LiPo batteries on an Aircraft - for example to attend a tradeshow. Generally you cannot pack LiPo batteries in luggage that will go in the cargo hold, and will be required to safely carry them on your person in hand luggage. Battery size, number of batteries and battery wattage restrictions will apply. Check with your airline.
+{% endhint %}
 
 ## Battery specification
 
