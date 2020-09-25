@@ -77,6 +77,12 @@ It was reported that MAVLink v2 is not always used when it should. By default, P
 
 A possible solution is to set the `MAV_PROTO_VER` parameter to `2`, to force all MAVLink connections to use MAVLink v2. Note that this makes it impossible to use devices that only support MAVLink v1!
 
+## Vibration management and improvement
+
+{% embed url="https://youtu.be/RGaxJYsERkw" %}
+
+
+
 ## Unable to solve your problem?
 
 If you question is not answered on this page, or you are not able to solve the problem yourself, first try to ask in the community \(if applicable\). Otherwise, [contact the HoverGames team](../contact.md).
