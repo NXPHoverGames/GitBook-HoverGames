@@ -83,6 +83,12 @@ There should be screws and nuts included with the GPS. You can use the slits on 
 The GPS module consists of a **GPS receiver** and a **magnetometer** \(compass\). There are also a few LEDs on the module: a RGB status led, a small GPS fix led which indicates if the GPS reception is good enough, and a switch LED which can be pressed and acts as a **safety switch for arming** your drone.
 {% endhint %}
 
+### Arming switch integral to GPS module
+
+{% hint style="success" %}
+Note the GPS module serves multiple purposes. There is an ARMING SWITCH as part of the light-up "ARMED" LED that needs to be pressed before flight.
+{% endhint %}
+
 ## Telemetry radio
 
 The telemetry radio can be installed on the left side of the plate \(the opposite side of the GPS\). Use a ziptie or some double sided foam tape. Make sure both the JST-GH and Micro USB connectors remain easily accessible. You will use the JST-GH to connect the radio to the FMU, and you might need the micro USB to connect it to your computer to update the radio firmware.
