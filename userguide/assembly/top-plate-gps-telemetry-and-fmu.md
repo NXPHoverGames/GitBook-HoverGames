@@ -24,7 +24,7 @@ There are four similar holes at the corners of the big gap in the middle of the 
 The GPS and its mount consist of several parts. The GPS should come with a **short** and a **long** rod. We **recommend to use the shorter one**, because it won't vibrate as much as the longer rod. However, many successful tests were done with the long one as well, so ultimately it comes down to personal preference. The longer one is useful when you get too much interference from the other electronics on the drone.
 
 {% hint style="warning" %}
-You will need a 1.5 mm hex/Allen key for the very small screws that keep the rod in place. There are 2.0 and 2.55 mm hex keys included in the kit, but not 1.5 mm!  
+You will need a 1.5 mm hex/Allen key for the very small screws that keep the rod in place. There are 2.0 and 2.55 mm hex keys included in the kit, but not 1.5 mm! \(Recent kits that include a hexdriver set that should work\)  
   
 Also, some GPS mounts have a Phillips/Pozidriv screw instead of 2.5 mm hex screw. You might need an additional screwdriver for this as well.
 {% endhint %}
@@ -43,6 +43,10 @@ The rod can be inserted into this piece and will be kept in place with a tiny he
 
 You should put the big "cone" over the rod, you can screw this onto the base.
 
+{% hint style="success" %}
+The  "cone" may feel tight when screwing down. Some people have found that filing the edge of the head of the tilt-hinge screw helps improve this.
+{% endhint %}
+
 ![](../../.gitbook/assets/20190621_100929.jpg)
 
 On top, you should have a big flat piece, which is also kept in place with a tiny hex screw.
@@ -51,15 +55,23 @@ On top, you should have a big flat piece, which is also kept in place with a tin
 
 With the included double sided tape, you can install the GPS itself on top. Make sure the arrow on the GPS aligns with one of the "arms" of the cross-shaped base. It doesn't have to be perfect, you will be able to slightly rotate the GPS after loosening the small screw in the top part of the mount.
 
+{% hint style="info" %}
+There may still be a bit of play in the GPS mast after the nut is tightened. You can improve this by adding a bit of clear tape around the hole where the mast enters the 'cone', or by adding some tape under the cone itself.
+{% endhint %}
+
 ![](../../.gitbook/assets/20190621_101243.jpg)
 
-We also suggest to remove the piece of heatshrink at the end of the GPS cable, just before the connector. Be careful to not cut the wires! The reason for this is that this heatshrink is quite stiff and in some cases this would cause mechanical vibrations in the GPS mount to be "transmitted" by the cable to the FMU.
+We also suggest to remove the piece of heatshrink at the end of the GPS cable, just before the connector. Be \*very\* careful to not cut the wires! The reason for this is that this heatshrink itself is quite stiff and in some cases this could cause mechanical vibrations in the GPS mount to be transmitted by the cable to the FMU.
+
+{% hint style="info" %}
+It is also recommended to use small cable ties to hold it down to the top plate in order to further isolate the cable and mast from the FMU.
+{% endhint %}
 
 ![](../../.gitbook/assets/heatshrink.jpg)
 
 Once it's assembled, the GPS mount can be installed onto the top plate. It's easier to do this now, because you can easily access the bottom side of this plate. 
 
-Earlier, with the bottom plate we defined the front side as the side pointed to by the weirdly shaped gap in the plate. We will also use this for the top plate. We will install the GPS on the right side of the plate, and the arrow on the GPS should point towards the front of the drone. Also see the picture below.
+Earlier, on the bottom plate, we defined the front as the side pointed to by the weirdly shaped gap in the plate. The gap with the little notch or triangle. We will also use this to define front for the top plate. We will install the GPS on the right side of the plate, and the arrow on the GPS should point towards the front of the drone. Also see the picture below.
 
 ![GPS with its mount installed onto the top plate.](../../.gitbook/assets/20190218_171401.jpg)
 
