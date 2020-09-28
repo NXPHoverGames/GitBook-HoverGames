@@ -35,9 +35,21 @@ Also consider using a **threadlocking adhesive** such as Loctite 243 for the leg
 
 Next, we will install the power distribution board \(PDB\) onto the bottom plate. You should have a pre-soldered board included with your kit. It already has small connectors for your ESCs. It also has a yellow XT60 connector for the FMU power module \(and battery\).
 
-![Unsoldered and pre-soldered power distribution boards. The pre-soldered board should be included.](../../.gitbook/assets/assets_-l9gltb-tz_xakbqu-al_-lz-258xxvdkvcl7lipu_-lz-9eaflse74grkvkaf_20181120_160542.jpg)
+{% hint style="danger" %}
+The PDB is supplied and soldered by a 3rd party. Some HoverGames participants have noticed a white residue on the backside of the PDB. This may be flux residue leftover from soldering. We recommend cleaning this residue with alcohol first before installing in case this residue inadvertently causes corrosion over time.
+{% endhint %}
 
-There should be nylon spacers and nuts included with the unsoldered PDB. We will install four of these spacers on top of the bottom plate. We will then use the remaining four spacers to keep the PDB in place.
+{% hint style="success" %}
+Some Hovergames participants have chosen to protect the terminals even further by covering them with hot melt glue \(glue-gun\) or additional heatshrink. This seems like a reasonable positive idea.
+{% endhint %}
+
+![Unsoldered and pre-soldered power distribution boards. Use the pre-soldered board](../../.gitbook/assets/assets_-l9gltb-tz_xakbqu-al_-lz-258xxvdkvcl7lipu_-lz-9eaflse74grkvkaf_20181120_160542.jpg)
+
+There should be nylon spacers and nuts included with the **unsoldered** PDB. We will reuse these with the soldered PDB and install four of these spacers on top of the bottom plate. We will then use the remaining four spacers to keep the PDB in place.
+
+{% hint style="danger" %}
+ Please check that the battery wires on the backside of the PDB do not touch the carbon fiber plate when installed. If necessary, trim the solder "nubs" with some side cutters. 
+{% endhint %}
 
 There are eight holes for screws distributed in a circle around the center of the bottom plate. We will use the "diagonal" holes, so not the holes that are closest to the legs or the front/back of the plate. Put a spacer through from the top, and use a nut to keep it in place. It should be fine to tighten them by hand, it is not necessary to use the wrench.
 
