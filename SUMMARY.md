@@ -66,6 +66,7 @@
 * [PX4 simulation](developerguide/simulation.md)
 * [PX4 system console](developerguide/system-console/README.md)
   * [Useful console commands](developerguide/system-console/useful-console-commands.md)
+* [C++ and Python interface&management application for FMUK66](developerguide/c++-and-python-interface-and-management-application-for-fmuk66.md)
 
 ## FMUK66 Hardware Reference <a id="rddrone-fmuk66"></a>
 
