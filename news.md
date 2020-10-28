@@ -23,11 +23,11 @@ Below you will find a list of recent updates and important news about the HoverG
 #### July 15, 2020
 
 * Five HoverGames/PX4 example labs have been added. You learn step-by-step how to create a basic PX4 module/application. The following labs are currently available:
-  * [HG-PX4 Example Lab 1: uORB Subscribe](developerguide/px4-example-code/hg-px4-example-lab-1.md)
-  * [HG-PX4 Example Lab 2: uORB Publish](developerguide/px4-example-code/hg-px4-example-lab-2.md)
-  * [HG-PX4 Example Lab 3: Building Code](developerguide/px4-example-code/hg-px4-example-lab-3.md)
-  * [HG-PX4 Example Lab 4: Running Code](developerguide/px4-example-code/hg-px4-example-lab-4.md)
-  * [HG-PX4 Example Lab 5: Build your own PX4 app](developerguide/px4-example-code/hg-px4-example-lab-5.md)
+  * [HG-PX4 Example Lab 1: uORB Subscribe](developerguide/px4-tutorial-example-code/hg-px4-example-lab-1.md)
+  * [HG-PX4 Example Lab 2: uORB Publish](developerguide/px4-tutorial-example-code/hg-px4-example-lab-2.md)
+  * [HG-PX4 Example Lab 3: Building Code](developerguide/px4-tutorial-example-code/hg-px4-example-lab-3.md)
+  * [HG-PX4 Example Lab 4: Running Code](developerguide/px4-tutorial-example-code/hg-px4-example-lab-4.md)
+  * [HG-PX4 Example Lab 5: Build your own PX4 app](developerguide/px4-tutorial-example-code/hg-px4-example-lab-5.md)
 
 #### July 14, 2020
 

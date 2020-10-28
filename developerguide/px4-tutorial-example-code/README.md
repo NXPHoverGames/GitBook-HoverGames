@@ -4,7 +4,7 @@ description: >-
   Autopilot.
 ---
 
-# PX4 example code
+# PX4 Tutorial example code
 
 ## PX4 HoverGames starter examples
 
