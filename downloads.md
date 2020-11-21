@@ -52,7 +52,7 @@ Guides are available for [updating firmware](userguide/qgroundcontrol/firmware.m
 
 \(Note: NXP does not provide precompiled code. Binary courtesy of PX4.io\)
 
-* [Download fmuk66v3\_bl.bin](http://ci.px4.io/job/PX4/job/Bootloader/job/master/lastStableBuild/artifact/build/fmuk66v3_bl/fmuk66v3_bl.bin)
+* [Download fmuk66v3\_bl.bin](http://ci.px4.io/job/PX4/job/PX4-Bootloader/job/master/lastSuccessfulBuild/artifact/build/fmuk66v3_bl/fmuk66v3_bl.bin)
 
 A precompiled PX4 bootloader is available for convenience. This file will be updated infrequently and usually without notice. There is usually no need to update the bootloader after it is loaded once.
 
