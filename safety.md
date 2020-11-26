@@ -15,12 +15,18 @@ Ensure you are familiar with the **local** regulations that are in place before 
 
 Many locations require you pass a drone safety test or drone operators test, and also register and display a registration number on your drone. It is usually not onerous to comply to these regulations.
 
-* General resource for drone regulations: [https://www.droneregulations.info](https://www.droneregulations.info/)​
-* EU regulations: [http://dronerules.eu/en/](http://dronerules.eu/en/)​
-* UK regulations: [https://www.caa.co.uk/consumers/unmanned-aircraft-and-drones/](https://www.caa.co.uk/consumers/unmanned-aircraft-and-drones/)​
-* US regulations: [https://www.faa.gov/uas/](https://www.faa.gov/uas/)​
-* Canada regulations [https://tc.canada.ca/en/aviation/drone-safety](https://tc.canada.ca/en/aviation/drone-safety)
-* India regulations: [https://digitalsky.dgca.gov.in/](https://digitalsky.dgca.gov.in/), [http://pib.nic.in/newsite/PrintRelease.aspx?relid=183093](http://pib.nic.in/newsite/PrintRelease.aspx?relid=183093), [https://www.medianama.com/2018/12/223-drones-online-registration-india/](https://www.medianama.com/2018/12/223-drones-online-registration-india/)
+* General resources for drone laws and regulations:
+  * [https://uavcoach.com/drone-laws/](https://uavcoach.com/drone-laws/) \(scroll down for a list of countries\)
+  * [https://www.droneregulations.info](https://www.droneregulations.info/)
+  * [https://drone-traveller.com/drone-regulations-worldwide/](https://drone-traveller.com/drone-regulations-worldwide/)
+* European Union: [http://dronerules.eu/en/](http://dronerules.eu/en/)​
+* United Kingdom: [https://www.caa.co.uk/consumers/unmanned-aircraft-and-drones/](https://www.caa.co.uk/consumers/unmanned-aircraft-and-drones/)​
+* United States of America: [https://www.faa.gov/uas/](https://www.faa.gov/uas/)​
+* Canada: [https://tc.canada.ca/en/aviation/drone-safety](https://tc.canada.ca/en/aviation/drone-safety)
+* India:
+  * [https://digitalsky.dgca.gov.in/](https://digitalsky.dgca.gov.in/)
+  * [http://pib.nic.in/newsite/PrintRelease.aspx?relid=183093](http://pib.nic.in/newsite/PrintRelease.aspx?relid=183093)
+  * [https://www.medianama.com/2018/12/223-drones-online-registration-india/](https://www.medianama.com/2018/12/223-drones-online-registration-india/)
 
 ## Safety settings
 
