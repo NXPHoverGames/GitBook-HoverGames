@@ -9,11 +9,11 @@ description: >-
 
 ## Drone laws and regulations
 
-Regulations around the world vary greatly, and not handling according to regulations can result in significant penalties. It is your own responsibility that you follow these regulations.
+Regulations around the world vary greatly, and not handling according to regulations can result in significant penalties. It is your own responsibility that you follow these regulations. The links below are provided here for guidance only and should not be considered comprehensive information in any way.
 
 Ensure you are familiar with the **local** regulations that are in place before you fly: regulations are different depending on what continent, country or region you want to fly. The links below might be a good starting point. Please [contact us](contact.md#contact-the-hovergames-team) if you have any additions to this list.
 
-Many locations require you pass a drone safety test or drone operators test, and also register and display a registration number on your drone. It is usually not onerous to comply to these regulations.
+Many locations require you pass a drone safety test or **drone operators test**, and also register and display a registration number on your drone. It is usually not difficult to comply to these regulations but will require some study.
 
 * General resources for drone laws and regulations:
   * [https://uavcoach.com/drone-laws/](https://uavcoach.com/drone-laws/) \(scroll down for a list of countries\)
@@ -27,6 +27,12 @@ Many locations require you pass a drone safety test or drone operators test, and
   * [https://digitalsky.dgca.gov.in/](https://digitalsky.dgca.gov.in/)
   * [http://pib.nic.in/newsite/PrintRelease.aspx?relid=183093](http://pib.nic.in/newsite/PrintRelease.aspx?relid=183093)
   * [https://www.medianama.com/2018/12/223-drones-online-registration-india/](https://www.medianama.com/2018/12/223-drones-online-registration-india/)
+
+### Privacy Laws
+
+In addition to regulations regarding flying a drone, there may also be regulations relating to privacy when a camera is on board the drone. The link below has a reasonable summary of what may be the situation in your location. This link is provided for convenience only, and should not be considered comprehensive:
+
+* [https://surfshark.com/drone-privacy-laws](https://surfshark.com/drone-privacy-laws)
 
 ## Safety settings
 
