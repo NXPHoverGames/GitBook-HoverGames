@@ -4,6 +4,10 @@ description: Guide to installing and configuring Visual Studio Code for HoverGam
 
 # Visual Studio Code
 
+{% hint style="warning" %}
+This page is **archived**. You are probably looking for the [development tools](../../developerguide/tools/) page.
+{% endhint %}
+
 ## Installing Visual Studio Code
 
 {% hint style="danger" %}

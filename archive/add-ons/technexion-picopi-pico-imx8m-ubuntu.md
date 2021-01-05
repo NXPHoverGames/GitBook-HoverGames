@@ -4,6 +4,10 @@ description: Notes on programming with Ubuntu and ROS
 
 # TechNexion PICO-PI PICO-IMX8M companion computer
 
+{% hint style="warning" %}
+This page is **archived**. You might find what you are looking for on the [NavQ GitBook](https://nxp.gitbook.io/8mmnavq/).
+{% endhint %}
+
 ## Preamble
 
 As part of our NXP drone development solutions we like to offer several options for companion computers. The i.MX 8, 8M, 8M-mini, 8M-nano and 8M+ family of processors is a good industrial fit as they are low cost and robust. There are also automotive grade processors  to consider when functional safety is required.

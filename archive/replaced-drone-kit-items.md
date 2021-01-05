@@ -1,5 +1,9 @@
 # Replaced drone kit items
 
+{% hint style="warning" %}
+This page is **archived**. You are probably looking for the page that lists the [drone kit contents](../userguide/getting-started/drone-kit-contents.md).
+{% endhint %}
+
 Some components were included in older kits and were either replaced or left out.
 
 * 1x [ReadytoSky S500 quadcopter frame kit with carbon fiber landing gear](../userguide/getting-started/drone-kit-contents.md#readytosky-s500-quadcopter-frame-kit-with-carbon-fiber-landing-gear) \(old kits\)

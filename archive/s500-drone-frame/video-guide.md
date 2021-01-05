@@ -4,6 +4,10 @@ description: This page lists all videos explaining how to build the HoverGames d
 
 # Video guide \(outdated\)
 
+{% hint style="warning" %}
+This page is **archived**. You are probably looking for the up-to-date [assembly guide](../../userguide/assembly/).
+{% endhint %}
+
 ## Outdated
 
 {% hint style="danger" %}

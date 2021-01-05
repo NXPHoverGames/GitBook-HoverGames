@@ -6,6 +6,10 @@ description: >-
 
 # Landing gear and rails
 
+{% hint style="warning" %}
+This page is **archived**. You are probably looking for the up-to-date [assembly guide](../../userguide/assembly/).
+{% endhint %}
+
 ## Mounting the landing gear
 
 The first step is to put together the landing gear and mount it to the bottom frame. Each leg consists of a bottom part with foam and a T-shaped junction, and a carbon rod with a part that can be mounted to the bottom plate with four black M3 screws.

@@ -6,6 +6,10 @@ description: >-
 
 # S500 drone frame assembly
 
+{% hint style="warning" %}
+This page is **archived**. You are probably looking for the up-to-date [assembly guide](../../userguide/assembly/).
+{% endhint %}
+
 This section is a guide on how to build the HoverGames drone with the S500 drone frame. It works best when the pages are read in the order in which they appear in the menu. You should start with mounting the motors, and finish with mounting the FMU and GPS.
 
 {% hint style="warning" %}

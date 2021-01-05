@@ -6,6 +6,10 @@ description: >-
 
 # Windows drivers
 
+{% hint style="warning" %}
+This page is **archived**. You are probably looking for the [downloads](../downloads.md) page.
+{% endhint %}
+
 ## USB drivers for RDDRONE-FMUK66
 
 {% hint style="success" %}

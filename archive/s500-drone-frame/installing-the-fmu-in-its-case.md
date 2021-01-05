@@ -4,6 +4,10 @@ description: This page shows how the FMU is installed in its 3D printed case.
 
 # Installing the FMU in its case
 
+{% hint style="warning" %}
+This page is **archived**. You are probably looking for the up-to-date [assembly guide](../../userguide/assembly/).
+{% endhint %}
+
 The FMU comes with a 3D printed casing, which still has to be assembled. It consists of a top and bottom part and a tiny piece which presses against the reset button. The FMU should first be screwed down to the bottom part of the casing with four short screws of about 7 mm long.
 
 {% hint style="info" %}

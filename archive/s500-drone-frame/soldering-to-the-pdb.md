@@ -4,6 +4,10 @@ description: This page shows which components have to be soldered to the PDB.
 
 # Soldering to the PDB
 
+{% hint style="warning" %}
+This page is **archived**. You are probably looking for the up-to-date [assembly guide](../../userguide/assembly/).
+{% endhint %}
+
 Next, we will start soldering all components onto the power distribution board \(bottom plate of the frame\). The top side has solder pads for ESCs, as can be seen in the picture below.
 
 ![Top side of the power distribution board \(PDB\) / bottom plate of the frame.](../../.gitbook/assets/pdb.jpg)

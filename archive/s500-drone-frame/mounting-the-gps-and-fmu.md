@@ -6,6 +6,10 @@ description: >-
 
 # Mounting the GPS and FMU
 
+{% hint style="warning" %}
+This page is **archived**. You are probably looking for the up-to-date [assembly guide](../../userguide/assembly/).
+{% endhint %}
+
 ## Mounting the top plate and GPS
 
 Before we install the FMU onto the drone, we should first install the GPS when we still have the space to do so. A small 3D printed part is included in the kit which allows us to mount the GPS mast to the top plate. The 3D printed part goes underneath, the base of the GPS mast goes on top and we use the included screws and nuts to keep it in place. It should be mounted on the right side of the top plate.

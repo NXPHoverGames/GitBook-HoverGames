@@ -6,6 +6,10 @@ description: >-
 
 # Installing the radios
 
+{% hint style="warning" %}
+This page is **archived**. You are probably looking for the up-to-date [assembly guide](../../userguide/assembly/).
+{% endhint %}
+
 ## RC receiver
 
 The receiver for the radio controller has two antennas that work best when under an angle. A 3D printed part is included in the kit which can hold the antennas and fits onto the rails. The antennas should fit right into it, as can be seen below.

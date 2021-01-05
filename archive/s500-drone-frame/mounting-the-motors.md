@@ -4,6 +4,10 @@ description: 'As a first step of assembling the HoverGames drone, we will mount 
 
 # Mounting the motors
 
+{% hint style="warning" %}
+This page is **archived**. You are probably looking for the up-to-date [assembly guide](../../userguide/assembly/).
+{% endhint %}
+
 We will start by mounting the motors to the arms of the frame. Put the three wires coming out of the motor through the hole as shown in the picture below. 
 
 ![Put the motor wires through this hole.](../../.gitbook/assets/s500assemblymotorwires.jpg)

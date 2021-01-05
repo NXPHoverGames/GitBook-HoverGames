@@ -4,6 +4,10 @@ description: This page provides an overview of how to connect all wires to the F
 
 # Connecting all FMU wires
 
+{% hint style="warning" %}
+This page is **archived**. You are probably looking for the up-to-date [assembly guide](../../userguide/assembly/).
+{% endhint %}
+
 ## Connector pinout
 
 We are almost ready. We only need to connect the wires to the right connectors on the FMU. A diagram showing all port locations is available below. [More indepth information](../../rddrone-fmuk66/connectors/) is also available in the technical reference section.

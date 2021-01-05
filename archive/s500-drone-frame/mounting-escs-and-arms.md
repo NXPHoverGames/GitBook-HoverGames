@@ -6,6 +6,10 @@ description: >-
 
 # Mounting ESCs and arms
 
+{% hint style="warning" %}
+This page is **archived**. You are probably looking for the up-to-date [assembly guide](../../userguide/assembly/).
+{% endhint %}
+
 ## Clockwise and counter clockwise rotating motors
 
 As mentioned on the previous page, we have two kinds of motors. Clockwise rotating motors have a little mark on top of their shaft, and counter clockwise rotating motors have a smooth top.
