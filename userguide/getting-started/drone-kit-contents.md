@@ -121,7 +121,8 @@ The direction of these self tightening propellers is also easily recognized by t
 
 The power module provides power to the FMU and also includes voltage and current sensors which allow the flight controller to keep track of the battery level.
 
-The small white JST-GH connector provides power to the FMU. The the big black XT60 connectors go to the batteries and the power distribution board \(PDB\). The PDB included with the frame kit should already have an XT60 connector installed. Note that XT60 connectors are often yellow.
+The small white JST-GH connector provides power to the FMU. The larger black XT60 connectors go to the batteries and to the power distribution board \(PDB\). The PDB included with the frame kit should already have an XT60 connector installed.   
+\(Note that XT60 connectors may also be yellow.\)
 
 ![FMU power module, which provides power and voltage/current measurements to the FMU.](../../.gitbook/assets/20190715_161632.jpg)
 
