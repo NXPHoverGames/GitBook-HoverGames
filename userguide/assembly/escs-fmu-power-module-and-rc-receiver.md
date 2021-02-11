@@ -46,7 +46,7 @@ If the antennas do not fit in the 3D printed mount, you might need to drill the 
 
 ![3D printed antenna mount.](../../.gitbook/assets/image%20%28101%29.png)
 
-A small cable with a 6 pin JST-GH connector one one side and a 3 pin servo connector on the other side should be plugged into the receiver module. The pins are labeled `i-BUS SERVO` on the receiver. The signal wire \(white\) should be on the outside. See the picture below.
+A small cable with a 6 pin JST-GH connector one side and a 3 pin servo connector on the other side should be plugged into the receiver module. The pins are labeled `i-BUS SERVO` on the receiver. The signal wire \(white\) should be on the outside. See the picture below.
 
 ![Close-up of the cable plugged into the RC receiver.](../../.gitbook/assets/image%20%28157%29.png)
 
