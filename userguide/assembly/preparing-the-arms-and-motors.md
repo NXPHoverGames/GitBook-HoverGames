@@ -31,7 +31,11 @@ Note that the main body screws for the arm clamps have nylon locking nuts and ar
 
 ![Motor installed onto the carbon fiber plate. You should use the M3 screws from the labeled bag.](../../.gitbook/assets/assets_-l9gltb-tz_xakbqu-al_-lyzuzz7xrf0gmu8v_mh_-lyzy8uicdfhhcqaoeg1_20181120_165950.jpg)
 
-For the next step, we need four tube clamps, the other carbon plate, four long M2.5 screws and the locknuts. The screws go through the holes in the corners of the carbon fiber plate. Then on each side two tube clamps are added onto the screws. The carbon fiber arms will fit between these clamps. Finally, the carbon fiber plate goes over the screws and a locknut goes on the end. Tighten the nuts slightly by hand, so they don't fall of. You don't have to fully tighten them with a wrench yet, because we have to put the carbon fiber tubes through first, and then we will tighten it around the tube.
+For the next step, we need: four tube clamps, the other carbon plate, four long M2.5 screws and the locknuts. 
+
+* The screws go through the holes in the corners of the carbon fiber plate. 
+* Then on each side, slide \*two\* tube clamps \(forming a circle\) over top of the screws The carbon fiber arms will fit between these clamps. 
+* Finally, the remaining carbon fiber plate goes on the part of the screw left sticking out. A locknut goes on the end. Tighten the nuts slightly by hand, so they don't fall off. You don't have to fully tighten them with a wrench yet, because we have to put the carbon fiber tubes through first, and then we will tighten it around the tube.
 
 {% embed url="https://www.youtube.com/watch?v=Ib1cFSmn7e0" %}
 
@@ -39,9 +43,12 @@ For the next step, we need four tube clamps, the other carbon plate, four long M
 
 ### Alternative approach
 
-There are two ways to assemble the motor mounts. Having the screws come down from the top, with the locknuts on the bottom makes most sense, because you will probably only lose the nut when it comes loose during flight. However, it can be convenient to put the screws up from the bottom. In this case, you put the screws through the "bottom plate" first, with the tube clamps going on top. You can then put this structure on the table and put the plate with motor on top of it. 
+There are two ways to assemble the motor mounts. While having the screws come down from the top, with the locknuts on the bottom makes logical sense as you would probably only lose the nut if  it comes loose during flight. However, it can also be convenient to put the screws up from the bottom. In this case, you put the screws through the "bottom plate" first, with the tube clamps going on top.   
+The advantage is you can then put this structure on the table and put the plate with motor on top of it. 
 
-This makes serviceability a bit easier, which is nice if you are building multiple drones kits, or when you have to take them apart often. This is especially useful for the middle part of the drone, which is build in a similar way as these motor mounts. The disadvantage is that you are likely to lose both the screw and the nut in case it comes loose. Ultimately, it comes down to preference.
+Serviceability is also a bit easier since the Motor plate is easy to put on and off without disturbing the screws and clamp portion. This is nice if you are building multiple drones kits, or when you have to take them apart often.   
+  
+Similarly "up" going screws are especially useful for the clamps in the middle main body part of the drone. These are built in a similar way as these motor mounts. The disadvantage is that you are likely to lose both the screw and the nut in case it comes loose. Ultimately, it comes down to preference.
 
 {% embed url="https://www.youtube.com/watch?v=usGWeZp2iNU" %}
 
