@@ -44,7 +44,7 @@ The rod can be inserted into this piece and will be kept in place with a tiny he
 You should put the big "cone" over the rod, you can screw this onto the base.
 
 {% hint style="success" %}
-The  "cone" may feel tight when screwing down. Some people have found that filing the edge of the head of the tilt-hinge screw helps improve this.
+The  "cone" may feel tight when screwing down. Some people have found that they need to file the edge of the head of the tilt-hinge screw to improve this situation.
 {% endhint %}
 
 ![](../../.gitbook/assets/20190621_100929.jpg)
@@ -56,12 +56,14 @@ On top, you should have a big flat piece, which is also kept in place with a tin
 With the included double sided tape, you can install the GPS itself on top. Make sure the arrow on the GPS aligns with one of the "arms" of the cross-shaped base. It doesn't have to be perfect, you will be able to slightly rotate the GPS after loosening the small screw in the top part of the mount.
 
 {% hint style="info" %}
-There may still be a bit of play in the GPS mast after the nut is tightened. You can improve this by adding a bit of clear tape around the hole where the mast enters the 'cone', or by adding some tape under the cone itself.
+There may still be a bit of play in the GPS mast after the nut is tightened. You can improve this by adding a bit of clear tape around the hole where the mast enters the 'cone', or by adding some tape under the cone itself.  
+  
+Alternatively you may want to check if the head of the screw on the tilt mechanism is sticking out a bit too far. Filing the edge of this screw head may allow the cone to tighten on a bit better. 
 {% endhint %}
 
 ![](../../.gitbook/assets/20190621_101243.jpg)
 
-We also suggest to remove the piece of heatshrink at the end of the GPS cable, just before the connector. Be \*very\* careful to not cut the wires! The reason for this is that this heatshrink itself is quite stiff and in some cases this could cause mechanical vibrations in the GPS mount to be transmitted by the cable to the FMU.
+We also suggest to remove the piece of heatshrink \(or cloth tape\) at the end of the GPS cable, just before the connector. Be \*very\* careful to not cut the wires! The reason for this is that this heatshrink itself is quite stiff and in some cases this could cause mechanical vibrations in the GPS mount to be transmitted by the cable to the FMU.
 
 {% hint style="info" %}
 It is also recommended to use small cable ties to hold it down to the top plate in order to further isolate the cable and mast from the FMU.
@@ -77,7 +79,7 @@ Earlier, on the bottom plate, we defined the front as the side pointed to by the
 
 {% embed url="https://www.youtube.com/watch?v=r3OYMa37bDQ" %}
 
-There should be screws and nuts included with the GPS. You can use the slits on the side of the plate to put the screws through. We have used only three screws, which should be enough. If you put a washer in between, you might also be able to use the fourth screw.
+There should be screws and nuts included with the GPS. You can use the slits on the side of the plate to put the screws through. On some top plates there will be exact holes to mount to. We have used only three screws, which should be enough. If you put a washer in between, you might also be able to use the fourth screw. 
 
 {% hint style="info" %}
 The GPS module consists of a **GPS receiver** and a **magnetometer** \(compass\). There are also a few LEDs on the module: a RGB status led, a small GPS fix led which indicates if the GPS reception is good enough, and a switch LED which can be pressed and acts as a **safety switch for arming** your drone.
