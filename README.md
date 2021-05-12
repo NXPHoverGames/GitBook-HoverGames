@@ -8,12 +8,14 @@ description: >-
 # HoverGames
 
 {% hint style="success" %}
-Also have a look at some of the other **NXP GitBooks**:  
-- [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/)  
-- [UCANS32K UAVCAN Node](https://nxp.gitbook.io/ucans32k146/)  
-- [RDDRONE-BMS772 Battery Management System](https://nxp.gitbook.io/rddrone-bms772/)  
-- [D2X Reference Design](https://nxp.gitbook.io/d2x/)  
-- [NXP Cup](https://nxp.gitbook.io/nxp-cup-hardware-reference-alamak/)
+Also have a look at some of the other **NXP GitBooks**:
+
+* [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/)
+* [UCANS32K146 ](https://nxp.gitbook.io/ucans32k146/): CAN-FD / UAVCAN node
+* [RDDRONE-BMS772 ](https://nxp.gitbook.io/rddrone-bms772/): Battery Management System
+* [RDDRONE-T1ADAPT ](https://nxp.gitbook.io/rddrone-t1adapt): T1 Ethernet Adapter
+* [D2X Reference Design](https://nxp.gitbook.io/d2x/)
+* [NXP Cup Car](https://nxp.gitbook.io/nxp-cup-hardware-reference-alamak/)
 {% endhint %}
 
 ![](.gitbook/assets/hg_logo.png)
