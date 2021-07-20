@@ -13,15 +13,23 @@ Many problems are solved by simply switching the device off and on. This goes fo
 
 ## Unable to make connection from Windows computer to FMU
 
-There are still issues with the Windows driver that comes with QGroundControl. It does not yet recognize and support the RDDRONE-FMUK66. It is possible to modify the driver yourself to get it to work, but this does not seem to solve the issue completely. Flashing firmware might still be impossible.
+#### Windows Driver issue \(old\)
+
+Originally there were some issues with the Windows driver that comes with QGroundControl. It did not recognize and support the RDDRONE-FMUK66. If this occurs again in future then once again Flashing firmware via QGC may be impossible.
 
 {% page-ref page="../archive/windows-drivers.md" %}
 
-Flashing firmware using the debugger should always work, even under Windows. Otherwise, it might be a good idea to setup a virtual machine with a Linux OS. The Linux version of QGroundControl does recognize the FMU, and this also works in a virtual machine if you set up the USB passthrough correctly. Note that the FMU has a bootloader which is seen as a seperate device during boot, you will also have to add this device.
+Flashing firmware using the debugger should always work, even under Windows. Otherwise, it might be a good idea to setup a virtual machine with a Linux OS. The Linux version of QGroundControl does recognize the FMU, and this also works in a virtual machine if you set up the USB passthrough correctly. Note that the FMU has a bootloader which is seen as a separate device during boot, you will also have to add this device.  
+
+
+#### Windows Bluetooth COM port conflict
+
+One of the HoverGames reported the following issue:  
+_"I had FMU communications issues recently. QGroundControl was no longer detecting FMU/Telemetry. In my case, it turned out the Bluetooth controller included in my laptop \(Dell Latitude E7450\) was creating UARTs COM ports conflicting with FMU/Telemetry, preventing QGC to detect the new ports. To work around this connection issue, just temporarily disable the Bluetooth in Windows 10 \(for example, in the bottom right notification area menu, set the Bluetooth OFF\), unplug FMU or Telemetry cables, then restart QGroundControl."_
 
 ## The FMU is not booting
 
-Make sure there is a bootloader on the board, and that the firmware is working correctly. Try to rewrite both the bootloader and firmware using the debugger.
+Make sure there is actually a bootloader on the board, and that the firmware is working correctly. When first powered on the Bootloader will flash the yellow LED while in bootloader mode. If you are having difficulty you can follow the flashing instructions, and re-flash both the bootloader and firmware using the debugger.
 
 {% page-ref page="programming.md" %}
 
@@ -54,7 +62,7 @@ If you cannot solve the issue yourself, try to determine whether the source of t
 {% hint style="danger" %}
 **DANGER** - **REMOVE** the propellers!
 
-This method bypasses some of the internal failsafes!
+DANGER! This method bypasses some of the normal QGroundControl internal fail-safes!
 {% endhint %}
 
 The airframe must be set, and to get accurate results the motor calibration should be completed. **After ensuring the propellers are removed for safety**, from the console you can issue the following commands to directly test and exercise the PWM outputs:
