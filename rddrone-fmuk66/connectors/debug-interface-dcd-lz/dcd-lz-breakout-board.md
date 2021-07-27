@@ -29,7 +29,7 @@ Pin 1 \(black\) of USB-TTL-3V3 is marked with a black dot on the DCD-LZ-ADAPT bo
 ## Schematic
 
 {% hint style="info" %}
-Note that FTDI USB-UART cable presents 5V on pin3. There were originally two dropping diodes to feed this forward. They have been removed in subsequent revisions, therefore this is not fed to Pin1 of the DCD-LZ connector.
+Note that FTDI USB-UART cable presents 5V on pin3. There were originally two forward dropping diodes to feed this forward to the rest of the PCB. They have subsequently been removed in newer revisions and therefore it should be noted that JP1 pin 3 does not connect to 3V3 nor to to Pin1 of the DCD-LZ connector. An updated schematic is pending here.
 {% endhint %}
 
 ![](../../../.gitbook/assets/afbeelding%20%2816%29.png)
