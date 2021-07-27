@@ -17,7 +17,8 @@ However - To quickly get started, you can program a precompiled bootloader and P
 
 ## Software setup and debugger adapter board
 
-The bootloader can only be written to the board using a debugger. The HoverGames drone kit includes a J-Link EDU Mini debugger. To use it, you need to install the J-Link Software Pack. Links are provided on the [downloads ](../downloads.md#j-link-software-and-documentation-pack)page.
+The bootloader can **only** be written to the board using a debugger. Once a bootloader is present, then PX4 itself may be written using QGroundControl or the debugger.   
+The HoverGames drone kit includes a J-Link EDU Mini debugger. To use it, you need to install the J-Link Software Pack. Links are provided on the [downloads ](../downloads.md#j-link-software-and-documentation-pack)page.
 
 The debugger can be plugged into the FMU using a small adapter board. This small PCB comes with a 3D printed case that can easily be put together. The J-Link debugger can be connected using an **SWD cable**. The connectors have to be oriented such that the **wires directly go to the side of the board**, as shown in the picture below.
 
