@@ -6,7 +6,7 @@ description: >-
 
 # DCD-LZ breakout board
 
-In order to work with the DCD-LZ interface you will need a small breakout board which allows you to easily plug in each connector for all devices. The HoverGames kit includes a small board made by NXP which has a 10 pin SWD connector for Segger J-Link debuggers, a USB-TTL-3V3 header and a Landzo 4 pin serial connector.
+In order to work with the DCD-LZ interface you will need a small breakout board which allows you to easily plug in each connector for all devices. The HoverGames kit includes a small board made by NXP which has a 10 pin SWD connector for Segger J-Link debuggers, a USB-TTL-3V3 header. There is also an unused "Landzo" 4 pin serial connector.
 
 {% hint style="danger" %}
 Pin 1 \(black\) of USB-TTL-3V3 is marked with a black dot on the DCD-LZ-ADAPT board. There is a corresponding dot marking pin 1 on top of the 3D printed case.
@@ -27,6 +27,10 @@ Pin 1 \(black\) of USB-TTL-3V3 is marked with a black dot on the DCD-LZ-ADAPT bo
 | 7 | GND | GND | 1 / Black | 3 |
 
 ## Schematic
+
+{% hint style="info" %}
+Note that FTDI USB-UART cable presents 5V on pin3. There were originally two dropping diodes to feed this forward. They have been removed in subsequent revisions, therefore this is not fed to Pin1 of the DCD-LZ connector.
+{% endhint %}
 
 ![](../../../.gitbook/assets/afbeelding%20%2816%29.png)
 
