@@ -16,15 +16,15 @@ As mentioned on the previous page, we have two kinds of motors. Clockwise rotati
 
 ![Arm with a clockwise rotating motor. Notice the mark on top of the motor shaft.](../../.gitbook/assets/arm-cw-motor.jpg)
 
-![Arm with a counter clockwise \(CCW\) rotating motor.](../../.gitbook/assets/arm-ccw-motor.jpg)
+![Arm with a counter clockwise (CCW) rotating motor.](../../.gitbook/assets/arm-ccw-motor.jpg)
 
-The motors should be mounted according to the following diagram. The motors on the front left \(\#3\) and back right \(\#4\) should turn clockwise \(motor with mark\), and the front right \(\#1\) and back left \(\#2\) should turn counter clockwise \(motor without mark\).  
+The motors should be mounted according to the following diagram. The motors on the front left (#3) and back right (#4) should turn clockwise (motor with mark), and the front right (#1) and back left (#2) should turn counter clockwise (motor without mark).\
 
 
-![](../../.gitbook/assets/motordirection%20%281%29.jpg)
+![](<../../.gitbook/assets/motordirection (1).jpg>)
 
-  
-The top side of the bottom plate is the side with the soldering pads. The S500 text should be at the back of the drone, the part with the slits should be at the front. The front left and back right should have an arm with a clockwise rotating motor \(which have a mark on top of the motor shaft\). The front right and back left should have arms with motors rotating in the counter clockwise direction \(which have a smooth top of the motor shaft\).
+\
+The top side of the bottom plate is the side with the soldering pads. The S500 text should be at the back of the drone, the part with the slits should be at the front. The front left and back right should have an arm with a clockwise rotating motor (which have a mark on top of the motor shaft). The front right and back left should have arms with motors rotating in the counter clockwise direction (which have a smooth top of the motor shaft).
 
 ## Mounting the arms
 
@@ -58,11 +58,11 @@ The ESCs can be strapped underneath the arms with zip ties. The zip ties go thro
 
 ![The zip tie fits nicely around this part of the ESC.](../../.gitbook/assets/esc-ziptie-loose.jpg)
 
-![Tighten it firmly. The ESC shouldn&apos;t be able to move around much.](../../.gitbook/assets/esc-ziptie-tight.jpg)
+![Tighten it firmly. The ESC shouldn't be able to move around much.](../../.gitbook/assets/esc-ziptie-tight.jpg)
 
 ![The zip ties fit nicely through the holes in the arm.](../../.gitbook/assets/arm-ziptie.jpg)
 
-![Make sure to cut off the zip tie, to make sure it can&apos;t get caught in the propellers.](../../.gitbook/assets/arm-ziptie-cutoff.jpg)
+![Make sure to cut off the zip tie, to make sure it can't get caught in the propellers.](../../.gitbook/assets/arm-ziptie-cutoff.jpg)
 
 ## The results so far
 
@@ -73,4 +73,3 @@ At this point, we should have the bottom plate ready with the XT60 connector, ES
 Now make absolutely sure the motors are in the right positions. The motors with a mark on top of their shaft should be at the front left and back right. The motors without a mark should be on the front right and back left. The front of the drone is the part with the slits on the bottom plate. The back is the part with the XT60 connector.
 
 If you find you have made a mistake with the motors, you can just unplug the ESC wires, unscrew the M3 screws that keep the motor in place and change two motors. You don't have to change the whole arm. The ESCs are the same for clockwise and counter clockwise rotating motors, so they can stay in the same place.
-

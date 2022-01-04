@@ -6,7 +6,7 @@ description: An overview of all video tutorials for assembling the HoverGames dr
 
 ## Introduction
 
-{% embed url="https://www.youtube.com/watch?v=x9WMWh0SU\_Q" %}
+{% embed url="https://www.youtube.com/watch?v=x9WMWh0SU_Q" %}
 
 ## Preparing the arms and motors
 
@@ -61,6 +61,4 @@ description: An overview of all video tutorials for assembling the HoverGames dr
 {% embed url="https://www.youtube.com/watch?v=G72q62d7z2A" %}
 
 {% embed url="https://www.youtube.com/watch?v=iw5B-l-XQWI" %}
-
-
 

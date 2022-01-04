@@ -8,9 +8,8 @@ There are different options to connect to the serial console of the FMU. The mos
 
 Typically it is convenient to use the system console can also be accessed from QGroundControl. This assumes the system has successfully completed boot up and a connection between the FMU and QGroundControl can be established. It is called MAVLink Console, and it is available in the same menu as the log downloads. The MAVLink Console is available over both a hardwired USB cable connection and wirelessly over a telemetry connection.
 
-![The MAVLink Console can be found in the same menu as the Log Download feature. ](../../.gitbook/assets/image%20%2887%29.png)
+![The MAVLink Console can be found in the same menu as the Log Download feature. ](<../../.gitbook/assets/image (87).png>)
 
 More information about the system console is available on the PX4 Developer Guide:
 
-{% embed url="https://dev.px4.io/en/debug/system\_console.html" %}
-
+{% embed url="https://dev.px4.io/en/debug/system_console.html" %}

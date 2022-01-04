@@ -6,11 +6,11 @@ description: Communication between the FMU and the Rapid-IoT
 
 ## Rapid IoT - Getting Started
 
-When you are not familiar with the Rapid IoT, you can do the [Getting Started](https://www.nxp.com/support/developer-resources/rapid-prototyping/nxp-rapid-iot-prototyping-kit:IOT-PROTOTYPING?tab=In-Depth_Tab) from the NXP website. There you can get also the [SDK ](https://www.nxp.com/webapp/sps/download/license.jsp?colCode=SLN-RPK-NODE-SDK&appType=file1&DOWNLOAD_ID=null)which includes a "Hello World"-Example.
+When you are not familiar with the Rapid IoT, you can do the [Getting Started](https://www.nxp.com/support/developer-resources/rapid-prototyping/nxp-rapid-iot-prototyping-kit:IOT-PROTOTYPING?tab=In-Depth\_Tab) from the NXP website. There you can get also the [SDK ](https://www.nxp.com/webapp/sps/download/license.jsp?colCode=SLN-RPK-NODE-SDK\&appType=file1\&DOWNLOAD\_ID=null)which includes a "Hello World"-Example.
 
-You need the both SDKs "SDK\_2.xRapidIoT\_MK64F12" and "SDK\_2.xRapidIoT\_MKW41Z4". Download them [here ](https://www.nxp.com/webapp/sps/download/license.jsp?colCode=SLN-RPK-NODE-SDK&appType=file1&DOWNLOAD_ID=null)and install the SDKs by Drag&Drop into the "Installed SDKs" window in MCUXpresso.
+You need the both SDKs "SDK\_2.xRapidIoT\_MK64F12" and "SDK\_2.xRapidIoT\_MKW41Z4". Download them [here ](https://www.nxp.com/webapp/sps/download/license.jsp?colCode=SLN-RPK-NODE-SDK\&appType=file1\&DOWNLOAD\_ID=null)and install the SDKs by Drag\&Drop into the "Installed SDKs" window in MCUXpresso.
 
-![](../../.gitbook/assets/gs_rapid_sdks_edit.png)
+![](../../.gitbook/assets/gs\_rapid\_sdks\_edit.png)
 
 ## Setup a Rapid IoT Project
 
@@ -18,59 +18,59 @@ A MAVLink demo for the Rapid-IOT is available [here](https://github.com/NXPHover
 
 ### Import the SDK example "hello world"
 
-In the "MCUXpresso IDE - Quickstart Panel click on the option "Import SDK example\(s\)..".
+In the "MCUXpresso IDE - Quickstart Panel click on the option "Import SDK example(s)..".
 
-![](../../.gitbook/assets/gs_rapid_startmcux_importexample_edit%20%281%29.png)
+![](<../../.gitbook/assets/gs\_rapid\_startmcux\_importexample\_edit (1).png>)
 
 The "SDK Import Wizard" pops up. Here choose your board, in this case the "rapid\_iot\_k64f" and click on "Next".
 
-![](../../.gitbook/assets/gs_rapid_sdkimportwizard_edit.png)
+![](../../.gitbook/assets/gs\_rapid\_sdkimportwizard\_edit.png)
 
 In the following window you can define a project name prefix and a project name suffix. In this case the default names are used.In the "Project options" choose UART as SDK Debug Console and check under the "Examples" the "hello\_world". Compare with the picture below. Now click on "Next".
 
-![](../../.gitbook/assets/gs_rapid_sdkimportwizard2_edit%20%281%29.png)
+![](<../../.gitbook/assets/gs\_rapid\_sdkimportwizard2\_edit (1).png>)
 
 In the last window uncheck the Options "Redirect SDK "PRINTF2 to C library "printf" and "Include semihost HardFault handler" and check the option "Redlib: Use floating point version of printf":
 
-![](../../.gitbook/assets/gs_rapid_sdkimportwizard3_edit.png)
+![](../../.gitbook/assets/gs\_rapid\_sdkimportwizard3\_edit.png)
 
-Now click on "Finish". The project will be created. This could last a moment. Build your project for the first time by using the "Build"-symbol in the upper left corner or the "Build" button in the "Quickstart Panel. \(see Picture\) The compiler should run without errors.
+Now click on "Finish". The project will be created. This could last a moment. Build your project for the first time by using the "Build"-symbol in the upper left corner or the "Build" button in the "Quickstart Panel. (see Picture) The compiler should run without errors.
 
-![](../../.gitbook/assets/gs_rapid_startproject_build_edit.png)
+![](../../.gitbook/assets/gs\_rapid\_startproject\_build\_edit.png)
 
 We are now ready including the SDK example. Now we have to prepare the project for the MAVLink demo and then include the MAVLink Demo. First we have to activate the UART2 port in the code:
 
 ## Using UART2 on Rapid IoT
 
-The UART2 Port is not activated jet. So we have to go the the "Peripherals". To do that select "Window" -&gt; "Perspective" -&gt; "Open Perspective" -&gt; "Peripherals" or use the shortcut in the upper right corner.
+The UART2 Port is not activated jet. So we have to go the the "Peripherals". To do that select "Window" -> "Perspective" -> "Open Perspective" -> "Peripherals" or use the shortcut in the upper right corner.
 
-![Open Perspective menu](../../.gitbook/assets/gs_rapid_periph_open_edit.png)
+![Open Perspective menu](../../.gitbook/assets/gs\_rapid\_periph\_open\_edit.png)
 
-Go to the Functional Group "BOARD\_Init\_TERMINAL\_UART" and scroll down to the  "UART2" Peripheral in the left menu "Peripherals". Check "UART2" and double click on the name if the menu do not open automatically. Rename the "Name" to "UART2" \(instead o "UART\_1"\) and control if the "UART baud rate" is 115200.
+Go to the Functional Group "BOARD\_Init\_TERMINAL\_UART" and scroll down to the  "UART2" Peripheral in the left menu "Peripherals". Check "UART2" and double click on the name if the menu do not open automatically. Rename the "Name" to "UART2" (instead o "UART\_1") and control if the "UART baud rate" is 115200.
 
-![Activating UART2](../../.gitbook/assets/gs_rapid_periph_edit.png)
+![Activating UART2](../../.gitbook/assets/gs\_rapid\_periph\_edit.png)
 
 An error may be displayed in the functional group "BOARD\_Init\_BATSENS". If so, go to this group and open the menu for ADC0. There the input clock source is missing. Select the "Bus clock - BOARD\_Boot\_Clock\_RUN: 60 MHz" for the ADC.
 
-![ADC0 Bus clock](../../.gitbook/assets/gs_rapid_batsens_edit.png)
+![ADC0 Bus clock](../../.gitbook/assets/gs\_rapid\_batsens\_edit.png)
 
- Now you can Update the Project via the green Button on top.  A window will pop up. Click on "OK" to update your project.
+&#x20;Now you can Update the Project via the green Button on top.  A window will pop up. Click on "OK" to update your project.
 
-![](../../.gitbook/assets/gs_rapid_periph_updateproject.PNG)
+![](../../.gitbook/assets/gs\_rapid\_periph\_updateproject.PNG)
 
-Build your project again. 
+Build your project again.&#x20;
 
 {% hint style="danger" %}
 Now, you might get errors.These are due to inconsistent makro names. At the moment there is no better solution than to adjust these makros manually. This must be done according to the following pattern:
 {% endhint %}
 
-*  Double click on an error in the "Console"
+* &#x20;Double click on an error in the "Console"
 
-![](../../.gitbook/assets/gs_rapid_uart_error.PNG)
+![](../../.gitbook/assets/gs\_rapid\_uart\_error.PNG)
 
 In one file more than one makro could be corrupt. You can identify the errors by the red underscores and the red crosses on the left side.
 
-![](../../.gitbook/assets/gs_rapid_uart_error2.PNG)
+![](../../.gitbook/assets/gs\_rapid\_uart\_error2.PNG)
 
 {% hint style="warning" %}
 Change only makros which are marked as errors!
@@ -78,29 +78,29 @@ Change only makros which are marked as errors!
 NOTE: Only **one** makro per line is corrupt. If you want to see which one is incorrect, drive the mouse over the red cross. Then you will be shown which macro is corrupt.
 {% endhint %}
 
-![](../../.gitbook/assets/gs_rapid_uart_error3_edit.PNG)
+![](../../.gitbook/assets/gs\_rapid\_uart\_error3\_edit.PNG)
 
 #### Example for correcting the Makros
 
-In the picture above the makro `GPIO_INITPINS_TOUCH_RST_GPIO_PIN` is corrupt. Change this to `GPIO_INITPINS_TOUCH_RST_PIN` .   
+In the picture above the makro `GPIO_INITPINS_TOUCH_RST_GPIO_PIN` is corrupt. Change this to `GPIO_INITPINS_TOUCH_RST_PIN` . \
 But the makro `GPIO_INITPINS_TOUCH_RST_GPIO` is okay.  **Leave this makro as it is!**
 
 #### **How to correct the Makros**
 
-* Change every **incorrect** makro with `_GPIO_PIN` at the end to `_PIN` -&gt; Delete the GPIO
-* Change every **incorrect** makro with `_GPIO_PORT` at the end to `_PORT` -&gt; Delete the GPIO
+* Change every **incorrect** makro with `_GPIO_PIN` at the end to `_PIN` -> Delete the GPIO
+* Change every **incorrect** makro with `_GPIO_PORT` at the end to `_PORT` -> Delete the GPIO
 * Change every **incorrect** makro with `BOARD_INITPINS_KW41_UART_RTS_GPIO`at the end to `BOARD_INITPINS_KW41_UART_RTS_PORT`
 * Change every **incorrect** makro with `BOARD_INITPINS_KW41_UART_CTS_GPIO`at the end to `BOARD_INITPINS_KW41_UART_CTS_PORT`
 * Change every **incorrect** makro with `_PERIPHERAL` at the end to `_PORT`
 * Change every **incorrect** makro with `_CHANNEL` at the end to `_PIN`
 * Save the file and build the project again.
-* Repeat these steps until there are no \(new\) errors anymore
+* Repeat these steps until there are no (new) errors anymore
 
 If you only want to use the example, skip the next subsection and go to the section "Including the MAVLink Demo". If you want to write your own application, go further.
 
 ### Using UART2 in your own application
 
-In your source code include the UART-Library as follows: `#inlcude "fsl_uart.h"`   
+In your source code include the UART-Library as follows: `#inlcude "fsl_uart.h"` \
 The configuration of UART2 looks like:
 
 ```c
@@ -130,19 +130,19 @@ UART_Init(DEMO_UART, &config, DEMO_UART_CLK_FREQ);
 
 Download the Repository for the [MAVLink Demo](https://github.com/NXPHoverGames/RapidIoT) and copy folder "mavlink" to your project. The file "hg\_mavlink\_demo.c" replaces the "hello\_world.c". Delete the "hello\_world.c" and copy "hg\_mavlink\_demo.c" into the "source" folder. Build your project. There should be no error. Now you can flash the code on the Rapid IoT. You can use the "GUI Flash Tool" for this. This can be found in the upper menu bar as a blue symbol.
 
-![](../../.gitbook/assets/gs_rapid_startproject_guiflashtool_edit.png)
+![](../../.gitbook/assets/gs\_rapid\_startproject\_guiflashtool\_edit.png)
 
-Use the Jlink debugger as described [here](%20https://nxp.gitbook.io/hovergames/developerguide/program-software-using-debugger). The program is now ready. If you want to write your own MAVLink code go further. Else skip this subsection and follow up the Section "Connecting the RDDRONE-IOT "HDIB" adapter board to the FMU" to connect your Rapid IoT device.
+Use the Jlink debugger as described [here](https://nxp.gitbook.io/hovergames/developerguide/program-software-using-debugger). The program is now ready. If you want to write your own MAVLink code go further. Else skip this subsection and follow up the Section "Connecting the RDDRONE-IOT "HDIB" adapter board to the FMU" to connect your Rapid IoT device.
 
 ### Using MAVLink in your own application
 
-Using MAVLink you need the [library](https://github.com/mavlink/c_library_v2). Download the project and add it as a folder "mavlink" to your project. Then include the common library in your source code as follows:
+Using MAVLink you need the [library](https://github.com/mavlink/c\_library\_v2). Download the project and add it as a folder "mavlink" to your project. Then include the common library in your source code as follows:
 
 ```c
 #include "../mavlink/common/mavlink.h"
 ```
 
-Creating a MAVLink heartbeat message is possible by using the `mavlink_msg_heartbeat_pack()`. Then the heartbeat has to be changed into a message with `mavlink_msg_to_send_buffer()` before sending. Sending the heartbeat message could be done by `UART_WriteBlocking(`\). Check the example below:
+Creating a MAVLink heartbeat message is possible by using the `mavlink_msg_heartbeat_pack()`. Then the heartbeat has to be changed into a message with `mavlink_msg_to_send_buffer()` before sending. Sending the heartbeat message could be done by `UART_WriteBlocking(`). Check the example below:
 
 ```c
 uint32_t tx_custom_mode = 0xffff; 							/*<  A bitfield for use for autopilot-specific flags*/
@@ -189,15 +189,14 @@ The same procedure can be used for example receiving GPS or battery status messa
 
 Mount the cable for connecting the RDDRONE-IOT "HDIB" adapter board with the FMU using UART2 as shown in the picture below.
 
-![](../../.gitbook/assets/gs_rapid_connector.PNG)
+![](../../.gitbook/assets/gs\_rapid\_connector.PNG)
 
 ## Using TELEM2 on FMU to communicate with the Rapid IoT
 
-The TELEM2 Port on the FMU has to be activated first. You can do this in QGroundControl. Go to the menu "Setup", then "Parameter" and click on "MAVLink". Set the parameters as shown in the picture below. You only have to change the \(red\) "MAV\_1\_\*"-parameters.
+The TELEM2 Port on the FMU has to be activated first. You can do this in QGroundControl. Go to the menu "Setup", then "Parameter" and click on "MAVLink". Set the parameters as shown in the picture below. You only have to change the (red) "MAV\_1\_\*"-parameters.
 
-![](../../.gitbook/assets/mavlink_config_angepasst.png)
+![](../../.gitbook/assets/mavlink\_config\_angepasst.png)
 
-Then change the Telemetry 2 baud rate to "115200 8N1" in the menu "Setup"-&gt;"Parameter"-&gt;"Serial". See red parameter in the picture below.
+Then change the Telemetry 2 baud rate to "115200 8N1" in the menu "Setup"->"Parameter"->"Serial". See red parameter in the picture below.
 
-![](../../.gitbook/assets/mavlink_parameter_serial.PNG)
-
+![](../../.gitbook/assets/mavlink\_parameter\_serial.PNG)

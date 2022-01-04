@@ -4,19 +4,19 @@ description: Things to keep in mind during the flight of your drone.
 
 # During flight
 
-There are multiple modes in which you can control a drone. For each of these modes, there are different things to keep in mind. Some things apply to any flight mode, while others apply only to the more advanced flight modes. More information about the different available flight modes can be found here: 
+There are multiple modes in which you can control a drone. For each of these modes, there are different things to keep in mind. Some things apply to any flight mode, while others apply only to the more advanced flight modes. More information about the different available flight modes can be found here:&#x20;
 
-{% embed url="https://docs.px4.io/en/flight\_modes/\#multicopter" %}
+{% embed url="https://docs.px4.io/en/flight_modes/#multicopter" %}
 
 ## Any flight mode
 
 * Always **watch your environment during flight**. Next to people and animals getting in your flight area, the weather is also very important. A sudden gust of wind can quickly blow your drone out of the sky, or out of sight! If you notice that you are unable to keep the drone stable, land it immediately to avoid damage to the drone or its surroundings.
-* While you can technically fly a drone by yourself, it is always safer to **have someone else with you**. They can keep track of your surroundings, and watch the telemetry information of the drone, while you can be more focused on flying the drone. 
-* During flight it is important to **keep track of the battery percentage** and voltage of your drone; when the voltage gets too low, the drone will become less mobile, and eventually it will crash! Note that the lower the cell voltage, the quicker the battery will deplete. Especially at a cell voltage below 3.7 V \(3S = 11.1 V, 4 S = 14.8 V\), the battery percentage will drop pretty quickly.
+* While you can technically fly a drone by yourself, it is always safer to **have someone else with you**. They can keep track of your surroundings, and watch the telemetry information of the drone, while you can be more focused on flying the drone.&#x20;
+* During flight it is important to **keep track of the battery percentage** and voltage of your drone; when the voltage gets too low, the drone will become less mobile, and eventually it will crash! Note that the lower the cell voltage, the quicker the battery will deplete. Especially at a cell voltage below 3.7 V (3S = 11.1 V, 4 S = 14.8 V), the battery percentage will drop pretty quickly.
 * When you lose control of the drone, always **make sure that it is safe to stop the motors mid-flight**; do not engage the kill switch immediately! However, when the drone is about to hurt someone, you should enable the kill switch as soon as possible.
 
 {% hint style="danger" %}
-When the **kill switch** is used to turn off the drone, be aware that the drone is **not immediately disarmed**! You have to do this manually. If you don't, and turn off the kill switch again, the motors will turn on again! 
+When the **kill switch** is used to turn off the drone, be aware that the drone is **not immediately disarmed**! You have to do this manually. If you don't, and turn off the kill switch again, the motors will turn on again!&#x20;
 
 Make sure to **leave the kill switch on** until you have disarmed the drone and unplugged the batteries.
 {% endhint %}
@@ -25,7 +25,7 @@ Make sure to **leave the kill switch on** until you have disarmed the drone and 
 
 Assisted flight modes are flight modes in which the drone uses more sensors in order to keep position when it does not receive any command. An example of an assisted flight mode is _altitude control_, in which the drone regulates its height in the air using a barometer or its height above the ground using a distance sensor. _Position control_ is another assisted flight mode, in which the drone also keeps its horizontal position using GPS or a flow sensor.
 
-During assisted flight modes, more sensors are being used by the drone. When one of these sensors fails, the drone will turn on its fail-safe \([https://docs.px4.io/en/config/safety.html](https://docs.px4.io/en/config/safety.html)\) mode, which can sometimes mean that you have to manually bring the drone to the ground. This means that you should always be watching the state of the drone to be able to react appropriately. In some cases, this means switching to another flight mode!
+During assisted flight modes, more sensors are being used by the drone. When one of these sensors fails, the drone will turn on its fail-safe ([https://docs.px4.io/en/config/safety.html](https://docs.px4.io/en/config/safety.html)) mode, which can sometimes mean that you have to manually bring the drone to the ground. This means that you should always be watching the state of the drone to be able to react appropriately. In some cases, this means switching to another flight mode!
 
 ## Autonomous flight
 
@@ -45,5 +45,4 @@ When you need to monitor or control the companion computer connected to the FMU 
 
 More information about autonomous flight using offboard control can be found here:
 
-{% embed url="https://docs.px4.io/en/flight\_modes/offboard.html" %}
-
+{% embed url="https://docs.px4.io/en/flight_modes/offboard.html" %}

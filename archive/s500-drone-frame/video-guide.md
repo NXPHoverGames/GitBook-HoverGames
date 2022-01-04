@@ -2,7 +2,7 @@
 description: This page lists all videos explaining how to build the HoverGames drone.
 ---
 
-# Video guide \(outdated\)
+# Video guide (outdated)
 
 {% hint style="warning" %}
 This page is **archived**. You are probably looking for the up-to-date [assembly guide](../../userguide/assembly/).
@@ -36,7 +36,7 @@ Please be aware that these videos are slightly outdated. The recommended way to 
 The video also shows how to mount an extra BEC, which might not be included in the HoverGames kit. You will need such a BEC whenever you want to use peripherals that require a constant voltage power supply, such as FPV streaming hardware and companion computers.
 {% endhint %}
 
-{% embed url="https://youtu.be/S\_lzYcIV7UA" %}
+{% embed url="https://youtu.be/S_lzYcIV7UA" %}
 
 ## Part 6 - Mounting the battery plate and FMU
 
@@ -49,7 +49,7 @@ The video also shows how to mount an extra BEC, which might not be included in t
 ## Part 8 - Soldering and mounting the FMU power module
 
 {% hint style="warning" %}
- This video suggests soldering the wires from the FMU power module directly to the drone power board. This is a good practice for production, but it is adviced to keep the XT60 connector and solder an extra XT60 socket to the power board.
+&#x20;This video suggests soldering the wires from the FMU power module directly to the drone power board. This is a good practice for production, but it is adviced to keep the XT60 connector and solder an extra XT60 socket to the power board.
 
 This will make it easier to plug in and try new power modules that might be created as part of HoverGames. Also, if desired, the FMU can be powered with the added safety precaution of not providing any power to the motors.
 {% endhint %}
@@ -62,11 +62,5 @@ This will make it easier to plug in and try new power modules that might be crea
 
 {% hint style="warning" %}
 New kits will come with additional cables that have a Hirose DF13 connector and a JST-GH on the other end. They do require some careful assembly to get the DF13 side to fit properly. Also have a look at the relevant pages in our technical reference:
-
-{% page-ref page="../../rddrone-fmuk66/connectors/gps.md" %}
-
-{% page-ref page="../../rddrone-fmuk66/connectors/fmu-power-input/fmu-power-module.md" %}
 {% endhint %}
-
-
 

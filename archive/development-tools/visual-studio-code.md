@@ -11,7 +11,7 @@ This page is **archived**. You are probably looking for the [development tools](
 ## Installing Visual Studio Code
 
 {% hint style="danger" %}
-This page is outdated. There will be issues when you follow the instructions below. We currently do not support Visual Studio Code until we are able to create a fully functional setup again. 
+This page is outdated. There will be issues when you follow the instructions below. We currently do not support Visual Studio Code until we are able to create a fully functional setup again.&#x20;
 
 Better instructions are available in the [PX4 Developer Guide](https://dev.px4.io/master/en/setup/vscode.html).
 {% endhint %}
@@ -30,12 +30,12 @@ Start Visual Studio Code. Click the "Extensions" icon in the bar on the left. In
 
 The packages might already be installed and up-to-date. That's fine.
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](<../../.gitbook/assets/image (34).png>)
 
 We also need to change some editor settings. Go to the "File" tab, look for "Preferences" and then go to "Settings". The fastest way to edit the settings is to edit the `settings.json` file directly. You can easily open it using the icon with the two curly brackets on the top right. It's probably still empty. Copy the following settings, and make sure to save the file:
 
 {% code title="settings.json" %}
-```text
+```
 {
     "editor.formatOnSave": true,
     "editor.renderWhitespace": "boundary",
@@ -44,13 +44,13 @@ We also need to change some editor settings. Go to the "File" tab, look for "Pre
 ```
 {% endcode %}
 
-![](../../.gitbook/assets/image%20%28120%29.png)
+![](<../../.gitbook/assets/image (120).png>)
 
 We also need to download some additional configuration files for openOCD. Enter the following commands:
 
-`cd ~/src`  
-`wget 'https://bitbucket.org/!api/2.0/snippets/nxp-drone/rezdy7/files/nxphlite-v3.cfg'`  
-`wget 'https://bitbucket.org/!api/2.0/snippets/nxp-drone/rezdy7/files/openocd.sh'`  
+`cd ~/src`\
+`wget 'https://bitbucket.org/!api/2.0/snippets/nxp-drone/rezdy7/files/nxphlite-v3.cfg'`\
+`wget 'https://bitbucket.org/!api/2.0/snippets/nxp-drone/rezdy7/files/openocd.sh'`\
 `chmod +x openocd.sh`
 
 ## Setup a PX4 project
@@ -60,7 +60,7 @@ Go to "File" and then "Open folder" and open the `/home/hovergames/src/Firmware`
 We again need to change some settings, this time specific to the workspace. Again, go to "File", "Preferences", "Settings". Now, first click the "Workspace Settings" tab instead of "User Settings". If you now click the icon with the curly brackets, you will get a different settings.json file. Add the following settings into your file, and make sure to save:
 
 {% code title="settings.json" %}
-```text
+```
 {
     "astyle.astylerc": "${workspaceRoot}/Tools/astyle/astylerc",
     "C_Cpp.formatting": "Disabled",
@@ -87,15 +87,15 @@ We again need to change some settings, this time specific to the workspace. Agai
 ```
 {% endcode %}
 
-![](../../.gitbook/assets/image%20%2812%29.png)
+![](<../../.gitbook/assets/image (12).png>)
 
 ## Building and uploading the firmware
 
-Go to "View" and then "Terminal" \(or press `Ctrl` and `````\). Inside the terminal, you can enter the following command to build the code:
+Go to "View" and then "Terminal" (or press `Ctrl` and `` ` ``). Inside the terminal, you can enter the following command to build the code:
 
 `make nxp_fmuk66-v3_default`
 
-After the build is \(succesfully\) finished, you can upload it to the FMU board when you have it plugged in with USB, using this command:
+After the build is (succesfully) finished, you can upload it to the FMU board when you have it plugged in with USB, using this command:
 
 `make nxp_fmuk66-v3_default upload`
 
@@ -127,7 +127,6 @@ When we start debugging, we have to start with and clean build and recompile wit
 
 Then, at the top left, select "flash and start" when recompiled firmware still has to be uploaded to the board, otherwise, just chose "start" and click the green play button to start your debug session.
 
-![](../../.gitbook/assets/image%20%2828%29.png)
+![](<../../.gitbook/assets/image (28).png>)
 
-## 
-
+##

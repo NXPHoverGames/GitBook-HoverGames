@@ -4,7 +4,8 @@ description: Estimating parameters
 
 # Flight time and Payload
 
-## Payload, Motors and Airframe
+Payload, Motors and Airframe
+
 
 The HoverGames drone KIT-HGDRONEK66 doesn’t have an officially specified carry weight as it is not a product, but rather a reference or evaluation tool.
 
@@ -14,9 +15,9 @@ BUT – The motors and props can be changed to larger ones, as can the batteries
 
 You COULD even attach a second set of four motors facing downward.
 
-ALSO – the size of the motors / props is limited only by the frame. All the same electronics can be moved to a larger multicopter frame. You might also just be able to use longer arms on the same frame in order to get larger propellers in place.  
-  
-Keep in mind these modifications will change the characteristics of the ariframe, and you will want to spend time with advanced tuning to make sure the airframe performs as expected. \(PID timing, resonances etc\)
+ALSO – the size of the motors / props is limited only by the frame. All the same electronics can be moved to a larger multicopter frame. You might also just be able to use longer arms on the same frame in order to get larger propellers in place.\
+\
+Keep in mind these modifications will change the characteristics of the ariframe, and you will want to spend time with advanced tuning to make sure the airframe performs as expected. (PID timing, resonances etc)
 
 There are online calculators to work out payload and estimated flight time. This is a popular one:  [https://www.ecalc.ch/xcoptercalc.php](https://www.ecalc.ch/xcoptercalc.php)
 
@@ -26,9 +27,8 @@ The traditional battery current and voltage, and hence state of charge, is manag
 
 There are a number of things that can be done to ensure your battery readings are accurate. Follow the PX4 guide for this.
 
-  
-XXX &lt;Todo&gt; created a nice youtube video that shows how to check that scaling parameters in PX4 accurately match what is happening at the battery.   
+\
+XXX \<Todo> created a nice youtube video that shows how to check that scaling parameters in PX4 accurately match what is happening at the battery. \
 
 
- 
-
+&#x20;

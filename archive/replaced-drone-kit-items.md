@@ -6,24 +6,26 @@ This page is **archived**. You are probably looking for the page that lists the 
 
 Some components were included in older kits and were either replaced or left out.
 
-* 1x [ReadytoSky S500 quadcopter frame kit with carbon fiber landing gear](../userguide/getting-started/drone-kit-contents.md#readytosky-s500-quadcopter-frame-kit-with-carbon-fiber-landing-gear) \(old kits\)
+* 1x [ReadytoSky S500 quadcopter frame kit with carbon fiber landing gear](../userguide/getting-started/drone-kit-contents.md#readytosky-s500-quadcopter-frame-kit-with-carbon-fiber-landing-gear) (old kits)
 * 1x [Generic SiK 433 MHz/915 MHz telemetry radio transceiver set](../userguide/getting-started/drone-kit-contents.md#sik-433-mhz-915-mhz-telemetry-radio-transceiver-set)
 * 1x [ReadytoSky u-blox NEO-M8N GPS module](../userguide/getting-started/drone-kit-contents.md#readytosky-u-blox-neo-m-8-n-gps-module-and-gps-mount)
 * 1x [Generic safety switch](../userguide/getting-started/drone-kit-contents.md#safety-switch)
 * 1x [Generic buzzer](../userguide/getting-started/drone-kit-contents.md#buzzer)
-* 2x Generic XT60 connector \(a male and a female connector\)
+* 2x Generic XT60 connector (a male and a female connector)
 * 1x Hobbywing 2-6S 5V/3A UBEC
 
-{% embed url="https://youtu.be/r5gD3LUMg28" caption="\(Older\) video showing the contents of the HoverGames kit. \[OUTDATED\]" %}
+{% embed url="https://youtu.be/r5gD3LUMg28" %}
+(Older) video showing the contents of the HoverGames kit. \[OUTDATED]
+{% endembed %}
 
 ## ReadytoSky S500 quadcopter frame kit with carbon fiber landing gear
 
-[Product webpage](http://www.readytosky.com/e_productshow/?422-Readytosky-S500-Quadcopter-Frame-Kit-with-Carbon-Fiber-Landing-Gear-422.html)
+[Product webpage](http://www.readytosky.com/e\_productshow/?422-Readytosky-S500-Quadcopter-Frame-Kit-with-Carbon-Fiber-Landing-Gear-422.html)
 
-The S500 quadcopter frame was part of some old HoverGames kits. Its bottom plate also functions as a PDB \(power distribution board\); the power cables for most component can be soldered directly to the soldering pads on the board.
+The S500 quadcopter frame was part of some old HoverGames kits. Its bottom plate also functions as a PDB (power distribution board); the power cables for most component can be soldered directly to the soldering pads on the board.
 
-* Frame size: 480 mm \(diagonal\), 170 mm \(height\)
-* Weight: 405 g \(without electronics and motors\)
+* Frame size: 480 mm (diagonal), 170 mm (height)
+* Weight: 405 g (without electronics and motors)
 
 ![](../.gitbook/assets/s500framebox.jpg)![](../.gitbook/assets/s500framekitcontents.jpg)![](../.gitbook/assets/s500framecomponents.jpg)![](../.gitbook/assets/s500frameassembled.jpg)
 
@@ -43,8 +45,8 @@ Do not upgrade the firmware on these radios! If you do an upgrade on one, you wi
 
 ## ReadytoSky u-blox NEO-M8N GPS module and GPS mount
 
-[GPS product webpage](http://www.readytosky.com/e_productshow/?527-Readytosky-Ublox-NEO-M8N-GPS--For-APM-and-Pixhawk-Flight-Controller-527.html)  
-[Mount product webpage](http://www.readytosky.com/e_productshow/?955-Plastic-GPS-Antenna-Foldable-Mount-Holder-955.html)
+[GPS product webpage](http://www.readytosky.com/e\_productshow/?527-Readytosky-Ublox-NEO-M8N-GPS--For-APM-and-Pixhawk-Flight-Controller-527.html)\
+[Mount product webpage](http://www.readytosky.com/e\_productshow/?955-Plastic-GPS-Antenna-Foldable-Mount-Holder-955.html)
 
 This GPS module was included in old kits. GPS allows the drone to receive information about its position. This enables position hold mode and autonomous flying modes in which no user input is required. It plugs directly into the FMU. It also includes a compass, which is able to measure the rotation of the drone.
 
@@ -66,5 +68,4 @@ A seperate safety switch was included in older drone kits. The safety switch con
 
 A buzzer was also included in older drone kits. It can be connected directly to the FMU and allows for audio feedback from the flight controller. It lets you know when there are warnings or errors, such as problems with sensor calibration or when the battery level becomes low during flight.
 
-![Buzzer, which provides feedback through different sequences of beeps.](../.gitbook/assets/buzzer%20%281%29.jpg)
-
+![Buzzer, which provides feedback through different sequences of beeps.](<../.gitbook/assets/buzzer (1).jpg>)

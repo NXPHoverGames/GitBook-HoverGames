@@ -13,33 +13,41 @@ Many problems are solved by simply switching the device off and on. This goes fo
 
 ## Unable to make connection from Windows computer to FMU
 
-#### Windows Driver issue \(old\)
+#### Windows Driver issue (old)
 
 Originally there were some issues with the Windows driver that comes with QGroundControl. It did not recognize and support the RDDRONE-FMUK66. If this occurs again in future then once again Flashing firmware via QGC may be impossible.
 
-{% page-ref page="../archive/windows-drivers.md" %}
+{% content-ref url="../archive/windows-drivers.md" %}
+[windows-drivers.md](../archive/windows-drivers.md)
+{% endcontent-ref %}
 
-Flashing firmware using the debugger should always work, even under Windows. Otherwise, it might be a good idea to setup a virtual machine with a Linux OS. The Linux version of QGroundControl does recognize the FMU, and this also works in a virtual machine if you set up the USB passthrough correctly. Note that the FMU has a bootloader which is seen as a separate device during boot, you will also have to add this device.  
+Flashing firmware using the debugger should always work, even under Windows. Otherwise, it might be a good idea to setup a virtual machine with a Linux OS. The Linux version of QGroundControl does recognize the FMU, and this also works in a virtual machine if you set up the USB passthrough correctly. Note that the FMU has a bootloader which is seen as a separate device during boot, you will also have to add this device.\
 
 
 #### Windows Bluetooth COM port conflict
 
-One of the HoverGames reported the following issue:  
-_"I had FMU communications issues recently. QGroundControl was no longer detecting FMU/Telemetry. In my case, it turned out the Bluetooth controller included in my laptop \(Dell Latitude E7450\) was creating UARTs COM ports conflicting with FMU/Telemetry, preventing QGC to detect the new ports. To work around this connection issue, just temporarily disable the Bluetooth in Windows 10 \(for example, in the bottom right notification area menu, set the Bluetooth OFF\), unplug FMU or Telemetry cables, then restart QGroundControl."_
+One of the HoverGames reported the following issue:\
+_"I had FMU communications issues recently. QGroundControl was no longer detecting FMU/Telemetry. In my case, it turned out the Bluetooth controller included in my laptop (Dell Latitude E7450) was creating UARTs COM ports conflicting with FMU/Telemetry, preventing QGC to detect the new ports. To work around this connection issue, just temporarily disable the Bluetooth in Windows 10 (for example, in the bottom right notification area menu, set the Bluetooth OFF), unplug FMU or Telemetry cables, then restart QGroundControl."_
 
 ## The FMU is not booting
 
 Make sure there is actually a bootloader on the board, and that the firmware is working correctly. When first powered on the Bootloader will flash the yellow LED while in bootloader mode. If you are having difficulty you can follow the flashing instructions, and re-flash both the bootloader and firmware using the debugger.
 
-{% page-ref page="programming.md" %}
+{% content-ref url="programming.md" %}
+[programming.md](programming.md)
+{% endcontent-ref %}
 
-{% page-ref page="qgroundcontrol/firmware.md" %}
+{% content-ref url="qgroundcontrol/firmware.md" %}
+[firmware.md](qgroundcontrol/firmware.md)
+{% endcontent-ref %}
 
 ## The FMU is not receiving power through its USB port
 
 Check if you can power the FMU at all. If the FMU works fine when the battery is connected, but not when only USB is connected, it could be that fuse F3 is blown. Please see the page about the fuses on the RDDRONE-FMUK66 board.
 
-{% page-ref page="../rddrone-fmuk66/electrical-fuses.md" %}
+{% content-ref url="../rddrone-fmuk66/electrical-fuses.md" %}
+[electrical-fuses.md](../rddrone-fmuk66/electrical-fuses.md)
+{% endcontent-ref %}
 
 ## ESC calibration does not work or motors don't work properly
 
@@ -51,13 +59,13 @@ Check the electrical connections, see if the bullet connectors coming from the m
 The three bullet connectors coming from the motor have a piece of heat shrink tubing over them. Sometimes, the glue from this heat shrink tubing is also on the part of the connector that goes into the ESC. It should be visible, but it will also be clear when you need a lot of force to get the connector into the ESC. If this is the case, make sure to wipe of the glue. You might need to use some alcohol. If you don't do this, it might cause connection issues.
 {% endhint %}
 
-On the software side, you can redo [ESC calibration](qgroundcontrol/power.md#esc-calibration) to make sure that the ESCs are properly responding to input from the FMU. 
+On the software side, you can redo [ESC calibration](qgroundcontrol/power.md#esc-calibration) to make sure that the ESCs are properly responding to input from the FMU.&#x20;
 
-Also make sure to check your RC configuration on both the transmitter \(controller\) and the FMU. Also check with the information in the radio tab in QGroundControl if the signal is properly received.
+Also make sure to check your RC configuration on both the transmitter (controller) and the FMU. Also check with the information in the radio tab in QGroundControl if the signal is properly received.
 
 If you cannot solve the issue yourself, try to determine whether the source of the issue is electrical or due to the software, and [ask for help in the community or contact the HoverGames team](../contact.md).
 
-## Testing the PWM output, ESC, motors manually 
+## Testing the PWM output, ESC, motors manually&#x20;
 
 {% hint style="danger" %}
 **DANGER** - **REMOVE** the propellers!
@@ -81,7 +89,7 @@ You can use the -c parameter to select which channels you want to use. With the 
 
 ## Unable to establish a MAVLink v2 connection in some cases
 
-It was reported that MAVLink v2 is not always used when it should. By default, PX4 uses MAVLink v1, unless v2 is supported and requested to be used by the connected device. 
+It was reported that MAVLink v2 is not always used when it should. By default, PX4 uses MAVLink v1, unless v2 is supported and requested to be used by the connected device.&#x20;
 
 A possible solution is to set the `MAV_PROTO_VER` parameter to `2`, to force all MAVLink connections to use MAVLink v2. Note that this makes it impossible to use devices that only support MAVLink v1!
 
@@ -93,5 +101,4 @@ A possible solution is to set the `MAV_PROTO_VER` parameter to `2`, to force all
 
 ## Unable to solve your problem?
 
-If you question is not answered on this page, or you are not able to solve the problem yourself, first try to ask in the community \(if applicable\). Otherwise, [contact the HoverGames team](../contact.md).
-
+If you question is not answered on this page, or you are not able to solve the problem yourself, first try to ask in the community (if applicable). Otherwise, [contact the HoverGames team](../contact.md).
