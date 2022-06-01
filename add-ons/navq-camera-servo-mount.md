@@ -42,19 +42,19 @@ Mount the Pan/Tilt mount anywhere you'd like on your drone. Plug each servo into
 Make sure that your UBEC is set to 5V.
 {% endhint %}
 
-![](<../.gitbook/assets/image (179).png>)
+![](<../.gitbook/assets/image (183).png>)
 
 ### Setup in QGroundControl
 
 These are the settings you will want to use in QGroundControl to control the servos.
 
-![](../.gitbook/assets/screen-shot-2021-01-26-at-2.30.14-pm.png)
+![](<../.gitbook/assets/Screen Shot 2021-01-26 at 2.30.14 PM.png>)
 
-![](<../.gitbook/assets/image (183).png>)
+![](<../.gitbook/assets/image (177).png>)
 
-![](<../.gitbook/assets/image (181).png>)
+![](<../.gitbook/assets/image (179).png>)
 
 ![](<../.gitbook/assets/image (180).png>)
 
-![](<../.gitbook/assets/image (178).png>)
+![](<../.gitbook/assets/image (181).png>)
 

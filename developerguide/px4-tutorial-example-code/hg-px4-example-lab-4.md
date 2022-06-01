@@ -10,7 +10,7 @@ Assuming that the bootloader is already in place, loading code is a simple proce
 
 Start with the FMUK66 powered off, and disconnected from USB on your computer. Run QGroundControl and navigate to the **Firmware** tab as shown below:
 
-![](<../../.gitbook/assets/image (165).png>)
+![](<../../.gitbook/assets/image (172).png>)
 
 ### Bootloader settings for custom firmware
 
@@ -28,7 +28,7 @@ Once you click OK, a dialog to select your file will appear. You'll need to navi
 Note that this directory and filename depends on the target board you are building for.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (167).png>)
+![](<../../.gitbook/assets/image (174).png>)
 
 If the firmware upgrade successfully finished, you should see a message in the log that says **"Upgrade complete."** in yellow. If you didn't get that message, try again, check to see that the code did in fact complete compiling without errors.
 
@@ -38,7 +38,7 @@ Assuming you **did** get the "Upgrade complete." message, then you can continue 
 
 Now that we have built our PX4 application into the firmware, and loaded it onto the FMU hardware, it's time to run it. After flashing your FMU it is recommended to hard reset or power-cycle the board. Wait for QGroundControl to reconnect with your board over USB, and then open up the Mavlink console as shown below.
 
-![Mavlink console in QGroundControl](<../../.gitbook/assets/image (166).png>)
+![Mavlink console in QGroundControl](<../../.gitbook/assets/image (170).png>)
 
 ### The console
 
@@ -57,13 +57,13 @@ With **any** of these connections discussed above you can run PX4/NuttX commands
 As with other operating systems such as Linux, commands are actually just programs that can be run on the command line or called from other programs or scripts. \
 To see a list of PX4 commands you can run, type "?" into the console input field.
 
-![Runnable PX4/NuttX commands](<../../.gitbook/assets/image (169).png>)
+![Runnable PX4/NuttX commands](<../../.gitbook/assets/image (171).png>)
 
 ### Running your program
 
 At the top left, you can see our new program, hg\_led! Go ahead and run it by typing its name in the console and pressing \<enter> to see your `hg_led` program in action!
 
-![hg\_led example running on FMU](../../.gitbook/assets/animated.gif)
+![hg\_led example running on FMU](<../../.gitbook/assets/animated (1).GIF>)
 
 The main multicolor LED is the one we are controlling in the program, the other red and orange LEDs are other indicators. \
 Fun!\

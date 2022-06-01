@@ -27,7 +27,7 @@ What the PX4 developers refer to as _Hardware-In-The-Loop_ _(HITL)_ is often cal
 There are multiple simulators that work with PX4 Autopilot. Most simulators support SITL, some also support HITL. Gazebo is the recommended choice, it is a very powerful simulation tool and is often used together with ROS. Other options include jMAVSim and Microsoft Airsim. A complete overview and up-to-date of simulators that support PX4 is available in the [PX4 Developer Guide](https://dev.px4.io/master/en/simulation/#supported-simulators).
 
 {% hint style="info" %}
-Note - A sister competition to HoverGames uses the same hardware for cars/rovers. While still new, there may be activity available showing use of [CARLA ](http://carla.org)for use of PX4 in an automotive simulation environment.
+Note - A sister competition to HoverGames uses the same hardware for cars/rovers. While still new, there may be activity available showing use of [CARLA ](http://carla.org/)for use of PX4 in an automotive simulation environment.
 {% endhint %}
 
 ## Simulators in a virtual machine

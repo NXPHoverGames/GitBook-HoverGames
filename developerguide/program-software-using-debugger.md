@@ -6,9 +6,9 @@ description: >-
 
 # Program software using debugger
 
-To program a blank board, or recover a board that has been "bricked", or simply to have low level access to the MCU, you will want to use a **J-Link** or other SWD \(Serial Wire Debug\) capable programmer. Normally there is a standardized 10 pin header that is used for ARM debuggers. On the RDDRONE-FMUK66 the DCD-LZ interface is used to carry these signals, plus a primary serial console. To connect the J-Link debugger to the FMU you will use the DCD-LZ adapter as mentioned below.
+To program a blank board, or recover a board that has been "bricked", or simply to have low level access to the MCU, you will want to use a **J-Link** or other SWD (Serial Wire Debug) capable programmer. Normally there is a standardized 10 pin header that is used for ARM debuggers. On the RDDRONE-FMUK66 the DCD-LZ interface is used to carry these signals, plus a primary serial console. To connect the J-Link debugger to the FMU you will use the DCD-LZ adapter as mentioned below.
 
-This section will show the basics of how to install the software for using the J-Link programmer, and which commands to use to program a binary \(\*.bin\) file.
+This section will show the basics of how to install the software for using the J-Link programmer, and which commands to use to program a binary (\*.bin) file.
 
 ## Connecting the debugger to the FMU
 
@@ -16,19 +16,19 @@ The HoverGames drone kit includes an adapter board for the RDDRONE-FMUK66 DCD-LZ
 
 This picture below shows the J-Link EDU Mini and an FTDI-USB-UART-3V3 plugged into the DCD-LZ-ADAPT board and then connecting to the DCD-LZ port an RDDRONE-FMUK66. This is the setup as included in the HoverGames drone kits. Note that the FMU has to be powered using a micro USB cable.
 
-![](../.gitbook/assets/20190626_103732%20%281%29.jpg)
+![](<../.gitbook/assets/20190626\_103732 (1).jpg>)
 
-The 7-pin JST GH cable connects the debug adapter board to the FMU. The USB-TTL-3V3 cable plugs in as shown below. The **black \(GND\) wire should be on the same side as the small notch/mark** on the orange case! The SWD cable goes between the adapter board and the J-Link EDU Mini debugger. 
+The 7-pin JST GH cable connects the debug adapter board to the FMU. The USB-TTL-3V3 cable plugs in as shown below. The **black (GND) wire should be on the same side as the small notch/mark** on the orange case! The SWD cable goes between the adapter board and the J-Link EDU Mini debugger.&#x20;
 
-![The debug adapter board. Make sure the cables are plugged in as shown.](../.gitbook/assets/20190711_093531.jpg)
+![The debug adapter board. Make sure the cables are plugged in as shown.](../.gitbook/assets/20190711\_093531.jpg)
 
 ### Alternative debugger configurations
 
 Shown below is the Landzo OpenSDA Debugger with an adapter board connected to the 7-pin JST-GH RDDRONE-FMUK66 DCD-LZ interface.
 
-![Landzo OpenSDA Debugger connected to RDDRONE-FMUK66.](../.gitbook/assets/IMG_20180211_150140.png)
+![Landzo OpenSDA Debugger connected to RDDRONE-FMUK66.](../.gitbook/assets/IMG\_20180211\_150140.png)
 
-![Alternative setup with another J-Link debugger and a self-made adapter board.](../.gitbook/assets/afbeelding%20%286%29.png)
+![Alternative setup with another J-Link debugger and a self-made adapter board.](<../.gitbook/assets/afbeelding (11).png>)
 
 ## J-Link Software setup
 
@@ -55,20 +55,20 @@ When prompted, type `connect` to establish a connection with the debugger.
 The next step is to specify the target device, which is referring to the microcontroller that is on the RDDRONE-FMUK66. For the RDDRONE-FMUK66, the correct selection is `MK66FN2M0XXX18`. You can enter this by hand, or enter `?` to bring up a selection dialog in which you can select the right device. The selected device will be remembered in next sessions, meaning you can just press enter to select the saved default.
 
 {% hint style="success" %}
-MK66FN2M0XXX18 is the target device for RDDRONE-FMUK66 \(NXPhlite\).
+MK66FN2M0XXX18 is the target device for RDDRONE-FMUK66 (NXPhlite).
 {% endhint %}
 
 {% hint style="info" %}
-This selection dialog might not work on operating systems other than Windows. If it does not work, restart the program and enter the right device manually, by typing the full device name \(MK66FN2M0XXX18\) instead of the question mark \(?\).
+This selection dialog might not work on operating systems other than Windows. If it does not work, restart the program and enter the right device manually, by typing the full device name (MK66FN2M0XXX18) instead of the question mark (?).
 {% endhint %}
 
-![Device selection dialog. Start typing &quot;MK66&quot; to filter, select the right device and press OK.](../.gitbook/assets/Jlink-TargetDeviceSetting.png)
+![Device selection dialog. Start typing "MK66" to filter, select the right device and press OK.](../.gitbook/assets/Jlink-TargetDeviceSetting.png)
 
 ### Select the target interface and speed
 
- Enter `s` to select SWD as the target interface. 
+&#x20;Enter `s` to select SWD as the target interface.&#x20;
 
-![Select SWD as the target interface by entering &quot;s&quot;.](../.gitbook/assets/Jlink-SWDorJTAG.png)
+![Select SWD as the target interface by entering "s".](../.gitbook/assets/Jlink-SWDorJTAG.png)
 
 You can accept the default target speed of 4000 kHz by just pressing `enter`.
 
@@ -107,7 +107,7 @@ Depending on the size of the binary, it might take a while to flash. A pop-up wi
 
 ![Pop-up showing the state of the flashing process.](../.gitbook/assets/jlink-programming2.png)
 
-![Flashing the bootloader worked fine the first time. The second time, a content match was detected.](../.gitbook/assets/image%20%2865%29.png)
+![Flashing the bootloader worked fine the first time. The second time, a content match was detected.](<../.gitbook/assets/image (19).png>)
 
 That is everything. You may need to press reset on the board, or power cycle for the new code to start running on the RDDRONE-FMUK66. Note that with just a bootloader, the board will not do much. You will need both a bootloader and PX4 firmware for the board to function as intended.
 
@@ -116,4 +116,3 @@ That is everything. You may need to press reset on the board, or power cycle for
 Previously, no .bin files were available. To upload the software to the board with the J-Link debugger, you had to convert the .elf to .bin manually. On Linux, this can easily be done using the following command:
 
 `arm-none-eabi-objcopy -O binary nuttx_nxphlite-v3_default.elf nuttx_nxphlite-v3_default.bin`
-

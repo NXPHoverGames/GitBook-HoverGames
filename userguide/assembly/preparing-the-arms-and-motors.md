@@ -63,7 +63,7 @@ While we have not seen many problems in practice, you may still want to consider
 Note that the main body screws for the arm clamps have nylon locking nuts and are not really affected as much by the vibrations.
 {% endhint %}
 
-![Motor installed onto the carbon fiber plate. You should use the M3 screws from the labeled bag.](../../.gitbook/assets/assets\_-l9gltb-tz\_xakbqu-al\_-lyzuzz7xrf0gmu8v\_mh\_-lyzy8uicdfhhcqaoeg1\_20181120\_165950.jpg)
+![Motor installed onto the carbon fiber plate. You should use the M3 screws from the labeled bag.](../../.gitbook/assets/assets\_-L9GLtb-Tz\_XaKbQu-Al\_-LYzuZz7XRF0GmU8V\_MH\_-LYzy8UicdFHhcqaOeG1\_20181120\_165950.jpg)
 
 For the next step, we need: four tube clamps, the other carbon plate, four long M2.5 screws and the locknuts.&#x20;
 
@@ -73,7 +73,7 @@ For the next step, we need: four tube clamps, the other carbon plate, four long 
 
 {% embed url="https://www.youtube.com/watch?v=Ib1cFSmn7e0" %}
 
-![All four motor mounts assembled. ](../../.gitbook/assets/assets\_-l9gltb-tz\_xakbqu-al\_-lyzuzz7xrf0gmu8v\_mh\_-lyzvzubn\_j-znt7skve\_20181122\_103005.jpg)
+![All four motor mounts assembled. ](../../.gitbook/assets/assets\_-L9GLtb-Tz\_XaKbQu-Al\_-LYzuZz7XRF0GmU8V\_MH\_-LYzvzUbn\_j-znt7sKVE\_20181122\_103005.jpg)
 
 ### Alternative approach
 

@@ -10,4 +10,4 @@ In the _airframe_ screen, under the _Quadrotor X_ configurations, select the _S5
 
 {% embed url="https://docs.qgroundcontrol.com/en/SetupView/airframe_px4.html" %}
 
-![Select the S500 airframe preset under "Quadrotor x".](<../../.gitbook/assets/image (91).png>)
+![Select the S500 airframe preset under "Quadrotor x".](<../../.gitbook/assets/image (149).png>)

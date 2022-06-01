@@ -4,7 +4,7 @@
 
 The datasheet of the AMG8833 you can find [here](http://www.farnell.com/datasheets/2058257.pdf?\_ga=2.187765294.767814663.1555052764-1882353189.1555052764). You can connect the sensor with the "I2C/NFC" connector on the FMU. To mount the sensor, you can solder 5x1 jacks to a breadboard so the sensor can be placed on the board. On the back of the breadboard you can solder the cables for the FMU plug according to the label on the sensor. For the power supply use the connector "VIN". You just need to solder the cables at the lower row. The upper row is just for a stable assembly. The end of the cable has to be plugged into the FMU plug as shown below.
 
-![](<../.gitbook/assets/amg88xx\_pinconnection (1).png>)
+![](<../.gitbook/assets/AMG88xx\_pinconnection (1).png>)
 
 ## Example Code
 

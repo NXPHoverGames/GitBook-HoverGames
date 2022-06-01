@@ -8,11 +8,11 @@ description: >-
 
 Presently we re-use the standard power adapter from PX4 products. We are working to supply one with the correct JST-GH end already applied.
 
-Power modules include a regulator to adapt from 2S \(7.4V\), 3S \(11.1V\), or 4S \(14.8V\) battery input and provide +/- 5.3V power to the FMU. Some power adapters may allow higher input voltages. In addition to power regulation it includes signals for voltage and current monitoring.
+Power modules include a regulator to adapt from 2S (7.4V), 3S (11.1V), or 4S (14.8V) battery input and provide +/- 5.3V power to the FMU. Some power adapters may allow higher input voltages. In addition to power regulation it includes signals for voltage and current monitoring.
 
 ## Power distribution
 
-This adapter also passes power through to the rest of the drone or rover platform. In addition there will typically be an additional power distribution board \(PDB\) to which the drive motors can be connected. A small PDB is included in the HoverGames kit, it should fit in the middle of your drone frame.
+This adapter also passes power through to the rest of the drone or rover platform. In addition there will typically be an additional power distribution board (PDB) to which the drive motors can be connected. A small PDB is included in the HoverGames kit, it should fit in the middle of your drone frame.
 
 ## Notes
 
@@ -34,27 +34,26 @@ This is not an optimal solution, and will be corrected in the final kits. We're 
 The key seems to be to carefully align and get the connector started by hand before using the pliers.
 {% endhint %}
 
-![Extra JST-GH to Hirose cable included with some early kits.](../../../.gitbook/assets/img_20180514_132829.jpg)
+![Extra JST-GH to Hirose cable included with some early kits.](../../../.gitbook/assets/IMG\_20180514\_132829.jpg)
 
-![Cut away some of the shrink wrap around the connector.](../../../.gitbook/assets/img_20180514_132859.jpg)
+![Cut away some of the shrink wrap around the connector.](../../../.gitbook/assets/IMG\_20180514\_132859.jpg)
 
-![Top: JST-GH connector. Bottom: Hirose DF13.](../../../.gitbook/assets/img_20180514_132936.jpg)
+![Top: JST-GH connector. Bottom: Hirose DF13.](../../../.gitbook/assets/IMG\_20180514\_132936.jpg)
 
-![Note the nubs may not align on the new cable and have to be removed.](../../../.gitbook/assets/img_20180514_132956.jpg)
+![Note the nubs may not align on the new cable and have to be removed.](../../../.gitbook/assets/IMG\_20180514\_132956.jpg)
 
-![Use side cutters to remove the mis-matched nubs.](../../../.gitbook/assets/img_20180514_133132.jpg)
+![Use side cutters to remove the mis-matched nubs.](../../../.gitbook/assets/IMG\_20180514\_133132.jpg)
 
-![Mismatched nubs also need to be removed on the other side.](../../../.gitbook/assets/img_20180514_133224.jpg)
+![Mismatched nubs also need to be removed on the other side.](../../../.gitbook/assets/IMG\_20180514\_133224.jpg)
 
-![File smooth as needed with a metal or nailfile. ](../../../.gitbook/assets/img_20180514_133235.jpg)
+![File smooth as needed with a metal or nailfile. ](../../../.gitbook/assets/IMG\_20180514\_133235.jpg)
 
-![Nubs removed \(top\).](../../../.gitbook/assets/img_20180514_133401.jpg)
+![Nubs removed (top).](../../../.gitbook/assets/IMG\_20180514\_133401.jpg)
 
-![Nubs removed \(bottom\).](../../../.gitbook/assets/img_20180514_133406.jpg)
+![Nubs removed (bottom).](../../../.gitbook/assets/IMG\_20180514\_133406.jpg)
 
-![Installation may be quite tight. Carefully align and start the connector by hand.](../../../.gitbook/assets/img_20180514_133449.jpg)
+![Installation may be quite tight. Carefully align and start the connector by hand.](../../../.gitbook/assets/IMG\_20180514\_133449.jpg)
 
-![Once aligned by hand, use some pliers to push the connector on \(no, this is not great\).](../../../.gitbook/assets/img_20180514_133546.jpg)
+![Once aligned by hand, use some pliers to push the connector on (no, this is not great).](../../../.gitbook/assets/IMG\_20180514\_133546.jpg)
 
-![Finished assembly.](../../../.gitbook/assets/img_20180514_133622.jpg)
-
+![Finished assembly.](../../../.gitbook/assets/IMG\_20180514\_133622.jpg)

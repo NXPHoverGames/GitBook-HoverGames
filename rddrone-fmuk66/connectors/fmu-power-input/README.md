@@ -12,34 +12,35 @@ The output voltage from the FMU power module is actually about 5.3V. On the FMU 
 
 We have a separate page about the FMU power module, which provides the power to the power input.
 
-{% page-ref page="fmu-power-module.md" %}
+{% content-ref url="fmu-power-module.md" %}
+[fmu-power-module.md](fmu-power-module.md)
+{% endcontent-ref %}
 
 ## Connector pinout
 
-| Pin | Signal | Voltage |
-| :--- | :--- | :--- |
-| 1 | VCC | +5.3V |
-| 2 | VCC | +5.3V |
-| 3 | CURRENT SENSOR INPUT | +3.3V |
-| 4 | VOLTAGE SENSOR INPUT | +3.3V |
-| 5 | GND | GND |
-| 6 | GND | GND |
+| Pin | Signal               | Voltage |
+| --- | -------------------- | ------- |
+| 1   | VCC                  | +5.3V   |
+| 2   | VCC                  | +5.3V   |
+| 3   | CURRENT SENSOR INPUT | +3.3V   |
+| 4   | VOLTAGE SENSOR INPUT | +3.3V   |
+| 5   | GND                  | GND     |
+| 6   | GND                  | GND     |
 
 ## RDDRONE-FMUK66 Rev. C schematic
 
-![Schematic of the power input connector on the FMU.](../../../.gitbook/assets/c-powerin%20%281%29.png)
+![Schematic of the power input connector on the FMU.](<../../../.gitbook/assets/C-powerin (1).png>)
 
-![The FMU can be powered from the power input connector or through the micro USB.](../../../.gitbook/assets/c-power%20%281%29.png)
+![The FMU can be powered from the power input connector or through the micro USB.](<../../../.gitbook/assets/C-power (1).png>)
 
 
 
 ## RDDRONE-FMUK66 Rev. B schematic
 
 {% hint style="danger" %}
-Rev. B \(and older boards\) are **not supported** anymore. This information is left for reference.
+Rev. B (and older boards) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![Schematic of the power input connector on the FMU.](../../../.gitbook/assets/power_in%20%282%29.png)
+![Schematic of the power input connector on the FMU.](<../../../.gitbook/assets/power\_in (2).PNG>)
 
-![The FMU can be powered from the power input connector or through the micro USB.](../../../.gitbook/assets/power%20%281%29.png)
-
+![The FMU can be powered from the power input connector or through the micro USB.](<../../../.gitbook/assets/power (1).PNG>)

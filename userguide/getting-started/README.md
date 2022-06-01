@@ -30,7 +30,7 @@ If you have never done anything with drones before, it might be a good idea to g
 
 {% embed url="https://docs.px4.io/v1.9.0/en/getting_started/px4_basic_concepts.html" %}
 
-This page is part of the [documentation](https://docs.px4.io/master/en/) for the [PX4 Autopilot software](https://px4.io), which also supports the RDDRONE-FMUK66. We will also use it to set up the HoverGames drone. There is no need at this point to read about anything other than the basic concepts. We will get to the other parts after you have build your drone.
+This page is part of the [documentation](https://docs.px4.io/master/en/) for the [PX4 Autopilot software](https://px4.io/), which also supports the RDDRONE-FMUK66. We will also use it to set up the HoverGames drone. There is no need at this point to read about anything other than the basic concepts. We will get to the other parts after you have build your drone.
 
 You might come across many acronyms and terminology that you are not yet familiar with. Everything should become clear as you keep on reading. If not, there are many resources available on the internet, such as these two webpages:
 
@@ -52,11 +52,11 @@ Make sure to properly [configure your radio controller](../radio-controller-setu
 
 ## Learn about PX4 Autopilot and QGroundControl
 
-The RDDRONE-FMUK66 is supported by the [PX4 Autopilot software](https://px4.io). This GitBook will explain how to install and configure it later. First, it is important to get to know this piece of software. Luckily, the PX4 community has excellent user documentation. Have a quick look at what PX4 has to offer:
+The RDDRONE-FMUK66 is supported by the [PX4 Autopilot software](https://px4.io/). This GitBook will explain how to install and configure it later. First, it is important to get to know this piece of software. Luckily, the PX4 community has excellent user documentation. Have a quick look at what PX4 has to offer:
 
 {% embed url="https://docs.px4.io/master/en/" %}
 
-The PX4 software is often setup using the [QGroundControl software](http://qgroundcontrol.com), which can run on your Windows, Mac or Linux computer. You will use this software a lot when changing the configuration of the HoverGames drone, when calibrating sensors or even during flight to monitor your drone. They also have their own user guide available. [Install QGroundControl](../../downloads.md#qgroundcontrol) on your computer and have a look at their documentation as well:
+The PX4 software is often setup using the [QGroundControl software](http://qgroundcontrol.com/), which can run on your Windows, Mac or Linux computer. You will use this software a lot when changing the configuration of the HoverGames drone, when calibrating sensors or even during flight to monitor your drone. They also have their own user guide available. [Install QGroundControl](../../downloads.md#qgroundcontrol) on your computer and have a look at their documentation as well:
 
 {% embed url="https://docs.qgroundcontrol.com/en/" %}
 

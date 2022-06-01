@@ -9,7 +9,7 @@ description: An overview of useful software packages.
 * [Download preconfigured virtual machine image](https://s3-us-west-2.amazonaws.com/hovergames/Hovergames-VM-2019-04-08.ova) (Courtesy of Dronecode)
 * [Download Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
-A preconfigured Ubuntu Linux virtual machine image for [Oracle VM VirtualBox](https://www.virtualbox.org) is available for download courtesy Dronecode. The image includes the tools for editing, building and debugging software for the RDDRONE-FMUK66 and other HoverGames hardware.&#x20;
+A preconfigured Ubuntu Linux virtual machine image for [Oracle VM VirtualBox](https://www.virtualbox.org/) is available for download courtesy Dronecode. The image includes the tools for editing, building and debugging software for the RDDRONE-FMUK66 and other HoverGames hardware.&#x20;
 
 More information and instructions are available in our [Developer Guide](developerguide/tools/), including instructions on how to setup your own virtual machine from scratch. It is recommended to have a look at these pages, and adapt some of the default settings to add more RAM and CPU cores to your VM if your hardware is powerful enough.
 
@@ -43,7 +43,7 @@ The RDDRONE-FMUK66 (NXPhlite) is fully supported by PX4 Autopilot. It is recomme
 
 When updating PX4 firmware through **QGroundControl**, it is not necessary to download a firmware binary separately. QGroundControl can do this for you. It will upload the latest stable release to your FMU by default, but you can also select the latest development build or a custom binary (.px4 or .bin file).
 
-The [latest stable release of PX4 for the RDDRONE-FMUK66](http://ci.px4.io/job/PX4\_misc/job/Firmware-compile/job/stable/lastSuccessfulBuild/artifact/build/nxp\_fmuk66-v3\_default/) is also available on the [PX4 CI server](http://ci.px4.io). Several files are available. The .px4 files (also available on GitHub) can be used with the custom binary option in QGroundControl. J-Link Commander requires a .bin file for writing the software to the board. The .elf can be used for debugging purposes.
+The [latest stable release of PX4 for the RDDRONE-FMUK66](http://ci.px4.io/job/PX4\_misc/job/Firmware-compile/job/stable/lastSuccessfulBuild/artifact/build/nxp\_fmuk66-v3\_default/) is also available on the [PX4 CI server](http://ci.px4.io/). Several files are available. The .px4 files (also available on GitHub) can be used with the custom binary option in QGroundControl. J-Link Commander requires a .bin file for writing the software to the board. The .elf can be used for debugging purposes.
 
 The [latest development version (unstable)](http://ci.px4.io/job/PX4\_misc/job/Firmware-compile/job/master/lastSuccessfulBuild/artifact/build/nxp\_fmuk66-v3\_default/) can also be directly downloaded from the CI server. Please keep in mind that these builds might be untested and could still include serious bugs.
 

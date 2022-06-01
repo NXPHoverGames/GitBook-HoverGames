@@ -52,9 +52,9 @@ Other NXP flight management units, drone development kits and equipment will hav
 
 ### HoverGames drone flight management unit (FMU)
 
-RDDRONE-FMUK66 is an experimental flight management unit that is compliant with [Dronecode](https://www.dronecode.org) and [PX4 Autopilot](https://px4.io) software. PX4 is used extensively for research and commercial drone platforms. Its permissive BSD license preserves the ability to include proprietary IP.
+RDDRONE-FMUK66 is an experimental flight management unit that is compliant with [Dronecode](https://www.dronecode.org/) and [PX4 Autopilot](https://px4.io/) software. PX4 is used extensively for research and commercial drone platforms. Its permissive BSD license preserves the ability to include proprietary IP.
 
-The RDDRONE-FMUK66 runs [NuttX](https://nuttx.apache.org) RTOS on a [NXP Kinetis K66](https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/kinetis-cortex-m-mcus/k-seriesperformancem4/k6x-ethernet/kinetis-k66-180-mhz-dual-high-speed-full-speed-usbs-2mb-flash-microcontrollers-mcus-based-on-arm-cortex-m4-core:K66\_180) microcontroller, with an ARM Cortex-M4 core at 180 MHz and 2 MB flash memory. It uses NXP sensors, automotive [CAN](https://en.wikipedia.org/wiki/CAN\_bus) bus transceivers, as well as the new **two wire** automotive [100BASE-T1 ethernet](https://en.wikipedia.org/wiki/Fast\_Ethernet#100BASE-T1) transceiver [TJA110x](https://www.nxp.com/products/analog/interfaces/in-vehicle-network/ethernet/automotive-ethernet-phy-transceivers:ETHERNET-TRANSCEIVERS).
+The RDDRONE-FMUK66 runs [NuttX](https://nuttx.apache.org/) RTOS on a [NXP Kinetis K66](https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/kinetis-cortex-m-mcus/k-seriesperformancem4/k6x-ethernet/kinetis-k66-180-mhz-dual-high-speed-full-speed-usbs-2mb-flash-microcontrollers-mcus-based-on-arm-cortex-m4-core:K66\_180) microcontroller, with an ARM Cortex-M4 core at 180 MHz and 2 MB flash memory. It uses NXP sensors, automotive [CAN](https://en.wikipedia.org/wiki/CAN\_bus) bus transceivers, as well as the new **two wire** automotive [100BASE-T1 ethernet](https://en.wikipedia.org/wiki/Fast\_Ethernet#100BASE-T1) transceiver [TJA110x](https://www.nxp.com/products/analog/interfaces/in-vehicle-network/ethernet/automotive-ethernet-phy-transceivers:ETHERNET-TRANSCEIVERS).
 
 {% embed url="https://www.youtube.com/watch?v=JDaJ5Kr6aBA&feature=youtu.be" %}
 
@@ -80,7 +80,7 @@ To achieve these goals, we will have a series of developer and hacker challenges
 
 HoverGames are a series of hands-on challenges for engineers and tech enthusiasts to co-pioneer with NXP and design for new forms of mobility. Each game consists of a set of challenges. Participants need to buy a kit - a physical complete drone kit you hold in hands - form teams and enroll virtually. As part of each game, participants will write code that activates their vehicles.
 
-To warm up - participants will be asked to take part in comparably simple coding challenges to get familiar with their drone and the [Dronecode](https://www.dronecode.org) environment including [PX4](https://px4.io) software flight stack . This code serves as a basis for further challenges as they build upon each other.
+To warm up - participants will be asked to take part in comparably simple coding challenges to get familiar with their drone and the [Dronecode](https://www.dronecode.org/) environment including [PX4](https://px4.io/) software flight stack . This code serves as a basis for further challenges as they build upon each other.
 
 After getting comfortable with the entry level challenges, participants can enroll in any of the currently active Virtual Software challenges. Some will be open to anyone, some will need pre-qualification in order to get access to specific hardware boards that might be needed.
 
@@ -94,7 +94,7 @@ Once or twice a year larger Societal Challenges will be announced. For these, th
 
 UAVs have a wide range of applications in many fields like environmental hazards monitoring, traffic management and pollution monitoring, all of which contributes greatly to the development of any city and rural area. HoverGames will be of great benefit to developers around the world to jointly develop autonomous robot vehicle solutions.
 
-More information can be found on [HoverGames.com](https://www.hovergames.com). It is also possible to directly contact the HoverGames team, contact information is available on our [contact page](contact.md#contact-the-hovergames-team).
+More information can be found on [HoverGames.com](https://www.hovergames.com/). It is also possible to directly contact the HoverGames team, contact information is available on our [contact page](contact.md#contact-the-hovergames-team).
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)\
 This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).

@@ -32,7 +32,7 @@ Pin 1 (black) of USB-TTL-3V3 is marked with a black dot on the DCD-LZ-ADAPT boar
 Note that FTDI USB-UART cable presents 5V on pin3. There were originally two forward dropping diodes to feed this forward to the rest of the PCB. They have subsequently been removed in newer revisions and therefore it should be noted that JP1 pin 3 does not connect to 3V3 nor to to Pin1 of the DCD-LZ connector. An updated schematic is pending here.
 {% endhint %}
 
-![](<../../../.gitbook/assets/afbeelding (16).png>)
+![](<../../../.gitbook/assets/afbeelding (12).png>)
 
 ## JTAG/SWD 10 pin <a href="#jtag-swd-10-pin" id="jtag-swd-10-pin"></a>
 

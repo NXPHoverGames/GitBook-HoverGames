@@ -30,7 +30,7 @@ Start Visual Studio Code. Click the "Extensions" icon in the bar on the left. In
 
 The packages might already be installed and up-to-date. That's fine.
 
-![](<../../.gitbook/assets/image (34).png>)
+![](<../../.gitbook/assets/image (133).png>)
 
 We also need to change some editor settings. Go to the "File" tab, look for "Preferences" and then go to "Settings". The fastest way to edit the settings is to edit the `settings.json` file directly. You can easily open it using the icon with the two curly brackets on the top right. It's probably still empty. Copy the following settings, and make sure to save the file:
 
@@ -44,7 +44,7 @@ We also need to change some editor settings. Go to the "File" tab, look for "Pre
 ```
 {% endcode %}
 
-![](<../../.gitbook/assets/image (120).png>)
+![](<../../.gitbook/assets/image (136).png>)
 
 We also need to download some additional configuration files for openOCD. Enter the following commands:
 
@@ -87,7 +87,7 @@ We again need to change some settings, this time specific to the workspace. Agai
 ```
 {% endcode %}
 
-![](<../../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (137).png>)
 
 ## Building and uploading the firmware
 
@@ -127,6 +127,6 @@ When we start debugging, we have to start with and clean build and recompile wit
 
 Then, at the top left, select "flash and start" when recompiled firmware still has to be uploaded to the board, otherwise, just chose "start" and click the green play button to start your debug session.
 
-![](<../../.gitbook/assets/image (28).png>)
+![](<../../.gitbook/assets/image (139).png>)
 
 ##

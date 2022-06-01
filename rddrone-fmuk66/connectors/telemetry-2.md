@@ -10,32 +10,31 @@ On older versions of the RDDRONE-FMUK66, this port could only be used as IRDA. S
 
 ## RDDRONE-FMUK66 Rev. C connector pinout
 
-| Pin | Signal | Voltage |
-| :--- | :--- | :--- |
-| 1 | VCC | +5.0V |
-| 2 | UART TX | +3.3V |
-| 3 | UART RX | +3.3V |
-| 4 | GND | GND |
+| Pin | Signal  | Voltage |
+| --- | ------- | ------- |
+| 1   | VCC     | +5.0V   |
+| 2   | UART TX | +3.3V   |
+| 3   | UART RX | +3.3V   |
+| 4   | GND     | GND     |
 
 ## RDDRONE-FMUK66 Rev. C schematic
 
-![](../../.gitbook/assets/c-serial2irda.png)
+![](../../.gitbook/assets/C-serial2irda.png)
 
 ## RDDRONE-FMUK66 Rev. B connector pinout
 
 {% hint style="danger" %}
-Rev. B \(and older boards\) are **not supported** anymore. This information is left for reference.
+Rev. B (and older boards) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-| Pin | Signal | Voltage |
-| :--- | :--- | :--- |
-| 1 | GND | GND |
-| 2 | UART RX | +3.3V |
-| 3 | VCC | +3.3V |
-| 4 | IR- | +5.0V |
-| 5 | IR+ | +5.0V |
+| Pin | Signal  | Voltage |
+| --- | ------- | ------- |
+| 1   | GND     | GND     |
+| 2   | UART RX | +3.3V   |
+| 3   | VCC     | +3.3V   |
+| 4   | IR-     | +5.0V   |
+| 5   | IR+     | +5.0V   |
 
 ## RDDRONE-FMUK66 Rev. B schematic
 
-![](../../.gitbook/assets/irda%20%283%29.png)
-
+![](<../../.gitbook/assets/irda (2).PNG>)

@@ -30,7 +30,7 @@ First, make sure the reset button is installed inside the enclosure. It should f
 
 Now, the FMU can be installed into the bottom part of the enclosure with four short screws (7 mm). You may only have one type of screw with your case, which is fine as well. Just use four of the included screws and be gentle when tightening them into the plastic. Do not overtighten.
 
-![With four screws (7 mm) the FMU should not be able to move.](<../../.gitbook/assets/20190408\_151433 (1).jpg>)
+![With four screws (7 mm) the FMU should not be able to move.](../../.gitbook/assets/20190408\_151433.jpg)
 
 After the FMU is installed and screwed down to the bottom part, you can put the top part of the case in place and turn the whole enclosure upside down. You need two short screws (7 mm) and two longer screws (about 10 mm) to keep the two halves together. The short screws should go in the holes close to the servo-rail of the FMU. The longer ones go in the holes near the SD card slot. Again, if you have only one type of screw with your case, that is fine as well. Just be gentle when tightening the screws.
 
@@ -41,6 +41,6 @@ Once the FMU is inside the enclosure, you should **insert the microSD card**! Fl
 In normal operation the FMU may generate an error and/or refuse to arm without the SDCARD in place.
 {% endhint %}
 
-![Long screws go near the SD card, short screws near the servorail.](../../.gitbook/assets/20190408\_152531.jpg)
+![Long screws go near the SD card, short screws near the servorail.](<../../.gitbook/assets/20190408\_152531 (1).jpg>)
 
 ![](../../.gitbook/assets/20190408\_152622.jpg)

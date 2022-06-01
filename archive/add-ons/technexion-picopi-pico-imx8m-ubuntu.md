@@ -58,7 +58,7 @@ Technexion PICO evaluation kits
 Technexion PICO-PI-IMX8M-PRO
 {% endembed %}
 
-![](<../../.gitbook/assets/image (55).png>)
+![](<../../.gitbook/assets/image (140).png>)
 
 
 

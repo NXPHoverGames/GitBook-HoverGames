@@ -59,11 +59,11 @@ Most PX4 code is written in the C and C++ programming languages. If you are not 
 
 These are some useful websites to get you started:
 
-* [https://isocpp.org/](https://isocpp.org)
-* [https://www.learncpp.com/](https://www.learncpp.com)
+* [https://isocpp.org/](https://isocpp.org/)
+* [https://www.learncpp.com/](https://www.learncpp.com/)
 * [https://www.codecademy.com/learn/learn-c-plus-plus](https://www.codecademy.com/learn/learn-c-plus-plus)
-* [https://www.learn-c.org/](https://www.learn-c.org)
-* [https://www.learn-cpp.org/](https://www.learn-cpp.org)
+* [https://www.learn-c.org/](https://www.learn-c.org/)
+* [https://www.learn-cpp.org/](https://www.learn-cpp.org/)
 
 These two Stack Overflow posts provide lists of the best C/C++ books:
 

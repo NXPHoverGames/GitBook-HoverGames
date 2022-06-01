@@ -12,21 +12,21 @@ The 2 pin buzzer connector is **not found on newer versions** of the RDDRONE-FMU
 
 ## Connector pinout
 
-| Pin | Signal | Voltage |
-| :--- | :--- | :--- |
-| 1 | BUZZER- | +5.0V |
-| 2 | BUZZER+ | +5.0V |
+| Pin | Signal  | Voltage |
+| --- | ------- | ------- |
+| 1   | BUZZER- | +5.0V   |
+| 2   | BUZZER+ | +5.0V   |
 
 ## Schematic
 
-![](../../.gitbook/assets/buzzer%20%281%29.png)
+![](<../../.gitbook/assets/buzzer (1).PNG>)
 
 ## Building the buzzer
 
 * This is a piezo buzzer attached to a two pin JST-GH type connector.
 * Polarity is not critical.
 
-![](../../.gitbook/assets/CAB-NXPhlite-BUZ-JSTGH%20v2.png)
+![](<../../.gitbook/assets/CAB-NXPhlite-BUZ-JSTGH v2.png>)
 
 The buzzer cable looks like the image above when completed.
 
@@ -36,7 +36,7 @@ It can be made quickly:
 * 1x 6" JST-GH pre-terminated wire.
 * 1x Piezo buzzer.
 * Cut the 6" JST-GH pre-terminated wire in half.
-* Strip 5mm off the cut ends of the JST-GH wire you just cut in half, and add tin using a soldering iron. 
+* Strip 5mm off the cut ends of the JST-GH wire you just cut in half, and add tin using a soldering iron.&#x20;
 * Solder the JST-GH wire to the stripped and tinned Buzzer wires.
 * Apply heatshrink over each of the solder joints.
 * Poke the crimped end of the JST-GH wire into the two pin housing.
@@ -45,4 +45,3 @@ It can be made quickly:
 ## Assembly drawing
 
 ![](../../.gitbook/assets/CAB-NXPhlite-BUZ-JSTGH-Drawing-v3.png)
-

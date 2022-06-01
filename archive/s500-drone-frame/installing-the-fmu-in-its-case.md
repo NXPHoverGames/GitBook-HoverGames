@@ -14,13 +14,12 @@ The FMU comes with a 3D printed casing, which still has to be assembled. It cons
 It could be that the FMU board still has stickers on top of its connectors. You should take them off before you put the FMU inside its casing.
 {% endhint %}
 
-![The FMU should fit nicely into the casing. Four short screws \(7 mm\) are require to screw it down.](../../.gitbook/assets/fmu-case.jpg)
+![The FMU should fit nicely into the casing. Four short screws (7 mm) are require to screw it down.](../../.gitbook/assets/FMU-case.jpg)
 
-![With four screws the FMU should not be able to move within its casing.](../../.gitbook/assets/fmu-case-screws.jpg)
+![With four screws the FMU should not be able to move within its casing.](../../.gitbook/assets/FMU-case-screws.jpg)
 
-After the FMU is screwed down to the bottom part of the casing, you can put the top part on and turn the whole case upside down. You need to short screws \(7 mm\) and two longer screws \(about 10 mm\) to keep the two halfs of the case together. The longer screws should go in the holes on the side of the servorail of the FMU. The short ones go on the side of the SD card slot.
+After the FMU is screwed down to the bottom part of the casing, you can put the top part on and turn the whole case upside down. You need to short screws (7 mm) and two longer screws (about 10 mm) to keep the two halfs of the case together. The longer screws should go in the holes on the side of the servorail of the FMU. The short ones go on the side of the SD card slot.
 
-![Short screws go near the SD card, long screws near the servorail.](../../.gitbook/assets/fmu-case-bottom.jpg)
+![Short screws go near the SD card, long screws near the servorail.](../../.gitbook/assets/FMU-case-bottom.jpg)
 
-![](../../.gitbook/assets/fmu-case-assembled.jpg)
-
+![](../../.gitbook/assets/FMU-case-assembled.jpg)
