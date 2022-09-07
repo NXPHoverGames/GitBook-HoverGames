@@ -10,7 +10,7 @@ description: >-
 {% hint style="success" %}
 Also have a look at some of the other **NXP GitBooks**:
 
-* [NavQPlus (NavQ+) Companion Computer](https://nxp.gitbook.io/8mmnavq/) - New!
+* [NavQPlus (NavQ+) Companion Computer](https://nxp.gitbook.io/8mpnavq/) - New!
 * [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/) (As used in HoverGames2)
 * [UCANS32K146 ](https://nxp.gitbook.io/ucans32k146/): CAN-FD / UAVCAN node
 * [RDDRONE-BMS772 ](https://nxp.gitbook.io/rddrone-bms772/): Battery Management System
