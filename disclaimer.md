@@ -40,7 +40,7 @@ These are some very important things to check _**before**_** every flight**:
 Also see the page about [safety](safety.md). Never attach propellers until ready to fly.
 
 {% hint style="danger" %}
-**You really should have a "kill switch" programmed!** It is common to have the kill switch immediately stop the motors upon being triggered in order to avoid damage to nearby people or objects. **Setting up a kill switch will be** [**explained in the HG Drone User Guide**](userguide/qgroundcontrol/radio-and-flight-modes.md#flight-modes).
+**You must have a "kill switch" programmed!** It is common to have the kill switch immediately stop the motors upon being triggered in order to avoid damage to nearby people or objects. **Setting up a kill switch will be** [**explained in the HG Drone User Guide**](userguide/qgroundcontrol/radio-and-flight-modes.md#flight-modes).
 {% endhint %}
 
 ### Operation  <a href="#operation" id="operation"></a>
