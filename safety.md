@@ -7,6 +7,23 @@ description: >-
 
 # Safety
 
+## Personal Protection
+
+Protect yourself and others during drone development and flying. \
+We strongly encourage you and anyone nearby wearing personal protective equipment.
+
+This includes but is not limited to:
+
+* Protective Eyewear
+* Protective foot wear such as heavy boots (Steel toe)
+* Arms and legs fully covered.
+* Heavy jacket.
+* Leather gloves, but be careful they don't inhibit safe movement or handling.
+
+You and observers should be well away from the vehicle while testing. You may also want to include a barrier such as netting to either protect yourself, others. You can also fly the drone in a netted enclosure.
+
+&#x20; &#x20;
+
 ## Drone laws and regulations
 
 Regulations around the world vary greatly, and not handling according to regulations can result in significant penalties. It is your own responsibility that you follow these regulations. The links below are provided here for guidance only and should not be considered comprehensive information in any way.
@@ -16,7 +33,7 @@ Ensure you are familiar with the **local** regulations that are in place before 
 Many locations require you pass a drone safety test or **drone operators test**, and also register and display a registration number on your drone. It is usually not difficult to comply to these regulations but will require some study.
 
 * General resources for drone laws and regulations:
-  * [https://uavcoach.com/drone-laws/](https://uavcoach.com/drone-laws/) \(scroll down for a list of countries\)
+  * [https://uavcoach.com/drone-laws/](https://uavcoach.com/drone-laws/) (scroll down for a list of countries)
   * [https://www.droneregulations.info](https://www.droneregulations.info/)
   * [https://drone-traveller.com/drone-regulations-worldwide/](https://drone-traveller.com/drone-regulations-worldwide/)
 * European Union: [http://dronerules.eu/en/](http://dronerules.eu/en/)​
@@ -38,19 +55,26 @@ In addition to regulations regarding flying a drone, there may also be regulatio
 
 Some important safety settings are explained in this GitBook. You will come across them when following the pages in the intended order, but please check that you did not miss anything.
 
-The sections linked to below describe how to set up the RC transmitter and FMU such that the drone should not show unexpected behavior when, for instance, the connection is lost. Before you turn on your drone with propellers installed, you should have read these pages and set the settings as described. You should understand why we advice these settings, and understand the shortcomings. 
+The sections linked to below describe how to set up the RC transmitter and FMU such that the drone should not show unexpected behavior when, for instance, the connection is lost. Before you turn on your drone with propellers installed, you should have read these pages and set the settings as described. You should understand why we advice these settings, and understand the shortcomings.&#x20;
 
 If you decide to deviate from the recommended settings, make sure you know what behavior you can expect and learn what you can do in case something goes wrong.
 
-{% page-ref page="userguide/radio-controller-setup.md" %}
+{% content-ref url="userguide/radio-controller-setup.md" %}
+[radio-controller-setup.md](userguide/radio-controller-setup.md)
+{% endcontent-ref %}
 
-{% page-ref page="userguide/qgroundcontrol/radio-and-flight-modes.md" %}
+{% content-ref url="userguide/qgroundcontrol/radio-and-flight-modes.md" %}
+[radio-and-flight-modes.md](userguide/qgroundcontrol/radio-and-flight-modes.md)
+{% endcontent-ref %}
 
-{% page-ref page="userguide/qgroundcontrol/safety.md" %}
+{% content-ref url="userguide/qgroundcontrol/safety.md" %}
+[safety.md](userguide/qgroundcontrol/safety.md)
+{% endcontent-ref %}
 
 ## Flying safely
 
 In the flying section, the principles of safely handling your drone are described. Remember to be extra careful with your first few flights. Fly responsibly and be prepared in case something goes wrong. Make sure you know what to do when something happens. You should know which options you have to land or shut down the drone in case of emergency.
 
-{% page-ref page="userguide/flying/" %}
-
+{% content-ref url="userguide/flying/" %}
+[flying](userguide/flying/)
+{% endcontent-ref %}
