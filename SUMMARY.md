@@ -7,7 +7,7 @@
 * [Downloads](downloads.md)
 * [Contact](contact.md)
 
-## HG Drone User Guide <a id="userguide"></a>
+## HG Drone User Guide <a href="#userguide" id="userguide"></a>
 
 * [Getting started](userguide/getting-started/README.md)
   * [Drone kit contents](userguide/getting-started/drone-kit-contents.md)
@@ -44,7 +44,7 @@
   * [Specialty tools](userguide/replacement-parts-alternatives-and-upgrades/specialty-tools.md)
   * [Upgrades and add-on components](userguide/replacement-parts-alternatives-and-upgrades/upgrades-and-add-on-components.md)
 
-## HG Drone Developer Guide <a id="developerguide"></a>
+## HG Drone Developer Guide <a href="#developerguide" id="developerguide"></a>
 
 * [Getting started](developerguide/getting-started.md)
 * [Development tools](developerguide/tools/README.md)
@@ -66,9 +66,10 @@
 * [PX4 simulation](developerguide/simulation.md)
 * [PX4 system console](developerguide/system-console/README.md)
   * [Useful console commands](developerguide/system-console/useful-console-commands.md)
-* [C++ and Python interface&management application for FMUK66](developerguide/c++-and-python-interface-and-management-application-for-fmuk66.md)
+* [C++ and Python interface\&management application for FMUK66](developerguide/c++-and-python-interface-and-management-application-for-fmuk66.md)
+* [Zephyr on FMUK66](developerguide/zephyr-on-fmuk66.md)
 
-## FMUK66 Hardware Reference <a id="rddrone-fmuk66"></a>
+## FMUK66 Hardware Reference <a href="#rddrone-fmuk66" id="rddrone-fmuk66"></a>
 
 * [Schematics and design files](rddrone-fmuk66/schematics.md)
 * [Connectors and pinout](rddrone-fmuk66/connectors/README.md)
@@ -82,7 +83,7 @@
   * [Serial 2 / Telemetry 2 / IRDA](rddrone-fmuk66/connectors/telemetry-2.md)
   * [External I2C bus / NFC](rddrone-fmuk66/connectors/i2c-nfc.md)
   * [External SPI bus](rddrone-fmuk66/connectors/external-spi.md)
-  * [Debug interface \(DCD-LZ\)](rddrone-fmuk66/connectors/debug-interface-dcd-lz/README.md)
+  * [Debug interface (DCD-LZ)](rddrone-fmuk66/connectors/debug-interface-dcd-lz/README.md)
     * [DCD-LZ breakout board](rddrone-fmuk66/connectors/debug-interface-dcd-lz/dcd-lz-breakout-board.md)
   * [Analog-digital converters](rddrone-fmuk66/connectors/analog-digital-converters.md)
   * [CAN transceivers](rddrone-fmuk66/connectors/can-transceivers.md)
@@ -93,7 +94,7 @@
 * [Electrical fuses](rddrone-fmuk66/electrical-fuses.md)
 * [Hardware errata](rddrone-fmuk66/hardware-errata.md)
 
-## Add-On Hardware <a id="add-ons"></a>
+## Add-On Hardware <a href="#add-ons" id="add-ons"></a>
 
 * [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/)
 * [UCANS32K146 UAVCAN Node](https://nxp.gitbook.io/ucans32k146/)
@@ -127,10 +128,9 @@
   * [Installing the FMU in its case](archive/s500-drone-frame/installing-the-fmu-in-its-case.md)
   * [Mounting the GPS and FMU](archive/s500-drone-frame/mounting-the-gps-and-fmu.md)
   * [Connecting all FMU wires](archive/s500-drone-frame/connecting-all-fmu-wires.md)
-  * [Video guide \(outdated\)](archive/s500-drone-frame/video-guide.md)
+  * [Video guide (outdated)](archive/s500-drone-frame/video-guide.md)
 * [Windows drivers](archive/windows-drivers.md)
 * [Development tools](archive/development-tools/README.md)
   * [Visual Studio Code](archive/development-tools/visual-studio-code.md)
 * [Add-on hardware](archive/add-ons/README.md)
   * [TechNexion PICO-PI PICO-IMX8M companion computer](archive/add-ons/technexion-picopi-pico-imx8m-ubuntu.md)
-
