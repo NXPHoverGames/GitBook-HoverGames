@@ -8,6 +8,10 @@ description: Important things to check before you fly.
 
 In order to start flying your drone, there are a couple of steps you need to follow. It is important to follow all these steps _before_ _**every**_ _flight_.
 
+{% hint style="success" %}
+Please use PPE - Personal Protective Equpiment such as eye protection, heavy clothing that covers exposed skin and closed toe heavy boots while working with any drone.&#x20;
+{% endhint %}
+
 1. Make sure you have **fully set up your drone**. While it is not necessary to check every little setting every time before takeoff, it is a good idea to regularly check your settings, especially after making a lot of changes.
 2. Check out the [**Flying Regulations**](../../safety.md#drone-laws-and-regulations) in your area whether you are allowed to fly in your area.
 3. Check that you are flying safely by going through the [**Safety Guidelines**](../../safety.md#safety-settings)**.**
@@ -31,11 +35,12 @@ You can also enable a generic preflight checklist in QGroundControl! Go to the a
 
 ## Safety
 
-Drones are not toys, and should be handled with care to make sure nobody can get hurt. While the local regulations mentioned above improve the general safety somewhat, taking good care of your drone is also required for a safe flight. It is important to do this before every flight, since damaged or loose components can cause the drone to malfunction during flight, leading to loss of control and crashes!&#x20;
+Drones are not toys, and should be handled with care to make sure no-one gets  hurt. While the local regulations mentioned above improve the general safety somewhat, taking good care of your drone is also required for a safe flight. It is important to do this before every flight, since damaged or loose components can cause the drone to malfunction during flight, leading to loss of control and crashes!&#x20;
 
 Some general checks that apply to any custom-made drone:
 
-* Check whether the **propellers are mounted properly**. This means that they are spinning in the right direction, and that they are mounted tightly.
+* Check whether the **propellers are mounted properly**. This means that they are spinning in the right direction, and that they are mounted tightly.&#x20;
+  * _**DOUBLE CHECK that the propeller nuts are tight and they have not loosened since last use.**_
 * Make sure that the **propellers can rotate freely** without touching any of the frame or wiring.
 * Check that there are **no loose wires** that could get in-between the propellers during flight.
 * Make sure that the **battery is tightly strapped** to the frame: it should not be able to move at all. If the battery can shift during flight, it causes the drone to get out of balance, or the battery could even detach from the drone!
