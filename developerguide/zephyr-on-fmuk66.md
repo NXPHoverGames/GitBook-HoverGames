@@ -53,7 +53,11 @@ It is possible in the future that some development has taken place that is not y
 
 
 {% hint style="info" %}
-Note there are many branches in this local repo. \
+Note there are many branches in this local repo.&#x20;
+
+You can use pr-multi-socketcan for using multiple socketcan interfaces in parallel.
+
+For any other development checkout pr-fmuk66-board\
 
 {% endhint %}
 
