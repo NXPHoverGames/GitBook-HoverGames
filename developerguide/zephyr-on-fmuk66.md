@@ -70,9 +70,9 @@ NXP Local repofor working with Zephyr\
 
 Aim India may also use MR-Buggy3 and similar code. A link is provided here for reference only.
 
-[https://nxpaimindia.com/](https://nxpaimindia.com/)
-
-
+{% embed url="https://nxpaimindia.com/" %}
+NXP AIM program India
+{% endembed %}
 
 \
 
