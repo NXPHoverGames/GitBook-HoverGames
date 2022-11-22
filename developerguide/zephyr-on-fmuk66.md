@@ -23,9 +23,29 @@ An example of using the Servo Motor:
 
 {% embed url="https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/servo_motor" %}
 
-Example of running the RGB LED (\<todo> - Testing)
+An example of running the RGB LED test controlled by PWM&#x20;
 
 {% embed url="https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/rgb_led" %}
+
+An example of using pressure sensor bme280/bmp280 over internal I2C bus
+
+{% embed url="https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor/bme280" %}
+
+An example of using magnetometer sensor bmm150 over internal I2C bus
+
+{% embed url="https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor/magn_polling" %}
+
+An example of using 3 axis accelerometer and 3 axis magnetometer fxos8700 over internal SPI bus
+
+{% embed url="https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor/fxos8700" %}
+
+An example of running angular rate gyroscope fxas21002 over internal SPI bus
+
+{% embed url="https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor/fxas21002" %}
+
+An example to communicate over socketcan
+
+{% embed url="https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/net/sockets/can" %}
 
 ### Local Zephyr Repo
 
