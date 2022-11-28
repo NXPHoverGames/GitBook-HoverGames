@@ -7,7 +7,10 @@ description: To get started, we will first assemble the motor mounts and arms.
 ## NOTICE: New motors for 2021/2022
 
 {% hint style="warning" %}
-If you purchased a drone kit in late 2021 or 2022, you will receive the new 5010-750kV motors. These motors use a different type of propellor and propellor attachment mechanism. Please pay attention to the updated pictures below for the new motors.
+If you purchased a drone kit in late 2021 or 2022, you will receive the new 5010-750kV motors. These motors use a different type of propellor and propellor attachment mechanism. Please pay attention to the updated pictures below for the new motors.\
+\
+NOTE These 5010 motors use only CW mounting propeller screws. This is accepted in the industry. Please however be certain to mount the correct CW or CCW propellers and be extra careful ensuring the nuts on the CCW propellers are tighened very securely to avoid accidental unscrewing. Check nuts regularly and before flight.\
+See also our notes under Safety section for additional general precautions.&#x20;
 {% endhint %}
 
 ## Motor mounts
