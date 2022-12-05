@@ -41,10 +41,19 @@ The actual [NXP part numbers](https://www.nxp.com/applications/solutions/industr
 * [KIT-HGDRONEK66](https://www.nxp.com/applications/solutions/industrial/aerospace-and-mobile-robotics/uavs-drones-and-rovers/nxp-hovergames-drone-kit-including-rddrone-fmuk66-and-peripherals:KIT-HGDRONEK66) - Complete drone development kit including RDDRONE-FMUK66
 * [RDDRONE-FMUK66](https://www.nxp.com/design/designs/px4-robotic-drone-fmu-rddrone-fmuk66:RDDRONE-FMUK66) - NXP flight controller with the 180 MHz Kinetis K66
 
-For full functionality of the kit, you will need to purchase a telemetry radio set separately. Depending on your location, you need either a 915 MHz or 433 MHz set. [Please check which frequencies / ISM bands you are allowed to use in your region.](http://ardupilot.org/copter/docs/common-telemetry-radio-regional-regulations.html)
+
+
+For full functionality of the kit, you will need to purchase a telemetry radio set separately.&#x20;
+
+_Note that in HoverGames the discount code includes a corresponding discount for the Telemetry radio, but it still needs to be purchased/put in the shopping basket as a separate line item._
+
+\
+&#x20;Depending on your location, you need either a 915 MHz or 433 MHz set. [Please check which frequencies / ISM bands you are allowed to use in your region.](http://ardupilot.org/copter/docs/common-telemetry-radio-regional-regulations.html)
 
 * [HGD-TELEM915](https://www.nxp.com/part/HGD-TELEM915) - Holybro 915 MHz telemetry radio set (Americas)
 * [HGD-TELEM433](https://www.nxp.com/part/HGD-TELEM433) - Holybro 433 MHz telemetry radio set (Europe, India)
+
+
 
 Other NXP flight management units, drone development kits and equipment will have similar naming conventions as they are introduced.
 {% endhint %}

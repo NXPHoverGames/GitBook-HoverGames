@@ -75,6 +75,14 @@ Be careful with the carbon fiber parts of the frame. The edges may be sharp.
 
 * [Product webpage](http://www.readytosky.com/e\_productshow/?787-RS2212-920KV-CW\&CCW-Brushless-Motor-787.html)
 
+{% hint style="info" %}
+Note Updated kits after 2021 use a different 5010 motor type. These all use CW threads, which is acceptable industry practice, however extra care should be taken to ensure the motor nuts for the CW and CCW propellers are tight. The nuts should be checked before any flights. \
+\
+This gitbook and included videos may still refer to and show images using the RS2212 motor type.
+{% endhint %}
+
+\
+\
 The kit includes four brushless motors suitable for a quadcopter the size of the HoverGames drone. Two motors will rotate in clockwise (**CW**) direction, and two in counter clockwise (**CCW**) direction. This allows the drone to fly stable without unwantedly rotating around its vertical axis.
 
 The clockwise (**CW**) rotating motors have a little notch on top of their shaft. It might come with a black nut. The counterclockwise (**CCW**) rotating motors have a smooth top and they usually come with silver nuts.
