@@ -1,20 +1,30 @@
 # Bosch BME688
+
+
  For Hover Games 3 the partner is Bosch.  The sensor provided with the free hardware was the Adafruit BME688 module.
  https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme688/
  
+ {% embed url="https://www.youtube.com/watch?v=4vdliMRtxBY&feature=youtu.be" %}
+
+ 
  This sensor is pin compatible with the BME680, but with AI built in!
+ ![HoverGames 3 sensor package with Bosch BME688 ](.gitbook/assets/BME688\_kit.jpg)
+ 
  
  ## Connections 
  The Adafruit BME688 module has two JST SH 4 pin sockets (Also called Qwiic/ Sparkfun QT) for I2C access to the sensor.  
  If you want to use SPI there is pads ready to solder your own connection. Use a piece of header to make it breadboard compatible
  
+ 
  ## Cables included with Hover Games 3 Sensor kit
-*insert picture here*
+
 * Stemma QT to Qwiic (Used by Adafruit and Sparkfun breakout boards)
  * Qwiic to open pins (useful for breadboards or some microcontrollers with sockets)
  * Qwiic to FMUK66
  * Qwiic to NavQ
  * Qwiic to NavQPlus
+ ![Qwiic to Qwiic cable connecting a BME688 module to an example Adafruit QT PY micro (not included)](.gitbook/assets/BME688\_qwiic.jpg)
+ ![JST-GH connections for FMU, NavQ, and NavQPlus](.gitbook/assets/BME688\_JST-GH.jpg)
 
 
 
