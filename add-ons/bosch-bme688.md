@@ -8,7 +8,7 @@
 
  
  This sensor is pin compatible with the BME680, but with AI built in!
- ![HoverGames 3 sensor package with Bosch BME688 ](.gitbook/assets/BME688\_kit.jpg)
+ ![HoverGames 3 sensor package with Bosch BME688 ](../.gitbook/assets/BME688\_kit.jpg)
  
  
  ## Connections 
@@ -23,8 +23,8 @@
  * Qwiic to FMUK66
  * Qwiic to NavQ
  * Qwiic to NavQPlus
- ![Qwiic to Qwiic cable connecting a BME688 module to an example Adafruit QT PY micro (not included)](.gitbook/assets/BME688\_qwiic.jpg)
- ![JST-GH connections for FMU, NavQ, and NavQPlus](.gitbook/assets/BME688\_JST-GH.jpg)
+ ![Qwiic to Qwiic cable connecting a BME688 module to an example Adafruit QT PY micro (not included)](../.gitbook/assets/BME688\_qwiic.jpg)
+ ![JST-GH connections for FMU, NavQ, and NavQPlus](../.gitbook/assets/BME688\_JST-GH.jpg)
 
 
 
