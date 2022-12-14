@@ -19,4 +19,4 @@
 Rev. B (and older boards) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![](<../../.gitbook/assets/usound (3).PNG>)
+![](<../../.gitbook/assets/usound (2).PNG>)

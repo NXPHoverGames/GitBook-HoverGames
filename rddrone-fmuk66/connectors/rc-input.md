@@ -52,5 +52,5 @@ Rev. B (and older boards) are **not supported** anymore. This information is lef
 
 ## RDDRONE-FMUK66 Rev. B schematic
 
-![](<../../.gitbook/assets/rc\_input (2).png>)
+![](<../../.gitbook/assets/rc\_input (2) (1).png>)
 

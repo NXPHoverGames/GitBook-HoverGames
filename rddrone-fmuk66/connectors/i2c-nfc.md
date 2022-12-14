@@ -20,4 +20,4 @@
 Rev. B (and older boards) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![](<../../.gitbook/assets/nfc-i2c (2).PNG>)
+![](<../../.gitbook/assets/nfc-i2c (1) (1).png>)

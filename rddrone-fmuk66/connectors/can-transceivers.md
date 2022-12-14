@@ -25,4 +25,4 @@ The RDDRONE-FMUK66 features two [CAN (Controller Area Network) busses](https://e
 Rev. B (and older boards) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![](<../../.gitbook/assets/CAN (2).PNG>)
+![](<../../.gitbook/assets/CAN (2) (1).PNG>)

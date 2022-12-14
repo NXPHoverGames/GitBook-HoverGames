@@ -33,7 +33,7 @@ The labeling of RX and TX is inconsistent on some radios. Typically RX on the FM
 Rev. B (and older boards) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![](<../../.gitbook/assets/uart (3).PNG>)
+![](<../../.gitbook/assets/uart (3) (2).PNG>)
 
 ## Telemetry
 

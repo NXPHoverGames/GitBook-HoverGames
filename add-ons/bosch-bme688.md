@@ -1,38 +1,45 @@
-# Bosch BME688
+# Bosch Sensortec BME688
 
+## Introduction
 
- For Hover Games 3 the partner is Bosch.  The sensor provided with the free hardware was the Adafruit BME688 module.
- https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme688/
- 
- {% embed url="https://www.youtube.com/watch?v=4vdliMRtxBY&feature=youtu.be" %}
+HoverGames3 includes Bosch Sensortec as a partner. They contributed their BME688 Environmental sensor as installed on the Adafruit BME688 module. \
+More information on this sensor can be found on their webpage here:\
+[https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme688/](https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme688/)
 
- 
- This sensor is pin compatible with the BME680, but with AI built in!
- ![HoverGames 3 sensor package with Bosch BME688 ](../.gitbook/assets/BME688\_kit.jpg)
- 
- 
- ## Connections 
- The Adafruit BME688 module has two JST SH 4 pin sockets (Also called Qwiic/ Sparkfun QT) for I2C access to the sensor.  
- If you want to use SPI there is pads ready to solder your own connection. Use a piece of header to make it breadboard compatible
- 
- 
- ## Cables included with Hover Games 3 Sensor kit
+{% embed url="https://www.youtube.com/watch?v=4vdliMRtxBY&feature=youtu.be" %}
 
-* Stemma QT to Qwiic (Used by Adafruit and Sparkfun breakout boards)
- * Qwiic to open pins (useful for breadboards or some microcontrollers with sockets)
- * Qwiic to FMUK66
- * Qwiic to NavQ
- * Qwiic to NavQPlus
- ![Qwiic to Qwiic cable connecting a BME688 module to an example Adafruit QT PY micro (not included)](../.gitbook/assets/BME688\_qwiic.jpg)
- ![JST-GH connections for FMU, NavQ, and NavQPlus](../.gitbook/assets/BME688\_JST-GH.jpg)
+This version of the environmental (gas) sensor is pin compatible with the BME680, but with AI built in! From the sensortec website they state _"The BME688 is the first gas sensor with Artificial Intelligence (AI) and integrated high-linearity and high-accuracy pressure, humidity and temperature sensors."_\
 
 
 
- ## Resources 
-  * [Introduction to BME688 and AI-Studio on Youtube](https://youtu.be/4vdliMRtxBY)
-  * [Adafruit item page](https://www.adafruit.com/product/5046)
-  * [Adafruit Learn guide for the BME680](https://learn.adafruit.com/adafruit-bme680-humidity-temperature-barometic-pressure-voc-gas) Doesn't cover the new Bosch BME AI-Studio
-  * [Bosch BME688 datasheet](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme688-ds000.pdf)
-  * [Bosch BME AI-Sudio](https://www.bosch-sensortec.com/software-tools/software/bme688-software/)
-  * [Bosch Github repository](https://github.com/BoschSensortec)
-  
+
+## Connections
+
+<figure><img src="../.gitbook/assets/BME688_kit.jpg" alt=""><figcaption><p>Adafruit board and custom cables provided to HoverGames3 participants</p></figcaption></figure>
+
+#### I2C
+
+The [Adafruit BME688](https://www.adafruit.com/product/5046) module has two "STEMMA QT" JST SH 4 pin sockets (Also called Qwiic/ Sparkfun QT) for I2C access to the sensor.
+
+#### SPI If you want to use SPI there are also pads available to solder your own direct connection. Alterantively use the included common 0.100" pin-header to make it breadboard compatible
+
+### Cables included with Hover Games 3 Sensor kit
+
+1. Stemma QT to Qwiic (Used by Adafruit and Sparkfun breakout boards)
+2. Qwiic to open pins (useful for breadboards or some microcontrollers with sockets)
+3. Qwiic to FMUK66
+4. Qwiic to NavQ
+5. Qwiic to NavQPlus &#x20;
+
+<figure><img src="../.gitbook/assets/BME688_qwiic.jpg" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/BME688_JST-GH.jpg" alt=""><figcaption></figcaption></figure>
+
+## Resources
+
+* [Introduction to BME688 and AI-Studio on Youtube](https://youtu.be/4vdliMRtxBY)
+* [Adafruit item page](https://www.adafruit.com/product/5046)
+* [Adafruit Learn guide for the BME680](https://learn.adafruit.com/adafruit-bme680-humidity-temperature-barometic-pressure-voc-gas) Doesn't cover the new Bosch BME AI-Studio
+* [Bosch BME688 datasheet](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme688-ds000.pdf)
+* [Bosch BME AI-Sudio](https://www.bosch-sensortec.com/software-tools/software/bme688-software/)
+* [Bosch Github repository](https://github.com/BoschSensortec)
