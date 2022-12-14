@@ -11,6 +11,8 @@ More information on this sensor can be found on their webpage here:\
 This version of the environmental (gas) sensor is pin compatible with the BME680, but with AI built in! From the sensortec website they state _"The BME688 is the first gas sensor with Artificial Intelligence (AI) and integrated high-linearity and high-accuracy pressure, humidity and temperature sensors."_\
 
 
+<figure><img src="../.gitbook/assets/IMG_20221214_001814.jpg" alt=""><figcaption><p>Adafruit board with Bosch Sensortec BME688</p></figcaption></figure>
+
 
 
 ## Connections
