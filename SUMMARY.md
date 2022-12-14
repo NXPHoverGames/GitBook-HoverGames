@@ -106,6 +106,7 @@
 * [Melexis MLX90614 IR sensor](add-ons/melexis-mlx90614.md)
 * [Panasonic AMG8833 IR sensor](add-ons/panasonic-amg8833.md)
 * [NavQ Camera Servo Mount](add-ons/navq-camera-servo-mount.md)
+* [Bosch Sensortec BME688 ](add-ons/bosch-bme688.md)
 
 ## External Sources
 
