@@ -27,13 +27,13 @@ The [Adafruit BME688](https://www.adafruit.com/product/5046) module has two "STE
 
 1. Stemma QT to Qwiic (Used by Adafruit and Sparkfun breakout boards)
 2. Qwiic to open pins (useful for breadboards or some microcontrollers with sockets)
-3. Qwiic to FMUK66
-4. Qwiic to NavQ
-5. Qwiic to NavQPlus &#x20;
+3. Qwiic to FMUK66 (JST-GH 5 pin I2C/NFC interface)
+4. Qwiic to NavQ (JST-GH 9 pin UART4/I2C/GPIO interface)
+5. Qwiic to NavQPlus  (JST-GH 6 pin AUX interface)
 
-<figure><img src="../.gitbook/assets/BME688_qwiic.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/BME688_qwiic.jpg" alt=""><figcaption><p>Example of BME688 used on a breadboard and/or connected to an Adafruit breakout board (not included)</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/BME688_JST-GH.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/BME688_JST-GH.jpg" alt=""><figcaption><p>Custom JST-GH cables for connecting to FMUK66/NAVQ/NAVQPLUS</p></figcaption></figure>
 
 ## Resources
 
