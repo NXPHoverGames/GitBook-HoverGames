@@ -2,8 +2,10 @@
 
 ## Introduction
 
-HoverGames3 includes Bosch Sensortec as a partner. They contributed their BME688 Environmental sensor as installed on the Adafruit BME688 module. \
-More information on this sensor can be found on their webpage here:\
+HoverGames3 includes Bosch Sensortec as a partner. They contributed their BME688 Environmental sensor as installed on the Adafruit BME688 module. It should also be noted that the [Bosch Sensortech BMI088 inertial sensor](https://www.bosch-sensortec.com/products/motion-sensors/imus/bmi088/) is also used on the FMUK66.
+
+\
+More information on the BME688 sensor can be found on their webpage here:\
 [https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme688/](https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme688/)
 
 {% embed url="https://www.youtube.com/watch?v=4vdliMRtxBY&feature=youtu.be" %}
@@ -45,3 +47,10 @@ The [Adafruit BME688](https://www.adafruit.com/product/5046) module has two "STE
 * [Bosch BME688 datasheet](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme688-ds000.pdf)
 * [Bosch BME AI-Sudio](https://www.bosch-sensortec.com/software-tools/software/bme688-software/)
 * [Bosch Github repository](https://github.com/BoschSensortec)
+* 3D printable enclosures:
+  *   [https://www.thingiverse.com/thing:5722287](https://www.thingiverse.com/thing:5722287)
+
+      <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+  *   [https://www.thingiverse.com/thing:5143210](https://www.thingiverse.com/thing:5143210)&#x20;
+
+      <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
