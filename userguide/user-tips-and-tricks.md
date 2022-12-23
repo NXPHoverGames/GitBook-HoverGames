@@ -2,7 +2,7 @@
 description: User contributed tips and tricks
 ---
 
-# Tips and Tricks
+# User Tips and Tricks
 
 ## Design assembly improvements
 

@@ -37,7 +37,7 @@
   * [Improving flight](userguide/flying/improvements.md)
 * [Troubleshooting](userguide/troubleshooting.md)
 * [Flight time and Payload](userguide/flight-time-and-payload.md)
-* [Tips and Tricks](userguide/tips-and-tricks.md)
+* [User Tips and Tricks](userguide/user-tips-and-tricks.md)
 * [Replacement parts, alternatives and upgrades](userguide/replacement-parts-alternatives-and-upgrades/README.md)
   * [JST-GH connectors](userguide/replacement-parts-alternatives-and-upgrades/jst-gh-connectors.md)
   * [Replacement parts](userguide/replacement-parts-alternatives-and-upgrades/replacement-parts.md)
