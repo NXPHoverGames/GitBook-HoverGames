@@ -37,6 +37,7 @@
   * [Improving flight](userguide/flying/improvements.md)
 * [Troubleshooting](userguide/troubleshooting.md)
 * [Flight time and Payload](userguide/flight-time-and-payload.md)
+* [Tips and Tricks](userguide/tips-and-tricks.md)
 * [Replacement parts, alternatives and upgrades](userguide/replacement-parts-alternatives-and-upgrades/README.md)
   * [JST-GH connectors](userguide/replacement-parts-alternatives-and-upgrades/jst-gh-connectors.md)
   * [Replacement parts](userguide/replacement-parts-alternatives-and-upgrades/replacement-parts.md)
@@ -106,7 +107,7 @@
 * [Melexis MLX90614 IR sensor](add-ons/melexis-mlx90614.md)
 * [Panasonic AMG8833 IR sensor](add-ons/panasonic-amg8833.md)
 * [NavQ Camera Servo Mount](add-ons/navq-camera-servo-mount.md)
-* [Bosch Sensortec BME688 ](add-ons/bosch-bme688.md)
+* [Bosch Sensortec BME688](add-ons/bosch-bme688.md)
 
 ## External Sources
 
