@@ -97,6 +97,7 @@
 
 ## Add-On Hardware <a href="#add-ons" id="add-ons"></a>
 
+* [NavQPlus](add-ons/navqplus.md)
 * [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/)
 * [UCANS32K146 UAVCAN Node](https://nxp.gitbook.io/ucans32k146/)
 * [RDDRONE-BMS772](https://nxp.gitbook.io/rddrone-bms772/)
