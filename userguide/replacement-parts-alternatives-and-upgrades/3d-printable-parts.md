@@ -49,3 +49,8 @@ Note that the improved landing gear T-connector above is based on the T-connecto
 
 {% embed url="https://www.thingiverse.com/thing:2833973" %}
 
+## Protective outer dome/shield
+You may have to drill or cut access holes for the GPS or telemetry antenna
+
+{% embed url="https://www.thingiverse.com/thing:4216521" %}
+
