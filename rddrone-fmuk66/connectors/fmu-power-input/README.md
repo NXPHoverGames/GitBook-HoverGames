@@ -29,9 +29,9 @@ We have a separate page about the FMU power module, which provides the power to 
 
 ## RDDRONE-FMUK66 Rev. C schematic
 
-![Schematic of the power input connector on the FMU.](<../../../.gitbook/assets/C-powerin (1).png>)
+![Schematic of the power input connector on the FMU.](../../../.gitbook/assets/C-powerin.png)
 
-![The FMU can be powered from the power input connector or through the micro USB.](<../../../.gitbook/assets/C-power (1).png>)
+![The FMU can be powered from the power input connector or through the micro USB.](../../../.gitbook/assets/C-power.png)
 
 
 
@@ -41,6 +41,6 @@ We have a separate page about the FMU power module, which provides the power to 
 Rev. B (and older boards) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![Schematic of the power input connector on the FMU.](<../../../.gitbook/assets/power\_in (2).PNG>)
+![Schematic of the power input connector on the FMU.](<../../../.gitbook/assets/power\_in (2).png>)
 
-![The FMU can be powered from the power input connector or through the micro USB.](<../../../.gitbook/assets/power (1).PNG>)
+![The FMU can be powered from the power input connector or through the micro USB.](<../../../.gitbook/assets/power (1).png>)

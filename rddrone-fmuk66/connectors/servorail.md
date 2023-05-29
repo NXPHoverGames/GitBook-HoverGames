@@ -38,5 +38,5 @@ The servorail also has a BEC input for powering the 5V rail, which is split from
 Rev. B (and older boards) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![](<../../.gitbook/assets/servo (2) (1).png>)
+![](<../../.gitbook/assets/servo (1).png>)
 

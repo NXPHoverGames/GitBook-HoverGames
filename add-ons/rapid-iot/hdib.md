@@ -10,7 +10,7 @@ description: >-
 
 The RDDRONE-IOT or  "HDIB board" (**H**overGames **D**rone **I**oT Adapter **B**oard) is an experimental adapter board that allows the NXP [RAPID-IOT ](https://www.nxp.com/rapid-iot)board to connect to the  RDDRONE-FMUK66, NXPhlite or another PX4 type FMU using Standard JST GH Connectors. It will accommodate two mikroelectronica CLIK modules, and has both CANBUS and UART connections to the outside world. An NXPhlite DCD-LZ debug port is provided at the bottom of the board which provides SWD debug as well as a UART console port. It will also accept a separate 3V or 5V custom power input ans well as the 6 pin JST-GH power brick input from a PX4-type power module.
 
-![](../../.gitbook/assets/IMG\_20180405\_165943.jpg)
+![](../../.gitbook/assets/img\_20180405\_165943.jpg)
 
 {% hint style="success" %}
 The HDIB **can also** be configured to work with  [VSCP.org](https://www.vscp.org). VSCP stands for Very Simple Control Protocol and is typically implemented on a CAN Based IOT devices. To enable this a 3 pin DC-DC regulator needs to be soldered onto the HDIB board.
@@ -45,15 +45,15 @@ The HDIB is meant to be highly configurable, particularly in terms of power supp
 
 ## Schematics
 
-![](../../.gitbook/assets/SPF-30039\_A-1\[1].png)
+![](../../.gitbook/assets/spf-30039\_a-1-1-.png)
 
-![](../../.gitbook/assets/SPF-30039\_A-2\[1].png)
+![](../../.gitbook/assets/spf-30039\_a-2-1-.png)
 
-![](../../.gitbook/assets/SPF-30039\_A-3\[1].png)
+![](../../.gitbook/assets/spf-30039\_a-3-1-.png)
 
-![](../../.gitbook/assets/SPF-30039\_A-4\[1].png)
+![](../../.gitbook/assets/spf-30039\_a-4-1-.png)
 
-![](../../.gitbook/assets/SPF-30039\_A-5\[1].png)
+![](../../.gitbook/assets/spf-30039\_a-5-1-.png)
 
-![](../../.gitbook/assets/SPF-30039\_A-6\[1].png)
+![](../../.gitbook/assets/spf-30039\_a-6-1-.png)
 

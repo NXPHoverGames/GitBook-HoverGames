@@ -34,26 +34,26 @@ This is not an optimal solution, and will be corrected in the final kits. We're 
 The key seems to be to carefully align and get the connector started by hand before using the pliers.
 {% endhint %}
 
-![Extra JST-GH to Hirose cable included with some early kits.](../../../.gitbook/assets/IMG\_20180514\_132829.jpg)
+![Extra JST-GH to Hirose cable included with some early kits.](../../../.gitbook/assets/img\_20180514\_132829.jpg)
 
-![Cut away some of the shrink wrap around the connector.](../../../.gitbook/assets/IMG\_20180514\_132859.jpg)
+![Cut away some of the shrink wrap around the connector.](../../../.gitbook/assets/img\_20180514\_132859.jpg)
 
-![Top: JST-GH connector. Bottom: Hirose DF13.](../../../.gitbook/assets/IMG\_20180514\_132936.jpg)
+![Top: JST-GH connector. Bottom: Hirose DF13.](../../../.gitbook/assets/img\_20180514\_132936.jpg)
 
-![Note the nubs may not align on the new cable and have to be removed.](../../../.gitbook/assets/IMG\_20180514\_132956.jpg)
+![Note the nubs may not align on the new cable and have to be removed.](../../../.gitbook/assets/img\_20180514\_132956.jpg)
 
-![Use side cutters to remove the mis-matched nubs.](../../../.gitbook/assets/IMG\_20180514\_133132.jpg)
+![Use side cutters to remove the mis-matched nubs.](../../../.gitbook/assets/img\_20180514\_133132.jpg)
 
-![Mismatched nubs also need to be removed on the other side.](../../../.gitbook/assets/IMG\_20180514\_133224.jpg)
+![Mismatched nubs also need to be removed on the other side.](../../../.gitbook/assets/img\_20180514\_133224.jpg)
 
-![File smooth as needed with a metal or nailfile. ](../../../.gitbook/assets/IMG\_20180514\_133235.jpg)
+![File smooth as needed with a metal or nailfile. ](../../../.gitbook/assets/img\_20180514\_133235.jpg)
 
-![Nubs removed (top).](../../../.gitbook/assets/IMG\_20180514\_133401.jpg)
+![Nubs removed (top).](../../../.gitbook/assets/img\_20180514\_133401.jpg)
 
-![Nubs removed (bottom).](../../../.gitbook/assets/IMG\_20180514\_133406.jpg)
+![Nubs removed (bottom).](../../../.gitbook/assets/img\_20180514\_133406.jpg)
 
-![Installation may be quite tight. Carefully align and start the connector by hand.](../../../.gitbook/assets/IMG\_20180514\_133449.jpg)
+![Installation may be quite tight. Carefully align and start the connector by hand.](../../../.gitbook/assets/img\_20180514\_133449.jpg)
 
-![Once aligned by hand, use some pliers to push the connector on (no, this is not great).](../../../.gitbook/assets/IMG\_20180514\_133546.jpg)
+![Once aligned by hand, use some pliers to push the connector on (no, this is not great).](../../../.gitbook/assets/img\_20180514\_133546.jpg)
 
-![Finished assembly.](../../../.gitbook/assets/IMG\_20180514\_133622.jpg)
+![Finished assembly.](../../../.gitbook/assets/img\_20180514\_133622.jpg)

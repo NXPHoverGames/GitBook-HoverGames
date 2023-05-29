@@ -28,7 +28,7 @@ Details on the original interfaces can be found here:
 
 ## RDDRONE-FMUK66 Rev. C schematic
 
-![](../../../.gitbook/assets/C-debug.png)
+![](../../../.gitbook/assets/c-debug.png)
 
 ## RDDRONE-FMUK66 Rev. B schematic
 
@@ -36,7 +36,7 @@ Details on the original interfaces can be found here:
 Rev. B (and older boards) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![](../../../.gitbook/assets/debug.png)
+![](<../../../.gitbook/assets/debug (1).png>)
 
 ## Exposed interfaces
 

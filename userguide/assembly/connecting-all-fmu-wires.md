@@ -32,7 +32,7 @@ The +5V rail can only be powered with an **external BEC** (not included). The FM
 
 The order in which the ESCs should be connected to the servo rail is given by the diagram below. The red arrow indicates the front of the drone. Because the ESCs are mounted in a very tight space, it might be hard to find which wire is coming from which ESC, and which ESC is connected to which motor.
 
-![Numbering of the motors.](<../../.gitbook/assets/motordirection (1).jpg>)
+![Numbering of the motors.](../../.gitbook/assets/motordirection.jpg)
 
 If you followed the assembly instructions on the previous pages, the position of the ESCs should correspond to the table below. If you are not sure if you followed the previous instructions correctly, you might want to have a good look at where the wires are going, and write down which motor they control.
 

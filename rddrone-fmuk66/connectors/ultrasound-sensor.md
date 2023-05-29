@@ -11,7 +11,7 @@
 
 ## RDDRONE-FMUK66 Rev. C schematic
 
-![](../../.gitbook/assets/C-usound.png)
+![](../../.gitbook/assets/c-usound.png)
 
 ## RDDRONE-FMUK66 Rev. B schematic
 
@@ -19,4 +19,4 @@
 Rev. B (and older boards) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![](<../../.gitbook/assets/usound (2).PNG>)
+![](<../../.gitbook/assets/usound (1) (2).png>)

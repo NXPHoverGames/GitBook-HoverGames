@@ -27,7 +27,7 @@ The S500 quadcopter frame was part of some old HoverGames kits. Its bottom plate
 * Frame size: 480 mm (diagonal), 170 mm (height)
 * Weight: 405 g (without electronics and motors)
 
-![](../.gitbook/assets/s500framebox.JPG)![](../.gitbook/assets/s500framekitcontents.JPG)![](../.gitbook/assets/s500framecomponents.JPG)![](../.gitbook/assets/s500frameassembled.jpg)
+![](../.gitbook/assets/s500framebox.jpg)![](../.gitbook/assets/s500framekitcontents.jpg)![](../.gitbook/assets/s500framecomponents.jpg)![](<../.gitbook/assets/Dorne frame.jpg>)
 
 ## SiK 433 MHz/915 MHz telemetry radio transceiver set
 
@@ -41,7 +41,7 @@ In Europe radios with a frequency of 433 MHz should be used. For the USA this sh
 Do not upgrade the firmware on these radios! If you do an upgrade on one, you will have the other side as well, which is not easy to do, because it has no USB connection. They should work just fine with their default firmware.
 {% endhint %}
 
-![Telemetry radio set. The left radio module goes on the drone, the left module plugs into your computer.](../.gitbook/assets/readytoskytelemetry.jpg)
+![Telemetry radio set. The left radio module goes on the drone, the left module plugs into your computer.](../.gitbook/assets/telemetry\_modules.jpg)
 
 ## ReadytoSky u-blox NEO-M8N GPS module and GPS mount
 
@@ -62,10 +62,10 @@ The drone kit also includes an elevated mount for the GPS module, which limits t
 
 A seperate safety switch was included in older drone kits. The safety switch connects directly to the FMU. It is an extra safety feature which only allows the drone to fly when the switch is activated. A LED indicates whether the drone is armed. A slow pulse indicates disarmed. A quick pulse indicates that the switch is activated, but the remote controller is still disarmed. A constant glow indicates that the drone is fully armed and ready for take-off.
 
-![Safety switch. It includes a red LED which indicates the arming state of the vehicle.](../.gitbook/assets/safetyswitch.jpg)
+![Safety switch. It includes a red LED which indicates the arming state of the vehicle.](../.gitbook/assets/switch.jpg)
 
 ## Buzzer
 
 A buzzer was also included in older drone kits. It can be connected directly to the FMU and allows for audio feedback from the flight controller. It lets you know when there are warnings or errors, such as problems with sensor calibration or when the battery level becomes low during flight.
 
-![Buzzer, which provides feedback through different sequences of beeps.](<../.gitbook/assets/buzzer (1).jpg>)
+![Buzzer, which provides feedback through different sequences of beeps.](../.gitbook/assets/buzzer.jpg)

@@ -12,7 +12,7 @@
 
 ## RDDRONE-FMUK66 Rev. C schematic
 
-![](../../.gitbook/assets/C-I2C.png)
+![](../../.gitbook/assets/c-i2c.png)
 
 ## RDDRONE-FMUK66 Rev. B schematic
 
@@ -20,4 +20,4 @@
 Rev. B (and older boards) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![](<../../.gitbook/assets/nfc-i2c (1) (1).png>)
+![](<../../.gitbook/assets/nfc-i2c (1).PNG>)

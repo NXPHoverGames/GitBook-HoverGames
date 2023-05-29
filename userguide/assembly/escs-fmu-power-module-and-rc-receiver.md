@@ -24,7 +24,7 @@ You should install the ESCs in a similar way to what is shown in the picture bel
 The video above shows a slightly different distribution of the ESCs around the PDB. We believe this method is easier than the distribution shown below. We will adapt the written instructions and pictures soon. Please use the method as shown in the video for now.
 {% endhint %}
 
-![ESCs installed around the PDB.](../../.gitbook/assets/MicrosoftTeams-image.png)
+![ESCs installed around the PDB.](../../.gitbook/assets/microsoftteams-image.png)
 
 ## FMU power module
 

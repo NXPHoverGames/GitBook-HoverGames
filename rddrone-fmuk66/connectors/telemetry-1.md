@@ -25,7 +25,7 @@ The labeling of RX and TX is inconsistent on some radios. Typically RX on the FM
 
 ## RDDRONE-FMUK66 Rev. C schematic
 
-![](../../.gitbook/assets/C-TELEM1.png)
+![](../../.gitbook/assets/c-telem1.png)
 
 ## RDDRONE-FMUK66 Rev. B schematic
 
@@ -33,7 +33,7 @@ The labeling of RX and TX is inconsistent on some radios. Typically RX on the FM
 Rev. B (and older boards) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![](<../../.gitbook/assets/uart (3) (2).PNG>)
+![](<../../.gitbook/assets/uart (1) (2).png>)
 
 ## Telemetry
 

@@ -17,7 +17,7 @@ Begin by loosening the two hex screws on the side of the T-connector. You should
 
 {% embed url="https://www.youtube.com/watch?v=wXbm61vzkyc" %}
 
-![Assembled legs with the bottom plate to which they will be mounted.](../../.gitbook/assets/assets\_-L9GLtb-Tz\_XaKbQu-Al\_-LZ-258xXVDKVcl7liPU\_-LZ-6f-4vjOVIzHLkj8O\_20190108\_140049.jpg)
+![Assembled legs with the bottom plate to which they will be mounted.](../../.gitbook/assets/assets\_-l9gltb-tz\_xakbqu-al\_-lz-258xxvdkvcl7lipu\_-lz-6f-4vjovizhlkj8o\_20190108\_140049.jpg)
 
 Next, we will need the bottom plate of the frame. It is one of the two plates with the cut out areas as shown above. The bottom plate is the one with the circle shaped holes in the middle and on the sides, we will put the other one on top. Around the two circle shaped holes on the sides, there are four small holes for screws. The black M3 socket head cap screws go down these holes, and should screw directly into the leg mounts. Nuts are not needed for this part.
 
@@ -25,7 +25,7 @@ Next, we will need the bottom plate of the frame. It is one of the two plates wi
 The T-connector is vulnerable to cracking with hard landings. We have found that adding a zip tie around the connector can help protect it. Alternatively, an extra-strong 3D printable T-connector and leg mount can be found in the [replacement parts section](../replacement-parts-alternatives-and-upgrades/3d-printable-parts.md#replacement-landing-gear-including-t-connector).
 {% endhint %}
 
-![Legs mounted to the bottom plate.](../../.gitbook/assets/assets\_-L9GLtb-Tz\_XaKbQu-Al\_-LZ-258xXVDKVcl7liPU\_-LZ-8xHVzPlNPlw0BzT3\_20190108\_140544.jpg)
+![Legs mounted to the bottom plate.](../../.gitbook/assets/assets\_-l9gltb-tz\_xakbqu-al\_-lz-258xxvdkvcl7lipu\_-lz-8xhvzplnplw0bzt3\_20190108\_140544.jpg)
 
 {% hint style="success" %}
 Also consider using a **threadlocking adhesive** such as Loctite 243 for the legs. At the very least, check them regularly to make sure that there aren't any loose screws. Flight performance can be significantly decreased by a loose landing gear.
@@ -43,7 +43,7 @@ The PDB is supplied and soldered by a 3rd party. Some HoverGames participants ha
 Some Hovergames participants have chosen to protect the terminals even further by covering them with hot melt glue (glue-gun) or additional heatshrink. This seems like a reasonable positive idea.
 {% endhint %}
 
-![Unsoldered and pre-soldered power distribution boards. Use the pre-soldered board](../../.gitbook/assets/assets\_-L9GLtb-Tz\_XaKbQu-Al\_-LZ-258xXVDKVcl7liPU\_-LZ-9eAflSe74GRkvKaF\_20181120\_160542.jpg)
+![Unsoldered and pre-soldered power distribution boards. Use the pre-soldered board](../../.gitbook/assets/assets\_-l9gltb-tz\_xakbqu-al\_-lz-258xxvdkvcl7lipu\_-lz-9eaflse74grkvkaf\_20181120\_160542.jpg)
 
 There should be nylon spacers and nuts included with the **unsoldered** PDB. We will reuse these with the soldered PDB and install four of these spacers on top of the bottom plate. We will then use the remaining four spacers to keep the PDB in place.
 
@@ -53,7 +53,7 @@ There should be nylon spacers and nuts included with the **unsoldered** PDB. We 
 
 There are eight holes for screws distributed in a circle around the center of the bottom plate. We will use the "diagonal" holes, so not the holes that are closest to the legs or the front/back of the plate. Put a spacer through from the top, and use a nut to keep it in place. It should be fine to tighten them by hand, it is not necessary to use the wrench.
 
-![Four spacers installed onto the bottom plate.](../../.gitbook/assets/assets\_-L9GLtb-Tz\_XaKbQu-Al\_-LZ-MNKqa-U\_wn4yqsy7\_-LZ-NA0H8vdanZ4REjFk\_20190108\_144147.jpg)
+![Four spacers installed onto the bottom plate.](../../.gitbook/assets/assets\_-l9gltb-tz\_xakbqu-al\_-lz-mnkqa-u\_wn4yqsy7\_-lz-na0h8vdanz4rejfk\_20190108\_144147.jpg)
 
 {% embed url="https://www.youtube.com/watch?v=MvBI3FE1vEo" %}
 

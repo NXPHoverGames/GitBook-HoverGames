@@ -14,7 +14,7 @@
 
 ## RDDRONE-FMUK66 Rev. C schematic
 
-![](../../.gitbook/assets/C-SPI.png)
+![](../../.gitbook/assets/c-spi.png)
 
 ## RDDRONE-FMUK66 Rev. B schematic
 
@@ -22,4 +22,4 @@
 Rev. B (and older boards) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![](<../../.gitbook/assets/SPI (2).PNG>)
+![](<../../.gitbook/assets/SPI (1).PNG>)

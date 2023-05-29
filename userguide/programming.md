@@ -51,7 +51,7 @@ Connect the debugger to the FMU using the 7-pin JST-GH connector from the debug 
 * Press `enter` to select the default interface speed (4000 kHz).
 * Enter `loadbin "/absolute/path/to/bootloader.bin" 0x0` command to write the bootloader to the board at memory address `0x0`. Change the path to the location of the bootloader binary file.
 
-![Debugging setup. The FMU is powered through the micro USB cable.](../.gitbook/assets/20190626\_103732.jpg)
+![Debugging setup. The FMU is powered through the micro USB cable.](<../.gitbook/assets/20190626\_103732 (1).jpg>)
 
 ## Programming the firmware
 

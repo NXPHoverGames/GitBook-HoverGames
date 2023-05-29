@@ -23,7 +23,7 @@ RDDRONE-FMUK66 has three fuses, two (F1 & F2) for the CAN transceivers, and one 
 
 ## Fuses F1 & F2 (CAN transceiver)
 
-![](<../.gitbook/assets/CAN-fuse (3).png>)
+![](<../.gitbook/assets/CAN-fuse (2).png>)
 
 ## Fuse F3 (USB port)
 

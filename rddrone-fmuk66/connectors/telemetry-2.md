@@ -19,7 +19,7 @@ On older versions of the RDDRONE-FMUK66, this port could only be used as IRDA. S
 
 ## RDDRONE-FMUK66 Rev. C schematic
 
-![](../../.gitbook/assets/C-serial2irda.png)
+![](../../.gitbook/assets/c-serial2irda.png)
 
 ## RDDRONE-FMUK66 Rev. B connector pinout
 
@@ -37,4 +37,4 @@ Rev. B (and older boards) are **not supported** anymore. This information is lef
 
 ## RDDRONE-FMUK66 Rev. B schematic
 
-![](<../../.gitbook/assets/irda (1).png>)
+![](<../../.gitbook/assets/irda (1) (1) (1).png>)

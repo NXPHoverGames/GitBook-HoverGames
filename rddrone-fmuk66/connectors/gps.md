@@ -29,7 +29,7 @@ RDDRONE-FMUK66 Rev. B had a conventional 6 pin GPS connector. On RDDRONE-FMUK66 
 
 ## RDDRONE-FMUK66 Rev. C schematic
 
-![](../../.gitbook/assets/C-GPS.png)
+![](../../.gitbook/assets/c-gps.png)
 
 ## RDDRONE-FMUK66 Rev. B connector pinout
 
@@ -48,7 +48,7 @@ Rev. B (and older boards) are **not supported** anymore. This information is lef
 
 ## RDDRONE-FMUK66 Rev. B schematic
 
-![](<../../.gitbook/assets/GPS (2).PNG>)
+![](<../../.gitbook/assets/GPS (1).PNG>)
 
 ## ReadytoSky u-blox NEO-M8N GPS module pinout
 
@@ -67,7 +67,7 @@ The pinout below has been tested and validated with a ReadyToSky M8N generic GPS
 | 5              | White  | I2C SDA | +3.3V   | 5          |
 | 6              | Orange | I2C SCL | +3.3V   | 4          |
 
-![Close up of the NEO M8N Connector pinout and cable colors.](../../.gitbook/assets/IMG\_20180331\_170151.jpg)
+![Close up of the NEO M8N Connector pinout and cable colors.](../../.gitbook/assets/img\_20180331\_170151.jpg)
 
 ## ReadytoSky u-blox NEO-M8N GPS module schematic
 

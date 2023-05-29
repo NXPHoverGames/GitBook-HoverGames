@@ -15,9 +15,9 @@ The RDDRONE-FMUK66 features two [CAN (Controller Area Network) busses](https://e
 
 ## RDDRONE-FMUK66 Rev. C schematics
 
-![](../../.gitbook/assets/C-CAN0.png)
+![](../../.gitbook/assets/c-can0.png)
 
-![](../../.gitbook/assets/C-CAN1.png)
+![](../../.gitbook/assets/c-can1.png)
 
 ## RDDRONE-FMUK66 Rev. B schematic
 
@@ -25,4 +25,4 @@ The RDDRONE-FMUK66 features two [CAN (Controller Area Network) busses](https://e
 Rev. B (and older boards) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![](<../../.gitbook/assets/CAN (2) (1).PNG>)
+![](<../../.gitbook/assets/CAN (1) (1).PNG>)

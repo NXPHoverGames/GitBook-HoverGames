@@ -8,13 +8,13 @@ description: >-
 
 ## Why simulate?
 
-> Simulation is a quick, easy, and most importantly, _safe_ way to test changes to PX4 code before attempting to fly in the real world. It is also a good way to start flying with PX4 when you haven't yet got a vehicle to experiment with. -- [**PX4 Developer Guide**](https://dev.px4.io/master/en/simulation/)****
+> Simulation is a quick, easy, and most importantly, _safe_ way to test changes to PX4 code before attempting to fly in the real world. It is also a good way to start flying with PX4 when you haven't yet got a vehicle to experiment with. -- [**PX4 Developer Guide**](https://dev.px4.io/master/en/simulation/)
 
 Many PX4 developers test their code changes in a simulator before flying a real drone with the modified software. It is much safer (and cheaper) to crash your drone in a simulator than in real-life. It is strongly recommended that you also do this if you start making changes to the PX4 firmware.
 
 ## SITL and HITL
 
-> PX4 supports both _Software In the Loop (SITL)_ simulation, where the flight stack runs on computer (either the same computer or another computer on the same network) and _Hardware In the Loop (HITL)_ simulation using a simulation firmware on a real flight controller board. -- **** [**PX4 Developer Guide**](https://dev.px4.io/master/en/simulation/)****
+> PX4 supports both _Software In the Loop (SITL)_ simulation, where the flight stack runs on computer (either the same computer or another computer on the same network) and _Hardware In the Loop (HITL)_ simulation using a simulation firmware on a real flight controller board. -- [**PX4 Developer Guide**](https://dev.px4.io/master/en/simulation/)
 
 _Software-In-The-Loop_ simulation is the most used setup. It is best supported and more straightforward to use. It is actually more representative of how the software would behave in a real world flight than when using _Hardware-In-The-Loop_, because in _HITL_ several software components are being bypassed. More information is available [in the PX4 Developer Guide](https://dev.px4.io/master/en/simulation/hitl.html#hitl-vs-sitl).
 

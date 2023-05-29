@@ -48,7 +48,7 @@ Make sure that your UBEC is set to 5V.
 
 These are the settings you will want to use in QGroundControl to control the servos.
 
-![](<../.gitbook/assets/Screen Shot 2021-01-26 at 2.30.14 PM.png>)
+![](../.gitbook/assets/screen-shot-2021-01-26-at-2.30.14-pm.png)
 
 ![](<../.gitbook/assets/image (177).png>)
 

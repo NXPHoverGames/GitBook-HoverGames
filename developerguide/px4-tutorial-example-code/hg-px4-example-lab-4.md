@@ -63,7 +63,7 @@ To see a list of PX4 commands you can run, type "?" into the console input field
 
 At the top left, you can see our new program, hg\_led! Go ahead and run it by typing its name in the console and pressing \<enter> to see your `hg_led` program in action!
 
-![hg\_led example running on FMU](<../../.gitbook/assets/animated (1).GIF>)
+![hg\_led example running on FMU](<../../.gitbook/assets/animated (1).gif>)
 
 The main multicolor LED is the one we are controlling in the program, the other red and orange LEDs are other indicators. \
 Fun!\

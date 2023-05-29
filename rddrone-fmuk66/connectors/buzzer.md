@@ -19,7 +19,7 @@ The 2 pin buzzer connector is **not found on newer versions** of the RDDRONE-FMU
 
 ## Schematic
 
-![](<../../.gitbook/assets/buzzer (1).PNG>)
+![](<../../.gitbook/assets/buzzer (1).png>)
 
 ## Building the buzzer
 

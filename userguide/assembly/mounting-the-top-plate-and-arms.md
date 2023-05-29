@@ -60,5 +60,5 @@ The extension cables should come out slightly at the end of the arm. You can plu
 
 It's best to leave the cables like this for now. After you have been able to run the motors for the first time, you can verify whether all motors are rotating in the right direction, and change the cables if necessary. After that, you can push them inside the carbon fiber tube. You might have to pull gently from inside the frame. It can be a bit hard to access, but you can also use some pliers, as long as you are careful.
 
-![Motor wires plugged into the extension cables.](<../../.gitbook/assets/20190221\_152617 (1).jpg>)
+![Motor wires plugged into the extension cables.](../../.gitbook/assets/20190221\_152617.jpg)
 

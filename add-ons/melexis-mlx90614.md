@@ -20,7 +20,7 @@ Example code for using the MLX90614 under PX4 is available under the NXP HoverGa
 
 The example was written in C++ and is based on the "px4\_simple\_app" in the examples folder of the PX4 Firmware. This example is in the folder "hg\_mlx90614" and includes the files "CMakeLists.txt", "hg\_temp.h" and "hg\_temp.cpp".
 
-For running the example the command __ `hg_mlx90614` has to be added under the keyword "EXAMPLES" in the file "_default.cmake"_  from the folder "_.../src/Firmware/boards/nxp/fmuk66-v3" ._ Also copy the folder "hg\_mlx90614" in the folder "_.../src/Firmware/src/examples"._
+For running the example the command `hg_mlx90614` has to be added under the keyword "EXAMPLES" in the file "_default.cmake"_  from the folder "_.../src/Firmware/boards/nxp/fmuk66-v3" ._ Also copy the folder "hg\_mlx90614" in the folder "_.../src/Firmware/src/examples"._
 
 Within the example there are two public functions for reading the object temperature and the ambient temperature. These will be called as follows:
 

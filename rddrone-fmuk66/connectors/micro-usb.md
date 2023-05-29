@@ -12,7 +12,7 @@
 
 ## RDDRONE-FMUK66 Rev. C schematic
 
-![](../../.gitbook/assets/C-USB.png)
+![](../../.gitbook/assets/c-usb.png)
 
 ## RDDRONE-FMUK66 Rev. B schematic
 
@@ -20,4 +20,4 @@
 Rev. B (and older boards) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![](../../.gitbook/assets/usb.png)
+![](<../../.gitbook/assets/usb (1).png>)

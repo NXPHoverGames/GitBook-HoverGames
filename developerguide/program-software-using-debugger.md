@@ -16,7 +16,7 @@ The HoverGames drone kit includes an adapter board for the RDDRONE-FMUK66 DCD-LZ
 
 This picture below shows the J-Link EDU Mini and an FTDI-USB-UART-3V3 plugged into the DCD-LZ-ADAPT board and then connecting to the DCD-LZ port an RDDRONE-FMUK66. This is the setup as included in the HoverGames drone kits. Note that the FMU has to be powered using a micro USB cable.
 
-![](<../.gitbook/assets/20190626\_103732 (1).jpg>)
+![](../.gitbook/assets/20190626\_103732.jpg)
 
 The 7-pin JST GH cable connects the debug adapter board to the FMU. The USB-TTL-3V3 cable plugs in as shown below. The **black (GND) wire should be on the same side as the small notch/mark** on the orange case! The SWD cable goes between the adapter board and the J-Link EDU Mini debugger.&#x20;
 

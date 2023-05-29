@@ -22,7 +22,7 @@ The 3 pin arming switch connector is **not found on newer versions** of the RDDR
 
 ## Schematic
 
-![](<../../.gitbook/assets/button (1).PNG>)
+![](<../../.gitbook/assets/button (1).png>)
 
 ## Assembly drawing
 

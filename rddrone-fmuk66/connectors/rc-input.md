@@ -25,7 +25,7 @@ RDDRONE-FMUK66 Rev. B and older revisions had two connectors for input from the 
 
 ## RDDRONE-FMUK66 Rev. C schematic
 
-![](../../.gitbook/assets/C-rcinput.png)
+![](../../.gitbook/assets/c-rcinput.png)
 
 ## RDDRONE-FMUK66 Rev. B FRSKY connector pinout
 
@@ -52,5 +52,5 @@ Rev. B (and older boards) are **not supported** anymore. This information is lef
 
 ## RDDRONE-FMUK66 Rev. B schematic
 
-![](<../../.gitbook/assets/rc\_input (2) (1).png>)
+![](<../../.gitbook/assets/rc\_input (1).png>)
 

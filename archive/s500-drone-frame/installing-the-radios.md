@@ -14,11 +14,11 @@ This page is **archived**. You are probably looking for the up-to-date [assembly
 
 The receiver for the radio controller has two antennas that work best when under an angle. A 3D printed part is included in the kit which can hold the antennas and fits onto the rails. The antennas should fit right into it, as can be seen below.
 
-![3D printed part for holding the antennas.](../../.gitbook/assets/RC-antennamount.jpg)
+![3D printed part for holding the antennas.](../../.gitbook/assets/rc-antennamount.jpg)
 
 The cable that will later go to the FMU should be plugged into the pins labeled `i-BUS SERVO`. The signal wire (white) should be on the outside. Also see the picture below.
 
-![Close-up of connection on RC Receiver.](../../.gitbook/assets/RC-cable.jpg)
+![Close-up of connection on RC Receiver.](../../.gitbook/assets/rc-cable.jpg)
 
 {% hint style="info" %}
 NOTE that the RC transmitter also  needs to be set for S-BUS output. Follow the instructions at link below:

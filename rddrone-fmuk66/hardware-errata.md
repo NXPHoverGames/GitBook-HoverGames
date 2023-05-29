@@ -19,7 +19,7 @@ The GND pin of the PWM1 connector on the PWM servorail was left floating. This m
 
 The team has discovered that the auto-sensing bi-directional buffer part U50 is configured for 5V signalling. This is causing the lines to oscillate when connected to the 3V3 signalling on the typical SiK telemetry radios used. The solution is to either remove U50, or connect the "B" side of the buffer to 3V instead of 5V. This is precision work and very difficult to do by hand. It will be corrected in the next revision. If you are unable to get this done yourself, please contact Iain Galloway or Matthias Wilkens to arrange a reworked replacement board.
 
-![Not so nice rework of U50: Cut and jumper VCCB to 3V3.](<../.gitbook/assets/image (10).png>)
+![Not so nice rework of U50: Cut and jumper VCCB to 3V3.](<../.gitbook/assets/image (11).png>)
 
 ![Alternative: Removing and jumpering U50 - Very difficult to do by hand.](<../.gitbook/assets/image (12).png>)
 

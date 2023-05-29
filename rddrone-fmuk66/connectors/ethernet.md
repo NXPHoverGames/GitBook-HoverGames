@@ -11,7 +11,7 @@ The FMU has a [TJA110x](https://www.nxp.com/products/analog/interfaces/in-vehicl
 
 ## RDDRONE-FMUK66 Rev. C schematic
 
-![](../../.gitbook/assets/C-ethernet.png)
+![](../../.gitbook/assets/c-ethernet.png)
 
 ## RDDRONE-FMUK66 Rev. B schematic
 
@@ -19,4 +19,4 @@ The FMU has a [TJA110x](https://www.nxp.com/products/analog/interfaces/in-vehicl
 Rev. B (and older boards) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![](<../../.gitbook/assets/ethernet (1) (1).png>)
+![](<../../.gitbook/assets/ethernet (1).PNG>)

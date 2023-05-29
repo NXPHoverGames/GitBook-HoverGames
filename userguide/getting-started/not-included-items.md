@@ -25,7 +25,7 @@ These are the **NXP part numbers** of the telemetry radio sets:
 
 A set of telemetry radios allows you to change settings and parameters of the FMU without USB. It also allows you to check the status of the drone while it is in the air. One radio connects directly to the FMU. The other radio can be plugged into your computer using the included USB cable.
 
-![The Holybro Transceiver Telemetry Radio V3 set includes everything you need to setup a telemetry link.](../../.gitbook/assets/IMG\_8769.jpg)
+![The Holybro Transceiver Telemetry Radio V3 set includes everything you need to setup a telemetry link.](../../.gitbook/assets/img\_8769.jpg)
 
 ## LiPo batteries
 

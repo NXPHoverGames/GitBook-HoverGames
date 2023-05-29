@@ -20,7 +20,7 @@
 
 ## RDDRONE-FMUK66 Rev. C schematic
 
-![](../../.gitbook/assets/C-ADC.png)
+![](../../.gitbook/assets/c-adc.png)
 
 ## RDDRONE-FMUK66 Rev. B schematic
 
@@ -28,4 +28,4 @@
 Rev. B (and older boards) are **not supported** anymore. This information is left for reference.
 {% endhint %}
 
-![](<../../.gitbook/assets/ADC (1).PNG>)
+![](<../../.gitbook/assets/ADC (2).PNG>)

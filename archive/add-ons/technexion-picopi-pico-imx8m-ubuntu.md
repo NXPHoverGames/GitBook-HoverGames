@@ -67,7 +67,7 @@ Technexion PICO-PI-IMX8M-PRO
 TechNexion provides a download center for images for their SOMs and Baseboards. check here for the latest versions.&#x20;
 
 {% hint style="warning" %}
-Initially I was unable to find the quickstart guide an image correctly using the sorting filters on their page. they seem to have since corrected this. If in doubt, don't use the **** page filters, and instead do \<Ctrl-F> to find a word like "IMX8M" on the page.
+Initially I was unable to find the quickstart guide an image correctly using the sorting filters on their page. they seem to have since corrected this. If in doubt, don't use the page filters, and instead do \<Ctrl-F> to find a word like "IMX8M" on the page.
 {% endhint %}
 
 Link below to the TechNexion download center:
