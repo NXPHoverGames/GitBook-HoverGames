@@ -56,6 +56,10 @@ Make sure the motor is pointing upward and is not askew. You can then tighten th
 
 The extension cables should come out slightly at the end of the arm. You can plug in the motor wires, the order does not really matter. However, if the motor happens to be turning the wrong direction (note that this is independent of whether the motor is SUPPOSED to rotate that way), you only have to swap two of the wires, and it should then rotate in the other direction.
 
+{% hint style="success" %}
+Note the motors used in recent kits may have three different colored wires for each of the motor phases instead of all black. This doesn't matter. You can still swap any two of the three (colored) wires in order to change motor direction
+{% endhint %}
+
 {% embed url="https://www.youtube.com/watch?v=srxV08m3eEQ" %}
 
 It's best to leave the cables like this for now. After you have been able to run the motors for the first time, you can verify whether all motors are rotating in the right direction, and change the cables if necessary. After that, you can push them inside the carbon fiber tube. You might have to pull gently from inside the frame. It can be a bit hard to access, but you can also use some pliers, as long as you are careful.
