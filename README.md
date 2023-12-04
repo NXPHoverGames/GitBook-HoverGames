@@ -12,7 +12,8 @@ Also have a look at some of the other **NXP GitBooks.** These solutions all work
 
 
 * [NavQPlus (NavQ+) Companion Computer](https://nxp.gitbook.io/8mpnavq/) - (New!)
-* [MR-CANHUBK344](http://localhost:5000/o/-L9GLsni4p7csCR7QCJ8/s/twBzyvivLuBKj9SMDwV9/) - VMU and T1<->CAN (New!)
+* [MR-CANHUBK344](http://127.0.0.1:5000/o/-L9GLsni4p7csCR7QCJ8/s/twBzyvivLuBKj9SMDwV9/) - VMU and T1<->CAN (New!)
+* [MR-B3RB](http://127.0.0.1:5000/o/-L9GLsni4p7csCR7QCJ8/s/U93yDWZcgjXGgsC1Duqv/) (Buggy3 Revision B - PREVIEW)
 
 
 
@@ -27,7 +28,11 @@ Also have a look at some of the other **NXP GitBooks.** These solutions all work
 
 * [NXP Cup Car](https://nxp.gitbook.io/nxp-cup-hardware-reference-alamak/) : Including [MR-Buggy3](https://nxp.gitbook.io/nxp-cup/mr-buggy3-developer-guide/mr-buggy3-build-guide) build guide&#x20;
 * [El Mandadero](https://nxp.gitbook.io/elmandadero/): NXP Mobile Robotics demo rover&#x20;
-* [NXP-AIM](https://nxp.gitbook.io/nxp-aim/) : Robotics competition like NXP-CUP (india) \
+* [NXP-AIM](https://nxp.gitbook.io/nxp-aim/) : Robotics competition like NXP-CUP (india)&#x20;
+
+
+
+* \
   \
   Older:
 * [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/) (As used in HoverGames2)
