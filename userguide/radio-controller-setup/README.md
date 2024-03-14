@@ -10,7 +10,7 @@ The FlySky FS-i6S RC transmitter is a highly configurable radio controller with 
 
 The radio controller box should include a quick start guide. A ​digital user manual for the radio controller is also available, for further information.
 
-{% file src="../.gitbook/assets/fs-i6s-user-manual-20170706-compressed.pdf" %}
+{% file src="../../.gitbook/assets/fs-i6s-user-manual-20170706-compressed.pdf" %}
 FlySky FS-i6S User Manual
 {% endfile %}
 
@@ -22,21 +22,21 @@ To turn on the transmitter, press and hold the two power buttons on the front of
 You might see some warnings when you turn on the controller, often about default switch positions. Just follow the instructions provided on the screen to continue to the home screen.&#x20;
 {% endhint %}
 
-![The home screen of the transmitter. You see this the first time you start up the transmitter.](../.gitbook/assets/img\_20181024\_102423.jpg)
+![The home screen of the transmitter. You see this the first time you start up the transmitter.](../../.gitbook/assets/img\_20181024\_102423.jpg)
 
 The transmitter contains a touch screen, used for displaying status info and setup purposes. The home screen has three different views. You can switch views by swiping left and right, where the bottom indicator shows you on which screen you are (when you start the transmitter, you see the center screen).
 
 The left screen shows you the current value sent over all channels, while the right screen shows information about sensors connected to the transmitter.
 
-![The left home screen, showing the status of the different channels.](../.gitbook/assets/img\_20181024\_104026.jpg)
+![The left home screen, showing the status of the different channels.](../../.gitbook/assets/img\_20181024\_104026.jpg)
 
 Configuration is done by pressing the icon with the wrench and screwdriver on the center home screen. The next screen has two different views: the _function_ view and the _system_ view. The _function_ view provides options that change how the different sticks, buttons and dials on the transmitter are transformed to channel values. The _system_ view provides setting for setting up the transmitter itself.
 
-![The function view. You can change to the system view by pressing SYS.](../.gitbook/assets/img\_20181024\_105326.jpg)
+![The function view. You can change to the system view by pressing SYS.](../../.gitbook/assets/img\_20181024\_105326.jpg)
 
 ## Firmware update
 
-Before configuring your controller, you might want to update the firmware. Newer firmware might contain stability updates and new features that might be useful. A download link to the firmware updater tool is provided on our [downloads page](../downloads.md#flysky-i-6-s-radio-controller-firmware-updater).
+Before configuring your controller, you might want to update the firmware. Newer firmware might contain stability updates and new features that might be useful. A download link to the firmware updater tool is provided on our [downloads page](../../downloads.md#flysky-i-6-s-radio-controller-firmware-updater).
 
 Turn on the controller and connect it to your PC using the included micro-USB cable. Go to the _system_ view in the _settings_ menu and select _firmware update_. Press the button to continue. When you start the firmware updater tool, you should see the connected controller and the current firmware version. If it is outdated, you can choose to update it.
 
@@ -50,7 +50,7 @@ However, keep in mind that these sounds can also be useful. For instance, it wil
 
 ## Connecting and binding the RC receiver <a href="#setting-the-output-mode" id="setting-the-output-mode"></a>
 
-The RC receiver module [has already been installed on the drone](assembly/escs-fmu-power-module-and-rc-receiver.md#rc-receiver-module). Please verify that it is correctly connected on both the [receiver side](assembly/escs-fmu-power-module-and-rc-receiver.md#rc-receiver-module) and on the [FMU side](assembly/connecting-all-fmu-wires.md#connector-pinout).
+The RC receiver module [has already been installed on the drone](../assembly/escs-fmu-power-module-and-rc-receiver.md#rc-receiver-module). Please verify that it is correctly connected on both the [receiver side](../assembly/escs-fmu-power-module-and-rc-receiver.md#rc-receiver-module) and on the [FMU side](../assembly/connecting-all-fmu-wires.md#connector-pinout).
 
 Out-of-the-box, the receiver and transmitter should be automatically bound to each other. If this is the case, the RC transmitter display would look similar to the picture below when both transmitter and receiver are turned on (receiving power). Please note the RX battery bar. If this shows a question mark (while the receiver is getting powered), the receiver pairing was most likely not done successfully.
 
@@ -62,7 +62,7 @@ The TX battery bar shows the remaining capacity of the batteries in the transmit
 
 If the transmitter and receiver are not bound, you can do it yourself. Make sure the FMU is not powered by the battery or USB cable. Insert the jumper cable in the rightmost vertical slot (labeled `B/VCC`) on the receiver module, see the picture below. The cable that goes to the FMU should remain as shown.
 
-![The receiver module with the cable going to FMU (black/red/white) and the jumper for binding.](../.gitbook/assets/20190807\_150917.jpg)
+![The receiver module with the cable going to FMU (black/red/white) and the jumper for binding.](../../.gitbook/assets/20190807\_150917.jpg)
 
 Turn on the RC transmitter and go to the _system_ view in the _settings_ menu. Select _RX bind_. It will wait for the receiver to be turned on in bind mode as well. You should now power the FMU, which will also power the RC receiver module. The easiest way is to power the FMU with a micro-USB cable. When power is provided, the receiver module will go into bind mode because of the jumper wire. The binding procedure should be finished automatically (you might not even notice).
 
@@ -119,7 +119,7 @@ We will later have a look at failsafe options in the FMU configuration as well. 
 
 This will set the throttle to zero and reset the yaw, roll and pitch to neutral angles. We will later assign functions to the four switches, where the upper position will be the default state. We will assign a kill switch function to switch D. With this failsafe setting, the receiver module will emulate the kill switch being flipped when it loses connection.
 
-![The left stick should be down. The first three switches should be up. Rightmost switch should be down.](../.gitbook/assets/img\_20181010\_131341.jpg)
+![The left stick should be down. The first three switches should be up. Rightmost switch should be down.](../../.gitbook/assets/img\_20181010\_131341.jpg)
 
 To actually set up the failsafe, go to the _failsafe_ screen from the _function_ screen in the _settings_ menu. To  set up a failsafe for a channel, tap the `Off` button next to the channel. In the screen that appears, tap the `On` button to enable the fail-safe for that channel. Now make sure the stick/switch belonging to that channel is in the right position, and tap the `Setup` button to save this position.
 

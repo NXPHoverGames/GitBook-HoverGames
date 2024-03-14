@@ -24,8 +24,8 @@ The cable that will later go to the FMU should be plugged into the pins labeled 
 NOTE that the RC transmitter also  needs to be set for S-BUS output. Follow the instructions at link below:
 {% endhint %}
 
-{% content-ref url="../../userguide/radio-controller-setup.md" %}
-[radio-controller-setup.md](../../userguide/radio-controller-setup.md)
+{% content-ref url="../../userguide/radio-controller-setup/" %}
+[radio-controller-setup](../../userguide/radio-controller-setup/)
 {% endcontent-ref %}
 
 ## Installing the RC receiver and telemetry radio

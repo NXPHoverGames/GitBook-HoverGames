@@ -59,8 +59,8 @@ The sections linked to below describe how to set up the RC transmitter and FMU s
 
 If you decide to deviate from the recommended settings, make sure you know what behavior you can expect and learn what you can do in case something goes wrong.
 
-{% content-ref url="userguide/radio-controller-setup.md" %}
-[radio-controller-setup.md](userguide/radio-controller-setup.md)
+{% content-ref url="userguide/radio-controller-setup/" %}
+[radio-controller-setup](userguide/radio-controller-setup/)
 {% endcontent-ref %}
 
 {% content-ref url="userguide/qgroundcontrol/radio-and-flight-modes.md" %}
