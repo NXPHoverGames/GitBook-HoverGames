@@ -16,7 +16,7 @@ Questions can be asked on the [PX4 community Slack and Discuss forum](../../cont
 
 ## Important information about the HoverGames
 
-[Read our introduction](broken-reference) to the HoverGames and RDDRONE-FMUK66 if you haven't already done so! It explains what this program is all about, and it introduces the hardware which HoverGames builds upon. Make sure to have a look at the [important must read information](../../disclaimer.md) and the [safety page](../../safety.md) before you continue!
+[Read our introduction](../../) to the HoverGames and RDDRONE-FMUK66 if you haven't already done so! It explains what this program is all about, and it introduces the hardware which HoverGames builds upon. Make sure to have a look at the [important must read information](../../disclaimer.md) and the [safety page](../../safety.md) before you continue!
 
 ## Check the contents of the kit!
 

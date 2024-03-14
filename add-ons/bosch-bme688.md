@@ -50,7 +50,7 @@ The [Adafruit BME688](https://www.adafruit.com/product/5046) module has two "STE
 * 3D printable enclosures:
   *   [https://www.thingiverse.com/thing:5722287](https://www.thingiverse.com/thing:5722287)
 
-      <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
   *   [https://www.thingiverse.com/thing:5143210](https://www.thingiverse.com/thing:5143210)&#x20;
 
-      <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

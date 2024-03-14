@@ -8,27 +8,56 @@ description: >-
 # HoverGames
 
 {% hint style="success" %}
-Also have a look at some of the other **NXP GitBooks**:
+Also have a look at some of the other **NXP GitBooks.** These solutions all work together and can contain useful cross-linked information and example applications:\
 
-* [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/)
-* [UCANS32K146 ](https://nxp.gitbook.io/ucans32k146/): CAN-FD / UAVCAN node
-* [RDDRONE-BMS772 ](https://nxp.gitbook.io/rddrone-bms772/): Battery Management System
+
+* [NavQPlus (NavQ+) Companion Computer](https://nxp.gitbook.io/8mpnavq/) - (New!)
+* [MR-CANHUBK344](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/twBzyvivLuBKj9SMDwV9/) - VMU and T1<->CAN (New!)
+* [MR-B3RB](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/U93yDWZcgjXGgsC1Duqv/) (Buggy3 Revision B - PREVIEW)
+
+
+
+* [UCANS32K146:](https://nxp.gitbook.io/ucans32k146/) CAN-FD / UAVCAN node
 * [RDDRONE-T1ADAPT ](https://nxp.gitbook.io/rddrone-t1adapt): T1 Ethernet Adapter
-* [D2X Reference Design](https://nxp.gitbook.io/d2x/)
-* [NXP Cup Car](https://nxp.gitbook.io/nxp-cup-hardware-reference-alamak/)
+
+
+
+* [RDDRONE-BMS772 ](https://nxp.gitbook.io/rddrone-bms772/): Battery Management System
+
+
+
+* [NXP Cup Car](https://nxp.gitbook.io/nxp-cup-hardware-reference-alamak/) : Including [MR-Buggy3](https://nxp.gitbook.io/nxp-cup/mr-buggy3-developer-guide/mr-buggy3-build-guide) build guide&#x20;
+* [El Mandadero](https://nxp.gitbook.io/elmandadero/): NXP Mobile Robotics demo rover&#x20;
+* [NXP-AIM](https://nxp.gitbook.io/nxp-aim/) : Robotics competition like NXP-CUP (india)&#x20;
+
+
+
+* \
+  \
+  Older:
+* [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/) (As used in HoverGames2)
+* [D2X Reference Design](https://nxp.gitbook.io/d2x/)\
+
 {% endhint %}
 
 ![](.gitbook/assets/hg\_logo.png)
 
 {% hint style="success" %}
-See the [NXP Mobile Robotics Community ](https://community.nxp.com/community/mobilerobotics)for interactive questions and answers. There is a space for [HoverGames](https://community.nxp.com/community/mobilerobotics/hovergames-drone-challenge) as well as a subspace specifically for the [NavQ Companion Computer](https://community.nxp.com/community/mobilerobotics/hovergames-drone-challenge/navq-8mmnavq-discussion).&#x20;
+See the [NXP Mobile Robotics Community ](https://community.nxp.com/community/mobilerobotics)for interactive questions and answers on NXP.com. There is a space for [HoverGames](https://community.nxp.com/community/mobilerobotics/hovergames-drone-challenge) as well as a subspace specifically for the [NavQ Companion Computer](https://community.nxp.com/community/mobilerobotics/hovergames-drone-challenge/navq-8mmnavq-discussion).\
+\
+Discord:\
+There are also Discord channels where NXP Mobile Robotics are discussed during various competitions like HoverGames and NXP-CUP. You are welcome to ask questions there even if you may not be actively participating at the time, however it may take time before questions are noticed if there is not an active contest.\
+\
+NXP-CUP: [https://discord.gg/tRrASaqXrU](https://discord.gg/tRrASaqXrU)\
+NXPHoverGames on Hackster.op: [https://discord.gg/upTxAs3DwP](https://discord.gg/upTxAs3DwP) \
+NXP-AIM (india): (Need link to channel)
 {% endhint %}
 
 ## What is this program? <a href="#what-is-this-program" id="what-is-this-program"></a>
 
 Unmanned aerial vehicles (UAVs) promise new perspectives on the world around us and the ability to go places that were once impossible. NXP is a trusted leader in automotive, radar, aerospace, RF, security, motor control and battery management and places the world’s most complete portfolio of UAV technologies in the hands of developers. Our automotive grade solutions are well suited to the design methodology and environments in which commercial unmanned aircraft systems, and increasingly also personal UAVs, operate. We provide semiconductor solutions for every aspect of drones and rovers.
 
-### The HoverGames drone kit&#x20;
+### The HoverGames drone kit
 
 The HoverGames drone kit is a single, modular, and flexible NXP development platform with the RDDRONE-FMUK66 flight management unit at its base. It can be used to build any autonomous vehicle, from drones to rovers to flying cars. As part of the kit, participants receive a complete reference drone including the flight management unit (FMU).
 
@@ -40,10 +69,19 @@ The actual [NXP part numbers](https://www.nxp.com/applications/solutions/industr
 * [KIT-HGDRONEK66](https://www.nxp.com/applications/solutions/industrial/aerospace-and-mobile-robotics/uavs-drones-and-rovers/nxp-hovergames-drone-kit-including-rddrone-fmuk66-and-peripherals:KIT-HGDRONEK66) - Complete drone development kit including RDDRONE-FMUK66
 * [RDDRONE-FMUK66](https://www.nxp.com/design/designs/px4-robotic-drone-fmu-rddrone-fmuk66:RDDRONE-FMUK66) - NXP flight controller with the 180 MHz Kinetis K66
 
-For full functionality of the kit, you will need to purchase a telemetry radio set separately. Depending on your location, you need either a 915 MHz or 433 MHz set. [Please check which frequencies / ISM bands you are allowed to use in your region.](http://ardupilot.org/copter/docs/common-telemetry-radio-regional-regulations.html)
+
+
+For full functionality of the kit, you will need to purchase a telemetry radio set separately.&#x20;
+
+_Note that in HoverGames the discount code includes a corresponding discount for the Telemetry radio, but it still needs to be purchased/put in the shopping basket as a separate line item._
+
+\
+&#x20;Depending on your location, you need either a 915 MHz or 433 MHz set. [Please check which frequencies / ISM bands you are allowed to use in your region.](http://ardupilot.org/copter/docs/common-telemetry-radio-regional-regulations.html)
 
 * [HGD-TELEM915](https://www.nxp.com/part/HGD-TELEM915) - Holybro 915 MHz telemetry radio set (Americas)
 * [HGD-TELEM433](https://www.nxp.com/part/HGD-TELEM433) - Holybro 433 MHz telemetry radio set (Europe, India)
+
+
 
 Other NXP flight management units, drone development kits and equipment will have similar naming conventions as they are introduced.
 {% endhint %}
@@ -54,11 +92,9 @@ Other NXP flight management units, drone development kits and equipment will hav
 
 RDDRONE-FMUK66 is an experimental flight management unit that is compliant with [Dronecode](https://www.dronecode.org/) and [PX4 Autopilot](https://px4.io/) software. PX4 is used extensively for research and commercial drone platforms. Its permissive BSD license preserves the ability to include proprietary IP.
 
-The RDDRONE-FMUK66 runs [NuttX](https://nuttx.apache.org/) RTOS on a [NXP Kinetis K66](https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/kinetis-cortex-m-mcus/k-seriesperformancem4/k6x-ethernet/kinetis-k66-180-mhz-dual-high-speed-full-speed-usbs-2mb-flash-microcontrollers-mcus-based-on-arm-cortex-m4-core:K66\_180) microcontroller, with an ARM Cortex-M4 core at 180 MHz and 2 MB flash memory. It uses NXP sensors, automotive [CAN](https://en.wikipedia.org/wiki/CAN\_bus) bus transceivers, as well as the new **two wire** automotive [100BASE-T1 ethernet](https://en.wikipedia.org/wiki/Fast\_Ethernet#100BASE-T1) transceiver [TJA110x](https://www.nxp.com/products/analog/interfaces/in-vehicle-network/ethernet/automotive-ethernet-phy-transceivers:ETHERNET-TRANSCEIVERS).&#x20;
+The RDDRONE-FMUK66 runs [NuttX](https://nuttx.apache.org/) RTOS on a [NXP Kinetis K66](https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/kinetis-cortex-m-mcus/k-seriesperformancem4/k6x-ethernet/kinetis-k66-180-mhz-dual-high-speed-full-speed-usbs-2mb-flash-microcontrollers-mcus-based-on-arm-cortex-m4-core:K66\_180) microcontroller, with an ARM Cortex-M4 core at 180 MHz and 2 MB flash memory. It uses NXP sensors, automotive [CAN](https://en.wikipedia.org/wiki/CAN\_bus) bus transceivers, as well as the new **two wire** automotive [100BASE-T1 ethernet](https://en.wikipedia.org/wiki/Fast\_Ethernet#100BASE-T1) transceiver [TJA110x](https://www.nxp.com/products/analog/interfaces/in-vehicle-network/ethernet/automotive-ethernet-phy-transceivers:ETHERNET-TRANSCEIVERS).
 
 {% embed url="https://www.youtube.com/watch?v=JDaJ5Kr6aBA&feature=youtu.be" %}
-Iain Galloway introduces the HoverGames drone.
-{% endembed %}
 
 ## What is our mission? <a href="#what-is-our-mission" id="what-is-our-mission"></a>
 
@@ -97,3 +133,6 @@ Once or twice a year larger Societal Challenges will be announced. For these, th
 UAVs have a wide range of applications in many fields like environmental hazards monitoring, traffic management and pollution monitoring, all of which contributes greatly to the development of any city and rural area. HoverGames will be of great benefit to developers around the world to jointly develop autonomous robot vehicle solutions.
 
 More information can be found on [HoverGames.com](https://www.hovergames.com/). It is also possible to directly contact the HoverGames team, contact information is available on our [contact page](contact.md#contact-the-hovergames-team).
+
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)\
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).

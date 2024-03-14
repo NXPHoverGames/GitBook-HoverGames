@@ -8,7 +8,7 @@ NavQPlus has an NXP part number which starts with 8mpnavq and then specifies det
 &#x20;\
 More details about this board can be found on nxp.com and the gitbook link below:
 
-{% content-ref url="http://localhost:5000/o/-L9GLsni4p7csCR7QCJ8/s/-MQsLUVVC7cJOe9aVARC/" %}
-[8MPNavQ](http://localhost:5000/o/-L9GLsni4p7csCR7QCJ8/s/-MQsLUVVC7cJOe9aVARC/)
+{% content-ref url="https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-MQsLUVVC7cJOe9aVARC/" %}
+[NXP 8MPNAVQ: NavQPlus Companion Computer](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-MQsLUVVC7cJOe9aVARC/)
 {% endcontent-ref %}
 
