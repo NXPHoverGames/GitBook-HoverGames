@@ -1,7 +1,6 @@
 # Table of contents
 
 * [HoverGames](README.md)
-* [HoverGames](<README (1).md>)
 * [News & Updates](news.md)
 * [Disclaimer](disclaimer.md)
 * [Safety](safety.md)
