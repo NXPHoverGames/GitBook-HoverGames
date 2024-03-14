@@ -9,55 +9,39 @@ description: >-
 
 ## Installing MCUXpresso
 
-We will install MCUXpresso inside the virtual machine (or native Linux environment). This allows us to let MCUXpresso build the PX4 firmware, flash it to the FMUK66 and debug the code while it is running on the board. You can also install MCUXpresso on your host operating system, but we recommend to keep everything in a Linux environment unless you know what you are doing. It will save you a lot of headache.
+We will install MCUXpresso inside the Linux environment (native or virtual). This allows MCUXpresso to build PX4 Autopilot, flash it to the FMUK66E and debug the code while it is running on the board. You can also install MCUXpresso on your host operating system, but we recommend to keep all tools in the same (Linux) environment.
 
 The MCUXpresso IDE is available free of charge and can be downloaded from the NXP website, but you will need to create a (free) NXP account:
 
-{% embed url="https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE" %}
+{% embed url="https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE" %}
 
-Click on the download button and login to your NXP account. The next page will show the current available releases. There is also a tab for previous releases. You should download the current release (11.1.1 as of June 2020), click on "MCUXpresso IDE" to continue. You will have to agree with some terms and conditions before you can download the software.
+Click on the download button and login to your NXP account. The next page will show the current available releases. There is also a tab for previous releases. You should download the current release (11.6 as of August 2022), click on "MCUXpresso IDE" to continue. You will have to agree with some terms and conditions before you can download the software.
 
-Download the `.deb.bin` file for Linux. You can directly download it using the Firefox browser in the virtual machine or you can download it on your host operating system and move it into the [shared folder](installing-ubuntu.md#shared-folders).
+Download the `.deb.bin` file for Linux. You can directly download it using the Firefox browser which is included with Ubuntu, or if you are using a virtual machine you can download it on your host operating system and move it into the [shared folder](installing-ubuntu.md#virtualbox-users-setup-shared-folder), which should be accessible in the file browser.
 
 ![](../../.gitbook/assets/hg\_mcuxpresso1.png)
 
 Assuming you have the file stored in the `~/Downloads` folder, you should first enter the command below to allow the package to be executed and installed. You should replace the last part of the filename with the right version number for your download! You can use the auto-complete feature for this by pressing the tab key. Just start typing the command below and press tab when you get to the version number in the file name.
 
 ```bash
-chmod +x ~/Downloads/mcuxpressoide-xx.x.x_xxxx.x86_64.deb.bin
+chmod +x ~/Downloads/mcuxpressoide-11.6.0_8187.x86_64.deb.bin
 ```
 
 Now you can install MCUXpresso by executing the installer package, for which you again have to modify the filename to match the right version:
 
 ```bash
-sudo ~/Downloads/mcuxpressoide-xx.x.x_xxxx.x86_64.deb.bin
+sudo ~/Downloads/mcuxpressoide-11.6.0_8187.x86_64.deb.bin
 ```
 
-You might get asked to accept an agreement (use the arrow keys to select "Yes" and press enter). Then wait for the installation to finish. After everything is completed, you can find the MCUXpresso application through the launcher. Look for the blue icon with the "X", or search for "MCUXpresso".
+You might get asked to accept an agreement (use the arrow keys to select "Yes" and press enter). Then wait for the installation to finish.
 
 ![](../../.gitbook/assets/hg\_mcuxpresso2.png)
 
-## Building and installing the Kinetis K66 SDK
+## Installing the Kinetis K66 SDK
 
-The MCUXpresso IDE by default only contains SDK support for a few microcontrollers. You must install additional SDK packages for most micocontrollers. The Kinetis K66 that is found on the FMUK66 board is not available by default, so we will have to install its SDK package.
+Now we should start MCUXpresso. You can find it in Ubuntu's **launcher menu** (the icon in the bottom left corner of the screen). Look for the blue icon with the "X", or just type "MCUXpresso". MCUXpresso will immediately ask at what location the **workspace** should be saved. You can chose your own directory, or leave the default as is. You can also create additional workspaces for different projects if you want.
 
-Go to the MCUXpresso SDK Builder linked below. If you **click on "Select Development Board"** you will be taken to a page where you can select the Kinetis K66 microcontroller and put together an SDK package. You might need to **login** again to your NXP account.
-
-{% embed url="https://mcuxpresso.nxp.com/en/welcome" %}
-
-You have to select the processor for which you want to build the SDK. The easiest is to use the search field. Just start typing **"MK66FN"** and select **"MK66FN2M0xxx18"** under processors. Then, **press the green "Build MCUXpresso SDK" button on the right**.
-
-![](../../.gitbook/assets/hg\_mcuxpresso3.png)
-
-On the next page, select **Linux as the host operating system**, and make sure the toolchain / IDE selection is set to **"MCUXpresso"** (or "All toolchains" if you want to use the SDK also with other tools). You can leave the other settings at their default values, but feel free to include additional features if you want to.&#x20;
-
-**Press the "Download SDK" button** when you are done. You might have to accept another agreement. The download should start immediately after that, but in some cases you might need to click on "Download SDK Archive". Download the SDK directly from your VM, or use the shared folder feature.
-
-![](../../.gitbook/assets/hg\_mcuxpresso4.png)
-
-Now, start MCUXpresso within your VM. You can find it in Ubuntu's **launcher menu**. MCUXpresso will immediately ask at what location the **workspace** should be saved. You can chose your own directory, or leave the default as is. You can also create additional workspaces if you want.
-
-You will be greeted by a welcome screen. You can **close the "Welcome" tab** or **press the "IDE" button on the top right** to continue. Once you are in the main view of the IDE, find the location were you stored the Kinetis K66 SDK .zip file, and **drag the archive** into the area of the IDE window that says "Installed SDKs". It's usually located at the bottom. It will ask you to confirm that you want to import the SDK. Just press "OK". It might take a few seconds to install.
+You will then be greeted by a welcome screen. You can **close the "Welcome" tab** or **press the "IDE" button on the top right** to continue. Once you are in the main view of the IDE, find the location were you stored the Kinetis K66 SDK .zip file, and **drag the archive** into the area of the IDE window that says "Installed SDKs". It's usually located at the bottom. It will ask you to confirm that you want to import the SDK. Just press "OK". It might take a few seconds to install.
 
 ![](../../.gitbook/assets/hg\_mcuxpresso5.png)
 

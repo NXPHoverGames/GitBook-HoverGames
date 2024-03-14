@@ -1,23 +1,28 @@
 ---
 description: >-
-  This section explains how to set up the basic development tools needed for the
-  HoverGames.
+  This section explains how to set up a Linux-based development environment with
+  useful tools to develop, build and debug software for HoverGames and NXP
+  Mobile Robotics platforms.
 ---
 
 # Development tools
 
-This section explains setting up software for running a virtual machine, creating such a virtual machine, and installing the required development tools inside it.
+It is required to setup a Linux-based\* development environment, preferably based on Ubuntu 20.04 (or 22.04). If you are not running a Linux OS already, you can consider to install Ubuntu natively besides your Windows setup (dual-boot), or on a separate laptop. Another convenient option would be to use virtualization to run Linux on your Windows computer. There are plenty of tools available, such as Oracle VM VirtualBox, VMware Workstation and even the built-in Windows Subsystems for Linux (WSL).
 
-{% hint style="success" %}
-[A preconfigured virtual machine is available on our downloads page](../../downloads.md#preconfigured-virtual-machine-image-with-development-tools). It already includes the development tools with the recommend configuration. You still need to [download ](../../downloads.md#oracle-vm-virtualbox)and install VirtualBox. You can import the VM into VirtualBox by going to File -> Import Appliance...
-
-If you choose to download the preconfigured VM, you do not have to follow the instructions in the rest of this section. However, **it will be still be useful to read these pages**, as it will provide insight in how the tools are setup and how you can use them. Also, you might want to [enable some extra resources](virtual-machine.md#virtual-machine-properties) for your virtual machine if your computer is powerful enough.
-
-Note that the default _hovergames_ useraccount also has _hovergames_  as its password!
+{% hint style="info" %}
+\*A native macOS-based development environment might also work, but not all tools are available. We cannot guarantee support - but you might be able to get help from other developers in the HoverGames community that work with macOS.
 {% endhint %}
 
-We will start with [setting up the VirtualBox software](virtual-machine.md) for creating and running a virtual machine. We will also create the virtual machine, in which we will [install the Ubuntu Linux operating system](installing-ubuntu.md). Inside this virtual machine, the basic [PX4 toolchain will be installed](toolchain-installation.md), which should provide all the tools already to build your own firmware binaries from source. Finally, we will [install the NXP MCUXpresso](mcuxpresso.md) integrated development environment (IDE), which allows you to edit, build and debug the PX4 firmware.
+{% hint style="warning" %}
+NXP and Dronecode used to provide a **preconfigured virtual machine** image for VirtualBox. This image was based on Ubuntu 18.04 and contained the required tools to start developing and debugging software for HoverGames. We **no longer recommend** using this image as most preinstalled tools are now outdated and would require significant work to get into a working state again.
 
-It is very well possible to install all tools on your main operating system, whether you are using Linux, Windows or MacOS. Most of the used tools are cross platform, but it should be noted that the majority of developers use Linux or MacOS.&#x20;
+A **fresh setup based on Ubuntu 20.04** (or 22.04) **is now recommended**. No preconfigured image will be made available however, as it would again become outdated within months after its initial release. It is more beneficial to learn yourself how to setup and maintain a Linux-based development environment - and it is not difficult!
+{% endhint %}
 
-We only provide the instructions for setting up a Linux virtual machine, because this should work well for most users and it is easier for us to support a single platform. You are free to install the tools on your main operating system, but please be aware that you might need to figure some things out using other resources.
+The next pages will provide step-by-step instructions on how to install **Ubuntu 20.04** (though all instructions should also apply to Ubuntu 22.04 as well) with a proper toolchain to develop, build and debug Apache NuttX and PX4 Autopilot for RDDRONE-FMUK66 (Kinetis K66 MCU) as well as other NXP Mobile Robotics platforms.
+
+The first part of the instructions will also explain [setting up the VirtualBox software](virtual-machine.md) for creating and running a virtual machine. NXP does not specifically endorse VirtualBox, but it is a free open source tool and it is a convenient way to start using Ubuntu as a beginner. More advanced developers may install Ubuntu natively or use different virtualization tools (e.g. VMware, WSL2).
+
+The next step will explain how to [install the Ubuntu Linux operating system](installing-ubuntu.md). We will also [download and install the PX4 toolchain](toolchain-installation.md), which should provide all the tools already to build your own PX4 firmware binaries from source. The same tools can also be used to build Apache NuttX, which is the Real-Time Operating System (RTOS) that is used by PX4, but can also be used stand-alone.
+
+Finally, we will [install NXP MCUXpresso](mcuxpresso.md), an integrated development environment (IDE) which allows you to edit, build and debug software for many NXP microcontrollers and processors. The instructions will explain how you can setup a project to build and debug PX4 Autopilot.
