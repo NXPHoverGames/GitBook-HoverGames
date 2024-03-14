@@ -8,15 +8,33 @@ description: >-
 # HoverGames
 
 {% hint style="success" %}
-Also have a look at some of the other **NXP GitBooks**:
+Also have a look at some of the other **NXP GitBooks.** These solutions all work together and can contain useful cross-linked information and example applications:\
 
-* [NavQPlus (NavQ+) Companion Computer](https://nxp.gitbook.io/8mpnavq/) - New!
-* [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/) (As used in HoverGames2)
-* [UCANS32K](https://nxp.gitbook.io/ucans32k146/) : CAN-FD / UAVCAN node boards
-* [RDDRONE-BMS772 ](https://nxp.gitbook.io/rddrone-bms772/): Battery Management System
+
+* [NavQPlus (NavQ+) Companion Computer](https://nxp.gitbook.io/8mpnavq/) - (New!)
+* [MR-CANHUBK344](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/twBzyvivLuBKj9SMDwV9/) - VMU and T1<->CAN (New!)
+* [MR-B3RB](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/U93yDWZcgjXGgsC1Duqv/) (Buggy3 Revision B - PREVIEW)
+
+
+
+* [UCANS32K146:](https://nxp.gitbook.io/ucans32k146/) CAN-FD / UAVCAN node
 * [RDDRONE-T1ADAPT ](https://nxp.gitbook.io/rddrone-t1adapt): T1 Ethernet Adapter
-* [D2X Reference Design](https://nxp.gitbook.io/d2x/)
+
+
+
+* [RDDRONE-BMS772 ](https://nxp.gitbook.io/rddrone-bms772/): Battery Management System
+
+
+
 * [NXP Cup Car](https://nxp.gitbook.io/nxp-cup-hardware-reference-alamak/) : Including [MR-Buggy3](https://nxp.gitbook.io/nxp-cup/mr-buggy3-developer-guide/mr-buggy3-build-guide) build guide&#x20;
+* [El Mandadero](https://nxp.gitbook.io/elmandadero/): NXP Mobile Robotics demo rover&#x20;
+* [NXP-AIM](https://nxp.gitbook.io/nxp-aim/) : Robotics competition like NXP-CUP (india) \
+  \
+  \
+  Older:
+* [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/) (As used in HoverGames2)
+* [D2X Reference Design](https://nxp.gitbook.io/d2x/)\
+
 {% endhint %}
 
 ![](.gitbook/assets/hg\_logo.png)
