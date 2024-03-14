@@ -6,20 +6,7 @@ description: >-
 
 # Development tools
 
-## Introduction
-
-There are several ways one can work with the developement tools for PX4. This section explains setting up software for running a virtual machine, creating such a virtual machine, and installing the required development tools inside it.\
-
-
-### Docker Container
-
-\
-An alternative method would be to use Docker containers for the toolchain. A guide is available from PX4 here:\
-[https://docs.px4.io/main/en/test\_and\_ci/docker.html](https://docs.px4.io/main/en/test\_and\_ci/docker.html)
-
-{% embed url="https://docs.px4.io/main/en/test_and_ci/docker.html" %}
-
-### Virtual Machine
+This section explains setting up software for running a virtual machine, creating such a virtual machine, and installing the required development tools inside it.
 
 {% hint style="success" %}
 [A preconfigured virtual machine is available on our downloads page](../../downloads.md#preconfigured-virtual-machine-image-with-development-tools). It already includes the development tools with the recommend configuration. You still need to [download ](../../downloads.md#oracle-vm-virtualbox)and install VirtualBox. You can import the VM into VirtualBox by going to File -> Import Appliance...
