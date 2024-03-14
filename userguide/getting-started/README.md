@@ -48,7 +48,7 @@ Be careful with the carbon fiber parts of the drone frame! The edges may be shar
 
 ## Configure your radio controller
 
-Make sure to properly [configure your radio controller](../radio-controller-setup/). The controller configuration should be changed to make it more reliable and safe.
+Make sure to properly [configure your radio controller](../radio-controller-setup.md). The controller configuration should be changed to make it more reliable and safe.
 
 ## Learn about PX4 Autopilot and QGroundControl
 

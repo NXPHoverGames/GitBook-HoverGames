@@ -22,7 +22,7 @@
   * [Mounting the top plate and arms](userguide/assembly/mounting-the-top-plate-and-arms.md)
   * [Connecting all FMU wires](userguide/assembly/connecting-all-fmu-wires.md)
   * [Video tutorials](userguide/assembly/video-tutorials.md)
-* [Radio controller setup](userguide/radio-controller-setup/README.md)
+* [Radio controller setup](userguide/radio-controller-setup.md)
   * [RSSI - RC Radio Advanced configuration](userguide/radio-controller-setup/rssi-rc-radio-advanced-configuration.md)
 * [Programming FMUK66 for first use](userguide/programming.md)
 * [PX4 configuration using QGroundControl](userguide/qgroundcontrol/README.md)
