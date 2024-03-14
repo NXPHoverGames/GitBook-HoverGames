@@ -57,6 +57,10 @@ NXP-AIM (india): (Need link to channel)
 
 Unmanned aerial vehicles (UAVs) promise new perspectives on the world around us and the ability to go places that were once impossible. NXP is a trusted leader in automotive, radar, aerospace, RF, security, motor control and battery management and places the world’s most complete portfolio of UAV technologies in the hands of developers. Our automotive grade solutions are well suited to the design methodology and environments in which commercial unmanned aircraft systems, and increasingly also personal UAVs, operate. We provide semiconductor solutions for every aspect of drones and rovers.
 
+
+
+
+
 ### The HoverGames drone kit
 
 The HoverGames drone kit is a single, modular, and flexible NXP development platform with the RDDRONE-FMUK66 flight management unit at its base. It can be used to build any autonomous vehicle, from drones to rovers to flying cars. As part of the kit, participants receive a complete reference drone including the flight management unit (FMU).
