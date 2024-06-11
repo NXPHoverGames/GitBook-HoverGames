@@ -1,5 +1,9 @@
 # DRVEGRD 152
 
+{% hint style="info" %}
+Please Note: This document is not a manual of the company s.m.s, smart microwave sensors GmbH .
+{% endhint %}
+
 ## Introduction
 
 The [DRVEGRD 152](https://www.smartmicro.com/automotive-radar/drvegrd-line#c20140) is a 76-77GHz radar sensor from the company s.m.s, smart microwave sensors GmbH. It is suitable for a wide range of automotive applications that features 4D/PxHD technology.\
@@ -33,7 +37,8 @@ The following items are required to reproduce the following setup instructions.
 2. Run the DriveRecorder
 3. Load the .dsk file (File -> Load Desktop)
 4. Load the .csdx file (File -> Load CanSpec)
-5. Configure the DRVEGRD 152
+5. Check the connection to the sensor: You should see a green indicator in the Hardware Monitor and a point cloud in the TargetDraw tab.
+6. Configure the DRVEGRD 152
 
 ## How to configure the DRVEGRD 152
 
