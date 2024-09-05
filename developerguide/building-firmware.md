@@ -16,9 +16,9 @@ However, some times you want to be able to test the latest development version, 
 ## Building the firmware
 
 When you have your [toolchain set up](tools/toolchain-installation.md), you can start building firmware. As part of the installation, the firmware has already been cloned to your computer under the folder `~/src/Firmware`. To build the firmware for RDDRONE-FMUK66 (NXPhlite), open a terminal in this folder (On Windows, follow steps 1. and 2. at \
-[https://dev.px4.io/main/en/setup/dev\_env\_windows\_cygwin.html#getting\_started](https://dev.px4.io/main/en/setup/dev\_env\_windows\_cygwin.html#getting\_started)
+\
+[https://docs.px4.io/main/en/dev\_setup/dev\_env\_windows\_cygwin.html#getting-started](https://docs.px4.io/main/en/dev\_setup/dev\_env\_windows\_cygwin.html#getting-started)\
 
-{% embed url="https://dev.px4.io/main/en/setup/dev_env_windows_cygwin.html#getting_started" %}
 
 and use the following command:
 
