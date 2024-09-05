@@ -4,13 +4,13 @@ description: Instructions on how to build the PX4 firmware from source using the
 
 # Building PX4 firmware
 
-Most of the times when using the RDDRONE-FMUK66 \(NXPhlite\) flight controller, you will only be using the latest stable firmware, which can be directly installed using QGroundControl \([https://docs.px4.io/en/config/firmware.html](https://docs.px4.io/en/config/firmware.html)\). However, some times you want to be able to test the latest development version, or your own modifications. To do this, you can build the latest version yourself, and load it on the FMU. On this page you will find the steps on how to approach this.
+Most of the times when using the RDDRONE-FMUK66 (NXPhlite) flight controller, you will only be using the latest stable firmware, which can be directly installed using QGroundControl ([https://docs.px4.io/main/en/config/firmware.html](https://docs.px4.io/en/config/firmware.html)). However, some times you want to be able to test the latest development version, or your own modifications. To do this, you can build the latest version yourself, and load it on the FMU. On this page you will find the steps on how to approach this.
 
 ## Building the firmware
 
-When you have your [toolchain set up](tools/toolchain-installation.md), you can start building firmware. As part of the installation, the firmware has already been cloned to your computer under the folder `~/src/Firmware`. To build the firmware for RDDRONE-FMUK66 \(NXPhlite\), open a terminal in this folder \(On Windows, follow steps 1. and 2. at [https://dev.px4.io/en/setup/dev\_env\_windows\_cygwin.html\#getting\_started](https://dev.px4.io/en/setup/dev_env_windows_cygwin.html#getting_started)\), and use the following command:
+When you have your [toolchain set up](tools/toolchain-installation.md), you can start building firmware. As part of the installation, the firmware has already been cloned to your computer under the folder `~/src/Firmware`. To build the firmware for RDDRONE-FMUK66 (NXPhlite), open a terminal in this folder (On Windows, follow steps 1. and 2. at [https://dev.px4.io/main/en/setup/dev\_env\_windows\_cygwin.html#getting\_started](https://dev.px4.io/en/setup/dev\_env\_windows\_cygwin.html#getting\_started)), and use the following command:
 
-```text
+```
 make nxp_fmuk66-v3_default
 ```
 
@@ -18,7 +18,7 @@ This will create a firmware file called `nxp_fmuk66-v3_default.px4`, which can b
 
 You can also have the building process directly upload the firmware to the FMU. To do this, run the following command:
 
-```text
+```
 make nxp_fmuk66-v3_default upload
 ```
 
@@ -50,4 +50,3 @@ git pull
 ```
 
 This is useful if you already have a local clone of the repository and you want to get the latest version of the code. Using this, you don't have to clone the repository again.
-
