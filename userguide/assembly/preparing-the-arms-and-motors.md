@@ -21,11 +21,19 @@ The four motor mounts go on the end of the arms (carbon fiber tubes). Each one c
 When watching the video below, please use the updated instructions below to attach each motor.
 {% endhint %}
 
-### Assembling the 5010-750kV motor
+### Assembling the 5010-750kV  "Pancake" motor
 
 The new motors for late 2021/2022 require some assembly. Please follow the images below to assemble.
 
-![](<../../.gitbook/assets/20190711\_093531 (2).jpg>)
+\
+\
+
+
+{% hint style="danger" %}
+There are short screws included in the Soft-shell case that are the correct length for mounting
+{% endhint %}
+
+![](<../../.gitbook/assets/20190711_093531 (2).jpg>)
 
 {% hint style="warning" %}
 In late 2021/early 2022, some kits do not include the silver M3 screws. You will need these screws to mount the motors. You will need to source some M3x5mm screws for this step. We apologize for the inconvenience.
@@ -33,19 +41,15 @@ In late 2021/early 2022, some kits do not include the silver M3 screws. You will
 
 First, you should organize the parts that come in the package for each motor. The package should include 4 black M3 screws, 4 silver M3 screws, a washer, a hub, and a cap.
 
-![](../../.gitbook/assets/IMG\_5663.jpg)
+![](../../.gitbook/assets/IMG_5663.jpg)
 
 Install the hub to the top of the motor using the 4 included black M3 screws.
 
-![](../../.gitbook/assets/IMG\_5664.jpg)
+![](../../.gitbook/assets/IMG_5664.jpg)
 
 Add the washer and the cap to the hub.
 
-<div align="center">
-
-<img src="../../.gitbook/assets/IMG_5665.jpg" alt="">
-
-</div>
+<div align="center"><img src="../../.gitbook/assets/IMG_5665.jpg" alt=""></div>
 
 Use the video below to get an idea of how to attach the motor. It takes 4 screws on the bottom just like the previous model. You will find that the motor blocks the nuts for the comlete motor mount package. We suggest using the included wrench to tighten these down, rather than the nut driver shown in the video.
 
@@ -57,9 +61,9 @@ For the motors, make sure that you are using the +/- 5 mm long **silver M3 screw
 **Do not use the longer M3 screws included with the frame**, these screws may go in too deep and can damage the motor windings. The **black screws** included with the motors **might be safe to use**, but be careful.
 {% endhint %}
 
-![](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-L9GLtb-Tz\_XaKbQu-Al%2Fuploads%2FnApV2nii0PZmLNTLftMg%2Ffile.jpeg?alt=media)
+![](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-L9GLtb-Tz_XaKbQu-Al%2Fuploads%2FnApV2nii0PZmLNTLftMg%2Ffile.jpeg?alt=media)
 
-![Long screws will touch the motor windings and cause a short!](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-L9GLtb-Tz\_XaKbQu-Al%2Fuploads%2Fb8MNcij6JXDOQ1ETuRRO%2Ffile.jpeg?alt=media)
+![Long screws will touch the motor windings and cause a short!](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-L9GLtb-Tz_XaKbQu-Al%2Fuploads%2Fb8MNcij6JXDOQ1ETuRRO%2Ffile.jpeg?alt=media)
 
 \
 The first step is to mount the motors onto the carbon plates. You need a carbon plate and four M3 screws for this. Make sure the three motor wires come out on one of the short sides of the carbon fiber plate. Repeat this step until you have all four motors mounted. Make sure you tighten the screws appropriately, because it will be hard to access the screws later.
@@ -70,7 +74,7 @@ While we have not seen many problems in practice, you may still want to consider
 Note that the main body screws for the arm clamps have nylon locking nuts and are not really affected as much by the vibrations.
 {% endhint %}
 
-![Motor installed onto the carbon fiber plate. You should use the M3 screws from the labeled bag.](../../.gitbook/assets/assets\_-l9gltb-tz\_xakbqu-al\_-lyzuzz7xrf0gmu8v\_mh\_-lyzy8uicdfhhcqaoeg1\_20181120\_165950.jpg)
+![Motor installed onto the carbon fiber plate. You should use the M3 screws from the labeled bag.](../../.gitbook/assets/assets_-l9gltb-tz_xakbqu-al_-lyzuzz7xrf0gmu8v_mh_-lyzy8uicdfhhcqaoeg1_20181120_165950.jpg)
 
 For the next step, we need: four tube clamps, the other carbon plate, four long M2.5 screws and the locknuts.&#x20;
 
@@ -80,7 +84,7 @@ For the next step, we need: four tube clamps, the other carbon plate, four long 
 
 {% embed url="https://www.youtube.com/watch?v=Ib1cFSmn7e0" %}
 
-![All four motor mounts assembled. ](../../.gitbook/assets/assets\_-l9gltb-tz\_xakbqu-al\_-lyzuzz7xrf0gmu8v\_mh\_-lyzvzubn\_j-znt7skve\_20181122\_103005.jpg)
+![All four motor mounts assembled. ](../../.gitbook/assets/assets_-l9gltb-tz_xakbqu-al_-lyzuzz7xrf0gmu8v_mh_-lyzvzubn_j-znt7skve_20181122_103005.jpg)
 
 ### Alternative approach
 
@@ -101,7 +105,7 @@ You can now insert the carbon fiber tubes between the tube clamps. The motor mou
 This guide will instruct you to put the ESCs inside the drone frame. Extension cables are provided for this. It looks a lot cleaner. However, it is also possible to put the ESCs on the arms. This is a bit easier to do, but doesn't look as nice. You can also experiment with other configurations, such as putting the ESCs underneath the motor mounts.
 {% endhint %}
 
-![Assembled arms. Note that the motor wires are on the opposite side of the carbon fiber tubes.](../../.gitbook/assets/20190219\_114208.jpg)
+![Assembled arms. Note that the motor wires are on the opposite side of the carbon fiber tubes.](../../.gitbook/assets/20190219_114208.jpg)
 
 If you look carefully, you can see that two motors have a notch on top of the shaft. The other two motors have a flat top. This is an indication of the direction in which the motor is supposed to rotate, and the threading on the shaft corresponds to this.&#x20;
 

@@ -16,6 +16,19 @@ Below you will find a list of recent updates and important news about the HoverG
 
 ## Recent updates
 
+May 2025
+
+* The update MR-HGK-RT is available , but the docs here still need updating with new images and some details.&#x20;
+* Please note the following:
+  * Need to update docs to show the new MR-VMU-RT1176 flight controller, however the  connections / names of where wires and peripherals should connect are the same
+  * The updated kit uses larger "pancake style" motors.
+  * The Pancake style motor ONLY have nuts threaded clockwise. This is OK. Just be certain to tighen well.
+  * There is an "octopus wire harness" that is used instead of the power distribution board.  The Board may still included, but not used. The board also may not have any connectors on it- but again it is unused.
+  * There are extra short M3 screws to hold on the motors that SHOULD be in the soft shell case with the propellers and other accessories. The ones packaged with the motors themselves are a bit too long.\
+
+
+### Archived updates
+
 #### July 16, 2020
 
 * A page about [Git source code management](developerguide/git.md) has been added.

@@ -4,7 +4,12 @@ description: This page lists the contents of the HoverGames drone kit.
 
 # Drone kit contents
 
-The HoverGames drone kit includes most components required to build your own quadcopter. The kit provides a frame, motors, electronic speed controllers, the RDDRONE-FMUK66 flight controller and some additional peripherals. The contents of the package should be checked to make sure nothing is missing.
+The HoverGames drone kit includes most components required to build your own quadcopter. The kit provides a frame, motors, electronic speed controllers, the RDDRONE-FMUK66 flight controller and some additional peripherals. The contents of the package should be checked to make sure nothing is missing.\
+
+
+{% hint style="warning" %}
+NOTE - THis is not yet updated to show the newer MR-VMU-RT1176 and the larger "Pancake" motors. The connections will all be similar.  There are short M3 screws for the motor separately included the soft-shell case.&#x20;
+{% endhint %}
 
 {% hint style="danger" %}
 Sorry - Some required parts **cannot be included** in the HoverGames drone kit because of shipping regulations. **LiPo batteries** and some other small items are [listed on a separate page](not-included-items.md). They have **to be bought separately** before you are able to fly.
@@ -46,7 +51,7 @@ Micro USB cables are included with the [radio controller](drone-kit-contents.md#
 
 The NXP RDDRONE-FMUK66 flight management unit is the brain of the HoverGames drone. It features NXP sensors and automotive grade components and it is fully supported by [PX4 Autopilot software](https://docs.px4.io/en/). This GitBook provides instructions and external sources which should help you set up the software.
 
-The FMU comes with a 3D printed enclosure, which can be mounted on top of the drone with double-sided tape. A microSD card is also included, to which [logs](https://dev.px4.io/en/log/flight\_log\_analysis.html) will be written [during flight](../flying/during-flight.md). Make sure to insert this SD card [before you fly](../flying/before-you-fly.md)!
+The FMU comes with a 3D printed enclosure, which can be mounted on top of the drone with double-sided tape. A microSD card is also included, to which [logs](https://dev.px4.io/en/log/flight_log_analysis.html) will be written [during flight](../flying/during-flight.md). Make sure to insert this SD card [before you fly](../flying/before-you-fly.md)!
 
 ![The RDDRONE-FMUK66 in its 3D printed enclosure (bottom part only).](../../.gitbook/assets/fmurevc.jpg)
 
@@ -58,7 +63,7 @@ The FMU comes with a 3D printed enclosure, which can be mounted on top of the dr
 
 ## ReadytoSky LJI X4 500 quadcopter frame kit with carbon fiber landing gear
 
-* [Product webpage](https://www.aliexpress.com/store/product/X4-500-500mm-Carbon-fiber-Glass-Fiber-Center-Plate-Quadcopter-Frame-kit-Carbon-Fiber-Landing-Gear/727847\_32952518324.html)
+* [Product webpage](https://www.aliexpress.com/store/product/X4-500-500mm-Carbon-fiber-Glass-Fiber-Center-Plate-Quadcopter-Frame-kit-Carbon-Fiber-Landing-Gear/727847_32952518324.html)
 
 The LJI X4 500 quadcopter frame is the body of the HoverGames drone. It replaces the S500 frame that was included with older kits. It is completely made out of carbon fiber parts and has a vibration damped mount for the FMU. This GitBook provides instructions on how to assemble this frame.
 
@@ -69,11 +74,11 @@ The LJI X4 500 quadcopter frame is the body of the HoverGames drone. It replaces
 Be careful with the carbon fiber parts of the frame. The edges may be sharp.
 {% endhint %}
 
-![ReadytoSky LJI X4 500 quadcopter frame kit.](../../.gitbook/assets/20190715\_150811.jpg)
+![ReadytoSky LJI X4 500 quadcopter frame kit.](../../.gitbook/assets/20190715_150811.jpg)
 
 ## ReadytoSky RS2212 920 kV CW & CCW brushless motors
 
-* [Product webpage](http://www.readytosky.com/e\_productshow/?787-RS2212-920KV-CW\&CCW-Brushless-Motor-787.html)
+* [Product webpage](http://www.readytosky.com/e_productshow/?787-RS2212-920KV-CW\&CCW-Brushless-Motor-787.html)
 
 {% hint style="info" %}
 Note Updated kits after 2021 use a different 5010 motor type. These all use CW threads, which is acceptable industry practice, however extra care should be taken to ensure the motor nuts for the CW and CCW propellers are tight. The nuts should be checked before any flights. \
@@ -101,7 +106,7 @@ Direction of rotation matters when mounting the motors on the frame. This will b
 
 ## ReadytoSky 2-6S 40 A OPTO ESCs
 
-* [Product webpage](http://www.readytosky.com/e\_productshow/?301-Readytosky-2-6S-40A-Electronic-Speed-Controller-301.html)
+* [Product webpage](http://www.readytosky.com/e_productshow/?301-Readytosky-2-6S-40A-Electronic-Speed-Controller-301.html)
 
 There are four ESCs (electronic speed controllers) or motor controllers included in the HoverGames kit. The ESCs control the current to the motors on demand of the FMU. The motors are connected to the ESCs with three bullet connectors. It is safe to connect these three connectors in any order.
 
@@ -115,24 +120,24 @@ The provided ESCs are able to handle currents up to 40 A continuously, which sho
 
 ## LJI 9450 self-locking propellers CW & CCW
 
-* [Product webpage](http://www.readytosky.com/e\_productshow/?913-9450-2-blades-Self-Lock-Propeller-CWCCW-913.html)
+* [Product webpage](http://www.readytosky.com/e_productshow/?913-9450-2-blades-Self-Lock-Propeller-CWCCW-913.html)
 
 Included in the kit are also two clockwise (**CW**) turning propellers and two counterclockwise (**CCW**) propellers. The intended direction of the propeller becomes clear from the shape of the propeller. Looking at it from the side, it curves down towards the back of the propeller blade, with the front being the side which "slices through the air first".
 
 The direction of these self tightening propellers is also easily recognized by the color of the "integrated" nut. Propellers with a **black** nut are meant to go **clockwise**, and propellers with the **silver** nut go **counterclockwise**.
 
-![Self-locking propellers. Top (silver nut): counter clockwise (CCW). Bottom (black nut): clockwise (CW).](../../.gitbook/assets/20190715\_161013.jpg)
+![Self-locking propellers. Top (silver nut): counter clockwise (CCW). Bottom (black nut): clockwise (CW).](../../.gitbook/assets/20190715_161013.jpg)
 
 ## FMU power module
 
-* [Product webpage](http://www.readytosky.com/e\_productshow/?531-APM-Power-Module-w-BEC-XT60-Plug-Connectors-531.html)
+* [Product webpage](http://www.readytosky.com/e_productshow/?531-APM-Power-Module-w-BEC-XT60-Plug-Connectors-531.html)
 
 The power module provides power to the FMU and also includes voltage and current sensors which allow the flight controller to keep track of the battery level.
 
 The small white JST-GH connector provides power to the FMU. The larger black XT60 connectors go to the batteries and to the power distribution board (PDB). The PDB included with the frame kit should already have an XT60 connector installed. \
 (Note that XT60 connectors may also be yellow.)
 
-![FMU power module, which provides power and voltage/current measurements to the FMU.](../../.gitbook/assets/20190715\_161632.jpg)
+![FMU power module, which provides power and voltage/current measurements to the FMU.](../../.gitbook/assets/20190715_161632.jpg)
 
 ## Holybro Pixhawk 4 GPS
 
